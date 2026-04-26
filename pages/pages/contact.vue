@@ -34,7 +34,7 @@ async function handleSubmit(e: Event) {
 </script>
 
 <template>
-  <div>
+  <div class="max-w-4xl mx-auto">
     <h1 class="text-3xl font-bold text-white mb-2">Kontakt</h1>
     <p class="text-gray-400 mb-10">Fragen, Anmerkungen oder einfach Hallo – schreib mir!</p>
 

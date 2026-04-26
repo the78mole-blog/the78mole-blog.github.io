@@ -6,6 +6,7 @@ useSeoMeta({
 </script>
 
 <template>
+  <div class="max-w-4xl mx-auto">
   <article class="prose prose-invert prose-amber max-w-none">
     <h1>Impressum</h1>
 
@@ -45,4 +46,5 @@ useSeoMeta({
       und Verbreitung bedürfen der vorherigen schriftlichen Zustimmung des Autors.
     </p>
   </article>
+  </div>
 </template>

@@ -24,7 +24,7 @@ function resetConsent() {
       </div>
     </header>
 
-    <main class="max-w-4xl mx-auto px-4 py-10">
+    <main class="max-w-7xl mx-auto px-4 py-10">
       <slot />
     </main>
 

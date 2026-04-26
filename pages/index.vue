@@ -8,7 +8,7 @@ const { data: posts } = await useAsyncData('blog-index', () =>
 </script>
 
 <template>
-  <div>
+  <div class="max-w-4xl mx-auto">
     <h1 class="text-3xl font-bold mb-2 text-white">Blog</h1>
     <p class="text-gray-400 mb-10">Technik, Embedded, Smart Home und alles dazwischen.</p>
 

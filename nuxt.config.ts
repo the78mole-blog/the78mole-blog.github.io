@@ -15,10 +15,17 @@ export default defineNuxtConfig({
     'nuxt-gtag',
   ],
 
-  // Macht adsensePubId zur Laufzeit in allen Komponenten via useRuntimeConfig() verfügbar
+  // Macht adsensePubId und Slot-IDs zur Laufzeit in allen Komponenten via useRuntimeConfig() verfügbar
+  // Slot-IDs sind öffentlich und werden fest eingecheckt (kein Secret)
   runtimeConfig: {
     public: {
       adsensePubId,
+      adsenseSlots: {
+        left:      '3478648998', // the78mole-content-left
+        right:     '9230728617', // the78mole-content-right
+        bottom:    '8012270852', // the78mole-content-bottom
+        inArticle: '5913240643', // the78mole-content-inarticle
+      },
     },
   },
 

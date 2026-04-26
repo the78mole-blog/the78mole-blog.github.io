@@ -4,3 +4,10 @@ node_modules/
 .env
 .output/
 dist
+
+# Local Temp Files
+MIGRATION.md
+TODO_NOTIZEN.md
+scripts/migration.py
+scripts/pyproject.toml
+scripts/uv.lock

@@ -2,11 +2,13 @@
 interface Props {
   adSlot: string
   adFormat?: string
+  adLayout?: string
   fullWidthResponsive?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
   adFormat: 'auto',
+  adLayout: undefined,
   fullWidthResponsive: true,
 })
 
@@ -45,6 +47,7 @@ function pushAd() {
       :data-ad-client="adsensePubId"
       :data-ad-slot="adSlot"
       :data-ad-format="adFormat"
+      :data-ad-layout="adLayout ?? undefined"
       :data-full-width-responsive="fullWidthResponsive ? 'true' : 'false'"
     />
   </div>

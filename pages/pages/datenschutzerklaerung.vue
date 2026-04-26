@@ -6,6 +6,7 @@ useSeoMeta({
 </script>
 
 <template>
+  <div class="max-w-4xl mx-auto">
   <article class="prose prose-invert prose-amber max-w-none">
     <h1>Datenschutzerklärung</h1>
 
@@ -86,4 +87,5 @@ useSeoMeta({
 
     <p><em>Stand: April 2026</em></p>
   </article>
+  </div>
 </template>
