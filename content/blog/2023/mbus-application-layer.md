@@ -9,7 +9,7 @@ tags: []
 
 # Introduction
 
-[Previously](the78mole.de/reading-a-meter-speaking-mbus) on this series, a payload was obtained from a meter over the EN13757 protocol.
+[Previously](/blog/2023/reading-a-meter-speaking-mbus) on this series, a payload was obtained from a meter over the EN13757 protocol.
 [Chapter 6.3](https://m-bus.com/documentation-wired/06-application-layer), in a nutshell, means a variable-sized array of data blocks. Each block is a number with flags attached and you evaluate the flags when mapping to 'sensors'. If your data sink desires a power reading, you look for function field set to 'Instant' and quantity 'Power'. If you, on the other hand, desire to know when you had it flowin', you look for function 'Maximum' and quantities 'Power' & 'DateTime'.
 This implies a variable type for the payload field and this is what it boils down to. Do yourself a favor and don't [stringly-type](https://wiki.c2.com/?StringlyTyped) it. A moral equivalent to *Variant<Null, DateTime, Real, Integer, Byte[]>* works well in practice.
 
@@ -30,7 +30,7 @@ The DIB tells you
 - The **tariff** is supposed to be what it says on the tin, if there's different registers to fill when usage is high than when it's low (or, y'know, get creative), that's the field to look for.
 - The **storage number** tends to get used for historical purposes. If you, let's say, got an energy reading from each of the last 24 months, they have to differ somehow. So the current reading gets a value of 0, the last month 1 and so on.
 
-Extract all the information there is from the DIF (first byte of the DIB) and pile all the other ones on top as applicable. I won't go into details as [chapter 6.3.2](https://m-bus.com/documentation-wired/06-application-layer) does so already. Pay the following chapter a visit as well, that's the last-frame marker I've talked about [previously](http://the78mole.de/reading-a-meter-speaking-mbus).
+Extract all the information there is from the DIF (first byte of the DIB) and pile all the other ones on top as applicable. I won't go into details as [chapter 6.3.2](https://m-bus.com/documentation-wired/06-application-layer) does so already. Pay the following chapter a visit as well, that's the last-frame marker I've talked about [previously](/blog/2023/reading-a-meter-speaking-mbus).
 All that unless it's one of those special functions 0x1F and 0x0F. Those denote a manufacturer-specific area following. Sans a length, this ranges from the next byte til the very end of the buffer. Skip the next 2 sections.
 
 # VIB

@@ -2,3 +2,5 @@ import/
 .nuxt/
 node_modules/
 .env
+.output/
+dist
