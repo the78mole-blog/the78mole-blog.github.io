@@ -9,8 +9,12 @@ function resetConsent() {
   <div class="min-h-screen bg-gray-950 text-gray-100">
     <header class="border-b border-gray-800 bg-gray-900">
       <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
-        <NuxtLink to="/" class="text-xl font-bold text-amber-400 hover:text-amber-300 transition-colors">
-          the78mole
+        <NuxtLink to="/" class="hover:opacity-80 transition-opacity">
+          <img
+            src="/Maulwurf_300x100.png"
+            alt="the78mole"
+            class="h-12 w-auto"
+          />
         </NuxtLink>
         <nav class="flex gap-6 text-sm text-gray-400">
           <NuxtLink to="/" class="hover:text-white transition-colors">Blog</NuxtLink>

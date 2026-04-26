@@ -19,7 +19,7 @@ tags:
 image: /images/blog/2021/07/IMG_20210714_175311.jpg
 ---
 
-If you bought one of my modules recently, it is also worth looking at the [how-to project page](https://the78mole.de/projects/km271-wifi-howto/) for this module :-)
+If you bought one of my modules recently, it is also worth looking at the [how-to project page](/pages/km271-wifi-howto) for this module :-)
 
 There is a new method available to flash the module initially via [ESPhome webtools](https://the78mole.github.io/ESPhome-KM271-WiFi/). Therefore I created a new GitHub repository [ESPhome-KM271-WiFi](https://github.com/the78mole/ESPhome-KM271-WiFi) based on jesserockz cool [template](https://github.com/esphome/esphome-project-template). The firmware is build with github workflows and a [release](https://github.com/the78mole/ESPhome-KM271-WiFi/releases) is created containing all, factory and OTA images.
 
@@ -308,7 +308,7 @@ The easiest way to integrate the heating controller into your smart home is by u
 
 ![](/images/blog/2022/11/image-3.png)
 
-Check out my [KM271-WiFi how-to page](https://the78mole.de/projects/km271-wifi-howto/) to get mor information on this.
+Check out my [KM271-WiFi how-to page](/pages/km271-wifi-howto) to get mor information on this.
 
 ### How To Debug A remote Serial Connection Easily
 
