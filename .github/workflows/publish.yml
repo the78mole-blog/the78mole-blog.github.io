@@ -41,8 +41,8 @@ jobs:
 
       - name: Generate static site
         env:
-          GOOGLE_ANALYTICS_MEAS_ID: ${{ secrets.GOOGLE_ANALYTICS_MEAS_ID }}
-          GOOFLE_ADSENSE_PUB_ID: ${{ secrets.GOOFLE_ADSENSE_PUB_ID }}
+          GOOGLE_ANALYTICS_MEAS_ID: ${{ vars.GOOGLE_ANALYTICS_MEAS_ID }}
+          GOOGLE_ADSENSE_PUB_ID: ${{ vars.GOOGLE_ADSENSE_PUB_ID }}
         run: npm run generate
 
       - name: Upload Pages artifact
