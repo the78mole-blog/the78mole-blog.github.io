@@ -53,7 +53,7 @@ useSeoMeta({
       </div>
 
       <!-- In-Article Ad nach dem Inhalt, vor dem Bottom-Ad -->
-      <AdBlock :key="`inArticle-${route.path}`" :ad-slot="adsenseSlots.inArticle" ad-format="fluid" ad-layout="in-article" class="mt-8" />
+      <AdBlock :key="`inArticle-${route.path}`" :ad-slot="adsenseSlots.inArticle" ad-format="auto" class="mt-8" />
 
       <!-- Ad unter Artikel (auf kleinen Screens, wo Sidebars versteckt sind) -->
       <AdBlock :key="`bottom-${route.path}`" :ad-slot="adsenseSlots.bottom" ad-format="auto" class="mt-8 xl:hidden" />
