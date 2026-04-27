@@ -62,9 +62,3 @@ mount -o loop backup.squashfs /mnt/test
 and examine the contents of your mounted filesystem tree. More information about squashing filesystems can be found [here](https://www.tldp.org/HOWTO/html_single/SquashFS-HOWTO/) or [here](https://blog.hambier.lu/post/space-saving-backup). If everything is fine, the backup is finished... Don't forget to eject your USB drive cleanly, to not corrupt data with unwritten cache. Therefore, unmount your USB drive or use `eject <usb_device>` to do it.
 
 Happy plopping ;-)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+headless-rescue-system-over-ssh&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

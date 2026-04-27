@@ -28,9 +28,3 @@ I'm happy to receive responses about my statements above and I'm also interested
 In my following posts, I plan to write about the STM32 test driven development (TDD) process, I currently try to establish, using unit tests and a CI to ensure a high quality and about how it is to (try to) be a Clean Code Developer (CCD).
 Best Regards,
 Daniel /themole
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+digging&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

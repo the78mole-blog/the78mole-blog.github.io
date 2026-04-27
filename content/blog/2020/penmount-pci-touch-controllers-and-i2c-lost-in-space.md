@@ -50,9 +50,3 @@ How I digged through it? I found the linux driver using UART communication [here
 Stay tuned for Penmount-Touch and UART, which is working best for us...
 
 Thats all. Have fun with Penmount!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+penmount-pci-touch-controllers-and-i2c-lost-in-space&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

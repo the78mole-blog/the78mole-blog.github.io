@@ -33,9 +33,3 @@ I got my information from this sources:
 If you know a way to get the history data from OilFox, let me know... I'll ask the OilFox-Team about it and will post it here, if I get an answer...
 
 As always, have fun playing with your Smart Home.
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

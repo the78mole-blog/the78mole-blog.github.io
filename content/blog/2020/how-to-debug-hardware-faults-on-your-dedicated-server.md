@@ -18,9 +18,3 @@ And you won't believe, after 13295 seconds of uptime (3 hours 41 minutes), the k
 ![](/images/blog/2020/04/Hardware_Error_Dedicated_Server-1024x657.png)
 
 This is a great indication to run a Hardware-Test and to address the support of your hosting provider.
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+how-to-debug-hardware-faults-on-your-dedicated-server&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

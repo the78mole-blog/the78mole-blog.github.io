@@ -30,9 +30,3 @@ Then press the lower "Choose..." button to select the generated DFU file and pre
 ![](/images/blog/2020/06/image-9.png)
 
 Have fun!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+stm32-usb-dfu&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

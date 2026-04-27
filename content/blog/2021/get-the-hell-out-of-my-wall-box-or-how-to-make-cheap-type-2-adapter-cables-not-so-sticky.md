@@ -100,9 +100,3 @@ A nice EVSE to camping van adapter :-P
 One thing to say: I can do some reverse engineering on the organs of the go-echarger, if there is enough interest from the community.
 
 Now, have fun to add the switch and charge whatever you want or just plug a BBQ to a WallBox :-)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+get-the-hell-out-of-my-wall-box-or-how-to-make-cheap-type-2-adapter-cables-not-so-sticky&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

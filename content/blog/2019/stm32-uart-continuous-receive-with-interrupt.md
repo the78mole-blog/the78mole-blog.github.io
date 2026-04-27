@@ -62,9 +62,3 @@ If you want to trigger on inactive time durations (some serial protocols use it 
 If sub-milli-second resolution is required, run a timer with a prescaler of desired resolution and take the counter value of the timer instead of the tick counter. (you can get it with `__HAL_TIM_GET_COUNTER(&htimX)`).
 
 Hope this helps in your next project using UART :-)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+stm32-uart-continuous-receive-with-interrupt&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

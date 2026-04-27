@@ -20,9 +20,3 @@ watch scripts/linux/bash/schedule_compile.sh
 ```
 
 Happy compiling!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+compiling-software-on-ram-limited-multi-core-systems&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

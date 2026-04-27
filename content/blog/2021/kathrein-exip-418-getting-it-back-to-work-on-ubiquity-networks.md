@@ -40,9 +40,3 @@ OK, fine... No just use the channels playlist you downloaded on <https://www.sat
 #### If Things Do Not Persist...
 
 If this does not persist the settings (for me it work the second time magically), you need to put it in some JSON config and place it on the UniFi Network Controller, to get provisioned by default. This can be done as described [here](https://help.ui.com/hc/en-us/articles/215458888-UniFi-USG-Advanced-Configuration-Using-config-gateway-json) and [here](https://community.ui.com/questions/Static-DNS-entry/0a0265a7-ec31-4091-8304-9787da328367).
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+kathrein-exip-418-getting-it-back-to-work-on-ubiquity-networks&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

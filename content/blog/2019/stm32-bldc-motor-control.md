@@ -34,9 +34,3 @@ We also measures some characteristics that have not been given by the specs, mos
 With above data, you can select the appropriate BLDC controller board. For smaller motors, the [X-NUCLEO-IHM16M1](https://www.st.com/en/ecosystems/x-nucleo-ihm16m1.html) should serve well. For larger types, the [X-NUCLEO-IHM08M1](https://www.st.com/en/ecosystems/x-nucleo-ihm08m1.html) is a good choice. But always be aware, that for every power hat board, there is only a limited set of compatible nucleos.
 
 To be continued...
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+stm32-bldc-motor-control&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

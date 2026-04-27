@@ -81,9 +81,3 @@ All attributes (other sensor values) simply get packed into the attributes of th
 ![](/images/blog/2021/07/image-6.png)
 
 Happy metering!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+wmbus-meters-and-how-to-get-it-into-home-assistant&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

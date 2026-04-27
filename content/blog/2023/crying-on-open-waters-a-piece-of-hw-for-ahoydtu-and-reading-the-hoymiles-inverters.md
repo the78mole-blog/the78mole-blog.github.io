@@ -37,9 +37,3 @@ You can find the sources (KiCad) im my [moles-Integ-DTU-HW GitHub repository](ht
 If you want to integrate it into Victron VRM, you can find a solution here: <https://github.com/henne49/dbus-opendtu>
 
 Stay tuned to get some updates and keep digging ;-)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

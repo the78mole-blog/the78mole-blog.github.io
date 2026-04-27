@@ -92,9 +92,3 @@ Moral of the story? Always check what your neighbors are watering – and never 
 
 Stay dry,  
 **The Mole**
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+the-great-flood-how-i-turned-my-living-room-into-a-high-tech-sump-pit&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

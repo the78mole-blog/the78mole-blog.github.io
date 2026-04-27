@@ -122,9 +122,3 @@ make-debs already created a debian repository, but we will create one, that is m
 .... to be continued ...
 
 **Coming soon**: To add some real NAS features, we could use just another embedded board with e.g. FreeNAS or NextCloud installed to mount the cluster file system and using the cluster as the storage backend. We already have the nginx SSL configured, so we easily can add reverse proxy targets... (for HTTPS-HTTPS-proxy, see [here](https://reinout.vanrees.org/weblog/2017/05/02/https-behind-proxy.html))
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+how-to-build-a-private-storage-cluster-with-ceph&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

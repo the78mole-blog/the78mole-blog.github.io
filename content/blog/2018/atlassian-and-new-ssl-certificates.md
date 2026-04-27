@@ -68,9 +68,3 @@ The more convenient way is to write a little bash script that does the job. You 
 3. Document your problem solutions (which I do with scripts and this blog :-) )
 4. Don't document the tool in the tool (e.g. this howto in Confluence), you will shoot both your feet :-)
 5. Keep your tools up to date!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+atlassian-and-new-ssl-certificates&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

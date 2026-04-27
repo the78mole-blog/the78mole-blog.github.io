@@ -115,9 +115,3 @@ You can download and import the following json (you need to adjust the datadourc
 Have fun!
 
 [charge\_limiter.json](blob:https://the78mole.de/8fe9a40d-6121-4867-b167-6d20bdd46a8b)[Herunterladen](blob:https://the78mole.de/8fe9a40d-6121-4867-b167-6d20bdd46a8b)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+limiting-ev-charge-soc-with-go-echarger-and-home-assistant&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

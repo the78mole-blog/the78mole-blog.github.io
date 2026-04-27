@@ -61,9 +61,3 @@ Have fun browsing to your archives...
 
 - https://askubuntu.com/questions/94649/how-to-mount-a-zip-file-as-a-file-system
 - http://avf.sourceforge.net/
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+how-to-open-your-zipper-use-fuse-to-browse-archives&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

@@ -53,9 +53,3 @@ PDF\_DST\_FILE = ../MyGenerated.pdf
 The destination is relative to your Makefile in your doxygen latex folder. As soon as make finished it's job, the PDF is just in the same folder, the latex folder resides in.
 
 That's all. Enjoy generating software documentation with doxygen
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+doxygen-tips-and-tricks&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

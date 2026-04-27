@@ -127,9 +127,3 @@ TO BE CONTINUED
 # THANK YOU GUYS!!!!
 
 I also want to thank the project team members that did most of the work getting the TH!NK to life again. Since I live in Erlangen, Bavaria, Germany and the TH!NK City is located near Berlin/Brandenburg, Germany the guys living there did most of the time consuming work with the car and it's battery. Special thanks go to Eric (charging and analysing the battery packs), Klaus (for providing an appartment when I was in Berlin to support the team), Steve & Julian (which pulled me into this project and for their great YouTube channel) and all other guys for fertile discussions and ideas (DermitdemTiger, Thomas G. & B., Volker J. & S., Henning, Ronald, Reiner, Matthias, Hans, William)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+think-sustainable-thnk-city-reanimated-work-in-progress&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

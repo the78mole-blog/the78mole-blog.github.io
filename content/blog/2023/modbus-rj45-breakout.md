@@ -68,9 +68,3 @@ mbpoll -m rtu -P none -b 115200 -a 100 -t 4:hex -r 0x4001 -c 2 /dev/ttyUSB2 -v -
 ![](/images/blog/2023/06/image-1.png)
 
 `mbpoll` has some bug, I believe. If you request address 0x4000 with count 2, it will request 0x3FFF and 0x4000. This is, why in the examle above I requested 0x4001, to get the correct data of register 0x4000. I already added my 2 cents to an issue on the mbpoll Github project.
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+modbus-rj45-breakout&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

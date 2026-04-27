@@ -441,9 +441,3 @@ Have fun!
 - [3964R Protocol (Wikipedia german)](https://de.wikipedia.org/wiki/3964R)
 - [sjs-77-logamatic (GitHub german)](https://github.com/sjs-77/logamatic2107_daten)
 - [Steuerzeichen (de)](https://de.wikipedia.org/wiki/Steuerzeichen), [Control Characters (en)](https://en.wikipedia.org/wiki/Control_character)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+reverse-engineering-the-buderus-km217&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

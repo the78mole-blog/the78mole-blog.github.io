@@ -130,9 +130,3 @@ The information was collected from these links:
 - <https://community.st.com/s/question/0D50X0000AnuYcB/bug-stm32cubeide-freertos-debug-windows-are-missing>
 - <https://mcuoneclipse.com/2017/03/18/better-freertos-debugging-in-eclipse/>
 - <http://blog.atollic.com/visualizing-run-time-statistics-using-freertos>
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+freertos-debugging-on-stm32-cpu-usage&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

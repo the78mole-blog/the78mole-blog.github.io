@@ -97,9 +97,3 @@ After this, you should be able to ask for it on the bus and the slave should res
 | Master Transmit | Slave transmit |
 | --- | --- |
 | 0x10 (START)  0x40 (SND\_NKE)  0x12 (A)  0x52 (CHKSUM)  0x16 (STOP) | 0xE5 (ACK) |
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+some-thoughs-on-the-m-bus&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

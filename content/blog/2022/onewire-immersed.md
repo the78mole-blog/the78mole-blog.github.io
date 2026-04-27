@@ -90,9 +90,3 @@ If you are interested to get some of the PCBs for testing or fully assembled sen
 I'll provide an update soon.
 
 Happy digging!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+onewire-immersed&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

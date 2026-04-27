@@ -140,9 +140,3 @@ When this is done, issue your first query on the Explore tab (use the datapoint 
 ## Install iobroker
 
 COMING SOON...
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+how-to-build-a-smart-home&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

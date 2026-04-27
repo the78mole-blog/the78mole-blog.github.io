@@ -14,9 +14,3 @@ Since Andorid 8.1 is quite slow on the OrangePi 4G-IoT, I decided to give Andori
 I've repackaged the tars, since xz is more dense than gz. It saves around 50% of space and traffic.
 
 Enjoy the 4G-IoT ;-)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+orangepi-4g-iot-complete-pack&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

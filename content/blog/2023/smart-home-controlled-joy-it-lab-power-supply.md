@@ -201,9 +201,3 @@ Some other articles that helped me getting quickly through this:
 - [Yoctopuse](https://www.yoctopuce.com/EN/article/rd6006-adding-a-wired-network-connection)
 - [EEVBlog](https://www.eevblog.com/forum/testgear/ruideng-riden-rd6006-dc-power-supply/msg3172922/#msg3172922)
 - [GitHub Baldanos/rd6006](https://github.com/Baldanos/rd6006)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+smart-home-controlled-joy-it-lab-power-supply&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

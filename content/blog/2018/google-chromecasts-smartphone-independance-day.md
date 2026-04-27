@@ -20,9 +20,3 @@ Now, just install the iobroker.scenes and iobroker.chromecast plugin and feel fr
 And here are the KiCad-Design files:
 
 [hm-mod-em-8-switcher](https://blog.the78mole.de/wp-content/uploads/2018/11/hm-mod-em-8-switcher-master@e4c62484a59.zip)[Download](https://blog.the78mole.de/wp-content/uploads/2018/11/hm-mod-em-8-switcher-master@e4c62484a59.zip)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+google-chromecasts-smartphone-independance-day&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

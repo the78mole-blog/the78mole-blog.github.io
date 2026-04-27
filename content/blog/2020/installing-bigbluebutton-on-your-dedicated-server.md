@@ -146,9 +146,3 @@ For the docker containers (postgres and greenlight), you need to keep in mind, t
 Next step is to install Moodle on this server and migrate all the users and courses from the old one (see my [post](https://blog.the78mole.de/schools-out-how-to-tame-your-children/) about it's installation) to the new one (stay tuned).
 
 Have fun with BBB and Greenlight :-)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+installing-bigbluebutton-on-your-dedicated-server&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

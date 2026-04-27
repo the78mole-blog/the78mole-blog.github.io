@@ -190,9 +190,3 @@ Have fun!
 - Wikipedia [Humidity](https://en.wikipedia.org/wiki/Humidity) (en),
 - [Carnotcycle Blog](https://carnotcycle.wordpress.com/2012/08/04/how-to-convert-relative-humidity-to-absolute-humidity/)
 - [rolfb](https://rolfb.ch/projects/humidity-table/) ([Online tool](https://rolfb.ch/tools/thtable.php?tmin=-20&tmax=50&tstep=2.5&hmin=5&hmax=100&hstep=5&acc=2&calculate=calculate) for absolute humidity calculation)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+the-magic-of-absolute-humidity&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

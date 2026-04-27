@@ -131,9 +131,3 @@ Do I need to compress all files manually and somehow save the original content t
 #### The ESP Project
 
 After we created the ESP project as described in my other post, we will start implementing a simple web service. This is done with
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+angular-web-app-on-esp32&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

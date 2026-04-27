@@ -59,9 +59,3 @@ Just for completeness, the NYY-J type (this one can be put into ground without p
 I did not yet dig the wire (yes, this is what moles do) below earth and also did not buy a wall-box (it's hard to get some electrician around my hometown), but I will decide on the 10 mm². This also gives headroom for some 22 kW wall-box after the minimum run time at 11 kW, given by the sponsorship rules.
 
 Now have fun to dig the wires and give me some feedback on this article.
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+how-to-wire-up-an-ev-wall-box&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

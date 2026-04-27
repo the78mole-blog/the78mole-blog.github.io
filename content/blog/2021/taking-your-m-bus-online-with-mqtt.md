@@ -347,9 +347,3 @@ Have fun!
 ## Tell Me What You Think About This Article
 
 ## Latest Reviews
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+taking-your-m-bus-online-with-mqtt&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

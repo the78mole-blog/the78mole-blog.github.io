@@ -40,9 +40,3 @@ But when it comes to hex (like in my [Buderus KM271 post](https://the78mole.de/r
 After configuring tera term appropriately, it seems to work quite well. Not as good as hterm, but better than the other options:
 
 ![](/images/blog/2022/01/image-2.png)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+the-remote-serial-debugging-nightmare&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

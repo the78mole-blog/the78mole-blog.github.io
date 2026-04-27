@@ -292,9 +292,3 @@ Type '/exit' to exit.
 2022-01-25 00:03:27,401 # main(): This is RIOT! (Version: 2022.01-devel-1577-g2491b)
 2022-01-25 00:03:27,402 # Hello World!
 ```
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

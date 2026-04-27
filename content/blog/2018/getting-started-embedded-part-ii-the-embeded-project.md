@@ -65,9 +65,3 @@ So before you start, choose the right toolchain. I highly recommend using GCC to
 ## What's next...?
 
 In this post, I talked about starting an embedded project. Next post will be about starting the (non-GUI) embedded software of it.
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+getting-started-embedded-part-ii-the-embeded-project&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

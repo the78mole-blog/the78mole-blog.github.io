@@ -56,9 +56,3 @@ https://youtube.com/shorts/YSGC76HeKTo
 ![](/images/blog/2025/07/PXL_20250706_162722765-576x1024.jpg)
 
 ![](/images/blog/2025/07/PXL_20250706_162751903-576x1024.jpg)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+fresh-air-for-mole-holes-dyson-floor-nozzle-revived&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

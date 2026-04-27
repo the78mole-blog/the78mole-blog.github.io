@@ -57,9 +57,3 @@ If you see other unencrypted devices that pollute your object tree or your log w
 ## Let's encrypt (also on wmBus)
 
 I don't know, how they can survive in a time of GDPR (General Data Protection Regulation), but they still have no hurry to encrypt their telegrams with a device-unique key. I think it is a security issue, when burglars can easily find people that do not heat in wintertime or have no water demand currently. But at least, Techem sticks closely to the OMS. If you rent a flat, that still has unencrypted wmBus meters, I would definitely claim to get encrypted meters. Even if encryption of wmBus has some weaknesses, it is by far better than plaintext.
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+integrating-wmbus-devices-into-iobroker&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

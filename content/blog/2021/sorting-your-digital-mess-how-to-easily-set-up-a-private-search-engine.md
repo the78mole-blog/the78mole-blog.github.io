@@ -126,9 +126,3 @@ Purging the queue
 After this, you can re-enqueue the index files on your OSS search site through http://<IP\_OF\_OSS\_HOST>/search-apps/files/
 
 ![](/images/blog/2021/01/image-5.png)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+sorting-your-digital-mess-how-to-easily-set-up-a-private-search-engine&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

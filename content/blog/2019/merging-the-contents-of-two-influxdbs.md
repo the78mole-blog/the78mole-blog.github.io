@@ -47,9 +47,3 @@ $ influx -database iobroker_old -execute \
 ```
 
 To make this succeed, I needed to raise the physical RAM of the VM to 16 GB. With 4 GB it simply swallowed the swap and ran into some timeout. Afterwards, I turned it back to 4 GB and everything runs fine.
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+merging-the-contents-of-two-influxdbs&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

@@ -75,9 +75,3 @@ And here is, how it looks in reality up to now (work in progress)
 ![](/images/blog/2022/10/PXL_20221028_212330872.jpg)
 
 ![](/images/blog/2022/10/PXL_20221028_212347169.jpg)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+moles-heating-system&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

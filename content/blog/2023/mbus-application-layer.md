@@ -62,9 +62,3 @@ Otherwise, not much to say here, really. Here be dragons. If you are a better sh
 
 There's a couple ways to proceed from here. One is to iterate through all the data blocks, inspecting flags as you go. My preferred one is outlined in the example above, that is starting with the gauges I want to feed and picking the right flags from the dataset.
 In my experience, decoding those data blocks and visualizing them in the debugger with relevant properties pinned is an effective way to aproach data mapping.
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+mbus-application-layer&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

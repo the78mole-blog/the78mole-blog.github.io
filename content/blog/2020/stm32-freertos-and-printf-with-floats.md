@@ -51,9 +51,3 @@ If you want to digg a bit deeper, here are some websites dealing with this probl
 - <https://community.st.com/s/question/0D50X00009XkW7j/hardfault-from-printf>
 - <https://community.st.com/s/question/0D50X00009sUA8S/why-is-printf-not-working-with-floating-point-on-the-stm32f407vg-iar-8301>
 - <http://www.nadler.com/embedded/newlibAndFreeRTOS.html>
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+stm32-freertos-and-printf-with-floats&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

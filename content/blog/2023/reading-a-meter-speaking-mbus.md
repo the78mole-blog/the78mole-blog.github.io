@@ -68,9 +68,3 @@ A reply to *REQ\_UD2* is an *RSP\_UD* which is a long frame with payload. This 
 The C field is a hard 0x08. The A field denotes the meter's primary address which you may or may not use for, uhm, purposes. The CI field tells us whether there's a header before the data, 0x72 means there is, 0x78 means there isn't. That's little-endian words, by the way. For big-endian, bit #2 is set.
 For the header, I'd like to direct you to [chapter 6.3.1](https://m-bus.com/documentation-wired/06-application-layer). What it calls "Ident. Nr." is actually the secondary address so if you wondered, what your meter's is, here it is. The medium is described in [chapter 8.4.1](https://m-bus.com/documentation-wired/08-appendix).
 And now, it's off to the [variable data structure](http://the78mole.de/mbus-application-layer/). Fasten your seatbelts, this one's a doozy!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+reading-a-meter-speaking-mbus&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

@@ -59,9 +59,3 @@ I also wrote some node-red flow for getting the prices from aWATTar, that give y
 ![](/images/blog/2021/10/image-16-1024x298.png)
 
 Have fun with node-red and write me your comments...
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+eex-epex-spot-and-the-real-net-intransparency&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

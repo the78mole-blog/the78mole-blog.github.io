@@ -130,9 +130,3 @@ If you copy these over to your repo-repos, they will execute the dispatch event 
 If you have questions, feel free to comment this post.
 
 Have fun!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+just-do-it-how-to-create-your-own-home-assistant-add-on-part-1&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

@@ -87,9 +87,3 @@ apt-get remove python-pip python3-pipwget https://bootstrap.pypa.io/get-pip.pypy
 ```
 
 If I forgot anything to make it work, feel free to write some comment...
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+compile-ceph-mimic-on-arm-32-bit&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

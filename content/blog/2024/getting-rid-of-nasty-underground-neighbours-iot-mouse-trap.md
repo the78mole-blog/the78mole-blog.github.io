@@ -205,9 +205,3 @@ To get rid of all the problems with the ESP32 hall sensor and be able to use mor
 For the time being, the trap serves well, but I ran out of peanut butter (the most effective bait). And since it traps mice mostly within a single night, the false alarms are not too annoying. Most important is, that I get a reminder on the armed trap, not to forget freeing the trapped. This way, I solved the toilet-smell problem in my underground domicile and I'm a happy cat owning mole again... Unfortunately, it does not solve another problem with my cat. Bringing other animals home, that don't need "trap treatment". So I already need to remove: a headless squireel (did obviouly not fit through the cat flap with head attached) 😢, two birds 😒 and, by far most annoying, little moles from time to time 😭 (no relatives until now). nature is cruel, so cats are... The upside of having a cat is, that we got completely rid of marten, that granted us sleepless nights, raising their babies in our roof, directly above our sleeping room.
 
 Hope this was intersting for you, you enjoyed reading and you gained another digger superpower :-)
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+getting-rid-of-nasty-underground-neighbours-iot-mouse-trap&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

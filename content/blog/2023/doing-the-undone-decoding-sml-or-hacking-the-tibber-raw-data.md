@@ -130,9 +130,3 @@ curl -s -u admin:<PASSWORD> \
 ## 4th Step - Pushing Your Data to Home Asssitant
 
 Soon I'll continue on how to push the data to your Smart Home. But yet I'm not sure, if I'll do this with MQTT.
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+doing-the-undone-decoding-sml-or-hacking-the-tibber-raw-data&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

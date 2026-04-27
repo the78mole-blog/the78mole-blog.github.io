@@ -15,9 +15,3 @@ Same as with the 2G-IOT, OrangePi also provides a quite inconvenient way (throug
 - <https://downloads.the78mole.de/OrangePi_4G-IOT_Images_and_Tools.torrent> (1,2 GiB)
 
 Have fun...
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+orangepi-4g-iot-android-8-1-sdk&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

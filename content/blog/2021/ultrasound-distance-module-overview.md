@@ -59,9 +59,3 @@ Here is a schema of my testbench:
 ![](/images/blog/2022/05/US-Distance-Testbench.drawio.png)
 
 Happy tindering!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+ultrasound-distance-module-overview&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

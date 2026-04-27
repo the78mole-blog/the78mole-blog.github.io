@@ -106,9 +106,3 @@ OK, that's all. There are many tutorials out there, how to setup a webserver, co
 Now, you have some great starting point for ESP-IDF :-P
 
 Have fun coding!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+esp32-evb-platformio-and-esp-idf-yet-another-esp32-tutorial&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

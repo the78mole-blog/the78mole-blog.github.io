@@ -169,9 +169,3 @@ Here a little hint, how a course could look like with content (Tasks in PDFs and
 ### KW 17 - Three weeks after introducing Moodle
 
 After three weeks and a (partly) official video conference using BigBlueButton (see my other [post about installing BBB](https://blog.the78mole.de/installing-bigbluebutton-on-your-dedicated-server/)), More and more children tend to register for this platform. And it seems to be the only available platform, where all that stuff is organized well, corrections can be easily done and even rating is possible. Additionally, with the moodle android and iOS app, the camera can be easily used to commit the scholars/students work within seconds. No scanning, not transportation of finished tasks,...
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+schools-out-how-to-tame-your-children&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

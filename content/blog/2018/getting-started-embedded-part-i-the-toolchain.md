@@ -59,9 +59,3 @@ If this worked without errors, you have your toolchain up and running. Congratul
 ## What's next...
 
 The next post will explain, how to setup STM32CubeMX and the Eclipse IDE to start developing own embedded applications effectively. Until now, there is not much difference to commercial IDEs and Toolchains from a workflow point of view. But don't worry, we still have automation in mind and the goal is to have a CI-Pipeline running soon.
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+getting-started-embedded-part-i-the-toolchain&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

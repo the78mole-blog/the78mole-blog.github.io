@@ -103,9 +103,3 @@ From now on, you should see the printf output in your terminal every time you up
 OK, that's all. There are many tutorials out there, how to setup a webserver, controlling pins, using SPI or whatever. But now, you have some great arduino IDE without arduino IDE :-P
 
 Have fun coding!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+esp32-evb-and-platform-io-yet-another-esp32-tutorial&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).

@@ -33,9 +33,3 @@ Have fun with Bash, SSH, Rsync and all that other cool Linux tools on Windows!
 ## An Anthem On Chocolatey
 
 I just bought a new notebook and kept the windows, installed on it up to now. But what I did differently than with any other machine, I startet with [Chocolatey](https://chocolatey.org/) and Chocolatey GUI (you can install the GUI with Choco by typing `choco install chocolatey-gui`) from the very beginning and hey, it's great! Install the tools you use most with just two clicks of your mouse button. No searching for the download page, not nasty clicking through installers... and the upgrades get easy as well, all in one bunch... Try it, you will love it!
-
----
-
-## Kommentare / Comments
-
-Hast du Fragen oder Anmerkungen zu diesem Artikel? [Erstelle ein GitHub Issue](https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?title=Kommentar+zu%3A+windows-was-just-a-pain&labels=comment) oder starte eine [Diskussion](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions).
