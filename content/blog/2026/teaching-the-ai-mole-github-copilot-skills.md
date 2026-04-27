@@ -28,8 +28,8 @@ A skill lives in `.github/skills/<name>/SKILL.md` for project-scoped knowledge, 
 
 The project-level skill [`.github/skills/repo-maintenance/SKILL.md`](https://github.com/the78mole-blog/the78mole-blog.github.io/blob/main/.github/skills/repo-maintenance/SKILL.md) captures everything a freshly-summoned AI needs to know about *this specific blog*:
 
-- **Verzeichnisstruktur**: where content lives, what each `pages/` file does
-- **Umgebungsvariablen**: which GitHub Vars and Secrets drive the build, and why the StaticForms key is injected by `sed` in CI rather than stored in the repo
+- **Directory structure**: where content lives, what each `pages/` file does
+- **Environment variables**: which GitHub Vars and Secrets drive the build, and why the StaticForms key is injected by `sed` in CI rather than stored in the repo
 - **CI/CD-Workflow**: trigger conditions, Node version, the PR-preview artifact trick
 - **AdSense-Slot-IDs**: all four slots named and mapped to their positions
 - **Content-Frontmatter-Templates**: copy-paste ready snippets for new blog posts and pages
@@ -69,4 +69,10 @@ The Mole has learned: the best tunnel system isn't the one you dig the fastest. 
 
 ---
 
-*Both skills are available in this repo and will be picked up automatically by GitHub Copilot in VS Code when working on this project.*
+*Both skills are available in this or the skill repository and will be picked up automatically by GitHub Copilot in VS Code when working on this project.*
+
+Links:
+
+- [Repo-Level Skill `repo-maintenance`](https://github.com/the78mole-blog/the78mole-blog.github.io/blob/main/.github/skills/repo-maintenance/SKILL.md)
+- [User-Level Skill `nuxt-gh-pages`](https://github.com/the78mole/skills/tree/main/skills/nuxt-gh-pages)
+- [All my user level Skills](https://github.com/the78mole/skills)

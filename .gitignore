@@ -5,6 +5,7 @@ node_modules/
 .output/
 dist
 .data/
+temp/
 
 # Local Temp Files
 MIGRATION.md
