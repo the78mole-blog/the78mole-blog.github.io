@@ -18,9 +18,12 @@ const route = useRoute()
 
 // Interner Key: erzwingt neues <ins>-Element nach SPA-Navigation
 const insKey = ref(0)
+// Verhindert SSR-Hydration-Mismatch: auf dem Server wird nichts gerendert
+const isMounted = ref(false)
 
 // Initialer Mount
 onMounted(() => {
+  isMounted.value = true
   if (consentState.value) {
     pushAd()
   }
@@ -51,18 +54,21 @@ function pushAd() {
 </script>
 
 <template>
-  <div v-if="consentState" class="ad-block my-4 text-center">
-    <ins
-      :key="insKey"
-      class="adsbygoogle"
-      style="display: block"
-      :data-ad-client="adsensePubId"
-      :data-ad-slot="adSlot"
-      :data-ad-format="adFormat"
-      :data-ad-layout="adLayout ?? undefined"
-      :data-full-width-responsive="fullWidthResponsive ? 'true' : 'false'"
-    />
-  </div>
-  <!-- Kein Consent: Platz freilassen oder leer -->
-  <div v-else class="hidden" aria-hidden="true" />
+  <!-- isMounted: verhindert SSR-Hydration-Mismatch; Server rendert nichts -->
+  <template v-if="isMounted">
+    <div v-if="consentState" class="ad-block my-4 text-center">
+      <ins
+        :key="insKey"
+        class="adsbygoogle"
+        style="display: block"
+        :data-ad-client="adsensePubId"
+        :data-ad-slot="adSlot"
+        :data-ad-format="adFormat"
+        :data-ad-layout="adLayout ?? undefined"
+        :data-full-width-responsive="fullWidthResponsive ? 'true' : 'false'"
+      />
+    </div>
+    <!-- Kein Consent: Platz freilassen oder leer -->
+    <div v-else class="hidden" aria-hidden="true" />
+  </template>
 </template>
