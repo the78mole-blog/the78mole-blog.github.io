@@ -10,8 +10,8 @@ const adsensePubId = process.env.GOOGLE_ADSENSE_PUB_ID
 
 // giscus – IDs aus .env (lokal) bzw. GitHub Vars (CI)
 // Zu ermitteln auf https://giscus.app/de nach Eingabe des Repos
-const giscusRepoId = process.env.GISCUS_REPO_ID || 'TODO'
-const giscusCategoryId = process.env.GISCUS_CATEGORY_ID || 'TODO'
+const giscusRepoId = process.env.GISCUS_REPO_ID || 'R_kgDOSNCPlg'
+const giscusCategoryId = process.env.GISCUS_CATEGORY_ID || 'DIC_kwDOSNCPls4C7zVP'
 
 export default defineNuxtConfig({
   modules: [
