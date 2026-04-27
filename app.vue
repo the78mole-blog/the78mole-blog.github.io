@@ -5,6 +5,8 @@ const consentState = useState<boolean>('consent')
 <template>
   <NuxtLayout>
     <NuxtPage />
-    <ConsentBanner />
+    <ClientOnly>
+      <ConsentBanner />
+    </ClientOnly>
   </NuxtLayout>
 </template>

@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const consent = useCookie<boolean | null>('user-consent')
+const currentYear = ref(2026)
+onMounted(() => { currentYear.value = new Date().getFullYear() })
 function resetConsent() {
   consent.value = null
 }
@@ -34,7 +36,7 @@ function resetConsent() {
 
     <footer class="border-t border-gray-800 mt-20">
       <div class="max-w-4xl mx-auto px-4 py-6 text-center text-sm text-gray-500 space-x-4">
-        <span>© {{ new Date().getFullYear() }} the78mole</span>
+        <span>© {{ currentYear }} the78mole</span>
         <span>·</span>
         <NuxtLink to="/pages/impressum" class="hover:text-gray-300 transition-colors">Impressum</NuxtLink>
         <span>·</span>
