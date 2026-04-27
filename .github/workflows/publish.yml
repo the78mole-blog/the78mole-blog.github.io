@@ -46,6 +46,8 @@ jobs:
         env:
           GOOGLE_ANALYTICS_MEAS_ID: ${{ vars.GOOGLE_ANALYTICS_MEAS_ID }}
           GOOGLE_ADSENSE_PUB_ID: ${{ vars.GOOGLE_ADSENSE_PUB_ID }}
+          GISCUS_REPO_ID: ${{ vars.GISCUS_REPO_ID }}
+          GISCUS_CATEGORY_ID: ${{ vars.GISCUS_CATEGORY_ID }}
         run: npm run generate
 
       - name: Upload Pages artifact
