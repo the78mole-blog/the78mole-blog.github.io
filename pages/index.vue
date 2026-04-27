@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const { data: posts } = await useAsyncData('blog-index', () =>
-  queryContent('blog')
-    .only(['title', 'date', 'description', 'image', 'categories', '_path'])
-    .sort({ date: -1 })
-    .find()
+  queryCollection('blog')
+    .select('title', 'date', 'description', 'image', 'categories', 'path')
+    .order('date', 'DESC')
+    .all()
 )
 </script>
 
@@ -15,10 +15,10 @@ const { data: posts } = await useAsyncData('blog-index', () =>
     <div class="grid gap-6">
       <article
         v-for="post in posts"
-        :key="post._path"
+        :key="post.path"
         class="group bg-gray-900 rounded-xl overflow-hidden border border-gray-800 hover:border-amber-500 transition-colors"
       >
-        <NuxtLink :to="post._path" class="flex gap-4 p-5">
+        <NuxtLink :to="post.path" class="flex gap-4 p-5">
           <img
             v-if="post.image"
             :src="post.image"

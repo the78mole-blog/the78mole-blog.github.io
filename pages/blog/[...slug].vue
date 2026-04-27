@@ -3,7 +3,7 @@ const route = useRoute()
 const { public: { adsenseSlots } } = useRuntimeConfig()
 
 const { data: post } = await useAsyncData(`post-${route.path}`, () =>
-  queryContent(route.path).findOne()
+  queryCollection('blog').path(route.path).first()
 )
 
 if (!post.value) {
