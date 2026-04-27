@@ -31,8 +31,9 @@ pages/
     [slug].vue     # Statische Seiten
     contact.vue    # Kontaktformular (StaticForms, API-Key via CI-Secret)
 components/
-  AdBlock.vue      # Google AdSense – isMounted-Guard gegen SSR-Mismatch
-  ConsentBanner.vue # DSGVO-Banner – Cookie + useState('consent')
+  AdBlock.vue        # Google AdSense – isMounted-Guard gegen SSR-Mismatch
+  ConsentBanner.vue  # DSGVO-Banner – Cookie + useState('consent')
+  GiscusComments.vue # Kommentarfunktion via GitHub Discussions (giscus) – immer in <ClientOnly>
 layouts/
   default.vue    # Header, Footer, ConsentBanner-Slot
 app.vue          # <ClientOnly><ConsentBanner /></ClientOnly>
@@ -48,11 +49,15 @@ renovate.json    # Renovate-Bot-Konfiguration
 | `GOOGLE_ANALYTICS_MEAS_ID` | GitHub Vars (`vars.*`) | GA4 Measurement-ID (z.B. `G-XXXXXXXXXX`) |
 | `GOOGLE_ADSENSE_PUB_ID` | GitHub Vars (`vars.*`) | Ohne `ca-`-Präfix (z.B. `pub-12345`) |
 | `STATIC_FORMS_KEY` | GitHub Secrets (`secrets.*`) | StaticForms API-Key für Kontaktformular |
+| `GISCUS_REPO_ID` | GitHub Vars (`vars.*`) | `R_kgDOSNCPlg` – Repo-ID für giscus |
+| `GISCUS_CATEGORY_ID` | GitHub Vars (`vars.*`) | `DIC_kwDOSNCPls4C7zVP` – Kategorie „Blog Comments" |
 
 **Lokal**: `.env`-Datei (bereits in `.gitignore`). Schema:
 ```
 GOOGLE_ANALYTICS_MEAS_ID=G-XXXXXXXXXX
 GOOGLE_ADSENSE_PUB_ID=pub-XXXXXXXXXXXXXXXX
+GISCUS_REPO_ID=R_kgDOSNCPlg
+GISCUS_CATEGORY_ID=DIC_kwDOSNCPls4C7zVP
 ```
 
 **Achtung**: Der CI-Schritt ersetzt `YOUR_STATICFORMS_API_KEY` per `sed` in `contact.vue` direkt vor dem Build – die Datei im Repo enthält bewusst den Platzhalter.
@@ -161,6 +166,23 @@ cat node_modules/@nuxtjs/tailwindcss/package.json | python3 -c \
    print('peer:', p.get('peerDependencies',{}).get('tailwindcss','none'))"
 ```
 
+## Giscus – Kommentarfunktion
+
+- **Paket**: `@giscus/vue` (reguläre Dependency)
+- **Komponente**: `components/GiscusComments.vue` – `import Giscus from '@giscus/vue'` (nur default-Export!) + `<ClientOnly>`
+- **Eingebaut in**: `pages/blog/[...slug].vue` und `pages/pages/[slug].vue`
+- **Mapping**: `pathname` → jede URL bekommt eine eigene Diskussion
+- **Kategorie**: „Blog Comments" (Typ Announcements – nur giscus/Maintainer öffnen neue Threads)
+- **Theme**: `transparent_dark`
+- **IDs nachschlagen**:
+  ```bash
+  gh api graphql -f query='{ repository(owner:"the78mole-blog", name:"the78mole-blog.github.io") { id discussionCategories(first:20) { nodes { id name } } } }'
+  ```
+- **Aktuelle IDs** (als Fallback in `nuxt.config.ts` hinterlegt, Env-Vars überschreiben):
+  - Repo-ID: `R_kgDOSNCPlg`
+  - Kategorie-ID: `DIC_kwDOSNCPls4C7zVP`
+- **Voraussetzung**: [giscus App](https://github.com/apps/giscus) muss auf dem Repo installiert sein
+
 ## Häufige Fehler
 
 | Fehler | Ursache | Fix |
@@ -186,3 +208,4 @@ npx serve .output/public  # Lokale Vorschau des Builds
 - [ ] Neue WordPress-Redirects mit und ohne trailing slash
 - [ ] Keine Secrets in eingecheckten Dateien (`.env` ist in `.gitignore`)
 - [ ] Kontaktformular-Placeholder `YOUR_STATICFORMS_API_KEY` in `contact.vue` nicht überschrieben
+- [ ] Nach Änderungen an `GiscusComments.vue`: nur `default`-Import von `@giscus/vue` (kein `{ GiscusComponent }`)
