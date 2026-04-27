@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@giscus/vue": "^3.1.1",
     "@nuxt/content": "^3.0.0",
     "nuxt": "^4.0.0",
     "nuxt-gtag": "^4.1.0"

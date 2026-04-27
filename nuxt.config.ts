@@ -8,6 +8,11 @@ const adsensePubId = process.env.GOOGLE_ADSENSE_PUB_ID
   ? `ca-${process.env.GOOGLE_ADSENSE_PUB_ID}`
   : 'ca-pub-XXXXXXXXXXXXXXXX'
 
+// giscus – IDs aus .env (lokal) bzw. GitHub Vars (CI)
+// Zu ermitteln auf https://giscus.app/de nach Eingabe des Repos
+const giscusRepoId = process.env.GISCUS_REPO_ID || 'TODO'
+const giscusCategoryId = process.env.GISCUS_CATEGORY_ID || 'TODO'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
@@ -25,6 +30,12 @@ export default defineNuxtConfig({
         right:     '9230728617', // the78mole-content-right
         bottom:    '8012270852', // the78mole-content-bottom
         inArticle: '5913240643', // the78mole-content-inarticle
+      },
+      giscus: {
+        repo:       'the78mole-blog/the78mole-blog.github.io',
+        repoId:     giscusRepoId,
+        category:   'Blog Comments',
+        categoryId: giscusCategoryId,
       },
     },
   },

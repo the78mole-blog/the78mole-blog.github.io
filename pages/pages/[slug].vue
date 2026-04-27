@@ -25,6 +25,9 @@ useSeoMeta({
     <div class="prose prose-invert prose-amber max-w-none">
       <ContentRenderer :value="page" />
     </div>
+
+    <!-- Giscus-Kommentare (GitHub Discussions) -->
+    <GiscusComments />
     </article>
   </div>
 </template>
