@@ -14,12 +14,23 @@ const props = withDefaults(defineProps<Props>(), {
 
 const consentState = useState<boolean>('consent')
 const { public: { adsensePubId } } = useRuntimeConfig()
+const route = useRoute()
 
-// Push-AdSense nur wenn Consent vorliegt
+// Interner Key: erzwingt neues <ins>-Element nach SPA-Navigation
+const insKey = ref(0)
+
+// Initialer Mount
 onMounted(() => {
   if (consentState.value) {
     pushAd()
   }
+})
+
+// Bei SPA-Navigation: <ins> neu erstellen und pushen
+watch(() => route.path, () => {
+  if (!consentState.value) return
+  insKey.value++
+  nextTick(() => pushAd())
 })
 
 // Reaktiv auf Consent-Änderung reagieren (z.B. nachträgliches Akzeptieren)
@@ -42,6 +53,7 @@ function pushAd() {
 <template>
   <div v-if="consentState" class="ad-block my-4 text-center">
     <ins
+      :key="insKey"
       class="adsbygoogle"
       style="display: block"
       :data-ad-client="adsensePubId"
