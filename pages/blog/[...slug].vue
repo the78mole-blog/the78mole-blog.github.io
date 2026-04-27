@@ -24,7 +24,7 @@ useSeoMeta({
 
     <!-- Linke Sidebar -->
     <aside class="hidden xl:block w-40 flex-shrink-0 sticky top-6 self-start">
-      <AdBlock :ad-slot="adsenseSlots.left" ad-format="vertical" />
+      <AdBlock :key="`left-${route.path}`" :ad-slot="adsenseSlots.left" ad-format="vertical" />
     </aside>
 
     <!-- Artikel -->
@@ -53,10 +53,10 @@ useSeoMeta({
       </div>
 
       <!-- In-Article Ad nach dem Inhalt, vor dem Bottom-Ad -->
-      <AdBlock :ad-slot="adsenseSlots.inArticle" ad-format="fluid" ad-layout="in-article" class="mt-8" />
+      <AdBlock :key="`inArticle-${route.path}`" :ad-slot="adsenseSlots.inArticle" ad-format="fluid" ad-layout="in-article" class="mt-8" />
 
       <!-- Ad unter Artikel (auf kleinen Screens, wo Sidebars versteckt sind) -->
-      <AdBlock :ad-slot="adsenseSlots.bottom" ad-format="auto" class="mt-8 xl:hidden" />
+      <AdBlock :key="`bottom-${route.path}`" :ad-slot="adsenseSlots.bottom" ad-format="auto" class="mt-8 xl:hidden" />
 
       <footer class="mt-16 pt-8 border-t border-gray-800">
         <NuxtLink to="/" class="text-amber-400 hover:text-amber-300 transition-colors text-sm">
@@ -67,7 +67,7 @@ useSeoMeta({
 
     <!-- Rechte Sidebar -->
     <aside class="hidden xl:block w-40 flex-shrink-0 sticky top-6 self-start">
-      <AdBlock :ad-slot="adsenseSlots.right" ad-format="vertical" />
+      <AdBlock :key="`right-${route.path}`" :ad-slot="adsenseSlots.right" ad-format="vertical" />
     </aside>
 
   </div>
