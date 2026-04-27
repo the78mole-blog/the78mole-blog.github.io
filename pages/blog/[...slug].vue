@@ -15,6 +15,11 @@ useSeoMeta({
   description: () => post.value?.description ?? '',
   ogImage: () => post.value?.image ?? '',
 })
+
+const issueUrl = computed(() => {
+  const title = encodeURIComponent(`Feedback: ${post.value?.title ?? ''}`)
+  return `https://github.com/the78mole-blog/the78mole-blog.github.io/issues/new?template=blog-feedback.md&title=${title}`
+})
 </script>
 
 <template>
@@ -58,10 +63,18 @@ useSeoMeta({
       <!-- Ad unter Artikel (auf kleinen Screens, wo Sidebars versteckt sind) -->
       <AdBlock :ad-slot="adsenseSlots.bottom" ad-format="auto" class="mt-8 xl:hidden" />
 
-      <footer class="mt-16 pt-8 border-t border-gray-800">
+      <footer class="mt-16 pt-8 border-t border-gray-800 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <NuxtLink to="/" class="text-amber-400 hover:text-amber-300 transition-colors text-sm">
           ← Zurück zum Blog
         </NuxtLink>
+        <a
+          :href="issueUrl"
+          target="_blank"
+          rel="noopener"
+          class="text-sm text-gray-500 hover:text-gray-300 transition-colors"
+        >
+          💬 Questions or corrections? Open an issue on GitHub ↗
+        </a>
       </footer>
     </article>
 
