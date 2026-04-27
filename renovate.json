@@ -8,6 +8,18 @@
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch"
+    },
+    {
+      "matchPackageNames": ["tailwindcss"],
+      "allowedVersions": "^3.0.0",
+      "labels": ["needs-review"],
+      "description": "@nuxtjs/tailwindcss v6 requires tailwindcss v3 – block v4+ until the Nuxt module supports it"
+    },
+    {
+      "matchPackageNames": ["@nuxtjs/tailwindcss"],
+      "matchUpdateTypes": ["major"],
+      "labels": ["needs-review"],
+      "description": "Major update may indicate tailwindcss v4 support – check and remove the tailwindcss allowedVersions rule"
     }
   ]
 }
