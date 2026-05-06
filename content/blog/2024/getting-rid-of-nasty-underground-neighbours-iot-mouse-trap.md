@@ -133,7 +133,7 @@ Another complicated task was the ESP32's ULP, the Ultra Low Power coprocessor, s
 	ld r2, r3, 0
 	sub r0, r0, r2 /* 99 */
 
-	/* If result crossed 0, decrease offset 
+	/* If result crossed 0, decrease offset
 	   by one, otherwise increase */
 	jump saveoff, eq
 	jump offs_dec, ov

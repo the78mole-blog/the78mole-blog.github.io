@@ -62,14 +62,14 @@ It does not support the full feature set of M-Bus (e.g. Extended VIF codes), but
 For meters to be found, you need to know the appropriate baud rate. In my case the meters talk with 2400 Baud, so you need to provide this to the mbus-serial-scan or mbus serial-scan-secondary. Nowadays, it totally makes sense, to use secondary addressing. Some meters can be configured to have a primary address, using their secondary address for configuration, but the data rate usually needed is so low, that also secondary addressing is way enough. If you are really interested in how to configure the primary address, let me know and I'll find out and extend this post.
 
 ```bash
-pi@garagepi:~ $ mbus-serial-scan -b 2400 /dev/ttyUSB0 
+pi@garagepi:~ $ mbus-serial-scan -b 2400 /dev/ttyUSB0
 Collision at address 0
 Found a M-Bus device at address 110
 pi@garagepi:~ $ mbus-serial-scan-secondary -b 2400 /dev/ttyUSB0
-Found a device on secondary address 0000873987050402 
-Found a device on secondary address 10223908496A8804 
-Found a device on secondary address 35001739496A8804 
-Found a device on secondary address 35001740496A8804 
+Found a device on secondary address 0000873987050402
+Found a device on secondary address 10223908496A8804
+Found a device on secondary address 35001739496A8804
+Found a device on secondary address 35001740496A8804
 ```
 
 As you can see, the primary addresses have collisions, since most M-Bus meters a factory set to address 0. Therefore, you should prefer secondary addressing where every meter has it's unique address.
@@ -246,14 +246,14 @@ Making it work in Home Assistant simply requires to add the following lines to s
   unit_of_measurement: "kWh"
   value_template: >
     {%- for rec in value_json.MBusData.DataRecord -%}
-    {%- if ( 
+    {%- if (
             ( rec.Function == "Instantaneous value" )
        and  ( rec.StorageNumber == "0" )
        and  ( "kWh" in rec.Unit )
           ) -%}
     {{ rec.Value }}
     {% endif -%}
-    {% endfor -%} 
+    {% endfor -%}
 ```
 
 If you want all data from your Electric Meter put into the attributes of the Sensor, this is how it works for algodue meters (with Unit, Tariff and Device elements in some objects).
@@ -266,7 +266,7 @@ If you want all data from your Electric Meter put into the attributes of the Sen
   unit_of_measurement: "kWh"
   value_template: >
     {%- for rec in value_json.MBusData.DataRecord -%}
-    {%- if ( 
+    {%- if (
              ( rec.Function == "Instantaneous value" )
         and  ( rec.StorageNumber == "0" )
         and  ( rec._id == "34" )

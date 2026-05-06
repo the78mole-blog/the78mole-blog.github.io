@@ -42,7 +42,7 @@ discussion_number: 18
 
 >> *Antwort auf **themole**:*
 >> > Hallo Johann,
->> > 
+>> >
 >> > bei den 1-wire-Sensoren sehe ich da keine Probleme, die brauchen praktisch keinen Strom. Ich würde aber eher mit den 3,3V versorgen, da die ESP32-IOs nicht 5V-tolerant sind. Bei dem Relais bin ich da schon etwas skeptischer. Grundsätzlich ist die Versorgung von der Buderus anscheinend etwas schwachbrüstig und streut sehr stark. Es gibt ein paar Berichte von meinen Nutzern, dass es nicht mal ausreicht, den ESP32 stabil zu versorgen, während andere anscheinend absolut keine Probleme haben. Ich vermute, es hängt stark davon ab, welche originalen Zusatz-Module von Buderus selbst noch verbaut sind.
 >> > …
 >>
@@ -87,7 +87,7 @@ discussion_number: 18
 
 >> *Antwort auf **themole**:*
 >> > Hallo Johann,
->> > 
+>> >
 >> > auf die 4,77V würde ich mich nicht verlassen. Der ADC des ESP32 ist sowas von daneben, speziell wenn man den hochohmig anfährt (ich hab das Design so gemacht, um keine bösen Überraschungen mit hoheren Spannungen/Spannungsspitzen zu erfahren). Also einfach mal mit einem Multimeter nachmessen, dann bist Du auf der sicheren Seite. Speziell die Unterschiede (der Spannungseinbruch) bei Stand-By und WiFi-Aktivität sind da interessant.
 >> > …
 >>

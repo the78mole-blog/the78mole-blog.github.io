@@ -60,16 +60,16 @@ server {
   listen 443 ssl http2;
   listen [::]:443 ssl http2;
   server_name moodle.<mydomain>;
-  include snippets/my_ssl.conf; 
-  include snippets/ssl-params.conf; 
-  root /var/www/html/; 
-  location / { 
-    proxy_set_header X-Forwarded-Host $host:$server_port; 
+  include snippets/my_ssl.conf;
+  include snippets/ssl-params.conf;
+  root /var/www/html/;
+  location / {
+    proxy_set_header X-Forwarded-Host $host:$server_port;
     proxy_set_header X-Forwarded-Server $host;
-    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; 
-    proxy_pass http://10.0.2.20:80; 
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_pass http://10.0.2.20:80;
     client_max_body_size 100M;
-    proxy_set_header Host $host; 
+    proxy_set_header Host $host;
   }
 }
 ```
@@ -79,20 +79,20 @@ server {
 ```
 server {
   listen 80 default_server;
-  listen [::]:80 default_server; 
-  root /var/www/html; 
+  listen [::]:80 default_server;
+  root /var/www/html;
   index index.html index.htm index.nginx-debian.html index.php;
-  server_name _; 
-  location / { 
-    try_files $uri $uri/ =404; 
+  server_name _;
+  location / {
+    try_files $uri $uri/ =404;
   }
-  location ~ \.php/.*$ { 
+  location ~ \.php/.*$ {
     include snippets/fastcgi-php.conf;
-    fastcgi_pass unix:/var/run/php/php7.3-fpm.sock; 
-  } 
-  location ~ \.php$ { 
-    include snippets/fastcgi-php.conf; 
-    fastcgi_pass unix:/var/run/php/php7.3-fpm.sock; 
+    fastcgi_pass unix:/var/run/php/php7.3-fpm.sock;
+  }
+  location ~ \.php$ {
+    include snippets/fastcgi-php.conf;
+    fastcgi_pass unix:/var/run/php/php7.3-fpm.sock;
   }
 }
 ```
@@ -114,7 +114,7 @@ On the proxy, this is already included in above config.
 Some of the dependencies, moodle and it's plugins have are not hard during installation, but they will show up when you use moodle for a while. If you just don't want to know, why these dependencies are needed, you simply need to do (as root or with sudo)
 
 ```
-apt install unoconv ghostscript graphviz 
+apt install unoconv ghostscript graphviz
 ```
 
 A bug in the onuconv release 0.7 (which is deployed by debian 10) prevent the unoconv to create it's own listener and to create some tempfiles. To circumvent this, we simply create a little wrapper script:

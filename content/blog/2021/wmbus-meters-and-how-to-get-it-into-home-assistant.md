@@ -66,14 +66,14 @@ The keys is only needed, if your meter sends encrypted data and you should have 
 My meters' data now gets transferred via MQTT and my Home Assistant simply fetches it and puts it into is history store (sqlite & influxdb in my case). The appropriate YAML in Home Assistant looks like this:
 
 ```yaml
-sensor: 
+sensor:
  - platform: mqtt
    name: "HCA NBEG WS"
    unique_id: wmbus.60900128
    state_topic: "wmbusmeters/60900128"
    unit_of_measurement: "hca"
    value_template: "{{ value_json.current_consumption_hca }}"
-   json_attributes_topic: "wmbusmeters/60900128" 
+   json_attributes_topic: "wmbusmeters/60900128"
 ```
 
 All attributes (other sensor values) simply get packed into the attributes of the new sensor.

@@ -41,7 +41,7 @@ discussion_number: 22
 > *Tolle Einführung, die mir sehr geholfen hat*
 >
 > Ich habe mir erlaubt, dein Script etwas zu erweitern:
-> #!/bin/bash 
+> #!/bin/bash
 >
 > # Code Basis stammt von https://the78mole.de/taking-your-m-bus-online-with-mqtt/
 > # Ich habe es nur ergänzt um alle Datenfelden flexibel zum MQTT Server zu übertragen
@@ -58,7 +58,7 @@ discussion_number: 22
 >
 > #Basis Informationen
 > modbus_array[0]=.MBusData.SlaveInformation.Id
-> modbus_array[1]=.MBusData.SlaveInformation.Manufacturer 
+> modbus_array[1]=.MBusData.SlaveInformation.Manufacturer
 > modbus_array[2]=.MBusData.SlaveInformation.Version
 > modbus_array[3]=.MBusData.SlaveInformation.Status
 >
@@ -69,11 +69,11 @@ discussion_number: 22
 >
 >
 > while read ameter
-> do 
+> do
 > echo -n "Getting data from $ameter..."
 >     # The sed is for replacing the @ with _ to be able to match on it in HASS templates
 >      METER_DATA=$(mbus-serial-request-data-multi-reply -b $BAUDRATE $DEVICE $ameter | xq . | sed -e 's/@/_/')
->       /usr/bin/mosquitto_pub -h $MQTT_HOST -u $MQTT_USER -P $MQTT_PASS 
+>       /usr/bin/mosquitto_pub -h $MQTT_HOST -u $MQTT_USER -P $MQTT_PASS
 >         -t $MQTT_TOPIC/$ameter -m "${METER_DATA}"
 >
 >  BYTCNT=$(echo "$METER_DATA" | wc -c)
@@ -85,9 +85,9 @@ discussion_number: 22
 > do
 >   ausgabe=$(echo $METER_DATA | jq "$Parameter" )
 >   #Punkte in / konvertieren für mqtt
->   Parameter=$(echo $Parameter | sed -e 's!.!/!g') 
+>   Parameter=$(echo $Parameter | sed -e 's!.!/!g')
 >   /usr/bin/mosquitto_pub -h $MQTT_HOST -u $MQTT_USER -P $MQTT_PASS -t $MQTT_TOPIC/$ameter$Parameter -m "$ausgabe"
->   #Ausgabe des MQTT Pfades und Wertes 
+>   #Ausgabe des MQTT Pfades und Wertes
 >   echo "$MQTT_TOPIC/$ameter$Parameter -> $ausgabe"
 >
 > done
@@ -102,7 +102,7 @@ discussion_number: 22
 > 	 id=$(echo "${row}" | sed -e 's/,//')
 >
 > 	 #Einen Int Wert daraus machen
-> 	 nummer=$(("$id"+0)) 
+> 	 nummer=$(("$id"+0))
 >
 > 	  #Alle Keys (Datenpunkte) auslesen
 > 		for name in $(echo $METER_DATA | jq ".MBusData.DataRecord[$nummer] | keys"); do
@@ -113,7 +113,7 @@ discussion_number: 22
 >
 > 				# Ein paar Sonderzeichen aus dem Pfad entfernen
 > 				pfad=".MBusData.DataRecord[$nummer].${name}"
-> 				pfad=$(echo $pfad |  sed 's/"//g')	
+> 				pfad=$(echo $pfad |  sed 's/"//g')
 > 				pfad=$(echo $pfad |  sed 's/,//g')
 >
 > 				#Den richtigen Wert aus dem json holen
@@ -134,7 +134,7 @@ discussion_number: 22
 >
 > 	fi
 >
-> done	
+> done
 >
 >
 >
@@ -220,27 +220,27 @@ discussion_number: 22
 > nach deiner Anleitung komme ich bis zur Ausführung des bash mit Fehlermeldungen. Als eine erste Anpassung war die SED von: ... | sed -e "s/@/_/) auf  ... | sed -e 's/@/_/') nötig, damit kein Fehlernder quote bemängelt wurde. Aber nun komme ich bis zu dieser Fehlermeldung bei der Ausführung des bash:
 >
 > jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 1:
-> { 
+> {
 > jq: error: May need parentheses around object key expression at , line 1:
-> { 
+> {
 > jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 2:
->         id          : .MBusData.SlaveInformation.Id, 
+>         id          : .MBusData.SlaveInformation.Id,
 > jq: error: May need parentheses around object key expression at , line 2:
->         id          : .MBusData.SlaveInformation.Id, 
+>         id          : .MBusData.SlaveInformation.Id,
 > jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 3:
->         manufacturer: .MBusData.SlaveInformation.Manufacturer,                                                            
+>         manufacturer: .MBusData.SlaveInformation.Manufacturer,  
 > jq: error: May need parentheses around object key expression at , line 3:
->         manufacturer: .MBusData.SlaveInformation.Manufacturer,                                                            
+>         manufacturer: .MBusData.SlaveInformation.Manufacturer,  
 > jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 4:
->         medium      : .MBusData.SlaveInformation.Medium, 
+>         medium      : .MBusData.SlaveInformation.Medium,
 > jq: error: May need parentheses around object key expression at , line 4:
->         medium      : .MBusData.SlaveInformation.Medium, 
+>         medium      : .MBusData.SlaveInformation.Medium,
 > jq: 8 compile errors
 > xq: Error running jq: ExpatError: not well-formed (invalid token): line 1, column 0.
 > + read ameter
 >
 >
-> Was könnte mir noch zu meinem Glück fehlen? 
+> Was könnte mir noch zu meinem Glück fehlen?
 >
 > Danke
 >
@@ -249,7 +249,7 @@ discussion_number: 22
 ↳ **the78mole** – 2022-11-13
 
 >> Hi Bucky,
->> bei mir hat tatsächlich das abschließende " gefehlt. In der Shell musst Du aber etwas aufpassen, da sind ' nicht ganz identisch mit ". 
+>> bei mir hat tatsächlich das abschließende " gefehlt. In der Shell musst Du aber etwas aufpassen, da sind ' nicht ganz identisch mit ".
 >> Versuche es doch bitte nochmal mit sed -e "s/@/_/"
 >> Leider kann ich hier in der Antwort keinen Code formatieren... Die Anführungszeichen springen deswegen am Wortanfang nach unten, aber im Artikel ist es jetzt korrekt im Code-Listing drin.
 >> Grüße,
@@ -270,21 +270,21 @@ discussion_number: 22
 > Sending data to host 192.168.1.151 as user 'mqttbroker' using topic 'mbusmeters/'.
 > Getting data from 0025244901061507...  2875 bytes sent
 > jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 1:
-> { 
+> {
 > jq: error: May need parentheses around object key expression at , line 1:
-> { 
+> {
 > jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 2:
->         id          : .MBusData.SlaveInformation.Id, 
+>         id          : .MBusData.SlaveInformation.Id,
 > jq: error: May need parentheses around object key expression at , line 2:
->         id          : .MBusData.SlaveInformation.Id, 
+>         id          : .MBusData.SlaveInformation.Id,
 > jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 3:
->         manufacturer: .MBusData.SlaveInformation.Manufacturer,                                              
+>         manufacturer: .MBusData.SlaveInformation.Manufacturer,  
 > jq: error: May need parentheses around object key expression at , line 3:
->         manufacturer: .MBusData.SlaveInformation.Manufacturer,                                              
+>         manufacturer: .MBusData.SlaveInformation.Manufacturer,  
 > jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 4:
->         medium      : .MBusData.SlaveInformation.Medium,                                                    
+>         medium      : .MBusData.SlaveInformation.Medium,  
 > jq: error: May need parentheses around object key expression at , line 4:
->         medium      : .MBusData.SlaveInformation.Medium,                                                    
+>         medium      : .MBusData.SlaveInformation.Medium,  
 > jq: 8 compile errors
 > pi@raspberrypi:~/bin $
 
@@ -298,7 +298,7 @@ discussion_number: 22
 >>
 >> Unfortunately, the quotes here in the comment are low and high. In the script they should both be "
 >>
->> Hope this helps. 
+>> Hope this helps.
 >>
 >> Regards,
 >> your mole :-)
@@ -314,10 +314,10 @@ discussion_number: 22
 >
 > I was able to run the script that gave me this error replacing ' with " at this point
 >
-> echo "$METER_DATA" | jq '{ 
->         id          : .MBusData.SlaveInformation.Id, 
->         manufacturer: .MBusData.SlaveInformation.Manufacturer, 
->         medium      : .MBusData.SlaveInformation.Medium, 
+> echo "$METER_DATA" | jq '{
+>         id          : .MBusData.SlaveInformation.Id,
+>         manufacturer: .MBusData.SlaveInformation.Manufacturer,
+>         medium      : .MBusData.SlaveInformation.Medium,
 >         records     : .MBusData.DataRecord | length  }'
 >
 > I don't know if it's correct but it works

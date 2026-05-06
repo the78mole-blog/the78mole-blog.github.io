@@ -129,7 +129,7 @@ $ ceph dashboard ac-user-create <USERNAME> -i ceph-adm-passwd.txt administrator
 On every host you want to include in your cluster, you need to install following packages (I did this all with ansible, maybe I'll write some post about it in the future -> Leave me a comment if you are interested):
 
 ```bash
-$ apt install podman catatonit lvm2 gdisk 
+$ apt install podman catatonit lvm2 gdisk
 ```
 
 ## Installing Ceph using cephadm
@@ -259,7 +259,7 @@ $ ssh-copy-id root@<CEPH_MON_HOST>
 $ scp root@<CEPH_MON_HOST>:/etc/ceph/ceph.conf .
 $ echo "<YOUR_COPIED_KEYRING>" > ceph.client.<CLIENT_NAME>.keyring
 
-# another way is to get the key through ssh from the client 
+# another way is to get the key through ssh from the client
 # host if your ceph command is accessible outside of the shell container
 
 $ ssh root@<CEPH_MON_HOST> ceph auth get client.<CLIENT_NAME> \
@@ -387,7 +387,7 @@ If you want to do some maintenance, e.g. simply rebooting a host with one or mor
 ```
 $ cephadm shell
 $ ceph osd set noout
-$ ceph osd set norebalance 
+$ ceph osd set norebalance
 ```
 
 Then execute the stuff you want, e.g. `sudo reboot` on the osd host and when all daemons are back in ceph, get back to normal operation mode
@@ -413,7 +413,7 @@ $ ceph pg ls
 5.17 (just an example in your output)....
 ...
 $ ceph pg map 5.17
-osdmap e230 pg 5.17 (5.17) -> up  acting 
+osdmap e230 pg 5.17 (5.17) -> up  acting
 ```
 
 The high numbers (2147483647) indicate, that the PG is not mapped to any OSD but they still belong to the acting ones 0,1,2,3,4 & 5 (the order is not relevant).
@@ -423,11 +423,11 @@ To solve this, you need to edit the crush map. Unfortunately, there is only a CL
 ```
 $ cephadm shell
 $ ceph osd getcrushmap -o crush.map
-25  # This number is the epoch of your map... 
-    # You can use it to identify your changes 
+25  # This number is the epoch of your map...
+    # You can use it to identify your changes
 $ crushtool -d crush.map -o crush.25.map.txt
 $ cp crush.25.map.txt crush.26.map.txt
-$ vi crush.26.map.txt   # Edit the lines with "default", 
+$ vi crush.26.map.txt   # Edit the lines with "default",
                         # the old name of the crush root in it
 ```
 
@@ -469,7 +469,7 @@ rule Pool_EC_k4m2 {
         step set_chooseleaf_tries 5
         step set_choose_tries 100
         # step take default class hdd      # <--- This is the 2nd old line
-        step take root-moles class hdd     # ...changed to this      
+        step take root-moles class hdd     # ...changed to this  
         step chooseleaf indep 0 type host
         step emit
 }
@@ -486,7 +486,7 @@ If you did no typo or any other mistake, it should soon start to remap the PGS a
 
 ```
 $ ceph pg map 5.17
-osdmap e242 pg 5.17 (5.17) -> up  acting 
+osdmap e242 pg 5.17 (5.17) -> up  acting
 ```
 
 ## Stray Daemon
@@ -639,7 +639,7 @@ $ curl --silent --remote-name --location \
 $ chmod +x cephadm
 $ cp cephadm /usr/sbin
 
-#### On arm64, the cephadm package is not available, even if we have this 
+#### On arm64, the cephadm package is not available, even if we have this
 #### python script already at hand. Therefore, we put it in /usr/sbin and
 #### fake the package to be installed with equiv. Don't do this on other
 #### non-ARM systems

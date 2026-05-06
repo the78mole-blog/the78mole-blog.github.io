@@ -46,7 +46,7 @@ fdisk /dev/sda
 # Remainder with ext4 or something else (I prefer btrfs)
 # write partition table with entering 'w'
 mkswap /dev/sda1
-swapon /dev/sda2 
+swapon /dev/sda2
 mkfs.ext4 /dev/sda2
 mkdir /var/data
 blkid /dev/sda2   # Take the UUID-part
@@ -72,7 +72,7 @@ tar xzvf node-v10.15.3.tar.gz
 cd node-v10.15.3.tar.gz
 ./configure --without-snapshot
 make
-./node -v  # If version is returned than 'make' was OK 
+./node -v  # If version is returned than 'make' was OK
 make install
 ```
 

@@ -33,7 +33,7 @@ discussion_number: 16
 
 >> *Antwort auf **themole**:*
 >> > Hi Gabriel,
->> > 
+>> >
 >> > here you will find a very detailed analysis on the weaknesses:
 >> > …
 >>

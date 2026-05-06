@@ -29,10 +29,10 @@ Find a video [how to assemble the board](https://youtu.be/h_pQlpXaQ1I) on my [Yo
 
 [Hardware](https://github.com/the78mole/km271-wifi) - [ESPhome-FW](https://the78mole.github.io/ESPhome-KM271-WiFi/) - [Dewenni's FW](https://github.com/dewenni/ESP_Buderus_KM271)
 
-The PCB for this project (0.0.5) was sponsored by [PCBway](https://www.pcbway.com/).   
+The PCB for this project (0.0.5) was sponsored by [PCBway](https://www.pcbway.com/).  
 ![](/images/blog/2021/07/PCBway1_1.png)  
 And I really liked what I received. I ordered a few times in the past and always received excellent PCBs from this manufacturer. And also the engineering service is best in class. They ask you what to do, if any problem occurs and either you send new gerbers or they fix it themselves (if possible by editing the gerber). Sooner or later, I'm sure, I'll also try their assembly and milling services...  
-  
+
 If you want to read an article about preparing your data for [PCBway](https://www.pcbway.com/), stay tuned, it will be also linked here.
 
 **Version 0.1.0** is available soon (mid of February)
@@ -79,7 +79,7 @@ the functionality of the km271 gets more and more fantastic. I can now instruct 
 And since I have only 10 of my 50 modules left after a single month, time comes closer to update the hardware again and implement a simple onewire interface (as many people suggested). I'll add the hardware for the simple MCU-pin variant, but also to use an I2C-1wire-interface-IC from Maxim. The latter just produces way more clean 1-wire-signals, has Power-Pull-Up and therefore runs on way longer lines (to my experience). The drawback of the I2C solution is, that it is not yet integrated into ESPhome... Digging challenge accepted :-P
 
 **Sven published his firmware on [GitHub](https://github.com/dewenni/ESP_Buderus_KM271). It is really worth looking at it, since it also contains writing commands to the buderus heating system. Thanks so much Sven!!!**  
-  
+
 **[ESPhome Firmware](https://github.com/the78mole/esphome_components) also received georgeous updates from Sven, Jens and Bascht. They added the sensors finally, two write params and now it is easy to add more.**
 
 ## Motivation
@@ -266,25 +266,25 @@ When this was successful, disconnect your PCB again and continue with assembly. 
 switch:
   - platform: gpio
     name: LED1_Green
-    pin: 
+    pin:
       number: 21
       mode: OUTPUT
       inverted: true
   - platform: gpio
     name: LED2_Green
-    pin: 
+    pin:
       number: 22
       mode: OUTPUT
       inverted: true
   - platform: gpio
     name: LED3_Yellow
-    pin: 
+    pin:
       number: 23
       mode: OUTPUT
       inverted: true
   - platform: gpio
     name: LED4_Red
-    pin: 
+    pin:
       number: 25
       mode: OUTPUT
       inverted: true
@@ -364,7 +364,7 @@ From the current sources you should get the Buderus monologue from the log:
 0x8002: 'Vorlaufsolltemperatur HK1'       (Grad)
 0x8003: 'Vorlaufisttemperatur HK1'        (Grad)
 0x8004: 'Raumsolltemperatur HK1'          (Grad)
-0x8005: 'Raumisttemperatur HK1'           (Grad)   
+0x8005: 'Raumisttemperatur HK1'           (Grad)  
 0x8006: 'Einschaltoptimierungszeit HK1'
 0x8007: 'Ausschaltoptimierungszeit HK1'
 0x8008: 'Pumpenleistung HK1'              (Grad)

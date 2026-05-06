@@ -130,7 +130,7 @@ sensor:
       result += 0.002276316 * senstemp * senstemp;
       result += 0.00004773119 * senstemp * senstemp * senstemp;
       result += 0.0000005750658 * senstemp * senstemp * senstemp * senstemp;
-      return float(result); 
+      return float(result);
     on_value:
       then:
       - logger.log:
@@ -144,7 +144,7 @@ sensor:
     unit_of_measurement: "g/m³"
     id: esp32_nbkg_side_abs_humidity
     # it is forcefully updated by basement_tmp_exponential_approx
-    update_interval: never 
+    update_interval: never
     lambda: |-
       float tmp_exp, result, humid, temp;
       tmp_exp = id(basement_tmp_exponential_approx).state;
@@ -159,7 +159,7 @@ sensor:
             args: [ 'id(esp32_nbkg_side_temperature).state', \
                     'id(esp32_nbkg_side_rel_humidity).state', \
                     'id(basement_tmp_exponential_approx).state', \
-                    'id(esp32_nbkg_side_abs_humidity).state' ] 
+                    'id(esp32_nbkg_side_abs_humidity).state' ]
 ```
 
 If you want to prove the results, [here](https://rolfb.ch/projects/humidity-table/) you can find a table and a tool to calculate absolute humidity for tempreature vs. relative humidity. Here are some actual values of my sensor:

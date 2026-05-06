@@ -109,7 +109,7 @@ external_components:
 #    components: [ km271_wifi ]
   - source: github://the78mole/esphome_components@main
     components: [ km271_wifi ]
- 
+
 
 km271_wifi:
   - id: budoil
@@ -136,7 +136,7 @@ i2c:
 
 status_led:
   id: ledgn1
-  pin: 
+  pin:
     number: GPIO21
     inverted: true
 
@@ -156,7 +156,7 @@ select:
       - Dauerhaft ein (1)
       - Automatik (2)
     initial_option: Automatik (2)
-    set_action: 
+    set_action:
       - lambda:
           auto index = id(warmwasser_betriebsart).index_of(x);
           if (index.has_value()) {
@@ -216,24 +216,24 @@ sensor:
     filters:
       - multiply: 27.7317
       - throttle_average: 60s
-      
+
 switch:
   - platform: gpio
     name: LED2_Green
-    pin: 
+    pin:
       number: 22
       mode: OUTPUT
       inverted: true
   - platform: gpio
     name: LED3_Yellow
-    pin: 
+    pin:
       number: 17
 #     number: 23  # For 0.0.5
       mode: OUTPUT
       inverted: true
   - platform: gpio
     name: LED4_Red
-    pin: 
+    pin:
       number: 25
       mode: OUTPUT
       inverted: true

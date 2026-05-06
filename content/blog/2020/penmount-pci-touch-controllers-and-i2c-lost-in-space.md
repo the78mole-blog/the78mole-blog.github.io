@@ -36,8 +36,8 @@ xpos = ((buf << 8) | buf) * SCREEN_X_SIZE / 2048;
 ypos = ((buf << 8) | buf) * SCREEN_Y_SIZE / 2048;
 checksum = buf;
 
-for (int i = 0; i < 5; i++) 
-  total += buf; 
+for (int i = 0; i < 5; i++)
+  total += buf;
 
 if (checksum == (unsigned char) ~(total & 0xff))
   DO_SUCCESS_STUFF;

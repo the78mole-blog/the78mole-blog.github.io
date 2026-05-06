@@ -1,0 +1,48 @@
+repos:
+  # ── Standard file hygiene ─────────────────────────────────────────────────
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      # Remove trailing whitespace; preserve intentional 2-space MD line-breaks
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+
+      # Every text file ends with exactly one newline
+      - id: end-of-file-fixer
+
+      # Abort if merge-conflict markers (<<<, ===, >>>) are present
+      - id: check-merge-conflict
+
+      # Warn on files > 500 kB (keeps the repo lean; large images should be
+      # optimised before committing)
+      - id: check-added-large-files
+        args: [--maxkb=500]
+
+      # Validate JSON syntax (package.json, renovate.json, discussions/*.json …)
+      - id: check-json
+        # package-lock.json is auto-generated and huge – skip to save time
+        exclude: ^package-lock\.json$
+
+      # Validate YAML syntax (.pre-commit-config.yaml, publish.yml …)
+      - id: check-yaml
+
+      # Catch accidentally committed private keys / certificates
+      - id: detect-private-key
+
+      # Prevent file-name conflicts on case-insensitive file systems (macOS/Win)
+      # – important for GitHub Pages deployments
+      - id: check-case-conflict
+
+      # Enforce LF line endings across the whole repo
+      - id: mixed-line-ending
+        args: [--fix=lf]
+
+  # ── Blog-specific checks ──────────────────────────────────────────────────
+  - repo: local
+    hooks:
+      - id: check-blog-images
+        name: Check blog post images exist in public/
+        language: script
+        entry: scripts/check-blog-images.sh
+        types: [markdown]
+        files: ^content/

@@ -14,7 +14,7 @@ tags:
 
 My last post is quite some time ago, due to vacations and high workload. But now I encountered some problem within an embedded project, I want to share the solution with you. Continuously receive data using interrupts on UART is complicated (or even impossible) in HAL. Most approaches I found crawling the internet are using the LL library to achieve this and many discussions around HAL do not end in satisfaction. Some work around the problems with dirty approaches (e.g. changing the HAL code itself), other step back from interrupt and use a polling approach.
 
-To be honest, the high levels of HAL do not offer such a solution. Instead, it offers functions to receive a special amount of data using a non-blocking interrupt approach, handling all the difficulties with tracking the state in the instance stucture (huartX) and entering a callback for the diverse states of the reception/transmission, e.g.   
+To be honest, the high levels of HAL do not offer such a solution. Instead, it offers functions to receive a special amount of data using a non-blocking interrupt approach, handling all the difficulties with tracking the state in the instance stucture (huartX) and entering a callback for the diverse states of the reception/transmission, e.g.  
 `void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)` or  
 `void HAL_UART_RxHalfCpltCallback(UART_HandleTypeDef *huart)`
 
@@ -33,15 +33,15 @@ In the section of the appropriate instance in `void HAL_UART_MspInit(UART_Handle
 In stm32xxx\_it.c do:
 
 ```
-void USART3_IRQHandler(void)  {    
+void USART3_IRQHandler(void)  {  
     /* USER CODE BEGIN USART3_IRQn 0 */
     CallMyCodeHere();
-    return;  // To avoid calling the handler at all 
+    return;  // To avoid calling the handler at all
              // (in case you want to save the time)
     /* USER CODE END USART3_IRQn 0 */
     HAL_UART_IRQHandler(&huart3);
     /* USER CODE BEGIN USART3_IRQn 1 */
-    /* USER CODE END USART3_IRQn 1 */ 
+    /* USER CODE END USART3_IRQn 1 */
 }
 ```
 

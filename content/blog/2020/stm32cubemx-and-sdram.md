@@ -75,7 +75,7 @@ void MX_SDRAM1_InitSequence(uint32_t RefreshCount, uint32_t timeout)
   HAL_SDRAM_SendCommand(&hsdram1, &Command, timeout);
 
   /* Step 2: Insert 100 us minimum delay */
-  // Inserted delay is equal to 1 ms due to systick time base unit (ms) 
+  // Inserted delay is equal to 1 ms due to systick time base unit (ms)
   HAL_Delay(1);
 
   /* Step 3: Configure a PALL (precharge all) command */
@@ -117,17 +117,17 @@ Just to make it complete, here are the settings for FMC for the specific part, t
 ```
 hsdram1.Instance = FMC_SDRAM_DEVICE;
 
-/* hsdram1.Init */ 
-hsdram1.Init.SDBank             = FMC_SDRAM_BANK1; 
+/* hsdram1.Init */
+hsdram1.Init.SDBank             = FMC_SDRAM_BANK1;
 hsdram1.Init.ColumnBitsNumber   = FMC_SDRAM_COLUMN_BITS_NUM_8;
-hsdram1.Init.RowBitsNumber      = FMC_SDRAM_ROW_BITS_NUM_12; 
-hsdram1.Init.MemoryDataWidth    = FMC_SDRAM_MEM_BUS_WIDTH_32; 
-hsdram1.Init.InternalBankNumber = FMC_SDRAM_INTERN_BANKS_NUM_4; 
-hsdram1.Init.CASLatency         = FMC_SDRAM_CAS_LATENCY_1; 
-sdram1.Init.WriteProtection     = FMC_SDRAM_WRITE_PROTECTION_DISABLE; 
-hsdram1.Init.SDClockPeriod      = FMC_SDRAM_CLOCK_PERIOD_2; 
-hsdram1.Init.ReadBurst          = FMC_SDRAM_RBURST_DISABLE; 
-hsdram1.Init.ReadPipeDelay      = FMC_SDRAM_RPIPE_DELAY_0; 
+hsdram1.Init.RowBitsNumber      = FMC_SDRAM_ROW_BITS_NUM_12;
+hsdram1.Init.MemoryDataWidth    = FMC_SDRAM_MEM_BUS_WIDTH_32;
+hsdram1.Init.InternalBankNumber = FMC_SDRAM_INTERN_BANKS_NUM_4;
+hsdram1.Init.CASLatency         = FMC_SDRAM_CAS_LATENCY_1;
+sdram1.Init.WriteProtection     = FMC_SDRAM_WRITE_PROTECTION_DISABLE;
+hsdram1.Init.SDClockPeriod      = FMC_SDRAM_CLOCK_PERIOD_2;
+hsdram1.Init.ReadBurst          = FMC_SDRAM_RBURST_DISABLE;
+hsdram1.Init.ReadPipeDelay      = FMC_SDRAM_RPIPE_DELAY_0;
 
 /* SdramTiming */
 SdramTiming.LoadToActiveDelay    = 2;

@@ -34,7 +34,7 @@ To find the IP address of the running ploplinux. It will show somewhat like:
 ```
 > Nmap scan report for XYZ.fritz.box (192.168.1.30)   # Some other machine
 > Nmap scan report for 192.168.1.124                  # This is ploplinux
-> Nmap done: 256 IP addresses (39 hosts up) scanned in 7.85 seconds 
+> Nmap done: 256 IP addresses (39 hosts up) scanned in 7.85 seconds
 ```
 
 Then I logged in over SSH on 192.168.1.124 as root using `ploplinux` as the password and was able to do what I need.

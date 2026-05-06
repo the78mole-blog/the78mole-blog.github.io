@@ -30,7 +30,7 @@ discussion_number: 19
 >
 > Hast du irgendein Muster ausgemacht? Tritt das nur auf wenn dein Ölstand einen gewissen Pegel erreicht?
 >
-> Schau mal deinen Ölfilter an, wenn da zuviele Bläschen rausgedrückt werden dann liegt es daran dass er bei deinen Tanks irgendwo Luft zieht. 
+> Schau mal deinen Ölfilter an, wenn da zuviele Bläschen rausgedrückt werden dann liegt es daran dass er bei deinen Tanks irgendwo Luft zieht.
 >
 > Entweder die Dichtungen gehören gewechselt, und/oder aber die Ansaugstutzen in den Öltanks sind mit den Jahren porös geworden - alternativ ist die Leitung irgendwo undicht (müsste man aber sehen). Kann auch einfach nur Ölschlamm sein ... damals wurden meistens noch Tanks verbaut die Ansaugstutzen hatten die keinen Schwimmer integriert hatten - sprich Schläuche - deswegen auch die Frage nach dem Ölpegel.
 >
@@ -65,7 +65,7 @@ discussion_number: 19
 > **⭐⭐⭐⭐⭐**
 > *Great Project - I was looking for this!*
 >
-> I'm using FHEM right at the moment, but I like to switch to HA. The is a working implementation also for write the data. In fact, I can edit my heat programms. 
+> I'm using FHEM right at the moment, but I like to switch to HA. The is a working implementation also for write the data. In fact, I can edit my heat programms.
 >
 > https://fhem.de/commandref_modular.html#KM271
 
@@ -143,7 +143,7 @@ discussion_number: 19
 
 >> Hallo Henry,
 >>
->> leider ist alles an Bestand weg... 
+>> leider ist alles an Bestand weg...
 >>
 >> Ohne WLAN-Modul ist schwierig, da ich nur SMD-bestückte PCBs bestellt habe und keine unbestückten. Man könnte theoretisch natürlich einfach einen USB-serial-TTL-Konverter (5V-Pegel) an die Stiftleiste anhängen und die Spannungsversorgung der restlichen Schaltung nicht freischalten, aber das wäre eigentlich Verschwendung. Man kann aber auch ganz einfach den seriellen Port des ESP über TCP verfügbar machen: https://github.com/AlphaLima/ESP32-Serial-Bridge
 >>
@@ -418,7 +418,7 @@ discussion_number: 19
 
 ↳ **the78mole** – 2023-03-28
 
->> Vielen Dank für die Bewertung... 
+>> Vielen Dank für die Bewertung...
 >> Aber da sind noch viel mehr Sensoren in der Buderus versteckt :-) Sind nur nicht alle im YAML eingetragen, damit der Mensch vor dem Bildschirm nicht den Info-Overflow bekommt... Einfach mal ein wenig durch den SSource-Code der Komponente auf GitHub browsen (z.B. die const.py und die sensor.py), da tun sich unendliche Weiten auf.
 
 ---
@@ -545,7 +545,7 @@ discussion_number: 19
 > **⭐⭐⭐⭐⭐**
 > *Super umgesetzt und Dokumentiert*
 >
-> Cool wie du hier alles schön sauber dokumentiert hast. Fotos hätte ich zwar auch und auch etliches zu dokumentieren, aber ich bin ein Stick fauler Hund und Optik spielt bei mir nur eine untergeordnete Rolle. 
+> Cool wie du hier alles schön sauber dokumentiert hast. Fotos hätte ich zwar auch und auch etliches zu dokumentieren, aber ich bin ein Stick fauler Hund und Optik spielt bei mir nur eine untergeordnete Rolle.
 > Gefällt mir sehr gut wieviel Mühe du dir hier machst und wie akribische du deine Probleme löst.
 >
 > Nicht das ich deine Platine dringend bräuchte, aber die wird allein wegen dem Must have Faktor geordert.
@@ -615,7 +615,7 @@ discussion_number: 19
 > **⭐⭐⭐⭐⭐**
 > *Ich bin so froh über dieses Projekt!*
 >
-> Habe das Modul seit ein paar Monaten im Einsatz. Es funktioniert problemlos mit Home Assistant und meldet mir die Brennerstörung, die in der Übergangszeit gerne mal vorkommt. 
+> Habe das Modul seit ein paar Monaten im Einsatz. Es funktioniert problemlos mit Home Assistant und meldet mir die Brennerstörung, die in der Übergangszeit gerne mal vorkommt.
 > Da ich nicht so tief in der Elektronik stecke: wäre es möglich, einen digitalen Ausgang des ESP 32 für ein Relais zu verwenden? Ist da noch was frei? Damit würde ich gerne mit Hilfe eines aktuators die Störung quittieren.
 > Meine Alternative ist natürlich ein weiterer ESP, es wäre aber doch schöner, gleich den schon vorhandenen ESP zu verwenden.
 >
@@ -641,7 +641,7 @@ discussion_number: 19
 > **⭐⭐⭐⭐⭐**
 > *richtig cooles Projekt*
 >
-> Ich bin sehr begeistert über die Qualität und Professionalität des Moduls und der Software. Habe es in HA eingebunden und bin da dort dann noch einmal von den unzähligen Aktoren und Sensoren überrascht worden. Sehr interessante Daten und mittels Verlauf und Diagrammen gut geeignet für Optimierungen. 
+> Ich bin sehr begeistert über die Qualität und Professionalität des Moduls und der Software. Habe es in HA eingebunden und bin da dort dann noch einmal von den unzähligen Aktoren und Sensoren überrascht worden. Sehr interessante Daten und mittels Verlauf und Diagrammen gut geeignet für Optimierungen.
 > Ich wollte mir etwas Ähnliches selbst bauen und bin beim KM271 Research auf dieses Projekt gestoßen. Euer Projekt hat mir unzählige Stunden Arbeit abgenommen und es ist noch dazu viel besser umgesetzt, als ich es je hätte selbst bauen können. Danke
 
 ↳ **the78mole** – 2023-11-16
@@ -668,7 +668,7 @@ discussion_number: 19
 >>     lambda: !lambda |-
 >>       if(id(runtime1_minutes).state) {
 >>         return id(runtime1_minutes).state * (21.0 / 0.95) / 60.0;
->>       } 
+>>       }
 >>       return NAN;
 >>
 >>     filters:
@@ -787,7 +787,7 @@ discussion_number: 19
 > **⭐⭐⭐⭐⭐**
 > *Perfekt!*
 >
-> Was soll ich sagen, ausgepackt, eingesteckt, Wlan ausgewählt und es funktioniert. 
+> Was soll ich sagen, ausgepackt, eingesteckt, Wlan ausgewählt und es funktioniert.
 > Auch perfekt mit der Logomatic 2107 "ohne M".
 > Vielen Dank sp spare ich mir  den ständigen Weg in den Keller :-)
 
@@ -799,7 +799,7 @@ discussion_number: 19
 > *Danke, eine Frage zum flashen*
 >
 > Kann man auch über den eigebauten USB Stecker flashen oder braucht man die Pins auf dem Board+ CP2102 USB zu TTL Konverter?
-> Danke 
+> Danke
 > Markus
 
 ↳ **the78mole** – 2024-02-04
@@ -861,19 +861,19 @@ discussion_number: 19
 > **⭐⭐⭐⭐⭐**
 > *replace the BFU*
 >
-> Hello Daniel, 
+> Hello Daniel,
 >
-> I am very interrested in your KM271 replacement and I would like to install it on my Buderus 2107 (don't know if it is M or not, but I understand it works for both) and to integrate it with my existing Home Assistant set up. I am curently using a Buderus BFU Thernmostat and my quesstions at this point are as follows : 
+> I am very interrested in your KM271 replacement and I would like to install it on my Buderus 2107 (don't know if it is M or not, but I understand it works for both) and to integrate it with my existing Home Assistant set up. I am curently using a Buderus BFU Thernmostat and my quesstions at this point are as follows :
 >
-> - will I be able to replace the BFU and control the room temperature with Home assistant? 
+> - will I be able to replace the BFU and control the room temperature with Home assistant?
 >
-> - Can leave the BFU as is or will I need to disconnect it to avoid conflicts? 
+> - Can leave the BFU as is or will I need to disconnect it to avoid conflicts?
 >
-> - or perhaps can I leave the BFU and set it at a very low temprature to keep the contact open? 
+> - or perhaps can I leave the BFU and set it at a very low temprature to keep the contact open?
 >
-> Thank you for this and all the exellent work you have done on this topic. 
+> Thank you for this and all the exellent work you have done on this topic.
 >
-> Best regards, 
+> Best regards,
 >
 > Pierre Pichery
 
@@ -930,9 +930,9 @@ discussion_number: 19
 > **⭐⭐⭐⭐⭐**
 > *Wann gibt's neue Boards?*
 >
-> Hallo Daniel, 
+> Hallo Daniel,
 > wirklich ein schönes Projekt, vielen Dank! Kannst du schon abschätzen, wann es wieder neue Boards geben wird? Würde liebend gerne ein Board bei mir verbauen.
-> Viele Grüße 
+> Viele Grüße
 > Xaver
 
 ↳ **the78mole** – 2024-12-26
@@ -1101,7 +1101,7 @@ discussion_number: 19
 >
 > Hallo,
 >
-> ich hab seit ein paar Wochen das Modul in der Heizung und bin eigentlich begeistert nur gestern ist was "komisches" passiert... Ich hab an der "EDV" gebastelt und der WLan AP für das Modul war ca.1h weg... irgendwann ist dann bei 28°C Außentemperatur der Brenner angesprungen. Grund dafür gabs eigentlich keinen. 
+> ich hab seit ein paar Wochen das Modul in der Heizung und bin eigentlich begeistert nur gestern ist was "komisches" passiert... Ich hab an der "EDV" gebastelt und der WLan AP für das Modul war ca.1h weg... irgendwann ist dann bei 28°C Außentemperatur der Brenner angesprungen. Grund dafür gabs eigentlich keinen.
 >
 > Mir ist dann aufgefallen das das LCD Display der Heizungssteuerung "stufenweise" Kontrast verliert wenn das Km271 Modul kein WLAN findet?!? --> siehe Video: https://www.youtube.com/shorts/hDZSB68njl4
 >
@@ -1115,7 +1115,7 @@ discussion_number: 19
 >>
 >> Direkt am Senosr-Header Pins 1, 3, 5, 7 bieten sich an. Die Belegung steht auch auf der Unterseite des Moduls.
 >>
->> Man kann natürlich die Spannungsversorgung abgreifen. 
+>> Man kann natürlich die Spannungsversorgung abgreifen.
 >>
 >> Besser wäre das Thema in den GitHub-Discussions zum Modul aufgehoben ;-)
 
@@ -1154,7 +1154,7 @@ discussion_number: 19
 >
 > Hi,
 > ich habe das Modul heute in Betrieb genommen und in Home Assistent integriert. Zwei Sachen wundern mich gerade:
-> - die "KM217 5V Supply" wird zwischen 44,4 und 44,7 Volt angezeigt. Ist das nur ein Kommafehler? Dann wäre es aber auch zu wenig mit 4,4 Volt. 
+> - die "KM217 5V Supply" wird zwischen 44,4 und 44,7 Volt angezeigt. Ist das nur ein Kommafehler? Dann wäre es aber auch zu wenig mit 4,4 Volt.
 > - Das Modul ist über seine IP-Adresse nicht per http erreichbar, also auch keine OTA Update Möglichkeit.
 >
 > Hast du eine Idee dazu?
@@ -1223,10 +1223,10 @@ discussion_number: 19
 > In letzter Zeit bekomme ich beim Update-Versuch über ESPHome eine Fehlermeldung:
 > ...
 > Duplicate number entity with name 'Urlaubstemperatur' found. Each entity must have a unique name within its platform across all devices.
->   config_heating_circuit_2_holiday_target_temperature: 
+>   config_heating_circuit_2_holiday_target_temperature:
 >     name: Urlaubstemperatur
 > ...
-> In der Datei 
+> In der Datei
 >  [source /data/packages/040b63aa/components/km271_wifi/km271-for-friends.yaml:306]
 > ist die "Urlaubstemperatur" zweimal identisch für die zwei Heizkreise eingetragen.
 > Das hat zwar bisher kein Problem dargestellt. Aber die aktuelle Version von ESPHome scheint da etwas empfindlicher zu sein.
@@ -1238,7 +1238,7 @@ discussion_number: 19
 
 >> Hallo Johann,
 >>
->> ja, da hat sich ein Fehler eingeschlichen. Sollte aber jetzt behoben sein. Hab ich im Repo schon geändert. 
+>> ja, da hat sich ein Fehler eingeschlichen. Sollte aber jetzt behoben sein. Hab ich im Repo schon geändert.
 >>
 >> Siehe dazu auch:
 >>
@@ -1258,7 +1258,7 @@ discussion_number: 19
 >
 > Meine Frau hat ein wenig Bedenken wegen des Einbaus.
 >
-> Also effektiv ist es ein Plug and Play System oder? Also einbauen, anschließen und im Home Assistant Spaß haben. 
+> Also effektiv ist es ein Plug and Play System oder? Also einbauen, anschließen und im Home Assistant Spaß haben.
 >
 > Gibt es evtl. ein paar Einbauanleitungen für ein Buderus Logamatic irgendwo?
 >
@@ -1292,13 +1292,13 @@ discussion_number: 19
 
 >> Hallo Marcus,
 >>
->> ich betreibe leider keinen Öl- oder Gaszähler an meinem KM271-WiFi. Aber der Sensor-Header ist schomal der richtige Anschluss. Der Zähler ist meist ein potenzialfreier Kontakt. Hier nutzt man dann einfach einen GPIO mit einem Pull-Up (oder Pull-Down) und lässt diesen vom Zählerkontakt gegen Masse (oder +3V3) schalten. 
+>> ich betreibe leider keinen Öl- oder Gaszähler an meinem KM271-WiFi. Aber der Sensor-Header ist schomal der richtige Anschluss. Der Zähler ist meist ein potenzialfreier Kontakt. Hier nutzt man dann einfach einen GPIO mit einem Pull-Up (oder Pull-Down) und lässt diesen vom Zählerkontakt gegen Masse (oder +3V3) schalten.
 >>
 >> Ich weiß jetzt nicht genau, welche Version der Hardware Du im Einsatz hast. Seit 0.0.6 (und natürlich mit bestücktem Senosr-Header J6) sollte IO34/CH6 mit einem Pull-Up auf 3,3V ausgestattet sein. Dann müsstest Du den Zählerkontakt nur ziwschen Pin 3 (GND) und Pin 4 (CH6) hängen. Mit einem Multimeter könntest Du dann prüfen, ob der Pin in Ruhe auf 3,3V hängt und mit jedem Zählerimpuls kurz gegen Masse gezogen wird.
 >>
 >> Im ESPhome-YAML kannst Du dann den Pulse Meter verwenden, um das Ganze in eine entsprechende Menge (Energie) und Leistung (Durchfluss) umzurechnen: https://esphome.io/components/sensor/pulse_meter/
 >>
->> Mehr kann ich Dir da jetzt leider nicht helfen, da ich selbst Pulse Counter und Pulse Meter noch nicht eingesetzt habe. Das sollte aber nicht allzu schwierig sein. 
+>> Mehr kann ich Dir da jetzt leider nicht helfen, da ich selbst Pulse Counter und Pulse Meter noch nicht eingesetzt habe. Das sollte aber nicht allzu schwierig sein.
 >>
 >> Beste Grüße,
 >> Daniel
@@ -1331,10 +1331,10 @@ discussion_number: 19
 > *Klasse Projekt!*
 >
 > Hallo Daniel,
-> kannst du mir kurz sagen, wie ich ESPHome auf die neuste Version aktualisieren kann? 
+> kannst du mir kurz sagen, wie ich ESPHome auf die neuste Version aktualisieren kann?
 > Ist es mit der aktuellen Version möglich die Tag und Nachttemperaturen einzustellen?
 >
-> Danke und viele Grüße 
+> Danke und viele Grüße
 > Basti
 
 ↳ **the78mole** – 2026-02-15
