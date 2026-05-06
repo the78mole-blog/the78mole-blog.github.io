@@ -1,0 +1,31 @@
+{
+  "title": "Kommentare: FreeRTOS debugging on STM32 - CPU usage",
+  "category": "General",
+  "blog_post": {
+    "title": "FreeRTOS debugging on STM32 - CPU usage",
+    "wp_url": "https://the78mole.de/freertos-debugging-on-stm32-cpu-usage/",
+    "content_file": "content/blog/2020/freertos-debugging-on-stm32-cpu-usage.md",
+    "blog_url": "/blog/2020/freertos-debugging-on-stm32-cpu-usage"
+  },
+  "body": "Historische Kommentare aus WordPress, importiert aus dem alten Blog.\n\n**Ursprünglicher Post:** [FreeRTOS debugging on STM32 - CPU usage](https://the78mole.de/freertos-debugging-on-stm32-cpu-usage/)  \n**Neuer Post:** [/blog/2020/freertos-debugging-on-stm32-cpu-usage](/blog/2020/freertos-debugging-on-stm32-cpu-usage)",
+  "comments": [
+    {
+      "created_at": "2020-07-28T00:14:14",
+      "author": "Marc Lindahl",
+      "email": "marc@bowery.com",
+      "type": "comment",
+      "wp_id": "10",
+      "body": "One detail I would like to point out.  For the interrupt, it is more in line with the way the STM libraries work to replace the weak function HAL_TIM_PeriodElapsedCallback() with one in main.c and put your timer code in there.  Usually there is one already when using FreeRTOS, to avoid conflict with FreeRTOS using sysTick. For example:\n\n/**\n * @brief  Period elapsed callback in non blocking mode\n * @note   This function is called  when TIM6 interrupt took place, inside\n * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment\n * a global variable \"uwTick\" used as application time base.\n * @param  htim : TIM handle\n * @retval None\n */\nvoid HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)\n{\n /* USER CODE BEGIN Callback 0 */\n\n /* USER CODE END Callback 0 */\n if (htim-&gt;Instance == TIM6) {\n   HAL_IncTick();\n }\n /* USER CODE BEGIN Callback 1 */\n\n /* USER CODE END Callback 1 */\n}\n\nSo you would just add another test for instance TIM13 in your example and update your variable in HAL_TIM_PeriodElapsedCallback(). Thus only main.c need to be edited.  I hope this makes sense and is useful.   Again, than you so much for your post!",
+      "replies": [
+        {
+          "created_at": "2020-09-06T23:32:26",
+          "author": "themole",
+          "email": "me@the78mole.de",
+          "type": "comment",
+          "wp_id": "11",
+          "body": "Hi Marc,\n\nsorry for my late reply and the dealy in accepting your comment. It depends on the project settings in CubeMX, where the weak function gets replaced. In my generated code, it is in ..._it.c. But you are completely right, if you put in in main.c, the extarnal statement would not be necessary. In my opinion, both is quite clean.\n\nRegrads,\nDaniel"
+        }
+      ]
+    }
+  ]
+}

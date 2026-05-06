@@ -1,0 +1,47 @@
+{
+  "title": "Kommentare: Integrating wmBus devices into iobroker",
+  "category": "General",
+  "blog_post": {
+    "title": "Integrating wmBus devices into iobroker",
+    "wp_url": "https://the78mole.de/integrating-wmbus-devices-into-iobroker/",
+    "content_file": "content/blog/2019/integrating-wmbus-devices-into-iobroker.md",
+    "blog_url": "/blog/2019/integrating-wmbus-devices-into-iobroker"
+  },
+  "body": "Historische Kommentare aus WordPress, importiert aus dem alten Blog.\n\n**Ursprünglicher Post:** [Integrating wmBus devices into iobroker](https://the78mole.de/integrating-wmbus-devices-into-iobroker/)  \n**Neuer Post:** [/blog/2019/integrating-wmbus-devices-into-iobroker](/blog/2019/integrating-wmbus-devices-into-iobroker)",
+  "comments": [
+    {
+      "created_at": "2020-06-09T13:48:50",
+      "author": "Gabriel",
+      "email": "arnautug7@gmail.com",
+      "type": "comment",
+      "wp_id": "6",
+      "body": "Hi, why would you say the encryption of wmBus has some weaknesses?",
+      "replies": [
+        {
+          "created_at": "2020-06-16T20:12:33",
+          "author": "themole",
+          "email": "me@the78mole.de",
+          "type": "comment",
+          "wp_id": "7",
+          "body": "Hi Gabriel,\n\nhere you will find a very detailed analysis on the weaknesses:\nhttps://hackinparis.com/data/slides/2014/CyrillBrunschwiler.pdf\n\nBUT: The main weakness of wmBus lies not in the specification. It is quite some effort to break the encryption, if possible at all. Many property management companies tend to use unencrypted transfers (I see at least 100 unencrypted water meters around my home from Techem) or use a single encryption key for all of their meters or one for a house to save some effort during installation/configuration. I think, they simply lag an automated process for key deployment :-)\n\nHope this is what you asked for.\n\nRegards,\nDaniel"
+        },
+        {
+          "created_at": "2020-06-25T13:37:02",
+          "author": "Gabriel",
+          "email": "arnautug7@gmail.com",
+          "type": "comment",
+          "wp_id": "8",
+          "body": "*Antwort auf **themole**:*\n> Hi Gabriel,\n> \n> here you will find a very detailed analysis on the weaknesses:\n> …\n\n\nThanks for your answer. Techem is quite weird because the telegram that they send has a header that specifies the data is not encrypted, but just by looking at the data....it looks encrypted. Do you have some telegram examples from Techem? You can send them to arnautug7@gmail.com.\n\nThanks,\nGabriel"
+        }
+      ]
+    },
+    {
+      "created_at": "2020-06-26T14:37:05",
+      "author": "themole",
+      "email": "me@the78mole.de",
+      "type": "comment",
+      "wp_id": "9",
+      "body": "Hi Gabriel,\n\nas I already replied by Email, I can not provide some raw telegrams easily. But when I inspect the data in iobroker, it seems plausible. Some hot water meter shows 21 m³ for the current billing period and heat meters show Wh in a range that makes sense... I guess, your client does simply not interpret the data correctly. My experience is also with some of my own meters, that I could not decode it manually after decryption (when I tried to write some client code), but the wmBus library seems to do a better job here. It extracts even data that never made sense when I looked at the raw values.\n\nHope that helps a bit.\n\nRegards,\nDaniel"
+    }
+  ]
+}

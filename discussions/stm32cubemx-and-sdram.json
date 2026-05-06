@@ -1,0 +1,31 @@
+{
+  "title": "Kommentare: STM32CubeMX and SDRAM",
+  "category": "General",
+  "blog_post": {
+    "title": "STM32CubeMX and SDRAM",
+    "wp_url": "https://the78mole.de/stm32cubemx-and-sdram/",
+    "content_file": "content/blog/2020/stm32cubemx-and-sdram.md",
+    "blog_url": "/blog/2020/stm32cubemx-and-sdram"
+  },
+  "body": "Historische Kommentare aus WordPress, importiert aus dem alten Blog.\n\n**Ursprünglicher Post:** [STM32CubeMX and SDRAM](https://the78mole.de/stm32cubemx-and-sdram/)  \n**Neuer Post:** [/blog/2020/stm32cubemx-and-sdram](/blog/2020/stm32cubemx-and-sdram)",
+  "comments": [
+    {
+      "created_at": "2021-01-05T09:18:43",
+      "author": "Tim Howe",
+      "email": "timbly123@ntlworld.com",
+      "type": "comment",
+      "wp_id": "13",
+      "body": "Thanks for this.\nThe BSP for the STM32F429-DISCO board has a BSP_SDRAM_Init function that does this last part of the setup. Unfortunately the recent CubeMX tools generate code that works on the newer STM32F429I-DISC1 board but not the old STM32F429I-DISCO.\nI have spent a day and still dont know why the older board does not work!!! :o)",
+      "replies": [
+        {
+          "created_at": "2021-01-05T09:53:06",
+          "author": "themole",
+          "email": "me@the78mole.de",
+          "type": "comment",
+          "wp_id": "14",
+          "body": "Hi Tim,\nthanks for your comment.\nYou are totally right! I had the same experience than you. For the boards that got some HW update, CubeMX does not generate working code in some cases. I'm not sure, why they do not provide the ability to select the correct board in CubeMX. At least, they could raise a warning, when selecting one of those boards. But since we both now know the problem, we can cope with it ;-)\nRegards,\nDaniel"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "title": "Kommentare: Taking Your M-Bus To The Next Level... MQTT",
+  "category": "General",
+  "blog_post": {
+    "title": "Taking Your M-Bus To The Next Level... MQTT",
+    "wp_url": "https://the78mole.de/taking-your-m-bus-online-with-mqtt/",
+    "content_file": "content/blog/2021/taking-your-m-bus-online-with-mqtt.md",
+    "blog_url": "/blog/2021/taking-your-m-bus-online-with-mqtt"
+  },
+  "body": "Historische Kommentare aus WordPress, importiert aus dem alten Blog.\n\n**Ursprünglicher Post:** [Taking Your M-Bus To The Next Level... MQTT](https://the78mole.de/taking-your-m-bus-online-with-mqtt/)  \n**Neuer Post:** [/blog/2021/taking-your-m-bus-online-with-mqtt](/blog/2021/taking-your-m-bus-online-with-mqtt)",
+  "comments": [
+    {
+      "created_at": "2021-07-27T13:18:18",
+      "author": "Joël Stauber",
+      "email": "jostauber@gmail.com",
+      "type": "review",
+      "wp_id": "r1",
+      "body": "**⭐⭐⭐⭐⭐**\n*Taking Your M-Bus To The Next Level… MQTT article*\n\nHi,\n\nI have successfully integrated your approach (Taking Your M-Bus To The Next Level… MQTT article) to read data from my water meter, only when launching the read_send_meters_mqtt.sh script does the reading of the information take place not. I think my credentials are wrong. What value should I enter under MQTT_Host? This is the IP address of the broker with which I will receive the data (here Jeedom in a virtual machine) or is it the IP address of the Raspberry Pi with which I read the Mbus values? Same, which MQTT_User and MQTT_Pass values should I enter?\n\nThanks,\nJoël"
+    },
+    {
+      "created_at": "2022-01-07T21:07:39",
+      "author": "Fernando",
+      "email": "fapose@gmail.com",
+      "type": "review",
+      "wp_id": "r7",
+      "body": "**⭐⭐⭐⭐⭐**\n*Great tutorial!*\n\nI never thought I could read 8 M-bus meters in Homeassistant.\nThank you very much for this great job."
+    },
+    {
+      "created_at": "2022-01-26T22:50:36",
+      "author": "Martin",
+      "email": "braun.m@gmail.com",
+      "type": "review",
+      "wp_id": "r9",
+      "body": "**⭐⭐⭐⭐⭐**\n*Tolle Einführung, die mir sehr geholfen hat*\n\nIch habe mir erlaubt, dein Script etwas zu erweitern:\n#!/bin/bash \n\n# Code Basis stammt von https://the78mole.de/taking-your-m-bus-online-with-mqtt/\n# Ich habe es nur ergänzt um alle Datenfelden flexibel zum MQTT Server zu übertragen\n# Getestet nur mit einem Wärmezähler. Ich hoffe es felxibel genug auch für andere Geräte\n\n\nADDRESS_FILE=\"./addresses.txt\"\nBAUDRATE=2400\nDEVICE=/dev/ttyAMA0\nMQTT_HOST=HOSTNAME\nMQTT_USER=MQTT_USER\nMQTT_PASS=MQTT_PASSWORT\nMQTT_TOPIC=MQTT_TOPIC\n\n#Basis Informationen\nmodbus_array[0]=.MBusData.SlaveInformation.Id\nmodbus_array[1]=.MBusData.SlaveInformation.Manufacturer \nmodbus_array[2]=.MBusData.SlaveInformation.Version\nmodbus_array[3]=.MBusData.SlaveInformation.Status\n\n#----------------------------------------------------------\n\n\n\n \n\nwhile read ameter\ndo \necho -n \"Getting data from $ameter...\"\n    # The sed is for replacing the @ with _ to be able to match on it in HASS templates\n     METER_DATA=$(mbus-serial-request-data-multi-reply -b $BAUDRATE $DEVICE $ameter | xq . | sed -e 's/@/_/')\n      /usr/bin/mosquitto_pub -h $MQTT_HOST -u $MQTT_USER -P $MQTT_PASS \n        -t $MQTT_TOPIC/$ameter -m \"${METER_DATA}\"\n  \n BYTCNT=$(echo \"$METER_DATA\" | wc -c)\n    echo \"  $BYTCNT bytes sent\"\n\n\n# Basis Parameter auslesen\nfor Parameter in \"${modbus_array[@]}\"\ndo\n  ausgabe=$(echo $METER_DATA | jq \"$Parameter\" )\n  #Punkte in / konvertieren für mqtt\n  Parameter=$(echo $Parameter | sed -e 's!.!/!g') \n  /usr/bin/mosquitto_pub -h $MQTT_HOST -u $MQTT_USER -P $MQTT_PASS -t $MQTT_TOPIC/$ameter$Parameter -m \"$ausgabe\"\n  #Ausgabe des MQTT Pfades und Wertes \n  echo \"$MQTT_TOPIC/$ameter$Parameter -> $ausgabe\"\n\ndone\n\n#Schleife über alle Data Records\nfor row in $(echo $METER_DATA | jq '.MBusData.DataRecord | keys'); do\n\n\t#Leere Datenfelder am Anfang und Ende abfangen\n\tif [[ ${row} != \"[\" ]] && [[ ${row} != \"]\" ]]\n\tthen\n\t #Das Komma am Ende entfernen\n\t id=$(echo \"${row}\" | sed -e 's/,//')\n \n\t #Einen Int Wert daraus machen\n\t nummer=$((\"$id\"+0)) \n\n\t  #Alle Keys (Datenpunkte) auslesen\n\t\tfor name in $(echo $METER_DATA | jq \".MBusData.DataRecord[$nummer] | keys\"); do\n\t\n\t\t\t#Leere Datenfelder am Anfang und Ende abfangen\n\t\t\tif [[ ${name} != \"[\" ]] && [[ ${name} != \"]\" ]]\n\t\t\tthen\n\t\n\t\t\t\t# Ein paar Sonderzeichen aus dem Pfad entfernen\n\t\t\t\tpfad=\".MBusData.DataRecord[$nummer].${name}\"\n\t\t\t\tpfad=$(echo $pfad |  sed 's/\"//g')\t\n\t\t\t\tpfad=$(echo $pfad |  sed 's/,//g')\n\t\n\t\t\t\t#Den richtigen Wert aus dem json holen\n\t\t\t\twert=$(echo $METER_DATA | jq $pfad)\n\n\t\t\t\t#Umformatieren für eine MQTT Pfad\n\t\t\t\tpfad=$(echo $pfad |  sed 's/.///g')\n\t\t\t\tpfad=$(echo $pfad |  sed 's/[/_/g')\n\t\t\t\tpfad=$(echo $pfad |  sed 's/]//g')\n\t\t\t\t#Zum MQTT Server senden\n\t\t\t\t/usr/bin/mosquitto_pub -h $MQTT_HOST -u $MQTT_USER -P $MQTT_PASS -t $MQTT_TOPIC/$ameter$pfad -m \"$wert\"\n\t\t\t\techo \"$MQTT_TOPIC/$ameter$pfad --> $wert\"\n\t\t\n\t\t\tfi\n\n\t\tdone\n\n\n\tfi\n  \ndone\t\n\n\n\ndone < <(cat $ADDRESS_FILE)",
+      "replies": [
+        {
+          "created_at": "2022-01-26T22:50:36",
+          "author": "the78mole",
+          "email": "me@the78mole.de",
+          "type": "response",
+          "wp_id": "r9_response",
+          "body": "Hallo Martin,\n\nschön, dass es Dir geholfen und gefallen hat.\nDanke auch für die Verbesserungsvorschläge. Die werde ich mir mal genauer anschauen und einpflegen.\n\nGrüße,\nDaniel (the78mole)"
+        }
+      ]
+    },
+    {
+      "created_at": "2022-10-11T14:38:54",
+      "author": "Lutz",
+      "email": "fugazzy@me.com",
+      "type": "comment",
+      "wp_id": "27",
+      "body": "Hallo, danke für diese Inspiration. Ich würde das gerne an meinen Gas-Sensor anpassen, aber leider hängt es ein wenig, bei dem angepassten Script aus dem Kommentar.\nSo weit bin ich gekommen:\nmbus-serial-request-data-multi-reply -b 2400 /dev/ttyAMA0 10 | xq . | sed -e \"s/@/_/\"\n{\n  \"MBusData\": {\n    \"SlaveInformation\": {\n      \"Id\": \"40867341\",\n      \"Manufacturer\": \"ELS\",\n      \"Version\": \"37\",\n      \"ProductName\": null,\n      \"Medium\": \"Gas\",\n      \"AccessNumber\": \"9\",\n      \"Status\": \"00\",\n      \"Signature\": \"0000\"\n    },\n    \"DataRecord\": {\n      \"_id\": \"0\",\n      \"Function\": \"Instantaneous value\",\n      \"StorageNumber\": \"0\",\n      \"Unit\": \"Volume (m m^3)\",\n      \"Value\": \"1545810\",\n      \"Timestamp\": \"2022-10-11T10:56:38Z\"\n    }\n  }\n}\nMöglicherweise sind die Leerzeichen in den Werten ein Problem?\nHier die Debug-Ausgabe:\nmbusmeter/10///////////////////////////////// -&gt; \"00\"\n++ echo '{' '\"MBusData\":' '{' '\"SlaveInformation\":' '{' '\"Id\":' '\"40867341\",' '\"Manufacturer\":' '\"ELS\",' '\"Version\":' '\"37\",' '\"ProductName\":' null, '\"Medium\":' '\"Gas\",' '\"AccessNumber\":' '\"26\",' '\"Status\":' '\"00\",' '\"Signature\":' '\"0000\"' '},' '\"DataRecord\":' '{' '\"_id\":' '\"0\",' '\"Function\":' '\"Instantaneous' 'value\",' '\"StorageNumber\":' '\"0\",' '\"Unit\":' '\"Volume' '(m' 'm^3)\",' '\"Value\":' '\"1545810\",' '\"Timestamp\":' '\"2022-10-11T12:13:13Z\"' '}' '}' '}'\n++ jq '.MBusData.DataRecord | keys'\n+ for row in $(echo $METER_DATA | jq '.MBusData.DataRecord | keys')\n+ [[ [ != \\[ ]]\n+ for row in $(echo $METER_DATA | jq '.MBusData.DataRecord | keys')\n+ [[ \"Function\", != \\[ ]]\n+ [[ \"Function\", != \\] ]]\n++ echo '\"Function\",'\n++ sed -e s/,//\n+ id='\"Function\"'\n+ echo '\"Function\"'\n\"Function\"\n./rread_send_mbus_2_mqtt.sh: line 72: \"Function\"+0: syntax error: operand expected (error token is \"\"Function\"+0\")\n\nFür etwas Hilfe wäre ich sehr dankbar.\nGruss Lutz",
+      "replies": [
+        {
+          "created_at": "2022-10-11T19:42:58",
+          "author": "themole",
+          "email": "me@the78mole.de",
+          "type": "comment",
+          "wp_id": "28",
+          "body": "Hallo Lutz,\n\nmir fehlt da zugegebenermaßen ein wenig Information, z.B. Dein Script rread_send_mbus_2_mqtt.sh, das in Zeile 72 offenbar ein Problem enthält. Das Kommando \"keys\" sagt mir nichts und ich kann auch nicht erkennen, was das hier tun soll... Stopfe doch Dein komplettes Skript in https://pastebin.com/ und schicke hier den Link. Dann schaue ich es mir gerne mal an.\n\nGrüße,\nDaniel"
+        }
+      ]
+    },
+    {
+      "created_at": "2022-11-13T22:12:55",
+      "author": "Bucky2k",
+      "email": "bucky2k@web.de",
+      "type": "review",
+      "wp_id": "r13",
+      "body": "**⭐⭐⭐⭐⭐**\n*Super Start, leider fehlt es noch an ein/zwei Kleinigkeiten bis zum Ziel*\n\nHi,\n\nnach deiner Anleitung komme ich bis zur Ausführung des bash mit Fehlermeldungen. Als eine erste Anpassung war die SED von: ... | sed -e \"s/@/_/) auf  ... | sed -e 's/@/_/') nötig, damit kein Fehlernder quote bemängelt wurde. Aber nun komme ich bis zu dieser Fehlermeldung bei der Ausführung des bash:\n\njq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 1:\n{ \njq: error: May need parentheses around object key expression at , line 1:\n{ \njq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 2:\n        id          : .MBusData.SlaveInformation.Id, \njq: error: May need parentheses around object key expression at , line 2:\n        id          : .MBusData.SlaveInformation.Id, \njq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 3:\n        manufacturer: .MBusData.SlaveInformation.Manufacturer,                                                            \njq: error: May need parentheses around object key expression at , line 3:\n        manufacturer: .MBusData.SlaveInformation.Manufacturer,                                                            \njq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 4:\n        medium      : .MBusData.SlaveInformation.Medium, \njq: error: May need parentheses around object key expression at , line 4:\n        medium      : .MBusData.SlaveInformation.Medium, \njq: 8 compile errors\nxq: Error running jq: ExpatError: not well-formed (invalid token): line 1, column 0.\n+ read ameter\n\n\nWas könnte mir noch zu meinem Glück fehlen? \n\nDanke\n\nBucky",
+      "replies": [
+        {
+          "created_at": "2022-11-13T22:12:55",
+          "author": "the78mole",
+          "email": "me@the78mole.de",
+          "type": "response",
+          "wp_id": "r13_response",
+          "body": "Hi Bucky,\nbei mir hat tatsächlich das abschließende \" gefehlt. In der Shell musst Du aber etwas aufpassen, da sind ' nicht ganz identisch mit \". \nVersuche es doch bitte nochmal mit sed -e \"s/@/_/\"\nLeider kann ich hier in der Antwort keinen Code formatieren... Die Anführungszeichen springen deswegen am Wortanfang nach unten, aber im Artikel ist es jetzt korrekt im Code-Listing drin.\nGrüße,\nDaniel (the78mole)"
+        }
+      ]
+    },
+    {
+      "created_at": "2023-02-15T18:04:56",
+      "author": "Mariusz",
+      "email": "papuga2000@wp.pl",
+      "type": "review",
+      "wp_id": "r22",
+      "body": "**⭐⭐⭐⭐⭐**\n*MQTT problem*\n\nHi\n\nI have a problem with this script:\n\n Wed 15 Feb 18:02:23 CET 2023\nSending data to host 192.168.1.151 as user 'mqttbroker' using topic 'mbusmeters/'.\nGetting data from 0025244901061507...  2875 bytes sent\njq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 1:\n{ \njq: error: May need parentheses around object key expression at , line 1:\n{ \njq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 2:\n        id          : .MBusData.SlaveInformation.Id, \njq: error: May need parentheses around object key expression at , line 2:\n        id          : .MBusData.SlaveInformation.Id, \njq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 3:\n        manufacturer: .MBusData.SlaveInformation.Manufacturer,                                              \njq: error: May need parentheses around object key expression at , line 3:\n        manufacturer: .MBusData.SlaveInformation.Manufacturer,                                              \njq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at , line 4:\n        medium      : .MBusData.SlaveInformation.Medium,                                                    \njq: error: May need parentheses around object key expression at , line 4:\n        medium      : .MBusData.SlaveInformation.Medium,                                                    \njq: 8 compile errors\npi@raspberrypi:~/bin $",
+      "replies": [
+        {
+          "created_at": "2023-02-15T18:04:56",
+          "author": "the78mole",
+          "email": "me@the78mole.de",
+          "type": "response",
+          "wp_id": "r22_response",
+          "body": "Hi Mariusz,\n\nI already andwered this problem in another comment from Bucky (in German)...\n\nTry it with: sed -e „s/@/_/“\n\nUnfortunately, the quotes here in the comment are low and high. In the script they should both be \"\n\nHope this helps. \n\nRegards,\nyour mole :-)"
+        }
+      ]
+    },
+    {
+      "created_at": "2023-02-17T21:49:42",
+      "author": "Mariusz",
+      "email": "papuga2000@wp.pl",
+      "type": "review",
+      "wp_id": "r23",
+      "body": "**⭐⭐⭐⭐⭐**\n*Mariusz*\n\nHi\n\nI was able to run the script that gave me this error replacing ' with \" at this point\n\necho \"$METER_DATA\" | jq '{ \n        id          : .MBusData.SlaveInformation.Id, \n        manufacturer: .MBusData.SlaveInformation.Manufacturer, \n        medium      : .MBusData.SlaveInformation.Medium, \n        records     : .MBusData.DataRecord | length  }'\n\nI don't know if it's correct but it works",
+      "replies": [
+        {
+          "created_at": "2023-02-17T21:49:42",
+          "author": "the78mole",
+          "email": "me@the78mole.de",
+          "type": "response",
+          "wp_id": "r23_response",
+          "body": "Hi Mariusz,\nyou mean, the ' after jq?\nRegards,\nDaniel"
+        }
+      ]
+    },
+    {
+      "created_at": "2026-01-01T23:50:10",
+      "author": "Lucki",
+      "email": "mbus@pakalu.de",
+      "type": "review",
+      "wp_id": "r69",
+      "body": "**⭐⭐⭐⭐⭐**\n*Vielen Dank für deine Veröffentlichung :-)*\n\nHallo Daniel,\n\nfolgende Fehlermeldung bekomme ich:\n\nGetting data xxxxxx.../bin/read_send_meters_mqtt.sh: line 23: mbus-serial-request-data-multi-reply: >\n/bin/read_send_meters_mqtt.sh: line 23: xq: command not found\n  1 bytes sent\n/bin/sh: 1: root: not found\n\nHat du / einer eine Idee??\n\nVielen Dank vorab......\n\nGruß Lucki",
+      "replies": [
+        {
+          "created_at": "2026-01-01T23:50:10",
+          "author": "the78mole",
+          "email": "me@the78mole.de",
+          "type": "response",
+          "wp_id": "r69_response",
+          "body": "Hallo Lucki,\ndas Problem steht ja im Klartext da, xq ist nicht installiert...\nBeste Grüße,\nDaniel"
+        }
+      ]
+    }
+  ]
+}
