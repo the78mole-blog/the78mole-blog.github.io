@@ -1,0 +1,468 @@
+[
+	{
+		"id": "3079ee36.02c2d2",
+		"type": "tab",
+		"label": "Oilfox",
+		"disabled": false,
+		"info": ""
+	},
+	{
+		"id": "a211bae9.c4bc88",
+		"type": "change",
+		"z": "3079ee36.02c2d2",
+		"name": "Befehl: Tokenabruf ",
+		"rules": [
+			{
+				"t": "set",
+				"p": "payload",
+				"pt": "msg",
+				"to": "{\"email\":\"MY_EMAIL\",\"password\":\"MYPASS\"}",
+				"tot": "json"
+			},
+			{
+				"t": "set",
+				"p": "headers",
+				"pt": "msg",
+				"to": "{\"Content-Type\":\"application/json\"}",
+				"tot": "json"
+			}
+		],
+		"action": "",
+		"property": "",
+		"from": "",
+		"to": "",
+		"reg": false,
+		"x": 330,
+		"y": 40,
+		"wires": [
+			[
+				"a8d341648efcb13b"
+			]
+		]
+	},
+	{
+		"id": "c376eaa0f7c9dc9f",
+		"type": "debug",
+		"z": "3079ee36.02c2d2",
+		"name": "curl",
+		"active": false,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "true",
+		"targetType": "full",
+		"statusVal": "",
+		"statusType": "auto",
+		"x": 790,
+		"y": 40,
+		"wires": []
+	},
+	{
+		"id": "a8d341648efcb13b",
+		"type": "www-request",
+		"z": "3079ee36.02c2d2",
+		"name": "Login",
+		"method": "POST",
+		"ret": "txt",
+		"url": "https://api.oilfox.io/v3/login",
+		"follow-redirects": true,
+		"persistent-http": true,
+		"tls": "",
+		"x": 530,
+		"y": 40,
+		"wires": [
+			[
+				"c376eaa0f7c9dc9f",
+				"e26c9ba4042d6762"
+			]
+		]
+	},
+	{
+		"id": "e26c9ba4042d6762",
+		"type": "json",
+		"z": "3079ee36.02c2d2",
+		"name": "Token parsing",
+		"property": "payload",
+		"action": "",
+		"pretty": true,
+		"x": 140,
+		"y": 120,
+		"wires": [
+			[
+				"be5e9539112e31bc"
+			]
+		]
+	},
+	{
+		"id": "4d3699a8c494fd22",
+		"type": "debug",
+		"z": "3079ee36.02c2d2",
+		"name": "Token",
+		"active": false,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "true",
+		"targetType": "full",
+		"statusVal": "",
+		"statusType": "auto",
+		"x": 790,
+		"y": 120,
+		"wires": []
+	},
+	{
+		"id": "be5e9539112e31bc",
+		"type": "change",
+		"z": "3079ee36.02c2d2",
+		"name": "Headers & Auth",
+		"rules": [
+			{
+				"t": "set",
+				"p": "headers",
+				"pt": "msg",
+				"to": "{\t  \"Authorization\" : payload.token_type & \" \" & payload.access_token,\t  \"Content-Type\" : \"application/json\"\t}",
+				"tot": "jsonata"
+			},
+			{
+				"t": "delete",
+				"p": "payload",
+				"pt": "msg"
+			}
+		],
+		"action": "",
+		"property": "",
+		"from": "",
+		"to": "",
+		"reg": false,
+		"x": 340,
+		"y": 120,
+		"wires": [
+			[
+				"4d3699a8c494fd22",
+				"7a4956b43451d665"
+			]
+		]
+	},
+	{
+		"id": "7a4956b43451d665",
+		"type": "www-request",
+		"z": "3079ee36.02c2d2",
+		"name": "Get Summary",
+		"method": "GET",
+		"ret": "txt",
+		"url": "https://api.oilfox.io/v4/summary",
+		"follow-redirects": true,
+		"persistent-http": true,
+		"tls": "",
+		"x": 140,
+		"y": 180,
+		"wires": [
+			[
+				"596c4fad6ca9bae1"
+			]
+		]
+	},
+	{
+		"id": "e90d148f71e213d8",
+		"type": "debug",
+		"z": "3079ee36.02c2d2",
+		"name": "Summary",
+		"active": true,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "true",
+		"targetType": "full",
+		"statusVal": "",
+		"statusType": "auto",
+		"x": 800,
+		"y": 180,
+		"wires": []
+	},
+	{
+		"id": "596c4fad6ca9bae1",
+		"type": "json",
+		"z": "3079ee36.02c2d2",
+		"name": "Summary parsing",
+		"property": "payload",
+		"action": "",
+		"pretty": true,
+		"x": 350,
+		"y": 180,
+		"wires": [
+			[
+				"e90d148f71e213d8",
+				"30ad094c16f55860"
+			]
+		]
+	},
+	{
+		"id": "70ee284899ec8fbf",
+		"type": "ha-entity",
+		"z": "3079ee36.02c2d2",
+		"name": "OilFox Fill Percentage",
+		"server": "fbb2f3e2.d6216",
+		"version": 1,
+		"debugenabled": false,
+		"outputs": 1,
+		"entityType": "sensor",
+		"config": [
+			{
+				"property": "name",
+				"value": "OilFox Fill Percentage"
+			},
+			{
+				"property": "device_class",
+				"value": "mdi:oil-level"
+			},
+			{
+				"property": "icon",
+				"value": ""
+			},
+			{
+				"property": "unit_of_measurement",
+				"value": "%"
+			}
+		],
+		"state": "payload.devices[0].lastMetering.fillingPercentage",
+		"stateType": "msg",
+		"attributes": [],
+		"resend": true,
+		"outputLocation": "",
+		"outputLocationType": "none",
+		"inputOverride": "allow",
+		"outputOnStateChange": false,
+		"outputPayload": "$entity().state ? \"on\": \"off\"",
+		"outputPayloadType": "jsonata",
+		"x": 590,
+		"y": 260,
+		"wires": [
+			[
+				"c952810034ee570c"
+			]
+		]
+	},
+	{
+		"id": "c952810034ee570c",
+		"type": "debug",
+		"z": "3079ee36.02c2d2",
+		"name": "Entity Percent",
+		"active": true,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "true",
+		"targetType": "full",
+		"statusVal": "",
+		"statusType": "auto",
+		"x": 820,
+		"y": 260,
+		"wires": []
+	},
+	{
+		"id": "30ad094c16f55860",
+		"type": "change",
+		"z": "3079ee36.02c2d2",
+		"name": "Assemble Attributes",
+		"rules": [
+			{
+				"t": "set",
+				"p": "attributes",
+				"pt": "msg",
+				"to": "payload.devices[0].lastMetering",
+				"tot": "msg"
+			}
+		],
+		"action": "",
+		"property": "",
+		"from": "",
+		"to": "",
+		"reg": false,
+		"x": 160,
+		"y": 260,
+		"wires": [
+			[
+				"70ee284899ec8fbf",
+				"c8e92e49b96784bf"
+			]
+		]
+	},
+	{
+		"id": "ec1a249b0e7cfca4",
+		"type": "ha-entity",
+		"z": "3079ee36.02c2d2",
+		"name": "OilFox Fill Liters",
+		"server": "fbb2f3e2.d6216",
+		"version": 1,
+		"debugenabled": false,
+		"outputs": 1,
+		"entityType": "sensor",
+		"config": [
+			{
+				"property": "name",
+				"value": "OilFox Fill Liters"
+			},
+			{
+				"property": "device_class",
+				"value": ""
+			},
+			{
+				"property": "icon",
+				"value": ""
+			},
+			{
+				"property": "unit_of_measurement",
+				"value": "l"
+			}
+		],
+		"state": "payload.devices[0].lastMetering.liters",
+		"stateType": "msg",
+		"attributes": [
+			{
+				"property": "value",
+				"value": "attributes.value",
+				"valueType": "msg"
+			},
+			{
+				"property": "quantity",
+				"value": "attributes.quantity",
+				"valueType": "msg"
+			},
+			{
+				"property": "server date",
+				"value": "attributes.serverDate",
+				"valueType": "msg"
+			},
+			{
+				"property": "battery",
+				"value": "attributes.battery",
+				"valueType": "msg"
+			},
+			{
+				"property": "validity",
+				"value": "attributes.validity",
+				"valueType": "msg"
+			},
+			{
+				"property": "oil height",
+				"value": "attributes.currentOilHeight",
+				"valueType": "msg"
+			},
+			{
+				"property": "fill height cm",
+				"value": "attributes.fillHeightCm",
+				"valueType": "msg"
+			},
+			{
+				"property": "unit",
+				"value": "attributes.unit",
+				"valueType": "msg"
+			},
+			{
+				"property": "server datetime",
+				"value": "attributes.date",
+				"valueType": "msg"
+			}
+		],
+		"resend": true,
+		"outputLocation": "",
+		"outputLocationType": "none",
+		"inputOverride": "allow",
+		"outputOnStateChange": false,
+		"outputPayload": "$entity().state ? \"on\": \"off\"",
+		"outputPayloadType": "jsonata",
+		"x": 570,
+		"y": 320,
+		"wires": [
+			[
+				"b828611b0ad5db4d"
+			]
+		]
+	},
+	{
+		"id": "b828611b0ad5db4d",
+		"type": "debug",
+		"z": "3079ee36.02c2d2",
+		"name": "Entity Liters",
+		"active": true,
+		"tosidebar": true,
+		"console": false,
+		"tostatus": false,
+		"complete": "true",
+		"targetType": "full",
+		"statusVal": "",
+		"statusType": "auto",
+		"x": 810,
+		"y": 320,
+		"wires": []
+	},
+	{
+		"id": "172dd5ad1cc0ba20",
+		"type": "cronplus",
+		"z": "3079ee36.02c2d2",
+		"name": "4 Hourly",
+		"outputField": "timestamp",
+		"timeZone": "",
+		"persistDynamic": false,
+		"commandResponseMsgOutput": "output2",
+		"outputs": 2,
+		"options": [
+			{
+				"name": "Hourly",
+				"topic": "Timestamp",
+				"payloadType": "date",
+				"payload": "",
+				"expressionType": "cron",
+				"expression": "0 0 */4 * * *",
+				"location": "",
+				"offset": "0",
+				"solarType": "all",
+				"solarEvents": "sunrise,sunset"
+			}
+		],
+		"x": 120,
+		"y": 40,
+		"wires": [
+			[
+				"a211bae9.c4bc88"
+			],
+			[]
+		]
+	},
+	{
+		"id": "c8e92e49b96784bf",
+		"type": "moment",
+		"z": "3079ee36.02c2d2",
+		"name": "Stamp2Date",
+		"topic": "Timestamp",
+		"input": "attributes.serverDate",
+		"inputType": "msg",
+		"inTz": "Europe/Berlin",
+		"adjAmount": "0",
+		"adjType": "minutes",
+		"adjDir": "add",
+		"format": "YYYY-MM-DD HH:mm",
+		"locale": "C",
+		"output": "attributes.date",
+		"outputType": "msg",
+		"outTz": "Europe/Berlin",
+		"x": 370,
+		"y": 320,
+		"wires": [
+			[
+				"ec1a249b0e7cfca4"
+			]
+		]
+	},
+	{
+		"id": "fbb2f3e2.d6216",
+		"type": "server",
+		"name": "Home Assistant",
+		"version": 1,
+		"addon": true,
+		"rejectUnauthorizedCerts": true,
+		"ha_boolean": "y|yes|true|on|home|open",
+		"connectionDelay": true,
+		"cacheJson": true
+	}
+]

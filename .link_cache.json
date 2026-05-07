@@ -1,0 +1,1762 @@
+{
+  "https://letsencrypt.org/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:36.289988+00:00",
+    "reason": ""
+  },
+  "https://en.wikipedia.org/wiki/Design_Thinking": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:36.347181+00:00",
+    "reason": ""
+  },
+  "https://nodejs.org/en/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:36.370951+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/scripts/tree/master/linux/bash": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:36.705869+00:00",
+    "reason": ""
+  },
+  "https://pragprog.com/book/jgade/test-driven-development-for-embedded-c": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:36.784625+00:00",
+    "reason": ""
+  },
+  "https://www.eq-3.com/start.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:36.920517+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/stm32-example": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.064684+00:00",
+    "reason": ""
+  },
+  "https://www.elv.de/homematic-8-kanal-sendemodul.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.201322+00:00",
+    "reason": ""
+  },
+  "https://releases.linaro.org/components/toolchain/binaries/latest-5/arm-linux-gnueabi/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.230043+00:00",
+    "reason": ""
+  },
+  "https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc/releases": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.314533+00:00",
+    "reason": ""
+  },
+  "https://chocolatey.org/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.364274+00:00",
+    "reason": ""
+  },
+  "https://confluence.atlassian.com/adminjiracloud/adding-editing-and-deleting-an-issue-type-844500747.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.391692+00:00",
+    "reason": ""
+  },
+  "https://www.msys2.org/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.408045+00:00",
+    "reason": ""
+  },
+  "https://tools.ietf.org/html/rfc2549": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.498398+00:00",
+    "reason": ""
+  },
+  "https://blog.hambier.lu/post/space-saving-backup": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.618636+00:00",
+    "reason": ""
+  },
+  "https://www.plop.at/de/ploplinux/index.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.636706+00:00",
+    "reason": ""
+  },
+  "https://developer.arm.com/open-source/gnu-toolchain/gnu-rm": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.811530+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/scripts/blob/master/linux/bash/schedule_compile.sh": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.846604+00:00",
+    "reason": ""
+  },
+  "https://marketplace.atlassian.com/apps/6820/scriptrunner-for-jira": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.920305+00:00",
+    "reason": ""
+  },
+  "https://www.tldp.org/HOWTO/html_single/SquashFS-HOWTO/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:37.922330+00:00",
+    "reason": ""
+  },
+  "https://www.hardkernel.com/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.243160+00:00",
+    "reason": ""
+  },
+  "https://thomas-leister.de/ca-zertifikat-importieren-linux-windows/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.357175+00:00",
+    "reason": ""
+  },
+  "https://www.hardkernel.com/shop/odroid-h2/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.379123+00:00",
+    "reason": ""
+  },
+  "https://www.github.com/ceph/ceph": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.405803+00:00",
+    "reason": ""
+  },
+  "https://blog.the78mole.de/compile-ceph-mimic-on-arm-32-bit/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.423416+00:00",
+    "reason": ""
+  },
+  "https://manuals.gfi.com/en/kerio/connect/content/server-configuration/ssl-certificates/adding-trusted-root-certificates-to-the-server-1605.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.500798+00:00",
+    "reason": ""
+  },
+  "https://www.hardkernel.com/shop/dc-plug-cable-assembly-5-5mm-l-type/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.595812+00:00",
+    "reason": ""
+  },
+  "https://reinout.vanrees.org/weblog/2017/05/02/https-behind-proxy.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.636970+00:00",
+    "reason": ""
+  },
+  "https://www.allpcb.com/setinvite.aspx?inviteid=41374&url=https://www.allpcb.com/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.705451+00:00",
+    "reason": ""
+  },
+  "https://www.influxdata.com/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.768952+00:00",
+    "reason": ""
+  },
+  "https://gist.github.com/Soarez/9688998": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.851677+00:00",
+    "reason": ""
+  },
+  "http://www.iobroker.net/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.870400+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/wmbus-meters-and-how-to-get-it-into-home-assistant/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.914104+00:00",
+    "reason": ""
+  },
+  "https://www.iobroker.net/docu/index-24.htm?page_id=3068&lang=de": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:38.922127+00:00",
+    "reason": ""
+  },
+  "https://blog.the78mole.de/taking-your-m-bus-online-with-mqtt/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.013765+00:00",
+    "reason": ""
+  },
+  "https://yarnpkg.com/en/docs/install#debian-stable": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.065976+00:00",
+    "reason": ""
+  },
+  "https://influxdb.phys.ethz.ch/backup_restore.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.184425+00:00",
+    "reason": ""
+  },
+  "https://wiki.debian.org/DebianRepository/SetupWithReprepro": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.222949+00:00",
+    "reason": ""
+  },
+  "https://golang.org/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.256344+00:00",
+    "reason": ""
+  },
+  "https://www.wireless-solutions.de/products/gateways/wirelessadapter.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.337103+00:00",
+    "reason": ""
+  },
+  "https://platformio.org/install/ide?install=vscode": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.481100+00:00",
+    "reason": ""
+  },
+  "https://github.com/influxdata/chronograf": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.497957+00:00",
+    "reason": ""
+  },
+  "https://stackoverflow.com/questions/18215463/how-to-set-a-favicon-for-doxygen-output": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.568226+00:00",
+    "reason": ""
+  },
+  "https://www.hetzner.com": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.638311+00:00",
+    "reason": ""
+  },
+  "https://wiki.hetzner.de/index.php/Hetzner_Rescue-System": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.841139+00:00",
+    "reason": ""
+  },
+  "https://github.com/ISFH/ioBroker.wmbus": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.873050+00:00",
+    "reason": ""
+  },
+  "https://blog.the78mole.de/schools-out-how-to-tame-your-children/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.879008+00:00",
+    "reason": ""
+  },
+  "http://github.com/soef/ioBroker.wm-bus": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:39.902357+00:00",
+    "reason": ""
+  },
+  "http://github.com/weetmuts/wmbusmeters": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.002935+00:00",
+    "reason": ""
+  },
+  "https://www.tekmodul.de/produkt/im871a-usb/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.067937+00:00",
+    "reason": ""
+  },
+  "https://borgbackup.readthedocs.io/en/stable/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.122003+00:00",
+    "reason": ""
+  },
+  "http://thingiverse.com": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.211573+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/doxygen": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.348890+00:00",
+    "reason": ""
+  },
+  "https://www.thingiverse.com/the78mole": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.351019+00:00",
+    "reason": ""
+  },
+  "https://docs.moodle.org/38/en/Installing_Moodle": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:49.242939+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2020/schools-out-how-to-tame-your-children.md"
+    ]
+  },
+  "https://www.hetzner.de/dedicated-rootserver/ex42-nvme": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.399665+00:00",
+    "reason": ""
+  },
+  "https://docs.moodle.org/38/de/Installation_von_Moodle": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:49.915581+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2020/schools-out-how-to-tame-your-children.md"
+    ]
+  },
+  "https://moodle.org/?lang=de": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.552218+00:00",
+    "reason": ""
+  },
+  "https://github.com/torvalds/linux/blob/master/drivers/input/touchscreen/penmount.c": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.724307+00:00",
+    "reason": ""
+  },
+  "https://blog.the78mole.de/installing-bigbluebutton-on-your-dedicated-server/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.805981+00:00",
+    "reason": ""
+  },
+  "https://moodlecloud.com/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.871051+00:00",
+    "reason": ""
+  },
+  "https://en.wikipedia.org/wiki/Sbrk": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.883034+00:00",
+    "reason": ""
+  },
+  "https://youtu.be/3z0gnXgK8Do": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:40.949917+00:00",
+    "reason": ""
+  },
+  "https://moodle.org/plugins/mod_openmeetings": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.037117+00:00",
+    "reason": ""
+  },
+  "https://blog.the78mole.de/stm32-uart-continuous-receive-with-interrupt/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.047067+00:00",
+    "reason": ""
+  },
+  "https://blog.the78mole.de/esp32-evb-platformio-and-esp-idf-yet-another-esp32-tutorial/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.165583+00:00",
+    "reason": ""
+  },
+  "https://github.com/mpaland/printf": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.240849+00:00",
+    "reason": ""
+  },
+  "https://community.st.com/s/question/0D50X0000BB1eL7SQJ/bug-cubemx-freertos-projects-corrupt-memory": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.258654+00:00",
+    "reason": ""
+  },
+  "https://docs.platformio.org/en/latest/platforms/espressif32.html#embedding-binary-data": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.297699+00:00",
+    "reason": ""
+  },
+  "https://docs.platformio.org/en/latest/platforms/espressif32.html#partition-tables": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.300371+00:00",
+    "reason": ""
+  },
+  "https://angular.io/guide/setup-local": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.408160+00:00",
+    "reason": ""
+  },
+  "https://fonts.googleapis.com/icon?family=Material+Icons": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.433053+00:00",
+    "reason": ""
+  },
+  "https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.438867+00:00",
+    "reason": ""
+  },
+  "https://www.epexspot.com/en": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:51.339358+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2021/eex-epex-spot-and-the-real-net-intransparency.md"
+    ]
+  },
+  "https://energy-charts.info/charts/price_spot_market/chart.htm?l=de&c=DE": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.450407+00:00",
+    "reason": ""
+  },
+  "http://www.nadler.com/embedded/newlibAndFreeRTOS.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.551285+00:00",
+    "reason": ""
+  },
+  "https://energy-charts.info/charts/price_spot_market/chart.htm?l=de&c=DE&legendItems=0000100000000&interval=year": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.589508+00:00",
+    "reason": ""
+  },
+  "https://www.ise.fraunhofer.de/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.631012+00:00",
+    "reason": ""
+  },
+  "https://webshop.eex-group.com/": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:52.042396+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2021/eex-epex-spot-and-the-real-net-intransparency.md"
+    ]
+  },
+  "https://community.st.com/s/question/0D50X0000BVo0k6SQB/cannot-get-fmc-sdram-driver-to-work-on-stm32f429-discovery-board": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.673333+00:00",
+    "reason": ""
+  },
+  "https://blog.the78mole.de/esp32-evb-and-platform-io-yet-another-esp32-tutorial/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:41.787118+00:00",
+    "reason": ""
+  },
+  "https://www.instagram.com/tarek_rollt/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:42.013661+00:00",
+    "reason": ""
+  },
+  "https://www.youtube.com/channel/UCYyUPx6qQ1pvVkroms5pGFw": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:42.120648+00:00",
+    "reason": ""
+  },
+  "https://github.com/zachowj/hass-node-red": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:42.232976+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/16CwL8o9Ufv33RVK0Xou2wQ_bLBBeRy1RV-m3vmhCweDo8sXiT6crYOUrh4flnnVsys8DobM3v5IPo7VDkFPAVhN942922-TKFeZEt1eq8aaNubUI1s9Zlf7wNvZd8nkjGLcg9wObzEv97ZozSIT_ZzTH1hRxgtR135pxFpeZD-li9OG1Wdy_Gkzyla6O_7O-4V0G09qw2KBoBblTn7jIpA1TVmRa2WIDIM7_f_WcnRrhw7RhvUjZTzKzPry0r5HMsNOnGYuTeaqqZ3o54HGsXHmWwNhnswUNMT3X5AD2xAY6wiZd9ubyYxKghA89Hxh51UM1yT_Dwlox6BAT6_q_7eSgdFQvxueINxRNSaCSwLO1-YPvaiLlM4OYXCzNzrXjsBOerMScxZQ0Fw4E1yrzvYxjBxMKPEWrVVJCw7nGeT_durZ756W0RdG79ZAdH3Q7C2bq1toHuHGFKRAoQCAM6J38rHA8LgwmVbG7y6kPKkd2y3vf9Ay7gM8tYQtM-op4XYScQovLjl_6Pbwf4ZRaXAb1u8JKO-4s7yD8jARnIzSToVg9KTz-pFtoMGW2W1A42BBVlrCjv93YC2Fm6xJXL1yeXPPWV6mVi8uVQmwvYAavBnrWV3NfdAIEYeOJphSW5IPk_4_R3TU-6iFqEG9gXYDPHyOXLFiyAz7d76KLf8l4Nw3LaDl00DU_BdqaCyH0SzOK37OYlBjrgeoZmjB_qYY=w1163-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:42.373713+00:00",
+    "reason": ""
+  },
+  "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/index.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:42.436724+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/LXfJBqisRnIyxkSg9pv31ornPrkiUHMcslh7avW5gnajdzMaFzFaFPoY_HZ2Gcd1LAQG8JebPXokETivaBOOvFvmKPMgE0h0UP-kLNZnzObM-FIN4_0L_FngPzPm6kG1z3oTsxdAb7mht90gpWm9QosrjGNumQLL6VREcBm-_khnB-T5fmAYatofxmXhi_MiI_fbqO0Iad_i0_w0_FMOyJI2uv54ohHk3SNQDXTxennzrBHf9YIWWgLjBczzxA5pPZFnlSp812TjKlI3E6AeDsypMiPgNyYrbZ0PKYrVRgwzhg4jMMv1hOPxtSp8QN1ZHTNSAWkIrI2_TEL5BAFgRdZ7zIdd9wTOAW708mwDrNsW5t99-7075CDxz8ZnHud59Jq2ey5-ce1n3EcthzLd1B6dmUdp3Ph7v0vCTZ3tCWdIU-P0OePdoWQt8ZyBWImrKZWMgultNk5n5ZSA0jRBU55NH-iypxpa6zawHGDfpHEfX4_fQeJ5TYsF8bO5b6YdShwULt1gObKS7Jz-HU9T---6KI1pCGWYwCzaDMJnwCjjsByBgOw4OpQb-FzSshg0OSTtj1qvW7ddx3Ue2qTG5WCyARmXd_xSt8oRXAKuj94xXfsP-oGeK1M95ORlV4SAa7Ff-ziXdVmrF9kYSrkdRNd7-8ykCltVwDsb6LnaHouhkTjbBv70_DlY3m3bWxWTn8cRqFxrn9L99pRYYQn0E9c3=w1524-h859-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:42.475635+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/ijSBHXlaXLFVXqEXLjkjassdcsp7hKuYFkqkgFraRRm9RKVlj9CkEQIDRsKQ4uY3IhlQD0283gmvJKu4s7NbvhxitKkThdhRjQ-i8ARouS_5AheG9S9wZi4ScN5mu0-EGtr7_bjsEhECj85h3Oahtlhf8ITiSN_SMosLXGKNWQ18ULoUpGjHLUekzhPKqNmFEF9tXC1fD6JtzgHLDsufMSsCFFoh-fpcOoIMzQroAh0ermOBOeGRBFZJaq9R0KpStqBtxgpQMn4wwbGOjy5YqeebsO9GXvmyhzp7ApFpogWJMmlnX1Vt1V-N7OTb5RWv6Rwak83PzsUqTSXDOZrwi6HgHat0lKt_5942E1MN2zt1y9GBR10ybpU5IbzrPovLi7XO68ZZkT0wBVXC1DDq1IcHSKeF-OcedAuumMplfcc_RGLGAkceUwLPe2aaaS7Yt9o-ItabkCbgXWBP_P48KsHlG4lG-FU6_QRORNUtgZJruMeReMnMrItsIRLmlhuWu-1r8hGVi20kXObYMKvQnCSOh81pQUiCDNoVFQ9uyNKc2lIW1_rSwkqudxXbdxMBHX3QjETfG9t8d5t5-NPZatbGpvLRdlp8OXvdCWqQWtPVQ6kjVfXVbGTdVbmwiOeodkIITQbPTXmA-p-bJ8QRO-vgWy0nqPq65y3j0gRlRkNyOCm8GfODR7x9HQqCc0ZnGCaTWFbULr2LBPyyjYXbuKMM=w1524-h859-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:42.479135+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/vMzdDSkOVfuP69jg_MTtrDSm8Yr_M_NKmedgxlV38iJo22mAXqANRN7YeEPglfSs9GPpctw1dD54NQsEeLy7SbZdVuFuUg6W0YmYEI40YhCZmLsU9NHaJMoPyhF58Zq33rHU8V5QiD1V8mdcOgli6ZyYt-iMNqJF2FwRiBcdAMS80j0uLN8dPMJicYAbsBLM6yS-JcEqYZY2-ztocCy8FRrgvJRDj4oEec9CWRug7vzG5x2sqGn54Cud7ixMQCsD7eNGRdFGW6RdbtNkBB5D6qdgnuHpQ4ZhwaqXmEebKVNCvLoDgZO3_M2iClf8zIe5m4o7H0fuPmn2wEs_5oS1zlpI-8JbOgw71eaazUor0qmW3__cBGRU63BIbA91DSMXC2p2yc2pkENXz-s9Q6mGiFUxpOa0h8vs2CH5SqJt3UwMqC-jgFZk51oyCMOQRbhFxBtyeb_hVDGAATlfQecMRFw3NW8xi28QpRj1o62g8xjVeTfnsLr3lSZ6iE2tMSlhv66SSMQcWXrX6PE9Sd3VApppYfevQDE-xHnb3WCQOVJ6adZ5QmlQSxloB6erIj9FCUl4an8aRqTFhLU67cdBdQhzPHY9K_UsEt8Dypk_zY9ClqdnNVB-kcrQ3QDfPQ5mmU57jEWKbPuPjTwHnMRrki5-zGktvMMZ2Bgjlm73gC8xV-8qffMQcRXj1d9HfnLqklYQY4pTicqPl3j_mL0way3s=w1465-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:42.562805+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/QbNOpyAIn57WAP_R6B8IJRrjO246L8J0eubbpXOtxu0d_gWcqZHoXtceSc8ZdYACrx9PfQQ7ThkOFDMWhmHQrS2yAItvktJf9xwUOXQJgyzlT7yrYe8VNc56eXqqV9aNSxaV37VOa4aNeu-wGctPB-iMugWneH52qRQTAYv2kZLGmHBSXkPOAvcTogP6nYh8vsCQ4rh8Gif6QVCwVSj1uxtHo6HFaz9aWVJFLih19ZrcLufqAXttr1X5ps5_0PZTRel-p9YP7knGuSkj3_E5Rjvv-WhAjSOqSrIrizGVvKxpVWFX64Xe7mZQ3HvXIxaPkkaT_F_GA_5Ezw_xKEiHuN_YMxhkZ7cHuD7wEXnMexuhNpcn-fcCuVvIrY2m59Dk2eeCLmI25DgQ5LENnwcw5JK-egMkzOqpkvoIk2cyJAJctaDmXqbJpirCBL2BZ7btaCbFggU3y3hC8h9BnTImHUVKHhKMFxD0rjOrEAlc7cHDD1Ma0KETeFbiAgERT_s7wWZBjhymOdPxZQf4W__New6zNm2_iDD_bO_Glpue600H7PgJHSLI64TzM4yWBnWAHClCdMgjErMop8CH8YOtfSYjfOf2yczOIRMXE1RAmISEFsjOM_N-QV-8SbZ3ltRGBOCutqJ8piNwqTiJGw6IhbnrjDWpuEkKJLFnj-z7HbcMhjNqCrOneZ8u6hNhE3yxbJKxXd9lFUG5Ka8sdNVojNTe=w963-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:42.761189+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/U7YKGgUEBKa71cju7NHfd3gVOuTGy55TMHOzFZdSBzENDYMNJ_omGle3nXtRXtmcDOdErAyj0_kn8XCCH6-6YY_d2ue6vGpnLucuqcuXnV159vwIIBQBmCwqcuk1zL-skj7Ge68R0zaD-5C79AjYbIfW3AGbvW_Y0zHjAMBbo9E4t2Ihm9XxoKscc27745eDGa7xnYZGhrOgIZXh2x7IfD8txs0dCQEFOZjdHqGyqWndySmSB8RfPy_VxN9e-TpLmsLEr2l9sSwuRYLy2roMqp_X9VEzid5ASGjFe500oFI2wJCfjntOcgRmObYn7HYU5z4iAJi5w1RMWZqTSzCbUWsSLLSUgjwoOP7SwWc8UVIzxJYCzAWs9HdSYvwdmEZF15gNBjTnUhKrflLqaasbGoftuVv7AqHZvV6b_ed49_g6og8pBqxDNUIgWL6Pm4au9QoF78CKel_qmuJbKIJjaNet1YtK-plgRnkljhWKYep6XMbOXd1lAzqBpuE9FWKb2HMHmM0gGxQEVe8NjehIfT67ZWt7VKCgdNGjszh5hVS9QjUvTiQMiI9-4aliedFhIPLevJDtjpyV-J5OB7-aMmGGNl66Ve_Zg42IDJeLuEurLck0ICUWQD6UuIwL8gUj2hdSy8EQpmh5QSjebW0hviK31bAq2lKqPLdyWceuT7nWrZdut0pcUVJFkXdBtYhkwJEWSDJHKVpxd6biXsKFhYog=w1233-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.107333+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/YEcdFkEaSppZX6lFInr8ZNrouTYbVDE6HqLNadWCi61s14pv23N7RVQmtIeG4w_Qhg_pnRo8aSR5W8BBDQ7lnRLs68gAB7Rn0jpOZ7pi6ikZ1hVLlSo13Sgd3kvvNX4PIrIdihoUiZlDUTP1-B7NQFkMmm_Ccvmy8FECWJ6PhR-Ik7D2zBkVzywj9Z2ZysmmLFGZBOBG4raLtLh0Xdw2wHOA30C6LFRBhI0B3ycgKzACq0SvxJxuxcZPJctj1sCVxA8RehPDwzldjOjB7pZE8jlZhIsr5USeExP9_Js6S3_LQGV1EGEsMrD7BoQ-37sZilFUC0IM0Bgjm042ehc-xte0pOumkKfr3NS0qgWknZGagxX6LsW4qkCbuM6PLwrbxSoOuGXyw8IWaGv5WpjmLhSHx01n4kYTy5OtyHG99hyRlDr_BvBS9lIS_fgJqDCyJ2fhwolJc0T0q8MWQwty8irpBvT7R48ImGP00S6uNxVrEYJ3h2h1FIpyvnRBOPciiflCLNUTLBmVeSapKr82gWNlePIVj0PEdn5A1yOgbIP8WmnbhJDu914kMOYtxLQaUrakcFd3bFolF9VILczNNey7DxCXqlJB_MVp4pQPXqxU-pcgg8XfMT-9cqmCgrV3uK8ELbLhYBqtoK6b9OF1ZCv2WB-MfA0f1inlTS1EoQs-Jkg3LOXAWgjuNE63JhwDeAO0tWNiCFKLt_1ds0UpPC-r=w1524-h859-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.179972+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/OaJg-JQc2OvyA2EC88DZ4XchvSyCsUmJ8Dm9k5TCFQsqcK-F0UlkiwAWHttLcqvEgdKTbN4Km6Fw7At9w72UJB8O47F6t205nLzESSjBDRQleV277I12OGTjsrot6EZUjrqi2irfG6laycngU_0TX2U8-Y_0QsaDTr6ODYd42Q4Yav2RpmpB1i7YvPYR7VbkZ_bulyEZZERHEu5GNh7gA03Msi75smmbquFECdAFxXRgmmB0EQDvC4hxpYGs4nP5fJISau4Q8GTUtf2BsOS-l6c_BfIUKclqDGI2ANSS5-4yIv_B6NW4TPuDkjdndsxVdhpJQy1nCCxLpdSoV_xP4BmqV-kqk1vrim-B63JeSLLZOHRNA0r0S1tbbiYq93olqH1AR7IQMR-Fv-B6ImjSaVarvRJWsHPbDDaiRY9OSjBr23OZh1ljlv8wbPt6AYsE96dK_ie_xRc_Y7edyqNPlkaMdsM-7sP_eCVqBdXf1WpayqlEdwAO_x26VOVGbw8gYwQ9htBmTYNoPNMmKcQth9qUJ0DGQ04D88COz4r-U4agAHtv-x4hScJ4Hje_TFmlVP6kN-ZJQFJGbESfHCsMBpTg91yq4HV0Czdpg4BXsWx-DCxkfmYDD9eCn_xuv2TIGSzIcOyhXcC2F709hfPHwg_FsUvHFjLD3PT3zlLQfwMzrzX7nO7OCG4FJAU2PxGsQDxLTX4yiGt82nZmKWmBkoix=w1189-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.228211+00:00",
+    "reason": ""
+  },
+  "https://www.uhu.de/de/produkt.62976": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.400546+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/ZDetO81WY2x5vwHaxzZhlIUEdYm5iJRIUY1WjtrB5AGTwkkp_WDX9bia66pWGMF5KAqFdY0eE-UMNKtGRFpCHrkNeeANAzClh-o6zpOrxm9zTERbmJ5PO5k2CTPj5KLFQ4W-FHSQ44QRwYXkMLcMTbz3DtDndFvVXZNmcTysxqgyU2CP_Bb2mseTht8r4GaXfSUQBu0sXX1dsMAfjaHE5EkvoH7BJn9tKS4mG-j6-xQMxUatyhCyxarZ98akc2MzeueuNwZs_TxJXQT9RXHrifsJfLK4BSp4D97_6JduqLuebW7M5LJ--JQOexqseRiHQQE2S10s9mt9TK-uzTpdZedpdVF9ewJujIdHO-h9tCPLKCPuNLYNvVb0NT40KdHGQmYlbVBm4qOpafaeDpnmuWsNcJZH3VniaAIjf9OMFE55HP27Z9vtHG-4lpLuQ2U9qebkCrTLDiRl8FPiVWyII3oB6fz4-X4aLMvB6Lar6Hey1KcoY9y9NZ6hNbaNn1-_kRHe5JQLOUCp8XjXDS9zCDO4kagNkEURcRk_OKzhS4jjJ-chy25XMNMMcTGS7EwAjE7Rlzr72d5XvSuHV26-TgBZxbrMhN8DJwl7oAfraVDqMFyrTUN-ZgFiUVlNpao3rE4r164crcCXzcvJBvTbzQpNIciyLCR3zGi7wE1dqkFeqijc2abdPgCut8TI9g05A6Qf1plrGd4mOTobxw7TN1ED=w1524-h859-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.533025+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/60jcLr3pG4nOXFYBI5x7yl433yINBwSDenBw0V1gU2HehRQfqHaN2j-OsLT1runOWwDV0tHP_bkmTzUaLmGWfcYzo7-X380jPNzcQfoaOChUDhcfeEI9NtNak7hlBIrvUGnsTr1fSdl8ruKJ313CUjxNIN-J4XxvJxaIKYoH1e-H1i2W8gN-A3qi1eMp2yFhwkEIaL9pj_uVMdLjxXE7jNd93rGoMdAYU3NjDjrwxhPXJE_kwucIQpTM1-yg_izXNpuJy8qL4bFcl_IuhOV7oE8WfeJRVOJ-0WtbyomOvUShHpEeHJGZF00RnKxi7w6MDK72kQO9Sn9rWNxbJDeawPDOnFSgviS_91Mx-5u0H7W5fkZG5W8GNKCoiH33J_DswIBTMEv7lZE2yk3kTmJGEdMjUEYw6HDByFBf3ZiBZTixNMBftpl520mqGsF8LMt8_aOiklcxIde3w5lK183nK75uUlPW9lgNtpGEnAYXLPs0BfR2Mnm2mVohoOfMrSUxsemEURzCSSD-0sHWXoYINsPLB9S0n8vLAsp4tWlVhA3obMjuEqHVBdkgjHHgEx5jFmjjF20OhO-lmdRN6I_lwpI_dEAFWza1iofZCA-iWynpCoYic65az_uvdX1TBeLwRJNxoHvfY1nWGsS-FvvgSIsRtxQPCpcsPr7NIGv8LD5UNlfOfyTvtSz5324j0T-F5GqO3PIMRKlVscYOwxF59VQh=w606-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.613051+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/Mj2lUiMmJ5iDr1LCbIfK_c06I6MJcTcCX3YnLJBPPS2MyTEsrfG86BOSA3qpHHOqBuefWxCxdH5TR5LYkAyebzONsxWJFshXqsYstokp9lGq0Fzarl8hpkNjTPyjHO8ykETFgpA73KndRP7l92Sys84fY01Q3MZwURJZc6KVb0eeErpADqRTJFUCBtvIaRK1tD5DfCBedioWTlUswF4U0d91RexFsqxXcxsEq9MfD_vZ7WQFiC1jcFgznhv2LXRh6FMJLSe8k2LIw1YMX-ygkdvh_Vh61f7sNa7EF7vwAHmZ1liEZSE5Bn34N1TNBNZPsPLi3n7ZCAgZcGvRAjoFns3xapBvbGBztXKmGgrsADuMyBZURMbcJLIfxsYGFUj19VY2py3Pcd94N0JEBlavPm142kTFlVLMDf2NBmf-eUKm1VSP5pt6OMlWgF3_n9l616xGN-WDlwe5bo4eielBJjVF_ZN2NRnjoHDc15YJe3zOHwyF1n6TC1zExwLbgKqmxqFvQyKvYYMFb2MY5VrXXak-RhPTaG0UJszmT8_PYAsTeT9n7qzPmYJ5xAXrhK9iYJlvz_VQQs-zZvOvEQH07zb5_1-BXtuNTYE97KnvpzgbA5cZncN5uofAESCRb0FC0PxN7N7KBLEt4tvMB5NgZsIqnAaTRhMBYF9sN64Te2bixX8OXHF_fqzWEex1QX8jo8Eu1v4SLQkZe3Z-DvgpINy2=w1524-h654-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.627219+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/taking-your-m-bus-online-with-mqtt/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.717389+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/jGjtmdDO0hy4qsaql40GmJU8sAjMddwNi6g95wSWtw7cvBEbcNq7UGJZdyb2y3WAET8NnQVHkv1DG_2k-nWA3XtYQYVDV4u53TS8Vgo2dvbPGeTfVGY7OL32AE1T-IcgsNTW23hj1VmFJgZJs4pOJ5LqPM1TZyMEQ7XxcxdM-jNHcrxqTatusdcctMT46DkxEVM6lmbQo_u0uGHtqbtXv-yrjdxYUFcNgZi9exteIHYN2BmAd9t-3YKyLAWPHV6h1_x-FOT0A6rQwmyAx7S-6duSGZSsYDARIqRBlgjbm99GXvvfBZnUZOHlixs2vxi-VzKnLIkHGJeR8MkHuhrk3BJVfLqUIzF-87a1yspkoOKNc2ImFirOTiM44Al4FhcoQA1cWg5xLps31Y7I2gpxxqZPpYi0GVpsqjqa_9023TDH8ZJz9Gsu-kOcJBChL7VttmI3nFDUiDEjIlCIlpdAp-q0-NuAFG1vp2C1s9PEnVkfMrzM6COAFRNobQxlVs60jaozJXAMD2szIZLP_rOLBj1S16IbDkXoHfX4gepdnt0lfVX29axuPsGoXzpuMh_Yh5wgZaAuA-KHl4lLEg6XuLHBoQS3wgOA8hPzkf2f744NKBG1i1FShEDyKJYQq5lfJXFrrSltDL06MJ_jCeYhf76ZDh9tqywcj3C_yB90EVC5JCAg57ZRw7TfQHREu7s3wQcmzSLy0BK-C9JGM8wYpAkp=w1139-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.776625+00:00",
+    "reason": ""
+  },
+  "https://forum.fhem.de/index.php?topic=101637.0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.856859+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/mWD3AVXbcTjuDSC7DwDwgfMKUZfccvSelZEoxFiro9Lm4dbHPzbsDLE92CZL5zLe9X453NEuA6cF3Sh4Dtqc2ZP69ZjZPTYv59UelmhAViN9wdDQSRBlyaWZRvm9ChCeZJZMGTz-QPaUXoud1raeF04FN8KyYubzjx2F_Ehy3Cu2E0SY0rHyuBJ86doW8Bb7s4NcSJyC82yhbXtXNwQk9uMjlPSrrBRf2EgrBSgc6wTtdEHNNcFmTs2y2a_NsNoflfjLeqcmL51-UGiu51u1qEwPCC4aXEZBQ4eIPSeuT5VyHQhodx-tqNUDA6FsG1v5MJuZ-phex5LMlxFqPYYHv-i9nP_154e4n4HDDPBLl76un9YZWhl7Yt4b19OEEajlxtrVs7ZIvOJqIJbLDF1ceih8yj-1oKukCHMsSw16gukWkHvM-Dok0qG3P5adw6r2_yait1AlFDStGugOFNI3uCRu4L8tM1xRoOWUmbhwzv9RUceGr-op-6Y00kc88gP_BsNdcx5vGLcKpw2EHbiwsfw0TfagMYD0LMnyPls_DPwaXmjYL3wi9W2SS3tOKXl3SGqigLv4ZXmmk9YqVH7uecXsgyNRQjhUsObncF_WNAKEI9xwV_uJOlajtu2TAs9AvTo7gAF8IQYbUX2akkoyx32F3-z0roSAeWYR1VH4cVUhYcVSQx_8GE26zOQ89Fe6lMQ3ylRZthL5a9zn0EGxTLhF=w1272-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:43.935591+00:00",
+    "reason": ""
+  },
+  "https://www.home-assistant.io/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.046305+00:00",
+    "reason": ""
+  },
+  "https://www.smarthome-tricks.de/software-iobroker/oilfox-2-in-iobroker-integrieren/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.123147+00:00",
+    "reason": ""
+  },
+  "https://code.visualstudio.com/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.301285+00:00",
+    "reason": ""
+  },
+  "https://tortoisegit.org/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.410950+00:00",
+    "reason": ""
+  },
+  "https://github.com/iobroker-community-adapters/ioBroker.oilfox": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.536686+00:00",
+    "reason": ""
+  },
+  "https://evalbo.de/Dokumente": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.669861+00:00",
+    "reason": ""
+  },
+  "https://github.com/hassio-addons/addon-jupyterlab": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.697774+00:00",
+    "reason": ""
+  },
+  "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.814737+00:00",
+    "reason": ""
+  },
+  "https://community.ui.com/questions/Setting-up-local-DNS-Unifi-Security-Gateway/bb853549-aaa5-48b0-89dc-3a3755d5b016": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.834117+00:00",
+    "reason": ""
+  },
+  "https://community.ui.com/questions/Static-DNS-entry/0a0265a7-ec31-4091-8304-9787da328367": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.853009+00:00",
+    "reason": ""
+  },
+  "https://github.com/hassio-addons/addon-example": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:44.964815+00:00",
+    "reason": ""
+  },
+  "https://evalbo.de/CPP-Elektronik-20": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:45.015142+00:00",
+    "reason": ""
+  },
+  "https://de.wikipedia.org/wiki/IEC_62196_Typ_2#Signalisierung": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:45.053844+00:00",
+    "reason": ""
+  },
+  "https://github.com/hassio-addons/repository-edge/tree/master/.github": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:45.164603+00:00",
+    "reason": ""
+  },
+  "https://the78mole.github.io/ESPhome-KM271-WiFi/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:45.221728+00:00",
+    "reason": ""
+  },
+  "https://www.zaehlerschrank24.de/kabel-leitungen/mantelleitungen-nym-nhxmh.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:45.553874+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/ESPhome-KM271-WiFi": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:45.629432+00:00",
+    "reason": ""
+  },
+  "https://www.youtube.com/@the78mole": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:45.718683+00:00",
+    "reason": ""
+  },
+  "https://github.com/esphome/esphome-project-template": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:45.848855+00:00",
+    "reason": ""
+  },
+  "https://youtu.be/h_pQlpXaQ1I": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.056476+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/ESPhome-KM271-WiFi/releases": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.177858+00:00",
+    "reason": ""
+  },
+  "https://www.pcbway.com/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.251686+00:00",
+    "reason": ""
+  },
+  "https://github.com/dewenni/ESP_Buderus_KM271": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.337255+00:00",
+    "reason": ""
+  },
+  "https://eleif.net/photo_measure.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.415467+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/GVJ_tk-EZeTAmps4ScWDqyZFLNJ7d2SIsEwAqcKi5lMVjepWmZwW_xnRFfUHgpjOM-udJTIls8PnEIaYWRCF9v8KAvrAVwEpW49sqwoRCWwb2yHRf2MROfxAuejRB77Lby2oc1YlSHCnC7cZpB5nnCAmjI7kdFAdElTAvraE81-Kw6EOK_5hhqWsceKk6ulS8uz6--V7j7NC7vPwOEo9l5iELddl496GTtnPBaNLlxZNKNC5fLLuKKgKJD8EpC-ems9DOLs_VXhZGzyV63E1r028D3cVxaWAA_82VK7KFZpqwGdVw5pOiT6iEQczkBe8xzRfHTCI6cwOaFN3x6EMOfmBwdaEfxST0sCsIQWQS3XXySn_aHMn9CVOKcA5sHEhkVc12JNRJCYlthZRxYuOY15VrawJk7_my5CKcsvNNxRamJLvUai3X7y6yS1fPzP4sH6ld4-qYMZVz8Q2DAtdrhgUs5D7qJUoMEaOXaD33qMucyZ79vtqmMpOiy_Yki8a-bS7klCV4-98acQqP4FUtf5lGvTaut5CEBwOIlp2TeRECR6oed8PlG_2f4zHaGzS-eAb306LOewY82Ew19Ez0jb8CdfIv83FNoS4PeN_sMDQkpDSJUgpGG7QKDre_9j3OX4r8RFBT05uh0X8rqeL16ES63o0_tBS-QtExoHHsZYBXwaSBfRdULbWR9F_dtGuO5W9eOb_MsoI5BhGF86IDehQ=w1685-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.489206+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/km271-wifi": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.530783+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/esphome_components": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.597947+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/FUS0tx-iHJMsnSzOHvH_oWxP5nT3cuKiU00kk-iJyZBq9JvQRAceu6v8plR8pabrRAPvYcYvVY-C9TdOVzL7hl0j0ixFnI1ejiEWOwwdehE5lslVINfPbE28GxQ4LeurWDZKS0Jx_uzpb8FHjXkCp-oO4jwevRkLVBtXp_tbEzQHETav0QGE5WizWWW2Dc5HNKfqJcCEsMY4YeiQVDqbNH0VmaHpGt2ubK7UmuHfxeajLIi6Zz4OGqdwmcnnfmHV6sSJZBqqmtFLnJY8fJhWwxelxAKY8waGfVZFlqWMnOJzerHRyNJMAlwO8Ov5duWGHPiYVGFRZHbdpxAq8rwvwv5ZIKgpzeRxYEhNdVuq2MvHIsbRnUPadT9bXaf9AzUaXTQ5kSEgH9j4TxuCmZwcRlrwtVLHpGURRuKzxd-pmw6uMut7OEx5rf3rWwtkON_fZuTUtYLHRezmfydZ8f4jdo6ucsjAY1UTq7OavZu2-BtVSnu5A8QwOy3V94xZM0UPoiCxbjgyAl_3_flT8yt8XlP3cY_phaBtFuq5cSnF_cTM0kEd53g4tMOsVzAmjRzQSv0PD7_gsziVOKOnMBA24DZk9oRiWmjlaR4HnLqxxrNb0erJEpiLJ_xArEwXEfdB0dRPiS0wfpNkxCS-EohEkRBAalDnS6_i88fZgxdnqDgURCfHj1bFDbByunILO_BblsZImachzG_E-y9jaHRjxlb8=w1685-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.609577+00:00",
+    "reason": ""
+  },
+  "https://www.mikrocontroller.net/topic/141831?goto=new#1415846": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.612198+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/the-remote-serial-debugging-nightmare/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.826741+00:00",
+    "reason": ""
+  },
+  "https://gitlab.com/the78mole/igembb-elektronik": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:46.889002+00:00",
+    "reason": ""
+  },
+  "https://gitlab.com/the78mole/esp32-18650-humtemp": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.002456+00:00",
+    "reason": ""
+  },
+  "https://www.mikrocontroller.net/topic/309075#new": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.015610+00:00",
+    "reason": ""
+  },
+  "https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:55.256477+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2021/reverse-engineering-the-buderus-km217.md"
+    ]
+  },
+  "https://gitlab.com/the78mole/logamatic_2107_wifi_comm": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.267762+00:00",
+    "reason": ""
+  },
+  "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:55.956144+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2021/reverse-engineering-the-buderus-km217.md"
+    ]
+  },
+  "https://de.wikipedia.org/wiki/3964R": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.432944+00:00",
+    "reason": ""
+  },
+  "https://hirnfasching.de/2020/12/31/heizungs-monitoring-an-einer-buderus-logamatic-2107/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.488838+00:00",
+    "reason": ""
+  },
+  "https://de.wikipedia.org/wiki/Steuerzeichen": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.527342+00:00",
+    "reason": ""
+  },
+  "https://github.com/esphome/esphome-flasher/releases": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.547556+00:00",
+    "reason": ""
+  },
+  "https://en.wikipedia.org/wiki/Control_character": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.678920+00:00",
+    "reason": ""
+  },
+  "https://github.com/home-assistant/addons/tree/master/samba": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.742723+00:00",
+    "reason": ""
+  },
+  "https://github.com/esphome/esphome.git": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.815819+00:00",
+    "reason": ""
+  },
+  "https://www.opensemanticsearch.org/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.912855+00:00",
+    "reason": ""
+  },
+  "https://www.opensemanticsearch.org/doc/admin/install/search_server": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.936843+00:00",
+    "reason": ""
+  },
+  "https://github.com/weetmuts/wmbusmeters": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:47.979873+00:00",
+    "reason": ""
+  },
+  "https://de.aliexpress.com/item/32990900096.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:48.009030+00:00",
+    "reason": ""
+  },
+  "https://github.com/sjs-77/logamatic2107_daten": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:48.225174+00:00",
+    "reason": ""
+  },
+  "https://www.tindie.com/products/24664/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:48.327395+00:00",
+    "reason": ""
+  },
+  "https://gitlab.com/ganehag/pyMeterBus": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:48.436873+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/3wE5bzMs3WN_Dp9FQeggCtfNXZBiPT3IGM-15-XhVYBxarI0WZOPbAQmeS3NktQgKFXPGIbs3_5rK-X5ecLpWf3vlxUE4JEPXYTezoWuGyE52VuozAQuiiRrji2qH93Lawih11wl0tBhmTlRyaMNmhqBTrmY3_S02YXswrBIzca3-GXBpuj00v-SEL4MrrBlERKLcxYVEfMKB3jareOcOisEIzWUnecjoCwhT3MgyLiXQBH2TV9FoFoNW7WUYOucTFmwfBXHVIUouaGN4mANNZ5zGWNk-ylfchNf-7GsczzFEBNch9TxIjCr3-ExCcPpxiNfrXRzznOoUfl7HUCVJ36VJfQDiHIIFmq3aBmZB8ikj9wkz4z14BywWU0mqZW1DtaOiDeZbQxnOPE1n1XYhXVvgr_HQ-fnvJ9ed7gR5nerJQ-TUhBI0_4aOmRXUApFQyuT6lQEulP2o_t3yBSF2E7lvp1vHuvFAVEHEbNEfKzdt_N20E3qovCmFOlvz5BrYprDPlAgYaNfssLmxdLR23t_dKUMVMEahNj9Sk9sdO4YAiTEeD_vKL1df_IKmxfDL2WNO62QaUZWixXZnj4cm5qSWQIIvDCcspN6kFsX3CHQni3OqerSzLv7Jpn9yLR_P12cP7oxFjXpAJnqrgipQ0h_xGo2QypHu4fYqRJ_2x9GIPhNO8ptH1H_PMZNqCUX2S18NBLcdGCkanwr37RbEpdk=w1685-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:48.647566+00:00",
+    "reason": ""
+  },
+  "https://github.com/rscada/libmbus": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:48.717847+00:00",
+    "reason": ""
+  },
+  "https://carnotcycle.wordpress.com/2012/08/04/how-to-convert-relative-humidity-to-absolute-humidity/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:48.879739+00:00",
+    "reason": ""
+  },
+  "https://carnotcycle.files.wordpress.com/2014/09/ah1.jpg": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:48.898121+00:00",
+    "reason": ""
+  },
+  "https://www.desmos.com/calculator/ada5eexikw": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.129908+00:00",
+    "reason": ""
+  },
+  "https://github.com/thomasnordquist/MQTT-Explorer": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.225903+00:00",
+    "reason": ""
+  },
+  "https://esphome.io/components/sensor/index.html#calibrate-polynomial": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.270029+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/FgJH1j7d5tS7oVSEElZBficoWvpiQMikaWA7NsLCsWwJIR_Jf-Zp6vUjYiLOtkpWe-PNDhO8KdSFnPLnex1rzMQ0xf0Y9-YZHKnYAX5eHaK3QYiTl0C0m88w7zQueHn8GmUvhkzg73vCLnLatAQDMHB7AAUEXBibDt_HOEPvAwcXVG3IucfhwHR1FM9vK3Mkrjq9c1Tzb612LPwmUP1whTjXrjDuwQHw-tBJqVc5sdSwcMpqrKaQLEojZ5btGy5oR7gIlnMnl6RApk4bEIxXh6h3jtYDPhvCOEljtdTbMElxLVOtCUtWzJhjgBaw1FNx_Bs8AjJzS5ZJ-xkjLRHJfjvncmgeCJFN2rTvuvqwPmNFN3tEOn_rTPIlIGBaqfvMqPr_x6E231QEnpDsdnhwieTshaoYt27a8WSfAsM0MfU9wdgfznivIBgY-z8tK0NrQMT_LnptHVY5N2NajUaRI5jJC4P8ZcrM2P1FJlPIYaWoDwLtkxB5EEAeaBbIDQzyvl7eJ1NP0lf24PGKPVgprNHoS1UZlgbqk1wjcEtj8xQfAfpaChm3DQrEakDvjzRexXUiDR48ryEuA58EXlru2qTEqLOQiUosEXEpQA4ieHlm0f2IHRZdwbQhGm6BgKV0JGbvrFd7crZ-_SbEzmkNQF7AuOLuoHhw9NGLmSi0inUHK-4xGfQeRdY0xK02c-0uLmCd0IwyangcyelcupIPsDUPnQ=w422-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.296760+00:00",
+    "reason": ""
+  },
+  "https://www.desmos.com/calculator/a0gk5rmejj": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.339848+00:00",
+    "reason": ""
+  },
+  "https://rolfb.ch/projects/humidity-table/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.477542+00:00",
+    "reason": ""
+  },
+  "https://mycurvefit.com/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.571725+00:00",
+    "reason": ""
+  },
+  "https://de.wikipedia.org/wiki/Luftfeuchtigkeit#Abh%C3%A4ngigkeit_der_S%C3%A4ttigungskonzentration_von_Umgebungseinfl%C3%BCssen": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.634735+00:00",
+    "reason": ""
+  },
+  "https://zenner.de/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.665365+00:00",
+    "reason": ""
+  },
+  "https://rolfb.ch/tools/thtable.php?tmin=-20&tmax=50&tstep=2.5&hmin=5&hmax=100&hstep=5&acc=2&calculate=calculate": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.672635+00:00",
+    "reason": ""
+  },
+  "https://ceph.io/": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:56.692639+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2021/sorting-your-digital-mess-how-to-easily-set-up-a-private-search-engine.md"
+    ]
+  },
+  "https://en.wikipedia.org/wiki/Humidity": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.737425+00:00",
+    "reason": ""
+  },
+  "https://esphome.io/components/sensor/template.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:49.740466+00:00",
+    "reason": ""
+  },
+  "https://www.youtube.com/channel/UCaCaZ-vKtnMG2_FKmEePChQ": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:50.082473+00:00",
+    "reason": ""
+  },
+  "https://youtu.be/AtHaz4wroEg": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:50.651883+00:00",
+    "reason": ""
+  },
+  "https://youtu.be/O9UgFPNdCTU": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:50.655845+00:00",
+    "reason": ""
+  },
+  "https://www.fingers-welt.de/phpBB/viewtopic.php?f=14&t=9095": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:50.676117+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/CzpsuzPl-nXXu5_qBVy-3Ldjb4-oYSAHAT_wIxtc-YNRQHO7KoqzIR8ZbjfCWWTSokXfqTM6k05H_WaJi3cx8xEgRRoS4xUViaj6u3Mp8KXJxNo2fjR9bRaueQMuOVGS5UBbvxVh1BT2YHVYs0lQAHmDv0yxPdTqgSphZcXI_cN1ZOFy21YAJWa7PgDOT8wDoWR4E2-Ncd_rG3_sYniXhP6XzKYIsT-kA2QDuxXlsfTkYLYjRTsE0b36ZvxH3XMHHzEkB3-8vld1B24sQyU0OaTZ-5huGR_XFimtJRF8XAKk7IQfvqToNnV8UKwMpLTn2j6sqGAcx-1bepEbDBaV0BxVyjIqOkPvhzCpDUvjJ63v9MGTSn_xG65SwIfVJXaRMbORUKMQIONERgsuWcEtjEZjnsPoFWBREH7ZhJPKSotRhoUUpt9vPJ8yZEW_0dp6OjPuuGHhV3vs8vKLFCtV-oCM23xiBnTmCV7-19fDMaQG9tAwriiAVdHaWC1AtQbc8yPo15vLGJS0UqPPI6q4tdemfFCrWP9bKoxPdLqZ_-wO0p60JdcUp5oBYT2FveLaIvmY_h8OYhxfZRx_WwEgiUHgPyY_C0lERE_u2AJWnArLanwLGp8_IXCLR8D8nyqHtc0tv-PW4A3bt1atsAb6SXlRSAfnYSeEdY9vVwc-A6WQk6zU0acsrnmvNWlSNzNk_QymxECFVsUfiK6-EKEvriD0dA=w550-h630-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:50.764176+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/KZC0wABVB9o5GuOYdUXggJlACTAKBPb3-6PKkhiKL1I9hxnhR8hqvvGN9WIt06IavVP0TMAVcoe5YILLRqSrXISgItgDLa78nsO_oi-VI1jfC-4kgiUvoFJpeTTweBSYKavnf6YX9NNLSU1gQPGwHJKHpA_r2MAZuGMPoC7pEIsy0DDTXnZ3TsxHU1OTMKk391aCYXRVS3SZ-8ZYMP5l2hsGoaRADRwaFsDqGwR_EAcscHoCqEyQYYDPO7fL3sACZYI_wDVwk_FbQ4movyfaoqZ1aT7vieljtAvC1FXyve6J08uLz5BLSF19GM16OQe_pTBUOBQYt7I-Z717-YFtFNM3H_-7Mub0adS2Zy9kowtgtE0kV4zp1o45G7_U9j2B8TUyMzTV93ndvxqtkWZ5be35d-8dJhzKqE8fK7f3s_tph_5CIO_2GTDf8DVlBDqdDKDs_8EIZ56e75pz8bp6QJ1-08VR7__X9OvcDFz0-l_eZPRcKscLPkmpleWMZck3EvYcRt6iCrvs6LIAUh2K3AHHqQa5PCzEVGEEhdJlK3VcVLqESEZjqs57zXs8AYTl8Cu1iFOHiceCpVNj-zlmaZ3M-inxdwie_dNQw5w1m9UDZRwnztJGcUtdlS4A0QDZtXe1ZB9Rx4ZwwVgiMJmbN4qeMS-gbNAt3VzInIhTK_PW62EbsyAqab7-NQCFvSZBcT0qfqlDZpisQBzQuPifpcRhaw=w565-h422-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:51.123464+00:00",
+    "reason": ""
+  },
+  "https://gitlab.com/the78mole/igembb-elektronik/-/tree/master/Balancer-Adapter": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:51.243307+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/pYIAo_wpI86MUiNb0tWHmEdnGlK17bED_6TQLTwISv4gezcGUZUapiKeMDqGKr534Hfih5fXrS2qv_9BipUfFrDgVCFa5sLt5v8kiAgoXkt8b96VRhSd-66FtrFTKx0Myf31viucjWrEXfEoRtunmT1-NNVJb24wPh7sauH3rNpPAIzYNLNlYyqW9-JH_U839n1Ne_fNyRtgRw6yeOzBtFKz3a4YbsHouf8NdBncHb4Tuh0WlMmxJDs9T1nYFWMQxxuXQ8Wje6z5RuyCdBvfU0cw1tA5LSb3RTzKzNAaaezeYau57SMBwmYGQ5Flv_bOphq1likIahFE23eOUfM-4DZn3iqW-nZQ10cyRPue_IR8aXsb42BFzKHd_eynR0jSK6Jwi7ZZyJkT0P9swLe_OFTNeVVzR50OVsRS6qS0StptRwsP2ZOXStw1sgvPi6SVCrmvkXf4Y7hpoGL4B7tbEbTNHaMQdEjqzzPp7sbJq-eAqvzSJE0tb-Fr5jPBKs1wCg3KfXS2NpM-eVK8D6PNkMsa4lDIUt0BRIAeevAwFVSDvGbjipydiC3XHjCna3KCZAwgDFBuOYXcRlThJ79dWT5T8lk6zEgRnwz5r2YMR5V8d5crbv7m_oWf3U-IFhAEfoBLanict-Pt0a_9u60S1wtRHXjW4TlGY8rLXeBiHAclFGumMFsFCxf7_qt1Zp3KKAhSXcy8E6kEhVQo6NEsRFdgew=w503-h378-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:51.346804+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/4tS0zMErBtz36af8LN4wIzDMWB8y-jbAYlD4uP2RxXnGNCbJrNhP6RqpoH_UCrGTuggG1tlp0_ec06g_klFN_UnPfVzt1R05XaGmTb6bl4ilFJjp-YEz-ZnJaCIF28soIDkFqVNbFtce6rneQ_lIH7kJ4hDLFSWCKKCKzR4py2Nwby7AAj-yOWNpi9r8Hub9yZ7FzU0BS79G4p0d_QDQYKRcPYKl-E_CwHE2HuImLf0Os9lwgbOYdj-R8omHYSXAnlWLHQuSatr62FM7khb0Q-Ey0hDauYrIIIUp4UeWYBRPQwbo8aYAk8JR4r_JotV-TasI23-tWBXilu61oeha8CYTcFcWQuW4c97GZuF5SOu3aeOwPgaH6XVMqu_JWBuwduKrSC90XGP-kMkOUVS112YwPLKZRg1qxiJZLpQT3GoqZw7YqY3gHhN6PBnJ4K5J5PX3MNy3gMQhulIfVRdzasllazcQkaF7-fGLUohZCerK-rR9WcYYpmQvLSMtaZwVWBMn0R2-jrIb_cH811CKJsZTIvviDYgjTvISvERMMZ2UbZ34-g_enSHe8SokHrCsvA4RbsQWIHhvAcfkrAUghW0TLIckzTT3GSLV-d7RT6uIzWZ-MEF9vxa7JbIECHxjfu4WzZ116ZOZLE-laxGGc3ovYz4CHNGehIgjGJtE8NzxJdh-dB3ec9E90yxNJ79kTTcViLoVaY69I43sOjBNQn6Naw=w758-h948-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:51.369090+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/EuS0B3AQ_aJVumPCFmYDAlr13m0P9PXrm68gdLshtkqmdZ9MxRN5ydZvF13pv7qGP8IZghpagyAAs0BJ2clXjspfhphfhZJK2f77kyDZM61ZV9RQkua8NxUCWpR6__jftj2Tp0If33WU8ggr4xLmvl7xNDMeFUy1dTZclYXpf9mFHve7q6cRS0dxhosrk3CXz-m8C5oEtpOfUCqX_5vSwRx3blKw81JYZk8BPYZl2tm3cyUOZ28byQtE4Z5C_7vOGdn_n7skgLBQXdLx_Vtu9N6Z_asQP8_8bbJrxW6-nlG2ed9JuY48EGpT8mxoWq5wi_hrhI93XOEgzu0k8uY3fG_BuLD1frrIXSEY9olR5OWEs7udX-3D4TaxMNiRWzo88MUT1z8F36-x-7YBPS5M5LQXs98Hca-cr5hgT1wPw3QcMTINxqXqodwRlwii0wMDIsSaHP2VSjkloObqqYt_FaFj0K3svmju-MJF_EQYD5FzUZrcTkjQyn9gOVbH8StM20MRY4iZ4sc5lh3EbMeerqEry0e_Tfk_Ut9vJso_cm9H9qS0AbVnWpAP2HPHufW-SzjAF56N3POoMTsG4mybg2fQg_hmhlJxS7T73sSTP31NZJFgt71v19Mfmc8c_zR9s65OuBL5Y2PUfN1UQztXtbwxWYa8bP3Ef36FN7hbUdtDKZxvt7cDoqXHOSQg1muOCi8N-sm05PFIlHxofsXnPXjwCg=w1467-h947-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:51.545070+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/NNvQMCQ7yVsA731IfkZ85AJyHQ2If0lTp62yciPgi5LSPm4dYI11U-KHzR5J0mtt0WX6VOqzua6jr6Y-B4RjCEGkIlJkwvrHy33oyusHy5A4EtDCn_M-bDo8WQRRf8GLv2HWQn6_68kOHgrCabERmmBs6jRguJZDbDA_3vLwB29_6EanKWXXKwywmKj9XF5Dg1mrY1F2gUXr5VxuuqWGT-X3sFuMx6YtAx8t4pqVtsYaB8yqUkmdqxr8hQZiRD0CBUMbvSrcCc3dScW7ZDg6l0EE0wtuaqyJBSRMZeWBHgbrs6mPVzlV5CHq0Kr895rXwrBn__5HfsexGK2sOcoFGRF7OCetEZJoCLH7EDJ5CTkH0vMZ8QpwmB_qE_G7DnhWmtzjei7SBytQpV6xrp0QAWbAU2WC1WdkSjDgf5hbfSppUfYwS25vbEnNr1ia8JsNJCjRpzWsr9OgNBV9iHldcXDyQmoEk3pIvRgnQLCXL4EvhtIE9Hw6dlK1P-QiilJDMaTjGz-GWLn_wfR8df5YK3lzM6K8q1D4gStJMwdw0ofWviIh7KhqGuqONBxkR_tLRf4QO1cjHs-BYdnNysOZKAr6ptaLv_od5sf4R6UP26eCR69VwIaJJQ9S3mWTiJkIQrdbwnnkFBt_RB0hLyM-AhE2GkLhPvtXXs_bqCWd90fjN2XaPnfV_1hcBqVvTaFOS34T7fKv50gkgVp3qnmIAPR21g=w980-h735-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:51.627402+00:00",
+    "reason": ""
+  },
+  "https://lh3.googleusercontent.com/9lD2Fpv_ZOWZuRyEiW0iBEy_Ses844iqDa7Xb94BX_kEgt5htdZbG218YjwmKs0J0aL_-hRZHpxDGEBU-5p9OgXFJUZm5xV6JCZBiT_y0t56zRqnqSAqOEOBh50Dkgxc0cbam8gW1YddtL7cAfjVlSxivStz0XQ_GnMnsyyNlq6UU6oaubfl4k4jntYEb9Csq9dmeEPWngoUSMJq_IIZOP-uCFIVZrWYVjg1B2Z5eKQLpgeqLQ6fyW2pHaH1eH6PqdJXfMAFR-WJ-Fx-uEt0czCuoUwPbAVlORFOtGkOWZPhaBfVXHPtkXIs2XXroj6Alb15aK3HO5e8OQ2hSVLwO1sJOeZUmxd0dpJ3McpRSxMnpF5qtB-D1v3897NqAxqzGI39nMlwTxmur91oTowBim-xhLIorVa2It3TxxCXZzFCseY2mD-36y87q7cOcSkE0Bkmlv9WV3AFMXssAFmKVR6CM9fa41WoyPdmlg-yKTJq6k5_1kgW1g21gerEqG_VRr---ARnyZoDLos9e9B49mgSRaN3mCvGEygU_vR9ZXbYiv125mjrk9e4Fqir87IovYH7FFOXzaEnIZ1Zxo1mugAj7cyjCRBAZW0E2HPFB1jkVdb0OueR2kkzWAYWMPLuGvQg5kD9vtFlnyTI_f_gFn-mSbkfjYK1Y5XZl3lhp8T5wWnUKO4VytR_EtA_wva13_aKNK05o1hCLeGM_cd2K4s8Gw=w1431-h947-no?authuser=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:51.633462+00:00",
+    "reason": ""
+  },
+  "https://gitlab.com/the78mole/igembb-elektronik/-/wikis/uploads/1f7ecbbe63b24960ba92a488cbf9ff1a/image.png": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:51.937530+00:00",
+    "reason": ""
+  },
+  "https://gitlab.com/the78mole/igembb-elektronik/-/wikis/uploads/b4db3b14b1c69a976b04be1094ab5ec0/image.png": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:52.117179+00:00",
+    "reason": ""
+  },
+  "https://gitlab.com/the78mole/igembb-elektronik/-/wikis/uploads/d8616fe877f29620c669f1252cdf0c0f/image.png": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:52.122141+00:00",
+    "reason": ""
+  },
+  "https://blog.the78mole.de/integrating-wmbus-devices-into-iobroker/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:52.209875+00:00",
+    "reason": ""
+  },
+  "https://www.finanzen.net/rohstoffe/erdgas-preis-natural-gas": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:59.012021+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2022/moles-heating-system.md"
+    ]
+  },
+  "https://energy-charts.info/charts/price_spot_market/chart.htm?l=en&c=DE&interval=year&year=2021&stacking=stacked_absolute_area&legendItems=000001&enableStepping=0": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:52.249078+00:00",
+    "reason": ""
+  },
+  "https://rp-online.de/politik/deutschland/zittern-wegen-knapp-gefuellter-gasspeicher_aid-65406035": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:52.402197+00:00",
+    "reason": ""
+  },
+  "https://www.reuters.com/business/energy/russian-gas-flows-germany-via-yamal-europe-stop-gascade-data-shows-2021-12-21/": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:59.807129+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2022/moles-heating-system.md"
+    ]
+  },
+  "https://www.heizungsdiscount24.de/speichertechnik/hd24-hygienespeicher-mit-zwei-wt-1150l-100mm-vliesdaemmung.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:52.608401+00:00",
+    "reason": ""
+  },
+  "https://www.pumpendiscounter.de/ReigaGbR-p9174h1310s1312-Kugelhahn-1-IG-DN-25.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:53.078609+00:00",
+    "reason": ""
+  },
+  "https://de.aliexpress.com/item/33062078044.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:53.302845+00:00",
+    "reason": ""
+  },
+  "https://doc.riot-os.org/getting-started.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:53.520814+00:00",
+    "reason": ""
+  },
+  "https://www.bosch-professional.com/de/de/laser-entfernungsmesser-101300-ocs-c/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:53.559212+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/Onewire-AGFW-compatible-tempsensor": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:53.645013+00:00",
+    "reason": ""
+  },
+  "https://doc.riot-os.org/creating-an-application.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:53.687541+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/windows-was-just-a-pain/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:53.725528+00:00",
+    "reason": ""
+  },
+  "http://www.algodue.com/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:53.766606+00:00",
+    "reason": ""
+  },
+  "https://pypi.org/project/riotgen/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:53.867902+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/reverse-engineering-the-buderus-km217/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:54.001330+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/moles-heating-system/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:54.127458+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/reading-a-meter-speaking-mbus/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:54.256100+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/some-thoughs-on-the-m-bus/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:54.388411+00:00",
+    "reason": ""
+  },
+  "https://github.com/oxan/esphome-stream-server": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:54.451031+00:00",
+    "reason": ""
+  },
+  "https://de.aliexpress.com/item/32742104471.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:54.486871+00:00",
+    "reason": ""
+  },
+  "https://github.com/jeelabs/esp-link": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:54.528833+00:00",
+    "reason": ""
+  },
+  "https://github.com/u-blox/com2tcp": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:54.543618+00:00",
+    "reason": ""
+  },
+  "https://flows.nodered.org/node/node-red-contrib-m-bus": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:55.081366+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/moles-integ-dtu-hw": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:55.230471+00:00",
+    "reason": ""
+  },
+  "https://blog.wyraz.de/allgemein/a-brief-analysis-of-the-tibber-pulse-bridge/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:55.382825+00:00",
+    "reason": ""
+  },
+  "https://openwb.de/forum/viewtopic.php?t=5842&start=60": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:55.392441+00:00",
+    "reason": ""
+  },
+  "https://pypi.org/project/smllib/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:55.410403+00:00",
+    "reason": ""
+  },
+  "https://pypi.org/project/sml2mqtt/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:55.428504+00:00",
+    "reason": ""
+  },
+  "https://m-bus.com/documentation-wired/06-application-layer": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:55.630601+00:00",
+    "reason": ""
+  },
+  "https://wiki.c2.com/?StringlyTyped": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:55.901009+00:00",
+    "reason": ""
+  },
+  "https://en.wikipedia.org/wiki/IEEE_754-1985": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:56.054612+00:00",
+    "reason": ""
+  },
+  "https://m-bus.com/documentation-wired/08-appendix": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:56.081036+00:00",
+    "reason": ""
+  },
+  "https://github.com/volkszaehler/libsml": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:56.273495+00:00",
+    "reason": ""
+  },
+  "https://en.wikipedia.org/wiki/Moore%27s_law": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:56.315162+00:00",
+    "reason": ""
+  },
+  "https://stray.game/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:56.432012+00:00",
+    "reason": ""
+  },
+  "https://en.wikipedia.org/wiki/OSI_model": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:58.597606+00:00",
+    "reason": ""
+  },
+  "https://m-bus.com/documentation-wired/05-data-link-layer": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:58.603231+00:00",
+    "reason": ""
+  },
+  "https://en.wikipedia.org/wiki/Bit_banging": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:58.641820+00:00",
+    "reason": ""
+  },
+  "http://the78mole.de/mbus-application-layer/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:58.799473+00:00",
+    "reason": ""
+  },
+  "http://the78mole.de/some-thoughs-on-the-m-bus": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:58.831625+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/think-sustainable-thnk-city-reanimated-work-in-progress/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:59.005536+00:00",
+    "reason": ""
+  },
+  "http://yosefk.com/blog/fun-at-the-turing-tar-pit.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:59.024445+00:00",
+    "reason": ""
+  },
+  "https://www.yoctopuce.com/EN/article/rd6006-adding-a-wired-network-connection": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:59.084490+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/how-to-build-a-private-storage-cluster-with-ceph/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:59.214642+00:00",
+    "reason": ""
+  },
+  "https://the78mole.de/compile-ceph-mimic-on-arm-32-bit/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:59.232603+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/ModBus-RJ45-Breakout-2": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:59.237976+00:00",
+    "reason": ""
+  },
+  "https://www.armbian.com/odroid-hc4/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:59.509203+00:00",
+    "reason": ""
+  },
+  "https://github.com/Baldanos/rd6006": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:59.983256+00:00",
+    "reason": ""
+  },
+  "https://www.balena.io/etcher#download-etcher": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:05:59.990713+00:00",
+    "reason": ""
+  },
+  "https://www.eevblog.com/forum/testgear/ruideng-riden-rd6006-dc-power-supply/msg3172922/#msg3172922": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.054022+00:00",
+    "reason": ""
+  },
+  "https://docs.ceph.com/en/latest/cephadm/install/#curl-based-installation": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.186136+00:00",
+    "reason": ""
+  },
+  "https://quay.io/repository/ceph/ceph?tab=tags&tag=v17": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.473746+00:00",
+    "reason": ""
+  },
+  "https://www.hardkernel.com/shop/usb-uart-2-module-kit-copy/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.477252+00:00",
+    "reason": ""
+  },
+  "https://github.com/rpardini/sys-oled-hc4": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.597960+00:00",
+    "reason": ""
+  },
+  "https://github.com/ceph/ceph-container/actions/workflows/container_arm64.yml": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.605414+00:00",
+    "reason": ""
+  },
+  "https://docs.ceph.com/en/latest/cephfs/mount-using-fuse/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.639797+00:00",
+    "reason": ""
+  },
+  "https://hub.docker.com/r/ceph/ceph": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.846058+00:00",
+    "reason": ""
+  },
+  "https://docs.ceph.com/en/latest/rados/operations/crush-map/#types-and-buckets": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.873505+00:00",
+    "reason": ""
+  },
+  "https://docs.ceph.com/en/latest/rados/operations/crush-map-edits/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.897159+00:00",
+    "reason": ""
+  },
+  "https://docs.ceph.com/en/latest/rados/operations/health-checks/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:00.928770+00:00",
+    "reason": ""
+  },
+  "https://lanbugs.de/howtos/linux/eigenes-debian-ubuntu-repository-aufbauen/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:01.135661+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/docker-cephfs/tree/main": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:01.334554+00:00",
+    "reason": ""
+  },
+  "https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:01.364161+00:00",
+    "reason": ""
+  },
+  "https://www.printables.com/model/7845-multi-catch-mouse-live-trap": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:01.432736+00:00",
+    "reason": ""
+  },
+  "https://de.aliexpress.com/item/1005006379403615.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:01.518692+00:00",
+    "reason": ""
+  },
+  "https://www.printables.com/model/1020494-smarthome-multi-catch-mouse-trap": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:01.668709+00:00",
+    "reason": ""
+  },
+  "https://www.netways.de/blog/2017/03/03/ceph-crush-rules-uber-die-cli/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:01.751479+00:00",
+    "reason": ""
+  },
+  "https://github.com/duff2013/ulptool": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:02.254700+00:00",
+    "reason": ""
+  },
+  "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/ulp_instruction_set.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:02.363641+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/BThomeTrap": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:02.410894+00:00",
+    "reason": ""
+  },
+  "https://github.com/hggh/esp32-ulp-example": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:02.459744+00:00",
+    "reason": ""
+  },
+  "https://bthome.io/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:02.677784+00:00",
+    "reason": ""
+  },
+  "https://github.com/ESP32DE/esp-iot-solution-1/tree/master/examples/ulp_examples": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:02.904471+00:00",
+    "reason": ""
+  },
+  "https://github.com/gabriel-milan/esp32_ulp_hall_wakeup": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:02.960512+00:00",
+    "reason": ""
+  },
+  "https://www.home-assistant.io/integrations/bthome/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:03.053591+00:00",
+    "reason": ""
+  },
+  "https://github.com/SensorsIot/ESP32-ULP-Arduino-IDE/blob/master/ulp_adc/adc.s": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:03.185248+00:00",
+    "reason": ""
+  },
+  "https://code.visualstudio.com/docs/devcontainers/containers": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:03.251511+00:00",
+    "reason": ""
+  },
+  "https://zam.haus": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:03.426016+00:00",
+    "reason": ""
+  },
+  "https://gist.github.com/the78mole/02fc17c20a81113a28d26392d58218dc": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:03.562298+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/BThome-US-Ranging": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:03.574970+00:00",
+    "reason": ""
+  },
+  "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:14:04.348146+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2026/devc-open-devcontainer-from-shell.md"
+    ]
+  },
+  "https://github.com/devcontainers/cli": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:03.932422+00:00",
+    "reason": ""
+  },
+  "https://github.com/features/copilot": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:03.984037+00:00",
+    "reason": ""
+  },
+  "https://github.com/nvm-sh/nvm": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:04.286601+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole-blog/the78mole-blog.github.io/blob/main/.github/skills/repo-maintenance/SKILL.md": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:04.373007+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/skills/tree/main/skills/nuxt-gh-pages": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:04.483446+00:00",
+    "reason": ""
+  },
+  "https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:04.595951+00:00",
+    "reason": ""
+  },
+  "https://datenschutz-generator.de/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:04.665789+00:00",
+    "reason": ""
+  },
+  "https://blog.the78mole.de/contact/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:04.915873+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole/skills": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:04.919469+00:00",
+    "reason": ""
+  },
+  "https://www.impressum-generator.de": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:05.013869+00:00",
+    "reason": ""
+  },
+  "https://www.kanzlei-hasselbach.de/standorte/bonn/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:05.114752+00:00",
+    "reason": ""
+  },
+  "https://optout.aboutads.info/": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:14:05.306488+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/pages/datenschutzerklaerung.md"
+    ]
+  },
+  "https://www.youtube.com/watch?v=h_pQlpXaQ1I": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:05.643753+00:00",
+    "reason": ""
+  },
+  "https://github.com/the78mole": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:06.001116+00:00",
+    "reason": ""
+  },
+  "https://www.xing.com/profile/Daniel_Glaser/cv": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:06.237046+00:00",
+    "reason": ""
+  },
+  "https://gitlab.com/the78mole/logamatic_2107_wifi_comm/-/tree/main/FW/KM271-WIFI-Test": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:06.394209+00:00",
+    "reason": ""
+  },
+  "https://www.linkedin.com/in/daniel-glaser/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:06.410290+00:00",
+    "reason": ""
+  },
+  "https://bizzmark.io": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:06.774839+00:00",
+    "reason": ""
+  },
+  "https://www.e-glaser.de/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:06.909365+00:00",
+    "reason": ""
+  },
+  "https://www.heise.de/ratgeber/Wie-Sie-Sensoren-mit-BTHome-nutzen-11155571.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:07.005265+00:00",
+    "reason": ""
+  },
+  "https://www.heise.de/ratgeber/Waermepumpe-ins-Smart-Home-integrieren-mit-HeishaMon-10641158.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:07.029657+00:00",
+    "reason": ""
+  },
+  "https://www.energiewende-erlangen.de/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:07.163530+00:00",
+    "reason": ""
+  },
+  "https://www.ewerg.de/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:07.313692+00:00",
+    "reason": ""
+  },
+  "https://www.heise.de/select/make/2025/7/2527909052873422615": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:07.956938+00:00",
+    "reason": ""
+  },
+  "https://clean-code-developer.de/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:07.971604+00:00",
+    "reason": ""
+  },
+  "https://www.tindie.com/stores/the78mole/?ref=offsite_badges&utm_source=sellers_the78mole&utm_medium=badges&utm_campaign=badge_large": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:07.985657+00:00",
+    "reason": ""
+  },
+  "https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:08.073874+00:00",
+    "reason": ""
+  },
+  "https://matrix.to/#/#molesblog:matrix.org": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:08.154694+00:00",
+    "reason": ""
+  },
+  "https://www.youtube.com/img/desktop/supported_browsers/yt_logo_rgb_light.png": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:08.276197+00:00",
+    "reason": ""
+  },
+  "https://matrix.org/images/matrix-logo.svg": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:08.313200+00:00",
+    "reason": ""
+  },
+  "https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:08.690290+00:00",
+    "reason": ""
+  },
+  "https://www.st.com/en/ecosystems/x-nucleo-ihm16m1.html": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:47.073661+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2019/stm32-bldc-motor-control.md"
+    ]
+  },
+  "https://www.sensorshop24.de/einschraubtemperaturfuehler-mit-g1-4-gewinde": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:06:12.696389+00:00",
+    "reason": ""
+  },
+  "https://www.hardkernel.com/shop/odroid-hc4/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:30:57.923199+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2018/google-chromecasts-smartphone-independance-day.md"
+    ]
+  },
+  "https://www.google.com/search?q=restore+influxdb+database+online": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:43:41.806612+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2019/merging-the-contents-of-two-influxdbs.md"
+    ]
+  },
+  "https://web.archive.org/web/20191202144520/https://www.hardkernel.com/shop/odroid-hc2-home-cloud-two/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:43:42.788419+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2019/how-to-build-a-private-storage-cluster-with-ceph.md"
+    ]
+  },
+  "https://web.archive.org/web/20241121065741/https://www.pollin.de/p/odroid-hc1-einplatinen-computer-fuer-nas-und-cluster-anwendungen-810766": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:43:42.837140+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2019/how-to-build-a-smart-home.md"
+    ]
+  },
+  "https://web.archive.org/web/20251115155419/https://www.hardkernel.com/shop/16gb-microsd-uhs-1-xu4-linux/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:43:44.451251+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2019/how-to-build-a-private-storage-cluster-with-ceph.md"
+    ]
+  },
+  "https://web.archive.org/web/20251113103351/https://www.hardkernel.com/shop/odroid-hc1-home-cloud-one/": {
+    "status": "passed",
+    "last_check": "2026-05-07T22:43:45.491660+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2019/how-to-build-a-private-storage-cluster-with-ceph.md",
+      "content/blog/2019/how-to-build-a-smart-home.md",
+      "content/blog/2021/sorting-your-digital-mess-how-to-easily-set-up-a-private-search-engine.md"
+    ]
+  },
+  "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Nachhaltig-Mobil/Ladeinfrastruktur.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:08:58.707777+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2021/how-to-wire-up-an-ev-wall-box.md"
+    ]
+  },
+  "https://web.archive.org/web/20201204120933/https://codenotary.com/": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:08:59.467523+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2021/just-do-it-how-to-create-your-own-home-assistant-add-on-part-1.md"
+    ]
+  },
+  "https://web.archive.org/web/20191213003149/https://docs.codenotary.io/guide/quickhelp.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:08:59.521135+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2021/just-do-it-how-to-create-your-own-home-assistant-add-on-part-1.md"
+    ]
+  },
+  "https://web.archive.org/web/20210412001638/https://help.ui.com/hc/en-us/articles/215458888-UniFi-USG-Advanced-Configuration-Using-config-gateway-json": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:08:59.523372+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2021/kathrein-exip-418-getting-it-back-to-work-on-ubiquity-networks.md"
+    ]
+  },
+  "https://www.digikey.de/de/products/detail/jst-sales-america-inc/S13B-PH-K-S/926637?s=N4IgTCBcDaICwFYEFoCMB2AzABmQOQBEQBdAXyA": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:57.492459+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress.md"
+    ]
+  },
+  "https://www.reichelt.de/de/de/shop/produkt/reed-sensor_180_v_0_5_a_effner-151845": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:53.370543+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2021/get-the-hell-out-of-my-wall-box-or-how-to-make-cheap-type-2-adapter-cables-not-so-sticky.md"
+    ]
+  },
+  "https://web.archive.org/web/20220217125938/https://www.rjtec-shop.eu/de/wh-mdc05j3e5.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:09:00.206018+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2022/moles-heating-system.md"
+    ]
+  },
+  "https://web.archive.org/web/20220129104020/https://de.gridparityag.com/": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:09:00.226001+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2022/moles-heating-system.md"
+    ]
+  },
+  "https://www.landisgyr.eu/product/ultraheat-t230/?download=397362&filename=/webfoo/wp-content/uploads/2012/09/T230_Operating_and_Installation_Instruction_EN_m.pdf": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:09:01.103966+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2023/code-red-on-fire-or-heat-metering-with-node-red.md"
+    ]
+  },
+  "https://www.landisgyr.eu/product/ultraheat-t230/?download=282397&filename=/webfoo/wp-content/uploads/2025/04/T230_Technical_Description_EN_g.pdf": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:09:01.135091+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2023/code-red-on-fire-or-heat-metering-with-node-red.md"
+    ]
+  },
+  "https://www.reichelt.de/de/de/shop/produkt/rj45_buchse_terminalblock_hutschiene-347936": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:14:01.370434+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2023/modbus-rj45-breakout.md"
+    ]
+  },
+  "https://www.reichelt.de/de/de/shop/produkt/rj45_buchse_terminalblock_hutschiene_gewinkelt-347937": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:14:02.106462+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2023/modbus-rj45-breakout.md"
+    ]
+  },
+  "https://www.reichelt.de/de/de/shop/produkt/modular-kupplung_rj45_buchse_terminalblock-148849": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:14:02.828274+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2023/modbus-rj45-breakout.md"
+    ]
+  },
+  "https://armbian.com/boards/odroidhc4": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:09:02.320706+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2023/taming-the-cephodian-octopus-or-quincy.md"
+    ]
+  },
+  "https://web.archive.org/web/20250119092402/https://arndt-barop.info/2018/11/30/mein-think-city-wie-alles-begann/": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:09:02.399671+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress.md"
+    ]
+  },
+  "https://web.archive.org/web/20220819220459/https://pmateusz.github.io/linux/2017/06/30/linux-secure-apt-repository.html": {
+    "status": "passed",
+    "last_check": "2026-05-07T23:09:02.452502+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2023/taming-the-cephodian-octopus-or-quincy.md"
+    ]
+  },
+  "https://www.reichelt.de/de/de/shop/produkt/rj45_buchse_terminalblock_mit_drucktaster_adapter-327001": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:14:03.578289+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2023/modbus-rj45-breakout.md"
+    ]
+  },
+  "https://www.st.com/en/evaluation-tools/x-nucleo-ihm08m1.html": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:48.561538+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2019/stm32-bldc-motor-control.md"
+    ]
+  },
+  "https://www.st.com/en/development-tools/stsw-stm32080.html": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:50.609090+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2020/stm32-usb-dfu.md"
+    ]
+  },
+  "https://www.analog.com/media/en/technical-documentation/data-sheets/12801afa.pdf": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:54.531095+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2021/reverse-engineering-the-buderus-km217.md"
+    ]
+  },
+  "https://www.st.com/en/imaging-and-photonics-solutions/time-of-flight-sensors.html": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:13:58.243330+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2021/ultrasound-distance-module-overview.md"
+    ]
+  },
+  "https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:14:00.611719+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2022/onewire-immersed.md"
+    ]
+  },
+  "https://www.reichelt.de/schaltnetzteil-geschlossen-100-w-12-v-8-5-a-mw-lrs-100-12-p202974.html?": {
+    "status": "captcha",
+    "last_check": "2026-05-07T23:24:15.156520+00:00",
+    "reason": "CAPTCHA-protected, manually verified",
+    "sources": [
+      "content/blog/2019/how-to-build-a-private-storage-cluster-with-ceph.md"
+    ]
+  }
+}

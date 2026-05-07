@@ -39,4 +39,4 @@ OK, fine... No just use the channels playlist you downloaded on <https://www.sat
 
 #### If Things Do Not Persist...
 
-If this does not persist the settings (for me it work the second time magically), you need to put it in some JSON config and place it on the UniFi Network Controller, to get provisioned by default. This can be done as described [here](https://help.ui.com/hc/en-us/articles/215458888-UniFi-USG-Advanced-Configuration-Using-config-gateway-json) and [here](https://community.ui.com/questions/Static-DNS-entry/0a0265a7-ec31-4091-8304-9787da328367).
+If this does not persist the settings (for me it work the second time magically), you need to put it in some JSON config and place it on the UniFi Network Controller, to get provisioned by default. This can be done as described [here](https://web.archive.org/web/20210412001638/https://help.ui.com/hc/en-us/articles/215458888-UniFi-USG-Advanced-Configuration-Using-config-gateway-json) and [here](https://community.ui.com/questions/Static-DNS-entry/0a0265a7-ec31-4091-8304-9787da328367).

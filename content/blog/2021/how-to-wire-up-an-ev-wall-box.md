@@ -15,14 +15,14 @@ image: /images/blog/2021/05/openwb.jpg
 
 Have you ever planned to install some wall-box for your new electric car? You have some technical/electrical skills but you are not sure, which wire to run from your building connection to the place where your wall-box will be installed? Then you found the right place to get some deeper thoughts about your intent.
 
-In germany, there is currently some [promotional program](https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Ladestationen-f%C3%BCr-Elektroautos-Wohngeb%C3%A4ude-(440)/) to get 900 € when you install some private wall-box to charge electric cars. There are also some constraints to get the money from government:
+In germany, there is currently some [promotional program](https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Nachhaltig-Mobil/Ladeinfrastruktur.html)/) to get 900 € when you install some private wall-box to charge electric cars. There are also some constraints to get the money from government:
 
 - location shall be in germany and at some residential building
 - the total price (wall-box + installation) needs to be at least 900 €
 - installation needs to be done by an expert (running a business and can hand out an official invoice)
 - the power shall be 11 kW (at least limited by firmware)
 - the wall-box neds to be smart (capable to be controlled by network operator)
-- the wall-box needs to be on the [KFW440 list](https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Ladestationen-f%C3%BCr-Elektroautos-Wohngeb%C3%A4ude-(440)/#)
+- the wall-box needs to be on the [KFW440 list](https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Nachhaltig-Mobil/Ladeinfrastruktur.html)/#)
 
 I will assume, you already know, that you need an RCD Type B, if no DC fault current protection is integrated into your wall-box and all that other safety stuff. Nevertheless, in germany you will need an expert to get the sponsorship.
 

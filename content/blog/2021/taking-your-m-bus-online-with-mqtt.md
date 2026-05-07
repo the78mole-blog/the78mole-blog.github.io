@@ -321,15 +321,15 @@ This config only captures the instant counter value. I will soon add the config 
 
 For the [Zenner](https://zenner.de/) Zelsius C5 heat outlet meters, I even have a few more detailed documents, kindly provided by the manufacturer:
 
-[zelsius\_C5\_ZR\_MBus\_Variables\_de](https://the78mole.de/wp-content/uploads/2021/07/zelsius_C5_ZR_MBus_Variables_de.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/07/zelsius_C5_ZR_MBus_Variables_de.pdf)
+[zelsius\_C5\_ZR\_MBus\_Variables\_de](/uploads/2021/07/zelsius_C5_ZR_MBus_Variables_de.pdf)[Herunterladen](/uploads/2021/07/zelsius_C5_ZR_MBus_Variables_de.pdf)
 
-[C5 Voll Parameterliste HZ](https://the78mole.de/wp-content/uploads/2021/07/C5-Voll-Parameterliste-HZ.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/07/C5-Voll-Parameterliste-HZ.pdf)
+[C5 Voll Parameterliste HZ](/uploads/2021/07/C5-Voll-Parameterliste-HZ.pdf)[Herunterladen](/uploads/2021/07/C5-Voll-Parameterliste-HZ.pdf)
 
 Also [algodue](http://www.algodue.com/) provided some information about their energy counter:
 
-[Algodue UEM80-D Manual](https://the78mole.de/wp-content/uploads/2021/07/MPIC00129R02_UEC80-UEM80_MULTILINGUA.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/07/MPIC00129R02_UEC80-UEM80_MULTILINGUA.pdf)
+[Algodue UEM80-D Manual](/uploads/2021/07/MPIC00129R02_UEC80-UEM80_MULTILINGUA.pdf)[Herunterladen](/uploads/2021/07/MPIC00129R02_UEC80-UEM80_MULTILINGUA.pdf)
 
-[M-BUS-protocol\_User-manual-v009\_E](https://the78mole.de/wp-content/uploads/2021/07/M-BUS-protocol_User-manual-v009_E.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/07/M-BUS-protocol_User-manual-v009_E.pdf)
+[M-BUS-protocol\_User-manual-v009\_E](/uploads/2021/07/M-BUS-protocol_User-manual-v009_E.pdf)[Herunterladen](/uploads/2021/07/M-BUS-protocol_User-manual-v009_E.pdf)
 
 ## Troubleshooting
 

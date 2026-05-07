@@ -17,17 +17,17 @@ I just thought about implemententing a small ESPhome based ultrasound water leve
 | Module Name | Supply  min (V) | Supply max (V) | Range min (cm) | Range max. (cm) | Supply  current (mA) | Accu-racy (mm) | ESP home | Comments |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SRF04-HY | 4.5 | 5.5 |  | 300 |  |  | ![](/images/blog/2021/10/check_micro.png) |  |
-| [SRF05-HY](https://the78mole.de/wp-content/uploads/2021/10/SRF05-HY.pdf) | 4.5 | 5.5 |  | 400 |  |  | ![](/images/blog/2021/10/check_micro.png) |  |
-| [HC-SR04](https://the78mole.de/wp-content/uploads/2021/10/HCSR04.pdf) | 3 (4.5) | 5.5 | 2 | 300 | 15 |  | ![](/images/blog/2021/10/check_micro.png) | minimal voltage depends on board variant |
+| [SRF05-HY](/uploads/2021/10/SRF05-HY.pdf) | 4.5 | 5.5 |  | 400 |  |  | ![](/images/blog/2021/10/check_micro.png) |  |
+| [HC-SR04](/uploads/2021/10/HCSR04.pdf) | 3 (4.5) | 5.5 | 2 | 300 | 15 |  | ![](/images/blog/2021/10/check_micro.png) | minimal voltage depends on board variant |
 | HC-SR04+ | 3 | 5.5 | 2 (?) | 300 (?) |  |  | ![](/images/blog/2021/10/check_micro.png) |  |
-| [US-100](https://the78mole.de/wp-content/uploads/2021/10/4019_Web.pdf) | (3) 4.5 | 5.5 | 2 | 450 |  | 3|1% | ![](/images/blog/2021/10/check_micro.png) | HC-SR04 & Serial UART-Mode |
-| [US-015](https://the78mole.de/wp-content/uploads/2021/10/3822-US-015-High-Accuracy-Ultrasonic-Sensor.pdf) | 4.5 | 5.5 | 2 | 400 | ~2 | 1|1% | ![](/images/blog/2021/10/check_micro.png) |  |
+| [US-100](/uploads/2021/10/4019_Web.pdf) | (3) 4.5 | 5.5 | 2 | 450 |  | 3|1% | ![](/images/blog/2021/10/check_micro.png) | HC-SR04 & Serial UART-Mode |
+| [US-015](/uploads/2021/10/3822-US-015-High-Accuracy-Ultrasonic-Sensor.pdf) | 4.5 | 5.5 | 2 | 400 | ~2 | 1|1% | ![](/images/blog/2021/10/check_micro.png) |  |
 | US-016 | (?) | (?) | (?) | (?) | (?) | (?) |  |  |
 | US-026 | (?) | (?) | (?) | (?) | (?) | (?) |  |  |
 | UNS-016 | (?) | (?) | (?) | (?) | (?) | (?) |  |  |
 | UNS-100 | (?) | (?) | (?) | (?) | (?) | (?) |  |  |
 | IOE-SR05 | (?) | (?) | (?) | (?) | (?) | (?) |  |  |
-| [RCWL-1601](https://the78mole.de/wp-content/uploads/2021/10/4007_Web.pdf) | 3 | 5.5 | 2  (10) | 450  (250) | 2.2 | (?) | ![](/images/blog/2021/10/check_micro.png) | HC-SR04 compatible |
+| [RCWL-1601](/uploads/2021/10/4007_Web.pdf) | 3 | 5.5 | 2  (10) | 450  (250) | 2.2 | (?) | ![](/images/blog/2021/10/check_micro.png) | HC-SR04 compatible |
 |  |  |  |  |  |  |  |  |  |
 
 As you can see, for some modules, you will even not find data... So better stick with the known ones.

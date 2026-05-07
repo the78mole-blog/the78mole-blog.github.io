@@ -39,7 +39,7 @@ After cloning, it makes sense, to rename the example-folder to the name of your 
 
 Now you need to adjust some of the stuff in the repo, like the README.md (be aware of the short links, that get expanded by the descriptions at the end of the README.
 
-In Github, you can activate most of the stuff, including the Actions which will build your addon and release it. All stuff needed to run the actions is already included. Find all mentions of hassio-addons/example-addon and replace it with your owns repo path (in my case: the78mole/addon-rentman). But for running the actions, one thing is missing: Notarize, using codenotary.io. To use this functionality and make your build happen, you need to register for free on codenotary.io ([Quick Help](https://docs.codenotary.io/guide/quickhelp.html)). Registering is done on the [dashboard](https://dashboard.codenotary.io/vcn) (I used my GitHub-Account for that).
+In Github, you can activate most of the stuff, including the Actions which will build your addon and release it. All stuff needed to run the actions is already included. Find all mentions of hassio-addons/example-addon and replace it with your owns repo path (in my case: the78mole/addon-rentman). But for running the actions, one thing is missing: Notarize, using codenotary.io. To use this functionality and make your build happen, you need to register for free on codenotary.io ([Quick Help](https://web.archive.org/web/20191213003149/https://docs.codenotary.io/guide/quickhelp.html)). Registering is done on the [dashboard](https://web.archive.org/web/20201204120933/https://codenotary.com/) (I used my GitHub-Account for that).
 
 Fill in all necessary stuff and download the installer version of the app.
 

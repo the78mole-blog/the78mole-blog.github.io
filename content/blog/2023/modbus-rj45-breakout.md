@@ -18,10 +18,10 @@ Again, I quickly developed a gadget to ease my life as a data collecting mole. M
 
 Also, if you try to solve it with the common break out solutions for RJ45 e.g.,
 
-- [Delock 66992 (Reichelt)](https://www.reichelt.de/rj45-buchse-terminalblock-hutschiene-delock-66992-p347936.html)
-- [Delock 66993 (Reichelt)](https://www.reichelt.de/rj45-buchse-terminalblock-hutschiene-gewinkelt-delock-66993-p347937.html)
-- [Delock 65527 (Reichelt)](https://www.reichelt.de/modular-kupplung-rj45-buchse-terminalblock-delock-65527-p148849.html)
-- [Delock 66948](https://www.reichelt.de/rj45-buchse-terminalblock-mit-drucktaster-adapter-delock-66948-p327001.html)
+- [Delock 66992 (Reichelt)](https://www.reichelt.de/de/de/shop/produkt/rj45_buchse_terminalblock_hutschiene-347936)
+- [Delock 66993 (Reichelt)](https://www.reichelt.de/de/de/shop/produkt/rj45_buchse_terminalblock_hutschiene_gewinkelt-347937)
+- [Delock 65527 (Reichelt)](https://www.reichelt.de/de/de/shop/produkt/modular-kupplung_rj45_buchse_terminalblock-148849)
+- [Delock 66948](https://www.reichelt.de/de/de/shop/produkt/rj45_buchse_terminalblock_mit_drucktaster_adapter-327001)
 - and many more...
 
 you will end up with an expensive, very fragile solution and still need to have a converter from USB to ModBus/RS485, not speaking of termination.

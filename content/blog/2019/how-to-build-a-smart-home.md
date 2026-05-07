@@ -14,7 +14,7 @@ What I'm talking about? It's iobroker.
 
 If you already own a Homematic System from EQ-3 (ELV in older ages), iobroker is a must-have. BTW: If you already own a Charly, you can install iobroker on it without addional hardware, but be advised to install a USB drive with enough storage for the data that accumulates when years pass by. I would not suggest to use a flash based drive, since it needs a tradeoff between amount of data lost when power cuts and the endurance of your drive. Write cycles will be quite often...
 
-Welp, where to start? I would first get some low-power and reliable mini PC. The solution I selected is from hardkernel and called [ODROID HC-1](https://www.hardkernel.com/shop/odroid-hc1-home-cloud-one/) (in Germany best bought at [Pollin](https://www.pollin.de/p/odroid-hc1-einplatinen-computer-fuer-nas-und-cluster-anwendungen-810766) for 60€). This is a little ARM board running ubuntu linux and providing space for a single 2.5" HDD. I selected a WD Red 1TB drive for that purpose. The linux OS itself needs to be put on a Micro-SD card.
+Welp, where to start? I would first get some low-power and reliable mini PC. The solution I selected is from hardkernel and called [ODROID HC-1](https://web.archive.org/web/20251113103351/https://www.hardkernel.com/shop/odroid-hc1-home-cloud-one/) (in Germany best bought at [Pollin](https://web.archive.org/web/20241121065741/https://www.pollin.de/p/odroid-hc1-einplatinen-computer-fuer-nas-und-cluster-anwendungen-810766) for 60€). This is a little ARM board running ubuntu linux and providing space for a single 2.5" HDD. I selected a WD Red 1TB drive for that purpose. The linux OS itself needs to be put on a Micro-SD card.
 
 I would suggest to also buy the following:
 
@@ -131,11 +131,11 @@ Now you can start chronograph
 
 Now visit the chronograph web interface by browsing to http://<host>:8888. A Wizard will welcome you. Enter the appropriate data to access your InfluxDB. Youcan skip the Kapacitor question. After finishing the wizard, you should be able to see the following on chronographs Config tab.
 
-![](/images/blog/2019/05/image.png?fit=696%2C182&ssl=1)
+![](/images/blog/genral/no-mole-sorry.jpeg)
 
 When this is done, issue your first query on the Explore tab (use the datapoint selector on the lower half of the page and select an appropriate date from the date picker in the upper right corner:
 
-![](/images/blog/2019/05/image-1.png?fit=696%2C194&ssl=1)
+![](/images/blog/genral/no-mole-sorry.jpeg)
 
 ## Install iobroker
 

@@ -110,7 +110,7 @@ I implemented the logic in node-red instead of HA automation scripts, which look
 
 You can download and import the following json (you need to adjust the datadources):
 
-[charge\_limiter.json](https://the78mole.de/wp-content/uploads/2021/10/charge_limiter.json)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/10/charge_limiter.json)
+[charge\_limiter.json](/uploads/2021/10/charge_limiter.json)[Herunterladen](/uploads/2021/10/charge_limiter.json)
 
 Have fun!
 

@@ -30,15 +30,15 @@ If you have one of my boards and a different control unit that works, please tel
 
 ## The Hardware
 
-[KM217-WiFi-Schematics (0.0.6)](https://the78mole.de/wp-content/uploads/2023/03/KM217-WiFi.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2023/03/KM217-WiFi.pdf)
+[KM217-WiFi-Schematics (0.0.6)](/uploads/2023/03/KM217-WiFi.pdf)[Herunterladen](/uploads/2023/03/KM217-WiFi.pdf)
 
-[KM217-WiFi-PCB (0.0.6)](https://the78mole.de/wp-content/uploads/2023/03/KM217-WiFi-PCB-0.0.6.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2023/03/KM217-WiFi-PCB-0.0.6.pdf)
+[KM217-WiFi-PCB (0.0.6)](/uploads/2023/03/KM217-WiFi-PCB-0.0.6.pdf)[Herunterladen](/uploads/2023/03/KM217-WiFi-PCB-0.0.6.pdf)
 
-[KM217-WiFi-Schematics (0.0.5)](https://the78mole.de/wp-content/uploads/2022/11/KM217-WiFi-Schematics.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2022/11/KM217-WiFi-Schematics.pdf)
+[KM217-WiFi-Schematics (0.0.5)](/uploads/2022/11/KM217-WiFi-Schematics.pdf)[Herunterladen](/uploads/2022/11/KM217-WiFi-Schematics.pdf)
 
-[KM217-WiFi-PCB (0.0.5)](https://the78mole.de/wp-content/uploads/2022/11/KM217-WiFi-PCB.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2022/11/KM217-WiFi-PCB.pdf)
+[KM217-WiFi-PCB (0.0.5)](/uploads/2022/11/KM217-WiFi-PCB.pdf)[Herunterladen](/uploads/2022/11/KM217-WiFi-PCB.pdf)
 
-To make your life easier for aseembly and to find the parts and signals, here is the [interactie BOM](https://the78mole.de/wp-content/uploads/2022/11/ibom.html).
+To make your life easier for aseembly and to find the parts and signals, here is the [interactie BOM](/uploads/2022/11/ibom.html).
 
 ## The Software
 

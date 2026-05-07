@@ -39,7 +39,7 @@ $ restore-influxdb-database-online \
     iobroker iobroker_old
 ```
 
-The command to my success was (with help from [GIST](https://gist.github.com/pootzko/e46fe2e0e6e12a6b0dddbb2ed12b15cd), before you run the command, doing a snapshot of the system may be a good advise):
+The command to my success was (with help from [GIST](https://www.google.com/search?q=restore+influxdb+database+online), before you run the command, doing a snapshot of the system may be a good advise):
 
 ```
 $ influx -database iobroker_old -execute \

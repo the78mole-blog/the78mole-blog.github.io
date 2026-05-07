@@ -55,7 +55,7 @@ With knowing the flash size (from the flash\_id command), we can decide on the r
 
 The binary that I did extract is the following, in case you bricked your module :-)
 
-[RD-WiFi-Firmware](https://the78mole.de/wp-content/uploads/2023/01/RD-WiFi-Firmware.bin)[Herunterladen](https://the78mole.de/wp-content/uploads/2023/01/RD-WiFi-Firmware.bin)
+[RD-WiFi-Firmware](/uploads/2023/01/RD-WiFi-Firmware.bin)[Herunterladen](/uploads/2023/01/RD-WiFi-Firmware.bin)
 
 Now we will upload some ESP firmware. Since initial programming with ESPhome did not connect to the module, I downloaded it for manual flashing (modern image format) and used esphome-flasher to get it onto the device (later you can just use OTA):
 

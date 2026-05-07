@@ -13,10 +13,18 @@ repos:
       # Abort if merge-conflict markers (<<<, ===, >>>) are present
       - id: check-merge-conflict
 
-      # Warn on files > 500 kB (keeps the repo lean; large images should be
-      # optimised before committing)
+      # PDFs, binary blobs and STL files: allow up to 10 MB
       - id: check-added-large-files
-        args: [--maxkb=500]
+        name: Large-file check – PDFs / bins / STLs (≤ 10 MB)
+        args: [--maxkb=10240]
+        files: \.(pdf|bin|stl)$
+
+      # Everything else: keep the repo lean (≤ 500 kB)
+      - id: check-added-large-files
+        alias: check-added-large-files-other
+        name: Large-file check – other files (≤ 1024 kB)
+        args: [--maxkb=1024]
+        exclude: \.(pdf|bin|stl)$
 
       # Validate JSON syntax (package.json, renovate.json, discussions/*.json …)
       - id: check-json

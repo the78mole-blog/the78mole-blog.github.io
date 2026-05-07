@@ -98,13 +98,13 @@ I also recently found out, that Buderus sells a unit called Logamatic web KM200 
 
 Here are some additional information that helped me to dig through:
 
-[Service manual 2107 (de)](https://the78mole.de/wp-content/uploads/2021/07/Service-Manual-de.pdf) [Herunterladen](https://the78mole.de/wp-content/uploads/2021/07/Service-Manual-de.pdf)
+[Service manual 2107 (de)](/uploads/2021/07/Service-Manual-de.pdf) [Herunterladen](/uploads/2021/07/Service-Manual-de.pdf)
 
-[Circuit schematics for 2107](https://the78mole.de/wp-content/uploads/2021/07/67903492.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/07/67903492.pdf)
+[Circuit schematics for 2107](/uploads/2021/07/67903492.pdf)[Herunterladen](/uploads/2021/07/67903492.pdf)
 
-[Installation instructions for 2107 extension modules](https://the78mole.de/wp-content/uploads/2021/07/6720646126.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/07/6720646126.pdf)
+[Installation instructions for 2107 extension modules](/uploads/2021/07/6720646126.pdf)[Herunterladen](/uploads/2021/07/6720646126.pdf)
 
-[Arrangement example (V2 with KM277)](https://the78mole.de/wp-content/uploads/2021/07/67902613.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/07/67902613.pdf)
+[Arrangement example (V2 with KM277)](/uploads/2021/07/67902613.pdf)[Herunterladen](/uploads/2021/07/67902613.pdf)
 
 ## Remote Reverse Engineering
 
@@ -154,7 +154,7 @@ Additionally, we add some dual row header. On this header, we can use jumpers if
 
 ### Latest Design
 
-[KM217-WiFi - Schematics 0.1.0](https://the78mole.de/wp-content/uploads/2021/07/KM217-WiFi-Schematics-0.1.0.pdf)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/07/KM217-WiFi-Schematics-0.1.0.pdf)
+[KM217-WiFi - Schematics 0.1.0](/uploads/2021/07/KM217-WiFi-Schematics-0.1.0.pdf)[Herunterladen](/uploads/2021/07/KM217-WiFi-Schematics-0.1.0.pdf)
 
 ### Historic Designs
 

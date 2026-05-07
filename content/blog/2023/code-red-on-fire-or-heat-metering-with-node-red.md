@@ -35,7 +35,7 @@ This is my PiXtend V2 -S-, some little Pi-based PLC controller, running node red
 
 ![](/images/blog/2023/04/image-2.png)
 
-On the left, you can see the Landis+Gyr Ultraheat T230 ([technical description](https://www.landisgyr.de/webfoo/wp-content/uploads/2012/09/Technische-Beschreibung_32-18-000-001-f.pdf), [user manual](https://www.landisgyr.de/webfoo/wp-content/uploads/2012/09/Bedien_32-18-000-003_l.pdf)) with a composite flow tube Qp=1,5 m³/h and an M-Bus module installed. The four wires on the bottom are (from left to right) flow measurment sensors, return temperature sensor, forward temperature sensor and the M-Bus cable. On the right side, you can see a heating water pump Grundfos Alpha 3, that has bluetooth integrated. From this pump I hope to get some flow, pressure and electical values (stay tuned to read about it).
+On the left, you can see the Landis+Gyr Ultraheat T230 ([technical description](https://www.landisgyr.eu/product/ultraheat-t230/?download=282397&filename=/webfoo/wp-content/uploads/2025/04/T230_Technical_Description_EN_g.pdf), [user manual](https://www.landisgyr.eu/product/ultraheat-t230/?download=397362&filename=/webfoo/wp-content/uploads/2012/09/T230_Operating_and_Installation_Instruction_EN_m.pdf)) with a composite flow tube Qp=1,5 m³/h and an M-Bus module installed. The four wires on the bottom are (from left to right) flow measurment sensors, return temperature sensor, forward temperature sensor and the M-Bus cable. On the right side, you can see a heating water pump Grundfos Alpha 3, that has bluetooth integrated. From this pump I hope to get some flow, pressure and electical values (stay tuned to read about it).
 
 ## The Software Part
 

@@ -21,7 +21,7 @@ image: /images/blog/2021/01/search.png
 
 ## Motivation
 
-In my vacations, I kicked-off some new projects. One of it is an ARM64 based SBC with integrated SATA mostly like the [Odroid-HC1/2](https://www.hardkernel.com/shop/odroid-hc1-home-cloud-one/). The main difference is the ARM (64 vs. 32 Bit) to be able to run [Ceph](https://ceph.io/) on it.
+In my vacations, I kicked-off some new projects. One of it is an ARM64 based SBC with integrated SATA mostly like the [Odroid-HC1/2](https://web.archive.org/web/20251113103351/https://www.hardkernel.com/shop/odroid-hc1-home-cloud-one/). The main difference is the ARM (64 vs. 32 Bit) to be able to run [Ceph](https://ceph.io/) on it.
 
 If you read some of my previous posts, you will notice, that I already put in some effort to make Ceph run on 32-bit controllers. But the effort was way to high, to make and keep it running. But the new SBC is another story, I will tell, when the time is ripe for it.
 

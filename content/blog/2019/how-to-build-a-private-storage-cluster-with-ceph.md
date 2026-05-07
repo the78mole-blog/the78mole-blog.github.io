@@ -13,7 +13,7 @@ tags:
 
 Finally, I did not succeed in getting Ceph running on a 32 bit ARM. There have been to many issues in the code (especially incompatible datatypes) and issues with GCC and the 3 GB RAM limit for 32 bit platforms. I'm now focusing on using a 64 bit ARM and developing a dedicated HW for it. So, stay tuned...
 
-Since my NAS (a QNAP TS-419P II) get more and more buggy, especially with non-working Windows shares and the painfully low processing power of the integrated ARM single core, wished something like a SAN for myself. But SAN is quite expensive, the peripherial hardware (Switches, UPS,...) not included. So I decided to skip a few levels and build up a NAS 2.0 storage cluster based on open source ceph using low-budget [ODROID HC2](https://www.hardkernel.com/shop/odroid-hc2-home-cloud-two/) (Octa-Core 4 x Cortex-A15 + 4 x Cortex-A7) from [Hardkernel](https://www.hardkernel.com/) as the work horse to create storage nodes. To make it even more dense, you can use the [ODROID HC1](https://www.hardkernel.com/shop/odroid-hc1-home-cloud-one/) that is just the same but for 2.5" disks (be aware of the power supply: HC2 = 12V, HC1 = 5V !!!).
+Since my NAS (a QNAP TS-419P II) get more and more buggy, especially with non-working Windows shares and the painfully low processing power of the integrated ARM single core, wished something like a SAN for myself. But SAN is quite expensive, the peripherial hardware (Switches, UPS,...) not included. So I decided to skip a few levels and build up a NAS 2.0 storage cluster based on open source ceph using low-budget [ODROID HC2](https://web.archive.org/web/20191202144520/https://www.hardkernel.com/shop/odroid-hc2-home-cloud-two/) (Octa-Core 4 x Cortex-A15 + 4 x Cortex-A7) from [Hardkernel](https://www.hardkernel.com/) as the work horse to create storage nodes. To make it even more dense, you can use the [ODROID HC1](https://web.archive.org/web/20251113103351/https://www.hardkernel.com/shop/odroid-hc1-home-cloud-one/) that is just the same but for 2.5" disks (be aware of the power supply: HC2 = 12V, HC1 = 5V !!!).
 
 If you don't need a SATA drive (e.g. for the controlling nodes of the cluster: mgr, metadata, nfs, cifs,...), you can use the MC1, MC1 solo, XU4 or XU4Q.
 
@@ -25,7 +25,7 @@ To build up the cluster, I currently use 4 x ODRID HC2 with WD Red 4 TB drives (
 
 - 4 x ODROID HC2
 - 4 x WD40EFRX (4 TB WD Red 3,5" HDD)
-- 4 x [16 GB MicroSD-card](https://www.hardkernel.com/shop/16gb-microsd-uhs-1-xu4-linux/) (Linux preinstalled)
+- 4 x [16 GB MicroSD-card](https://web.archive.org/web/20251115155419/https://www.hardkernel.com/shop/16gb-microsd-uhs-1-xu4-linux/) (Linux preinstalled)
 - 4 x [DC Plug Cable](https://www.hardkernel.com/shop/dc-plug-cable-assembly-5-5mm-l-type/)
 - 1 x [12V/8,5A Power Supply](https://www.reichelt.de/schaltnetzteil-geschlossen-100-w-12-v-8-5-a-mw-lrs-100-12-p202974.html?)
 

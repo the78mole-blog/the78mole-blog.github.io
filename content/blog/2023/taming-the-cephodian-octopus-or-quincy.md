@@ -35,7 +35,7 @@ As you may guessed already, installing ceph is still not an easy task. You can o
 
 # Installation
 
-After trying different things (original HC4, debian bullsey stable and unstable), I got over to try [armbian for ODROID HC4](https://www.armbian.com/odroid-hc4/) ([Bookworm CLI](https://dl.armbian.com/odroidhc4/archive/Armbian_23.11.1_Odroidhc4_bookworm_current_6.1.63.img.xz) as of Nov, 30th 2023). It is based on debian and provides recent updates (currently containing ceph 16.2.11, but ceph provides latest packages for debian bookworm). Flashing is easily done with [Balena Etcher](https://www.balena.io/etcher#download-etcher).
+After trying different things (original HC4, debian bullsey stable and unstable), I got over to try [armbian for ODROID HC4](https://www.armbian.com/odroid-hc4/) ([Bookworm CLI](https://armbian.com/boards/odroidhc4) as of Nov, 30th 2023). It is based on debian and provides recent updates (currently containing ceph 16.2.11, but ceph provides latest packages for debian bookworm). Flashing is easily done with [Balena Etcher](https://www.balena.io/etcher#download-etcher).
 
 ## Hardware Preparation
 
@@ -629,7 +629,7 @@ $ cd build
 $ ninja -j1
 ```
 
-To be able to distribute the packages (we will need more than a single host for ceph to make any sense), we will setup a debian package repository. I will make mine public so you can skip the process of compiling your packages. I used a [german tutorial](https://lanbugs.de/howtos/linux/eigenes-debian-ubuntu-repository-aufbauen/) on creating an own repository, a tutorial to [host a package repository using GitHub Pages](https://pmateusz.github.io/linux/2017/06/30/linux-secure-apt-repository.html) and [PPA repo hosted on GitHub](https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html).
+To be able to distribute the packages (we will need more than a single host for ceph to make any sense), we will setup a debian package repository. I will make mine public so you can skip the process of compiling your packages. I used a [german tutorial](https://lanbugs.de/howtos/linux/eigenes-debian-ubuntu-repository-aufbauen/) on creating an own repository, a tutorial to [host a package repository using GitHub Pages](https://web.archive.org/web/20220819220459/https://pmateusz.github.io/linux/2017/06/30/linux-secure-apt-repository.html) and [PPA repo hosted on GitHub](https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html).
 
 ```bash
 $ mkdir ~/bin && cd ~/bin

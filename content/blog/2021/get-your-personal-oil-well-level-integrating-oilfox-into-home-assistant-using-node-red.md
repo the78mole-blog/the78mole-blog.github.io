@@ -20,7 +20,7 @@ Now, here is my little node-red flow to get the OilFox data:
 
 ![](/images/blog/2021/10/image-17.png)
 
-[OilFox API](https://the78mole.de/oilfox-api-2/)
+[OilFox API node-red Flow (JSON)](/uploads/2022/11/OilFox-API.json)
 
 It will retrieve the current OilFox data and put it into two entities of Home Assistant. The liters entity also contains some more attributes to be stored, like the timestamp, the OilFox sent it's data to the cloud and the size of the tank you entered during initial configuration of your OilFox device.
 

@@ -38,7 +38,7 @@ What I do not understand is, that there is no regulation to provide the market d
 
 Here is, how I did it in node-red (palettes needed: node-red-contrib-cron-plus, node-red-contrib-date, node-red-contrib-home-assistant-websocket):
 
-[EPEX-SPOT-Price-Crawler](https://the78mole.de/wp-content/uploads/2021/10/EPEX-SPOT-Price-Crawler.json)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/10/EPEX-SPOT-Price-Crawler.json)
+[EPEX-SPOT-Price-Crawler](/uploads/2021/10/EPEX-SPOT-Price-Crawler.json)[Herunterladen](/uploads/2021/10/EPEX-SPOT-Price-Crawler.json)
 
 ![](/images/blog/2021/10/image-12-1024x452.png)
 
@@ -54,7 +54,7 @@ One way to improve it, is to fetch the whole day ahead prices, store it permanen
 
 I also wrote some node-red flow for getting the prices from aWATTar, that give you free access to their API (thanks guys):
 
-[aWATTar\_prices](https://the78mole.de/wp-content/uploads/2021/10/aWATTar_prices.json)[Herunterladen](https://the78mole.de/wp-content/uploads/2021/10/aWATTar_prices.json)
+[aWATTar\_prices](/uploads/2021/10/aWATTar_prices.json)[Herunterladen](/uploads/2021/10/aWATTar_prices.json)
 
 ![](/images/blog/2021/10/image-16-1024x298.png)
 

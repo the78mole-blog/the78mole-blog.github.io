@@ -17,7 +17,7 @@ image: /images/blog/2022/10/image-13.png
 
 As always, I want to first quickly explain, what brought me to that project... If you look around in different stores and on aliexpress, you can find a ton of 1-wire temperature sensors with stainless steel sleeves. But they are all 6 mm or the are wrapped with a shrinking tube, that avoids to use it as a immersed temperature probe. What I needed was a sleeve with 5 mm (or 5.2 mm) diameter and grooved at the end to be used in standard probe holes like with this [ball valve](https://www.pumpendiscounter.de/ReigaGbR-p9174h1310s1312-Kugelhahn-1-IG-DN-25.html).
 
-The tricky point is, that the default [DS18B20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) in TO-92 case are a bit to fat, to fit in a 5 mm tube. But the DB18B20U is the starving brother and thin enough to fit in, if placed on an appropriate PCB (0,6mm). So, I decided to design one and give it a try...
+The tricky point is, that the default [DS18B20](https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf) in TO-92 case are a bit to fat, to fit in a 5 mm tube. But the DB18B20U is the starving brother and thin enough to fit in, if placed on an appropriate PCB (0,6mm). So, I decided to design one and give it a try...
 
 ![](/images/blog/2022/10/image-12-1024x510.png)
 
