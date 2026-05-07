@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Kontakt – the78mole',
-  description: 'Schreib mir – Fragen, Anmerkungen oder einfach Hallo.',
+  title: 'Contact – the78mole',
+  description: 'Get in touch – questions, feedback, or just say hello.',
 })
 
 const form = reactive({
@@ -35,8 +35,8 @@ async function handleSubmit(e: Event) {
 
 <template>
   <div class="max-w-4xl mx-auto">
-    <h1 class="text-3xl font-bold text-white mb-2">Kontakt</h1>
-    <p class="text-gray-400 mb-10">Fragen, Anmerkungen oder einfach Hallo – schreib mir!</p>
+    <h1 class="text-3xl font-bold text-white mb-2">Contact</h1>
+    <p class="text-gray-400 mb-10">Questions, feedback, or just want to say hello – drop me a line!</p>
 
     <div class="grid sm:grid-cols-2 gap-6 mb-12">
       <a href="mailto:me@the78mole.de"
@@ -58,15 +58,15 @@ async function handleSubmit(e: Event) {
     </div>
 
     <div v-if="submitted" class="bg-green-900/30 border border-green-700 text-green-300 rounded-xl p-6 mb-8">
-      Danke für deine Nachricht! Ich melde mich so bald wie möglich.
+      Thank you for your message! I'll get back to you as soon as possible.
     </div>
 
     <div v-else-if="error" class="bg-red-900/30 border border-red-700 text-red-300 rounded-xl p-6 mb-8">
-      Leider ist etwas schiefgelaufen. Schreib mir direkt per E-Mail.
+      Something went wrong. Please write to me directly via e-mail.
     </div>
 
     <template v-else>
-      <h2 class="text-xl font-semibold text-white mb-6">Formular</h2>
+      <h2 class="text-xl font-semibold text-white mb-6">Contact Form</h2>
       <form @submit.prevent="handleSubmit" class="space-y-5">
         <!-- StaticForms – API-Key eintragen -->
         <input type="hidden" name="apiKey" value="YOUR_STATICFORMS_API_KEY" />
@@ -92,16 +92,16 @@ async function handleSubmit(e: Event) {
         </div>
 
         <div>
-          <label for="subject" class="block text-sm text-gray-400 mb-1">Betreff</label>
+          <label for="subject" class="block text-sm text-gray-400 mb-1">Subject</label>
           <input
             id="subject" v-model="form.subject" type="text" name="subject"
-            placeholder="z. B. Frage zu einem Artikel, Kooperation, ..."
+            placeholder="e.g. question about a post, collaboration, ..."
             class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-amber-500 transition-colors"
           />
         </div>
 
         <div>
-          <label for="message" class="block text-sm text-gray-400 mb-1">Nachricht *</label>
+          <label for="message" class="block text-sm text-gray-400 mb-1">Message *</label>
           <textarea
             id="message" v-model="form.message" name="message" rows="6" required
             class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-amber-500 transition-colors resize-none"
@@ -112,13 +112,13 @@ async function handleSubmit(e: Event) {
           type="submit"
           class="bg-amber-500 hover:bg-amber-400 text-gray-950 font-semibold px-6 py-2 rounded-lg transition-colors"
         >
-          Nachricht senden
+          Send message
         </button>
       </form>
 
       <p class="mt-4 text-xs text-gray-600">
-        Das Formular nutzt <a href="https://www.staticforms.xyz" target="_blank" rel="noopener" class="underline hover:text-gray-400">Static Forms</a>.
-        Weitere Infos in der <NuxtLink to="/pages/datenschutzerklaerung" class="underline hover:text-gray-400">Datenschutzerklärung</NuxtLink>.
+        This form uses <a href="https://www.staticforms.xyz" target="_blank" rel="noopener" class="underline hover:text-gray-400">Static Forms</a>.
+        See the <NuxtLink to="/pages/datenschutzerklaerung" class="underline hover:text-gray-400">Privacy Policy</NuxtLink> for details.
       </p>
     </template>
   </div>

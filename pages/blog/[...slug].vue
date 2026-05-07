@@ -1,6 +1,15 @@
 <script setup lang="ts">
 const route = useRoute()
-const { public: { adsenseSlots } } = useRuntimeConfig()
+const { public: { adsensePubId, adsenseSlots } } = useRuntimeConfig()
+
+useHead({
+  script: [
+    {
+      src: `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsensePubId}`,
+      async: true,
+    },
+  ],
+})
 
 const { data: post } = await useAsyncData(`post-${route.path}`, () =>
   queryCollection('blog').path(route.path).first()

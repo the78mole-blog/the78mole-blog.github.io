@@ -24,7 +24,7 @@ function resetConsent() {
           <NuxtLink to="/pages/tutorials" class="hover:text-white transition-colors">HowTos</NuxtLink>
           <NuxtLink to="/pages/links" class="hover:text-white transition-colors">Links</NuxtLink>
           <NuxtLink to="/pages/about" class="hover:text-white transition-colors">About</NuxtLink>
-          <NuxtLink to="/pages/contact" class="hover:text-white transition-colors">Kontakt</NuxtLink>
+          <NuxtLink to="/pages/contact" class="hover:text-white transition-colors">Contact</NuxtLink>
           <a href="https://github.com/the78mole" target="_blank" rel="noopener" class="hover:text-white transition-colors">GitHub</a>
         </nav>
       </div>
@@ -40,9 +40,9 @@ function resetConsent() {
         <span>·</span>
         <NuxtLink to="/pages/impressum" class="hover:text-gray-300 transition-colors">Impressum</NuxtLink>
         <span>·</span>
-        <NuxtLink to="/pages/datenschutzerklaerung" class="hover:text-gray-300 transition-colors">Datenschutz</NuxtLink>
+        <NuxtLink to="/pages/datenschutzerklaerung" class="hover:text-gray-300 transition-colors">Privacy Policy</NuxtLink>
         <span>·</span>
-        <button @click="resetConsent" class="hover:text-gray-300 transition-colors">Datenschutzeinstellungen</button>
+        <button @click="resetConsent" class="hover:text-gray-300 transition-colors">Privacy Settings</button>
         <span>·</span>
         <span>Built with <a href="https://nuxt.com" target="_blank" class="text-amber-400 hover:text-amber-300">Nuxt</a></span>
       </div>
