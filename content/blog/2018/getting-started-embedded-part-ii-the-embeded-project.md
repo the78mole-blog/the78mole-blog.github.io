@@ -20,7 +20,7 @@ Welp, what is that? It has at first nothing to do with software, hardware or an 
 
 I tend to use "the Atlassian tools" (Jira, Confluence, Bitbucket) for that purpose. Not that I receive any revenue for that, but I did not find anything that can compete with it at the moment... Most important in my opinion at this stage is Confluence. But to start a "Space" in Confluence, the more effective workflow is to start with a Jira project (again this word...).
 
-If you create a Jira project, I suggest you use a template that contains user stories and bugs (e.g. Scrum or Kanban), and then add issue types ([Tutorial](/blog/creating-custom-issue-types-in-jira)) for requirements and impediments. Don't try to optimize the workflow for every issue type, during the project is the perfect time to do it.
+If you create a Jira project, I suggest you use a template that contains user stories and bugs (e.g. Scrum or Kanban), and then add issue types ([Tutorial](/pages/creating-custom-issue-types-in-jira)) for requirements and impediments. Don't try to optimize the workflow for every issue type, during the project is the perfect time to do it.
 
 Now create a new Confluence space (Software Project Space template) and link it to your just created Jira project. This space is the container for all relevant project information. Neither is Jira only suited for software projects, nor is Confluence (with this software template). In fact, you can drive anything with it efficiently. I love it to steer my renovation projects around my house with it. (Yes, I'm a nerd :-) !) This is not classical project management with a tight schedule, it is simply collecting issues, linking them and pick them according to their priority and dependencies.
 
