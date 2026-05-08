@@ -3,6 +3,8 @@
 # Called by pre-commit with staged markdown files as arguments.
 # Checks that every image referenced in frontmatter (image:) or
 # inline Markdown syntax (![...](/images/...)) exists in public/.
+# Lines inside fenced code blocks (``` ... ```) are skipped.
+# Output includes the source line number.
 
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 PUBLIC="$REPO_ROOT/public"
@@ -13,21 +15,38 @@ for FILE in "$@"; do
   ABS="$REPO_ROOT/$FILE"
   [[ ! -f "$ABS" ]] && continue
 
-  # Frontmatter: image: /images/...
-  while IFS= read -r IMG; do
-    IMG="${IMG#"${IMG%%[![:space:]]*}"}"
-    IMG="${IMG%"${IMG##*[![:space:]]}"}"
-    IMG="${IMG#\'}" ; IMG="${IMG%\'}"
-    IMG="${IMG#\"}" ; IMG="${IMG%\"}"
-    [[ -z "$IMG" ]] && continue
-    [[ ! -f "$PUBLIC$IMG" ]] && MISSING+=("$FILE  →  $IMG")
-  done < <(grep -E '^image:' "$ABS" | sed 's/^image:[[:space:]]*//')
+  in_fence=0
+  lineno=0
 
-  # Inline Markdown: ![...]( /images/... )  – skip URLs with query strings
-  while IFS= read -r IMG; do
-    [[ "$IMG" == *'?'* ]] && continue
-    [[ ! -f "$PUBLIC$IMG" ]] && MISSING+=("$FILE  →  $IMG")
-  done < <(grep -oE '!\[[^]]*\]\(/images/[^)]+\)' "$ABS" | grep -oE '/images/[^)]+')
+  while IFS= read -r LINE; do
+    (( lineno++ ))
+
+    # Toggle code-fence state (lines starting with ```)
+    if [[ "$LINE" =~ ^[[:space:]]*\`\`\` ]]; then
+      (( in_fence = 1 - in_fence ))
+      continue
+    fi
+    [[ $in_fence -eq 1 ]] && continue
+
+    # Frontmatter: image: /images/...
+    if [[ "$LINE" =~ ^image:[[:space:]]*(.*) ]]; then
+      IMG="${BASH_REMATCH[1]}"
+      IMG="${IMG#"${IMG%%[![:space:]]*}"}"
+      IMG="${IMG%"${IMG##*[![:space:]]}"}"
+      IMG="${IMG#\'}" ; IMG="${IMG%\'}"
+      IMG="${IMG#\"}" ; IMG="${IMG%\"}"
+      if [[ -n "$IMG" && ! -f "$PUBLIC$IMG" ]]; then
+        MISSING+=("$FILE:$lineno  →  $IMG")
+      fi
+      continue
+    fi
+
+    # Inline Markdown: ![...]( /images/... ) – skip URLs with query strings
+    while IFS= read -r IMG; do
+      [[ -n "$IMG" && ! -f "$PUBLIC$IMG" ]] && MISSING+=("$FILE:$lineno  →  $IMG")
+    done < <(echo "$LINE" | grep -oE '!\[[^]]*\]\(/images/[^) ?]+\)' | grep -oE '/images/[^)]+')
+
+  done < "$ABS"
 done
 
 if [[ ${#MISSING[@]} -gt 0 ]]; then

@@ -17,14 +17,14 @@ repos:
       - id: check-added-large-files
         name: Large-file check – PDFs / bins / STLs (≤ 10 MB)
         args: [--maxkb=10240]
-        files: \.(pdf|bin|stl)$
+        files: \.(pdf|bin|stl|png)$
 
       # Everything else: keep the repo lean (≤ 500 kB)
       - id: check-added-large-files
         alias: check-added-large-files-other
         name: Large-file check – other files (≤ 1024 kB)
         args: [--maxkb=1024]
-        exclude: \.(pdf|bin|stl)$
+        exclude: \.(pdf|bin|stl|png)$
 
       # Validate JSON syntax (package.json, renovate.json, discussions/*.json …)
       - id: check-json
