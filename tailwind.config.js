@@ -14,6 +14,11 @@ module.exports = {
           css: {
             'code::before': { content: '""' },
             'code::after': { content: '""' },
+            // Don't let Typography override Shiki syntax-highlight colors.
+            // Setting a property to `false` removes it from the generated CSS.
+            pre: {
+              color: false,
+            },
           },
         },
       },
