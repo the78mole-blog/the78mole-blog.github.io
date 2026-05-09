@@ -194,6 +194,7 @@ Some values – analytics IDs, ad publisher IDs – should not be hard-coded. St
 - **Settings → Secrets and variables → Actions → Variables** for non-sensitive IDs
 - **Settings → Secrets and variables → Actions → Secrets** for tokens and keys
 
+
 Reference them in the workflow:
 
 ```yaml
@@ -207,6 +208,8 @@ And read them in `nuxt.config.ts`:
 ```ts
 const gtagId = process.env.GOOGLE_ANALYTICS_MEAS_ID || 'G-XXXXXXXXXX'
 ```
+
+> **A word on static sites and "secrets"**: Because `nuxi generate` runs at build time, any environment variable you inject ends up baked into the generated HTML and JavaScript. A visitor who inspects the page source *can* technically read your Google Analytics measurement ID or AdSense publisher ID. That sounds alarming, but in practice it is not a problem – these identifiers are designed to be public. They appear in the HTML of virtually every site that uses them, and there is nothing meaningful an attacker can do with them that they could not already do by just visiting your site. The rule of thumb: only inject values that are safe to be public. Real secrets – API keys with write access, database passwords, tokens that can charge money – must never be used in a static build. Keep those server-side only.
 
 ## 9. Preview Pull Requests
 
