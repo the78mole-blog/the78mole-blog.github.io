@@ -43,6 +43,7 @@ Other sites, I somehow have my finger in the pie...
 - [Elektro-Glaser GmbH](https://www.e-glaser.de/)
 - [Energiewende ER(H)langen e.V.](https://www.energiewende-erlangen.de/)
 - [BizzMark UG](https://bizzmark.io)
+- [Betreiberverein ZAM e.V.](https://zam.haus/)
 - [EWERG eG](https://www.ewerg.de/)
 
 Veröffentlichungen/Artikel:
@@ -54,7 +55,3 @@ Veröffentlichungen/Artikel:
 Some suggested sites...
 
 - [Clean Code Developer](https://clean-code-developer.de/)
-
-Affiliate Links:
-
-- <https://app.tronity.io/signup/sg3LokA0u> (Manage your Electric Cars)
