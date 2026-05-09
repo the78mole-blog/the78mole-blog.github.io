@@ -14,11 +14,11 @@ tags:
 image: /images/blog/2021/07/MBusWirelessLogo-1.jpg
 ---
 
-Since I've replaced ioBroker with Home Assistant, I also wrote an [article about integrating M-Bus devices](https://blog.the78mole.de/taking-your-m-bus-online-with-mqtt/) via MQTT with HASS. Another post, doing the same with wmBus can be found [here](https://the78mole.de/wmbus-meters-and-how-to-get-it-into-home-assistant/).
+Since I've replaced ioBroker with Home Assistant, I also wrote an [article about integrating M-Bus devices](https://blog.the78mole.de/taking-your-m-bus-online-with-mqtt/) via MQTT with HASS. Another post, doing the same with wmBus can be found [in the wmBus Home Assistant integration article](https://the78mole.de/wmbus-meters-and-how-to-get-it-into-home-assistant/).
 
 After my quite expensive MH-Collector (identical with the easy.MUC from solvimus) died (it survived just a little longer that warranty protects), I decided to collect my wmBus devices' data with some home brewn solution. I'm also the owner of a Ubiquity US-24-250W, so the descision to go with PoE supply is quite an easy descision. So what lies closer than using a Raspberry Pi 3B+ with PoE hat and an USB-wmBus stick?
 
-No sooner said than done, I bought the parts, installed raspbian and an iobroker slave. The iobroker master ist now running on a Debian 10 buster VM on my tiny HP Proliant server... How to install the iobroker slave can be found [here](https://www.iobroker.net/docu/index-24.htm?page_id=3068&lang=de).
+No sooner said than done, I bought the parts, installed raspbian and an iobroker slave. The iobroker master ist now running on a Debian 10 buster VM on my tiny HP Proliant server... How to install the iobroker slave can be found [in the iobroker documentation](https://www.iobroker.net/docu/index-24.htm?page_id=3068&lang=de).
 
 ## wmBus Hardware
 
@@ -40,15 +40,15 @@ After attaching the iM871A-USB stick to the Pi and placing it at some location w
 
 The configuration is also quite easy and should look like the following:
 
-![](/images/blog/genral/no-mole-sorry.jpeg)
+![Adapter configuration screenshot](/images/blog/genral/no-mole-sorry.jpeg)
 
 It could also be, that your slaves need other modes to be received. One widespread mod for battery driven devices is also mode C. Unfortunately, a single stick can not receive multiple modes. But usually you only run devices with a single mode. Another important setting is the baud rate. For the IMST device, it needs to be 57600. The stick contains some serial converter that attaches the IMST module with a real serial connection.
 
 ## Add Encrypted Meters
 
-After finishing configuration and starting up the adapter, it is time to have a look into the log. There you will see, if the adapter started up correctly. If it did, you soon should see a line that says "Updated device state:<MANUF>-<ID>" or an error saying, that it could not decrypt a telegram due to missing decryption key. If this occurs, go to the adapter configuration again. There you should see a new entry with a key "UNKNOWN". Place the correct key there and push "Save".
+After finishing configuration and starting up the adapter, it is time to have a look into the log. There you will see, if the adapter started up correctly. If it did, you soon should see a line that says `Updated device state: <MANUF>-<ID>` or an error saying, that it could not decrypt a telegram due to missing decryption key. If this occurs, go to the adapter configuration again. There you should see a new entry with a key "UNKNOWN". Place the correct key there and push "Save".
 
-![](/images/blog/genral/no-mole-sorry.jpeg)
+![Decrypted device state in object tree](/images/blog/genral/no-mole-sorry.jpeg)
 
 The follwoing telegram of that device should be decrypted correctly and a new state will be created within the object tree of iobroker.
 

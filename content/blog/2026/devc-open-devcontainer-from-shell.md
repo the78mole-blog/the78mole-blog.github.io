@@ -17,6 +17,7 @@ The fix? A two-second shell command. That's all it takes.
 [VS Code Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) are fantastic. You define your full development environment in a `.devcontainer/devcontainer.json`, commit it to the repo, and anyone – including your future self after a full OS reinstall – gets the exact same toolchain, extensions, and settings.
 
 The friction? Every time you want to *open* a project in its container, you have to:
+
 1. Open VS Code (or switch to it)
 2. Hit `F1` → "Dev Containers: Open Folder in Container..." or press the appearing button in the bottom-right corner
 3. Wait
@@ -89,7 +90,7 @@ The CLI handles everything container-related: building the image, starting the c
 ### Summary
 
 | What | How |
-|---|---|
+| --- | --- |
 | VS Code | [code.visualstudio.com](https://code.visualstudio.com/) |
 | Dev Containers extension | `code --install-extension ms-vscode-remote.remote-containers` |
 | NVM | `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh \| bash` |

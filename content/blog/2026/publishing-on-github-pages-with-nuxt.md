@@ -18,7 +18,7 @@ This is exactly how this blog works. Let me walk you through it.
 ## The Stack
 
 | Layer | Choice | Why |
-|---|---|---|
+| --- | --- | --- |
 | Framework | [Nuxt 4](https://nuxt.com/) | SSG + Vue components + content module |
 | Content | [@nuxt/content](https://content.nuxt.com/) | Markdown files as typed collections |
 | Styling | [Tailwind CSS](https://tailwindcss.com/) | Utility-first, no runtime CSS |
@@ -60,7 +60,7 @@ export default defineNuxtConfig({
 
 Create a `content/blog/` folder and drop Markdown files in:
 
-```
+```text
 content/
   blog/
     2026/
@@ -178,12 +178,14 @@ If you want `blog.yourdomain.com` instead of `<username>.github.io`:
 
 1. Create a `public/CNAME` file containing only your domain:
 
-```
+```text
 blog.yourdomain.com
 ```
 
+<!-- markdownlint-disable MD029 -->
 2. Add a CNAME DNS record at your registrar pointing `blog.yourdomain.com` to `<username>.github.io`.
 3. In **Settings → Pages → Custom domain** enter the same domain and tick **Enforce HTTPS**.
+<!-- markdownlint-enable MD029 -->
 
 The `CNAME` file is copied verbatim into `.output/public/` during the build, so GitHub Pages always knows which domain to serve.
 
@@ -193,7 +195,6 @@ Some values – analytics IDs, ad publisher IDs – should not be hard-coded. St
 
 - **Settings → Secrets and variables → Actions → Variables** for non-sensitive IDs
 - **Settings → Secrets and variables → Actions → Secrets** for tokens and keys
-
 
 Reference them in the workflow:
 
@@ -233,7 +234,7 @@ npx serve pr-preview-42/
 
 ## The Full Picture
 
-```
+```text
 you write Markdown
   → git push
     → GitHub Actions: npm ci + npm run generate
@@ -247,7 +248,7 @@ No server. No containers in production. No `ssh` into anything at 2 a.m. because
 ## Summary
 
 | Step | What to do |
-|---|---|
+| --- | --- |
 | Repository | Name it `<username>.github.io` |
 | Pages source | Settings → Pages → Source: **GitHub Actions** |
 | Nuxt config | `modules: ['@nuxt/content']`, no extra setup |
@@ -353,7 +354,7 @@ const config = useRuntimeConfig()
 ### Migration Summary
 
 | Task | Tool |
-|---|---|
+| --- | --- |
 | Export WordPress content | WordPress admin → Tools → Export |
 | Convert HTML → Markdown | `lxml` + `html2text` / `markdownify` |
 | Rewrite image paths | `sed` + copy files to `public/images/` |
@@ -373,7 +374,7 @@ A blog that grows over years accumulates links that eventually rot. Images move,
 `scripts/check-links.py` is a self-contained PEP 723 script (no virtualenv needed) that scans every Markdown file under `content/` and validates three categories of links:
 
 | Category | What is checked |
-|---|---|
+| --- | --- |
 | External (`http`/`https`) | HTTP HEAD request, falls back to GET; measures response time |
 | Internal `/images/…` | File existence under `public/` |
 | Internal `/blog/…` and `/pages/…` | Matching `.md` file under `content/` |
@@ -397,7 +398,7 @@ make check-links-log LOG=/tmp/links.log
 The script keeps a `.link_cache.json` file in the repo root so external URLs are not hammered on every run:
 
 | Cache status | Re-checked after |
-|---|---|
+| --- | --- |
 | `passed` | 28 days |
 | `manual` | 365 days (human-verified) |
 | `captcha` | 365 days (CAPTCHA-protected page) |
@@ -417,7 +418,7 @@ The `--ignore-file` flag accepts a plain-text file with URL prefixes to skip (on
 
 Every mole needs a map of its own tunnels. After a few weeks away from the repo it is easy to forget which command does what. The `Makefile` is that map – run `make` with no arguments to see the full list:
 
-```
+```text
 the78mole-blog – available targets
 
   Nuxt
@@ -459,7 +460,7 @@ make restore-assets-do  # actually copy them once you're happy
 ### Targets at a glance
 
 | Target | Tunnel it digs |
-|---|---|
+| --- | --- |
 | `make dev` | Nuxt dev server with hot-reload |
 | `make generate` | Full static build into `.output/public/` |
 | `make preview` | Serves `.output/public/` locally |

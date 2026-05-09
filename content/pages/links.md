@@ -10,7 +10,7 @@ Here are some links to other pages operated by or related to me...
 - [XING](https://www.xing.com/profile/Daniel_Glaser/cv)
 - [LinkedIn](https://www.linkedin.com/in/daniel-glaser/)
 
-
+<!-- markdownlint-disable MD033 -->
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; align-items: center; margin: 1.5rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 0.75rem; border: 1px solid #e5e7eb;">
 
   <a href="https://www.tindie.com/stores/the78mole/?ref=offsite_badges&utm_source=sellers_the78mole&utm_medium=badges&utm_campaign=badge_large" target="_blank" rel="noopener noreferrer">
@@ -36,7 +36,7 @@ Here are some links to other pages operated by or related to me...
   </a>
 
 </div>
-
+<!-- markdownlint-enable MD033 -->
 
 Other sites, I somehow have my finger in the pie...
 

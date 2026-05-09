@@ -14,11 +14,11 @@ tags:
 image: /images/blog/2021/10/OilFox.png
 ---
 
-After migrating from iobroker to Home Assistant, I lost the level of my oil tank in my smart home, being forced to have a look into the smartphone app. That was not satisfying, since I'm planning to calculate exact costs for heating from tracing the heat cost allocators back to the amount of oil burned (taking the way over some heat flow measurement devices). To see, how I got the data from the heat cost allocators, have a look [here](https://the78mole.de/wmbus-meters-and-how-to-get-it-into-home-assistant/), to get the data from the heat flow measument devices, look [here](https://the78mole.de/taking-your-m-bus-online-with-mqtt/).
+After migrating from iobroker to Home Assistant, I lost the level of my oil tank in my smart home, being forced to have a look into the smartphone app. That was not satisfying, since I'm planning to calculate exact costs for heating from tracing the heat cost allocators back to the amount of oil burned (taking the way over some heat flow measurement devices). To see, how I got the data from the heat cost allocators, have a look at the [wmBus meters integration into Home Assistant](https://the78mole.de/wmbus-meters-and-how-to-get-it-into-home-assistant/), to get the data from the heat flow measument devices, look at [M-Bus online with MQTT](https://the78mole.de/taking-your-m-bus-online-with-mqtt/).
 
 Now, here is my little node-red flow to get the OilFox data:
 
-![](/images/blog/2021/10/image-17.png)
+![OilFox node-red flow](/images/blog/2021/10/image-17.png)
 
 [OilFox API node-red Flow (JSON)](/uploads/2022/11/OilFox-API.json)
 

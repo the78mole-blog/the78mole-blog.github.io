@@ -63,7 +63,7 @@ echo "/var/data/influxdb/ /var/lib/influxdb none bind" \
 
 ## Installing node.js
 
-```
+```bash
 sudo apt-get install python build-essential curl
 mkdir src
 cd src
@@ -78,13 +78,13 @@ make install
 
 ## Installing InfluxDB
 
-```
+```bash
 curl -sL https://repos.influxdata.com/influxdb.key | \
 ```
 
 ## Installing Go language
 
-```
+```bash
 apt install git golang-go  # needed to build a newer go
 cd /usr/lib
 git clone https://go.googlesource.com/go
@@ -116,7 +116,7 @@ For creating your own querys to InfluxDB (e.g. with node red), it is easiest to 
 
 With go and yarn, it is as easy as boiling water:
 
-```
+```bash
 go get github.com/influxdata/chronograf
 cd $GOPATH/src/github.com/influxdata/chronograf
 make
@@ -125,17 +125,17 @@ go install github.com/influxdata/chronograf/cmd/chronograf
 
 Now you can start chronograph
 
-```
+```bash
 ./chronograph
 ```
 
-Now visit the chronograph web interface by browsing to http://<host>:8888. A Wizard will welcome you. Enter the appropriate data to access your InfluxDB. Youcan skip the Kapacitor question. After finishing the wizard, you should be able to see the following on chronographs Config tab.
+Now visit the chronograph web interface by browsing to `http://<host>:8888`. A Wizard will welcome you. Enter the appropriate data to access your InfluxDB. Youcan skip the Kapacitor question. After finishing the wizard, you should be able to see the following on chronographs Config tab.
 
-![](/images/blog/genral/no-mole-sorry.jpeg)
+![Chronograph Config tab screenshot](/images/blog/genral/no-mole-sorry.jpeg)
 
 When this is done, issue your first query on the Explore tab (use the datapoint selector on the lower half of the page and select an appropriate date from the date picker in the upper right corner:
 
-![](/images/blog/genral/no-mole-sorry.jpeg)
+![Chronograph Explore tab screenshot](/images/blog/genral/no-mole-sorry.jpeg)
 
 ## Install iobroker
 

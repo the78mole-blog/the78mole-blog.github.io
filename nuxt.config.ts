@@ -68,6 +68,13 @@ export default defineNuxtConfig({
     viewer: false,
   },
 
+  vite: {
+    build: {
+      // Suppress the nuxt:module-preload-polyfill sourcemap warning
+      sourcemap: false,
+    },
+  },
+
   content: {
     highlight: {
       theme: 'github-dark',
