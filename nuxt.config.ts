@@ -42,8 +42,17 @@ export default defineNuxtConfig({
 
   gtag: {
     id: gtagId,
-    // Erst nach Consent aktivieren (DSGVO)
-    enabled: false,
+    // Consent Mode v2: Script immer laden, Consent standardmäßig verweigert (DSGVO).
+    // Daten werden erst gesendet, nachdem der Nutzer im ConsentBanner zugestimmt hat.
+    initCommands: [
+      ['consent', 'default', {
+        analytics_storage:   'denied',
+        ad_storage:          'denied',
+        ad_user_data:        'denied',
+        ad_personalization:  'denied',
+        wait_for_update:     500,
+      }],
+    ],
   },
 
   app: {

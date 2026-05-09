@@ -38,7 +38,7 @@ When everything arrived, connect it to your network, find out the IP address or 
 
 ## Prepare your hard disk
 
-```
+```bash
 dmesg  # Find out, which is your HDD, assuming /dev/sda
 fdisk /dev/sda
 # Create 2 Partitions

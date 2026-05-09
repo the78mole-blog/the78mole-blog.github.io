@@ -28,12 +28,12 @@ onMounted(() => {
 function acceptAll() {
   consent.value = true
   consentState.value = true
-  // GA4 aktivieren
-  useGtag().enableGtag()
-  // AdSense-Consent signalisieren
+  // Consent Mode v2: Datenerfassung freigeben
   gtag('consent', 'update', {
-    analytics_storage: 'granted',
-    ad_storage: 'granted',
+    analytics_storage:  'granted',
+    ad_storage:         'granted',
+    ad_user_data:       'granted',
+    ad_personalization: 'granted',
   })
 }
 
