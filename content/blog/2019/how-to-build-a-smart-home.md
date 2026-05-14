@@ -131,11 +131,11 @@ Now you can start chronograph
 
 Now visit the chronograph web interface by browsing to `http://<host>:8888`. A Wizard will welcome you. Enter the appropriate data to access your InfluxDB. Youcan skip the Kapacitor question. After finishing the wizard, you should be able to see the following on chronographs Config tab.
 
-![Chronograph Config tab screenshot](/images/blog/genral/no-mole-sorry.jpeg)
+![Chronograph Config tab screenshot](/images/blog/general/no-mole-sorry.jpeg)
 
 When this is done, issue your first query on the Explore tab (use the datapoint selector on the lower half of the page and select an appropriate date from the date picker in the upper right corner:
 
-![Chronograph Explore tab screenshot](/images/blog/genral/no-mole-sorry.jpeg)
+![Chronograph Explore tab screenshot](/images/blog/general/no-mole-sorry.jpeg)
 
 ## Install iobroker
 

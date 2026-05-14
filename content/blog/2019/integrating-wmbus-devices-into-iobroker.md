@@ -40,7 +40,7 @@ After attaching the iM871A-USB stick to the Pi and placing it at some location w
 
 The configuration is also quite easy and should look like the following:
 
-![Adapter configuration screenshot](/images/blog/genral/no-mole-sorry.jpeg)
+![Adapter configuration screenshot](/images/blog/general/no-mole-sorry.jpeg)
 
 It could also be, that your slaves need other modes to be received. One widespread mod for battery driven devices is also mode C. Unfortunately, a single stick can not receive multiple modes. But usually you only run devices with a single mode. Another important setting is the baud rate. For the IMST device, it needs to be 57600. The stick contains some serial converter that attaches the IMST module with a real serial connection.
 
@@ -48,7 +48,7 @@ It could also be, that your slaves need other modes to be received. One widespre
 
 After finishing configuration and starting up the adapter, it is time to have a look into the log. There you will see, if the adapter started up correctly. If it did, you soon should see a line that says `Updated device state: <MANUF>-<ID>` or an error saying, that it could not decrypt a telegram due to missing decryption key. If this occurs, go to the adapter configuration again. There you should see a new entry with a key "UNKNOWN". Place the correct key there and push "Save".
 
-![Decrypted device state in object tree](/images/blog/genral/no-mole-sorry.jpeg)
+![Decrypted device state in object tree](/images/blog/general/no-mole-sorry.jpeg)
 
 The follwoing telegram of that device should be decrypted correctly and a new state will be created within the object tree of iobroker.
 
