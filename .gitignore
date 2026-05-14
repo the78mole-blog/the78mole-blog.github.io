@@ -7,9 +7,6 @@ dist
 .data/
 temp/
 
-# Local Temp Files
+# Local Temp Files (personal notes, never committed)
 MIGRATION.md
 TODO_NOTIZEN.md
-scripts/migration.py
-scripts/pyproject.toml
-scripts/uv.lock

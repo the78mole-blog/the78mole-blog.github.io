@@ -1,8 +1,32 @@
 on:
   push:
     branches: [main]
+    paths-ignore:
+      # Copilot / repo-meta files – never affect the rendered site
+      - '.github/copilot-instructions.md'
+      - '.github/skills/**'
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.github/FUNDING.yml'
+      # Giscus discussion data (imported comments, not part of the build)
+      - 'discussions/**'
+      # Migration & maintenance scripts (import/, MIGRATION.md, TODO_NOTIZEN.md
+      # are already in .gitignore and can never trigger this workflow anyway)
+      - 'scripts/**'
+      # Repo documentation
+      - 'README.md'
+      # Dependency update bot config
+      - 'renovate.json'
   pull_request:
     branches: [main]
+    paths-ignore:
+      - '.github/copilot-instructions.md'
+      - '.github/skills/**'
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.github/FUNDING.yml'
+      - 'discussions/**'
+      - 'scripts/**'
+      - 'README.md'
+      - 'renovate.json'
   workflow_dispatch:
 
 name: Build & Deploy to GitHub Pages
