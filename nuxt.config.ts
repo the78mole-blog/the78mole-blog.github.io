@@ -76,14 +76,18 @@ export default defineNuxtConfig({
   },
 
   content: {
-    highlight: {
-      theme: 'github-dark',
-      langs: [
-        'bash', 'c', 'cpp', 'css', 'dockerfile', 'go', 'html',
-        'java', 'javascript', 'json', 'makefile', 'markdown',
-        'python', 'rust', 'shell', 'sql', 'toml', 'typescript',
-        'vim', 'xml', 'yaml',
-      ],
+    build: {
+      markdown: {
+        highlight: {
+          theme: 'github-dark',
+          langs: [
+            'bash', 'c', 'cpp', 'css', 'dockerfile', 'go', 'html',
+            'java', 'javascript', 'json', 'makefile', 'markdown',
+            'python', 'rust', 'shell', 'sql', 'toml', 'typescript',
+            'vim', 'xml', 'yaml',
+          ],
+        },
+      },
     },
   },
 

@@ -277,20 +277,21 @@ The WXR file contains all posts as HTML inside `<content:encoded>` tags. A small
 from lxml import etree
 import html2text
 
-WP = 'http://wordpress.org/export/1.2/'
+WP  = '{http://wordpress.org/export/1.2/}'
+CNT = '{http://purl.org/rss/1.0/modules/content/}'
 tree = etree.parse('molesblog.WordPress.xml')
 
 converter = html2text.HTML2Text()
 converter.ignore_links = False
 
 for item in tree.findall('.//item'):
-    post_type = item.findtext(f'{{{WP}}}post_type')
+    post_type = item.findtext(f'{WP}post_type')
     if post_type != 'post':
         continue
-    slug  = item.findtext(f'{{{WP}}}post_name')
+    slug  = item.findtext(f'{WP}post_name')
     title = item.findtext('title')
-    date  = item.findtext(f'{{{WP}}}post_date')[:10]
-    html  = item.findtext('{http://purl.org/rss/1.0/modules/content/}encoded') or ''
+    date  = item.findtext(f'{WP}post_date')[:10]
+    html  = item.findtext(f'{CNT}encoded') or ''
     md    = converter.handle(html)
 
     path  = Path(f'content/blog/{date[:4]}/{slug}.md')
@@ -443,17 +444,17 @@ the78mole-blog – available targets
 ### The day-to-day workflow
 
 ```bash
-make dev             # write content, hot-reload at localhost:3000
-make check-links-fast  # verify internal links before pushing
+make dev                # write content, hot-reload at localhost:3000
+make check-links-fast   # verify internal links before pushing
 git add -A && git commit -m "new post: …"
-git push             # triggers publish.yml → live in ~90 seconds
+git push                # triggers publish.yml → live in ~90 seconds
 ```
 
 ### Before a big content batch
 
 ```bash
-make check-links     # full external check, interactive cache update
-make restore-assets  # dry-run: see which WP images are still missing
+make check-links        # full external check, interactive cache update
+make restore-assets     # dry-run: see which WP images are still missing
 make restore-assets-do  # actually copy them once you're happy
 ```
 
