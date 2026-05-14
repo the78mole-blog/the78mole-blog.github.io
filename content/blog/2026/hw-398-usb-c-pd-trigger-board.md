@@ -2,7 +2,7 @@
 title: "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board"
 date: '2026-05-14'
 description: 'A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.'
-image: /images/blog/2026/05/hw-398-closeup.jpg
+image: /images/blog/2026/05/hw-398-size.jpg
 categories:
   - DIY
   - Hardware
@@ -22,10 +22,6 @@ Then a batch order from AliExpress arrived. Tucked between a set of USB breakout
 ## What the HW-398 Actually Does
 
 The board sits between a USB-C PD charger and whatever you want to power. It speaks the USB Power Delivery handshake fluently – PD 3.0/2.0, PPS/QC4+, QC 3.0/2.0, FCP and AFC – and convinces the charger that a device requesting a specific voltage is attached. The charger dutifully ramps up its output rail. Your load gets clean power. No laptop in sight.
-
-![HW-398 USB-C PD trigger board – close-up of the PCB with pads and LED](/images/blog/2026/05/hw-398-closeup.jpg)
-
-*Photo: [PAPPP's Rambling](https://pappp.net/?p=73103) – CC BY-SA 3.0 US*
 
 The four selectable voltages are set by shorting one of the labelled solder pads to the adjacent resistor footprint:
 
@@ -55,6 +51,8 @@ It is doing real USB protocol work: the handshake is actual USB traffic, reading
 | Board size | 23 × 11.5 × 4 mm |
 | Indicator | Blue LED (dimmer at lower voltages) |
 
+![HW-398 board next to a 2 € coin for size reference](/images/blog/2026/05/hw-398-size.jpg)
+
 ![HW-398 front view showing USB-C connector and pads](/images/blog/2026/05/hw-398-module-front.jpg)
 
 ![HW-398 back view showing output pads](/images/blog/2026/05/hw-398-module-back.jpg)
@@ -65,7 +63,7 @@ It is doing real USB protocol work: the handshake is actual USB traffic, reading
 2. **Short the pad.** Add a blob of solder bridging the labelled pad to the adjacent component. Use a fine tip; the board is tiny.
 3. **Wire up the output.** The `+` and `–` pads on the far end accept any thin hookup wire. Solder, heatshrink, done.
 
-![HW-398 voltage selection pads detail](/images/blog/2026/05/hw-398-pads.jpg)
+![HW-398 voltage selection pads detail](/images/blog/2026/05/hw-398-closeup.jpg)
 
 Plug it into a charger that supports PD and the blue LED lights up. Measure the output before connecting anything expensive – trust but verify.
 
