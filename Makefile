@@ -14,13 +14,15 @@
 .DEFAULT_GOAL := help
 .PHONY: help dev build generate preview install \
         check-links check-links-fast check-links-ci \
-        check-links-reset restore-assets
+        check-links-reset restore-assets \
+        optimize-images optimize-images-dry
 
 # ── Variables ─────────────────────────────────────────────────────────────────
 
 LOG      ?= /tmp/links.log
 WORKERS  ?= 10
 TIMEOUT  ?= 15
+MIN_SIZE_KB ?= 500
 
 # ── Help ──────────────────────────────────────────────────────────────────────
 
@@ -43,8 +45,11 @@ help:
 	@echo "    make check-links-reset  Clear the link cache (.link_cache.json)"
 	@echo ""
 	@echo "  Assets"
-	@echo "    make restore-assets     Dry-run: show missing WP assets to restore"
-	@echo "    make restore-assets-do  Actually copy missing WP assets to public/"
+	@echo "    make restore-assets       Dry-run: show missing WP assets to restore"
+	@echo "    make restore-assets-do    Actually copy missing WP assets to public/"
+	@echo "    make optimize-images      Compress blog images in-place (JPEG+PNG)"
+	@echo "    make optimize-images-dry  Report image sizes without changing files"
+	@echo "    (override: MIN_SIZE_KB=50 to lower the skip threshold, default: $(MIN_SIZE_KB) KB)"
 	@echo ""
 
 # ── Nuxt ──────────────────────────────────────────────────────────────────────
@@ -98,3 +103,9 @@ restore-assets:
 restore-assets-do:
 	uv run --script scripts/restore-missing-assets.py \
 		--log $(LOG)
+
+optimize-images:
+	MIN_SIZE_KB=$(MIN_SIZE_KB) bash scripts/optimize-images.sh
+
+optimize-images-dry:
+	MIN_SIZE_KB=$(MIN_SIZE_KB) bash scripts/optimize-images.sh --dry-run

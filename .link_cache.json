@@ -1758,5 +1758,101 @@
     "sources": [
       "content/blog/2019/how-to-build-a-private-storage-cluster-with-ceph.md"
     ]
+  },
+  "https://pages.github.com/": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:05.185770+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/publishing-on-github-pages-with-nuxt.md"
+    ]
+  },
+  "https://nuxt.com/": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:05.187540+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/publishing-on-github-pages-with-nuxt.md"
+    ]
+  },
+  "https://content.nuxt.com/": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:05.190942+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/publishing-on-github-pages-with-nuxt.md"
+    ]
+  },
+  "https://giscus.app/": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:05.203835+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/publishing-on-github-pages-with-nuxt.md"
+    ]
+  },
+  "https://tailwindcss.com/": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:05.279224+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/publishing-on-github-pages-with-nuxt.md"
+    ]
+  },
+  "https://the78mole.github.io/ptouch-webapp/": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:05.290757+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/ptouch-webapp-browser-label-printing.md"
+    ]
+  },
+  "https://git.familie-radermacher.ch/linux/ptouch-print.git": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:05.292774+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/ptouch-webapp-browser-label-printing.md"
+    ]
+  },
+  "https://giscus.app/client.js": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:05.312427+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/publishing-on-github-pages-with-nuxt.md"
+    ]
+  },
+  "https://zam.haus/": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:05.766410+00:00",
+    "reason": "",
+    "sources": [
+      "content/pages/links.md"
+    ]
+  },
+  "https://github.com/the78mole/ptouch-webapp": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:06.240049+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/ptouch-webapp-browser-label-printing.md"
+    ]
+  },
+  "https://github.com/the78mole-blog/the78mole-blog.github.io": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:06.649065+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/publishing-on-github-pages-with-nuxt.md"
+    ]
+  },
+  "https://docs.github.com/en/actions": {
+    "status": "passed",
+    "last_check": "2026-05-18T19:21:07.421834+00:00",
+    "reason": "",
+    "sources": [
+      "content/blog/2026/publishing-on-github-pages-with-nuxt.md"
+    ]
   }
 }

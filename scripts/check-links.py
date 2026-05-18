@@ -108,6 +108,35 @@ def parse_args():
 
 # ── Link extraction ──────────────────────────────────────────────────────────
 
+def _mask_code_blocks(text: str) -> str:
+    """Replace the content lines of fenced code blocks with spaces.
+
+    Preserves character positions (same line lengths, same newline count) so
+    that line-number lookups based on character offsets remain valid.
+    Handles both ``` and ~~~ fences, including language-tagged openings.
+    """
+    lines = text.split('\n')
+    result: list[str] = []
+    in_fence = False
+    fence_marker: str = ''
+    for line in lines:
+        stripped = line.lstrip()
+        if not in_fence:
+            if stripped.startswith('```') or stripped.startswith('~~~'):
+                fence_marker = stripped[:3]
+                in_fence = True
+                result.append(line)          # keep opening fence line
+            else:
+                result.append(line)
+        else:
+            if stripped.startswith(fence_marker):
+                in_fence = False
+                result.append(line)          # keep closing fence line
+            else:
+                result.append(' ' * len(line))  # blank out, preserve length
+    return '\n'.join(result)
+
+
 def extract_links(path: Path) -> list[tuple[int, str]]:
     """Return list of (line_number, url) from a Markdown file."""
     text = path.read_text(encoding="utf-8", errors="replace")
@@ -128,20 +157,27 @@ def extract_links(path: Path) -> list[tuple[int, str]]:
                 hi = mid - 1
         return lo + 1
 
-    # Frontmatter image
-    for m in RE_FM_IMAGE.finditer(text):
+    # Frontmatter image: only scan the leading ---...--- block so that
+    # example frontmatter snippets inside code blocks are ignored.
+    fm_match = re.match(r'^---\r?\n.*?\r?\n---[ \t]*\r?\n', text, re.DOTALL)
+    frontmatter = fm_match.group(0) if fm_match else ''
+    for m in RE_FM_IMAGE.finditer(frontmatter):
         results.append((lineno(m.start()), m.group(1)))
 
+    # For all other patterns, mask fenced code blocks first so that
+    # example links inside ``` blocks are not reported as real links.
+    masked = _mask_code_blocks(text)
+
     # Inline Markdown links
-    for m in RE_MD_LINK.finditer(text):
+    for m in RE_MD_LINK.finditer(masked):
         results.append((lineno(m.start()), m.group(1)))
 
     # Reference-style link definitions
-    for m in RE_MD_REF.finditer(text):
+    for m in RE_MD_REF.finditer(masked):
         results.append((lineno(m.start()), m.group(1)))
 
     # HTML href/src
-    for m in RE_HTML_ATTR.finditer(text):
+    for m in RE_HTML_ATTR.finditer(masked):
         results.append((lineno(m.start()), m.group(1)))
 
     return results
