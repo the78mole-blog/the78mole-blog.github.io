@@ -65,7 +65,7 @@ git push                # Triggers publish.yml → live in ~90 seconds
 
 ### All available targets
 
-```
+```text
 make install            Install npm dependencies
 make dev                Start Nuxt dev server  (http://localhost:3000)
 make build              Build for SSR
