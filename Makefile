@@ -13,6 +13,7 @@
 
 .DEFAULT_GOAL := help
 .PHONY: help dev build generate preview install \
+        generate-taxonomy \
         check-links check-links-fast check-links-ci \
         check-links-reset restore-assets \
         optimize-images optimize-images-dry
@@ -68,6 +69,9 @@ generate:
 
 preview:
 	npm run preview
+
+generate-taxonomy:
+	uv run --script scripts/generate-taxonomy.py
 
 # ── Link checking ─────────────────────────────────────────────────────────────
 

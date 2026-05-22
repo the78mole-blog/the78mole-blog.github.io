@@ -15,7 +15,7 @@ const monthName = MONTH_LONG[parseInt(month, 10) - 1] ?? month
 
 const { data: posts } = await useAsyncData(`blog-${year}-${month}`, () =>
   queryCollection('blog')
-    .select('title', 'date', 'description', 'image', 'categories', 'path')
+    .select('title', 'date', 'description', 'image', 'categories', 'tags', 'path')
     .where('date', 'LIKE', `${year}-${month}-%`)
     .order('date', 'DESC')
     .all()

@@ -1,0 +1,1868 @@
+{
+  "brother": [
+    {
+      "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
+      "path": "/blog/2026/ptouch-webapp-browser-label-printing",
+      "date": "2026-05-14",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
+      "image": "/images/blog/2026/05/mole-with-p-touch.png"
+    }
+  ],
+  "p-touch": [
+    {
+      "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
+      "path": "/blog/2026/ptouch-webapp-browser-label-printing",
+      "date": "2026-05-14",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
+      "image": "/images/blog/2026/05/mole-with-p-touch.png"
+    }
+  ],
+  "label printer": [
+    {
+      "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
+      "path": "/blog/2026/ptouch-webapp-browser-label-printing",
+      "date": "2026-05-14",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
+      "image": "/images/blog/2026/05/mole-with-p-touch.png"
+    }
+  ],
+  "web serial": [
+    {
+      "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
+      "path": "/blog/2026/ptouch-webapp-browser-label-printing",
+      "date": "2026-05-14",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
+      "image": "/images/blog/2026/05/mole-with-p-touch.png"
+    }
+  ],
+  "bluetooth": [
+    {
+      "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
+      "path": "/blog/2026/ptouch-webapp-browser-label-printing",
+      "date": "2026-05-14",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
+      "image": "/images/blog/2026/05/mole-with-p-touch.png"
+    }
+  ],
+  "vite": [
+    {
+      "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
+      "path": "/blog/2026/ptouch-webapp-browser-label-printing",
+      "date": "2026-05-14",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
+      "image": "/images/blog/2026/05/mole-with-p-touch.png"
+    }
+  ],
+  "javascript": [
+    {
+      "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
+      "path": "/blog/2026/ptouch-webapp-browser-label-printing",
+      "date": "2026-05-14",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
+      "image": "/images/blog/2026/05/mole-with-p-touch.png"
+    }
+  ],
+  "USB-C": [
+    {
+      "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
+      "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
+      "date": "2026-05-14",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
+      "image": "/images/blog/2026/05/hw-398-size.jpg"
+    }
+  ],
+  "PD": [
+    {
+      "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
+      "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
+      "date": "2026-05-14",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
+      "image": "/images/blog/2026/05/hw-398-size.jpg"
+    }
+  ],
+  "power": [
+    {
+      "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
+      "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
+      "date": "2026-05-14",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
+      "image": "/images/blog/2026/05/hw-398-size.jpg"
+    }
+  ],
+  "trigger board": [
+    {
+      "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
+      "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
+      "date": "2026-05-14",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
+      "image": "/images/blog/2026/05/hw-398-size.jpg"
+    }
+  ],
+  "HW-398": [
+    {
+      "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
+      "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
+      "date": "2026-05-14",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
+      "image": "/images/blog/2026/05/hw-398-size.jpg"
+    }
+  ],
+  "arduino": [
+    {
+      "title": "The Great Flood - How I Turned My Living Room into a High-Tech Sump Pit",
+      "path": "/blog/2025/the-great-flood-how-i-turned-my-living-room-into-a-high-tech-sump-pit",
+      "date": "2025-07-13",
+      "description": "",
+      "image": "/images/blog/2025/07/image-2-scaled.png"
+    },
+    {
+      "title": "ESP32-EVB, PlatformIO And Arduino - Yet Another ESP32 tutorial",
+      "path": "/blog/2020/esp32-evb-and-platform-io-yet-another-esp32-tutorial",
+      "date": "2020-06-02",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    }
+  ],
+  "BThome": [
+    {
+      "title": "The Great Flood - How I Turned My Living Room into a High-Tech Sump Pit",
+      "path": "/blog/2025/the-great-flood-how-i-turned-my-living-room-into-a-high-tech-sump-pit",
+      "date": "2025-07-13",
+      "description": "",
+      "image": "/images/blog/2025/07/image-2-scaled.png"
+    }
+  ],
+  "BThomeV2": [
+    {
+      "title": "The Great Flood - How I Turned My Living Room into a High-Tech Sump Pit",
+      "path": "/blog/2025/the-great-flood-how-i-turned-my-living-room-into-a-high-tech-sump-pit",
+      "date": "2025-07-13",
+      "description": "",
+      "image": "/images/blog/2025/07/image-2-scaled.png"
+    }
+  ],
+  "clay": [
+    {
+      "title": "The Great Flood - How I Turned My Living Room into a High-Tech Sump Pit",
+      "path": "/blog/2025/the-great-flood-how-i-turned-my-living-room-into-a-high-tech-sump-pit",
+      "date": "2025-07-13",
+      "description": "",
+      "image": "/images/blog/2025/07/image-2-scaled.png"
+    }
+  ],
+  "ESP32": [
+    {
+      "title": "The Great Flood - How I Turned My Living Room into a High-Tech Sump Pit",
+      "path": "/blog/2025/the-great-flood-how-i-turned-my-living-room-into-a-high-tech-sump-pit",
+      "date": "2025-07-13",
+      "description": "",
+      "image": "/images/blog/2025/07/image-2-scaled.png"
+    },
+    {
+      "title": "Getting Rid of Nasty Underground Neighbours - IoT Mouse Trap",
+      "path": "/blog/2024/getting-rid-of-nasty-underground-neighbours-iot-mouse-trap",
+      "date": "2024-06-26",
+      "description": "",
+      "image": "/images/blog/2024/06/MouseTrap-disassembled-scaled.jpg"
+    },
+    {
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
+      "date": "2023-09-12",
+      "description": "",
+      "image": "/images/blog/2023/09/PXL_20230805_092751600.jpg"
+    },
+    {
+      "title": "The Remote Serial Debugging Nightmare",
+      "path": "/blog/2022/the-remote-serial-debugging-nightmare",
+      "date": "2022-01-31",
+      "description": "",
+      "image": "/images/blog/2022/01/serial-device-server.jpg"
+    },
+    {
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
+      "date": "2022-01-11",
+      "description": "",
+      "image": "/images/blog/2022/01/riot-os.png"
+    },
+    {
+      "title": "Ultrasound Distance Module Overview",
+      "path": "/blog/2021/ultrasound-distance-module-overview",
+      "date": "2021-10-12",
+      "description": "",
+      "image": "/images/blog/2021/10/US-ranging-modules.png"
+    },
+    {
+      "title": "ESP32-EVB, PlatformIO And ESP-IDF – Yet Another ESP32 tutorial",
+      "path": "/blog/2021/esp32-evb-platformio-and-esp-idf-yet-another-esp32-tutorial",
+      "date": "2021-01-18",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    },
+    {
+      "title": "Angular Web App on ESP32",
+      "path": "/blog/2021/angular-web-app-on-esp32",
+      "date": "2021-01-22",
+      "description": "",
+      "image": "/images/blog/2021/01/esp_angular_platformio-2.png"
+    },
+    {
+      "title": "ESP32-EVB, PlatformIO And Arduino - Yet Another ESP32 tutorial",
+      "path": "/blog/2020/esp32-evb-and-platform-io-yet-another-esp32-tutorial",
+      "date": "2020-06-02",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    }
+  ],
+  "platform.io": [
+    {
+      "title": "The Great Flood - How I Turned My Living Room into a High-Tech Sump Pit",
+      "path": "/blog/2025/the-great-flood-how-i-turned-my-living-room-into-a-high-tech-sump-pit",
+      "date": "2025-07-13",
+      "description": "",
+      "image": "/images/blog/2025/07/image-2-scaled.png"
+    },
+    {
+      "title": "ESP32-EVB, PlatformIO And ESP-IDF – Yet Another ESP32 tutorial",
+      "path": "/blog/2021/esp32-evb-platformio-and-esp-idf-yet-another-esp32-tutorial",
+      "date": "2021-01-18",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    },
+    {
+      "title": "Angular Web App on ESP32",
+      "path": "/blog/2021/angular-web-app-on-esp32",
+      "date": "2021-01-22",
+      "description": "",
+      "image": "/images/blog/2021/01/esp_angular_platformio-2.png"
+    },
+    {
+      "title": "ESP32-EVB, PlatformIO And Arduino - Yet Another ESP32 tutorial",
+      "path": "/blog/2020/esp32-evb-and-platform-io-yet-another-esp32-tutorial",
+      "date": "2020-06-02",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    }
+  ],
+  "soil": [
+    {
+      "title": "The Great Flood - How I Turned My Living Room into a High-Tech Sump Pit",
+      "path": "/blog/2025/the-great-flood-how-i-turned-my-living-room-into-a-high-tech-sump-pit",
+      "date": "2025-07-13",
+      "description": "",
+      "image": "/images/blog/2025/07/image-2-scaled.png"
+    }
+  ],
+  "magnetic sensor": [
+    {
+      "title": "Getting Rid of Nasty Underground Neighbours - IoT Mouse Trap",
+      "path": "/blog/2024/getting-rid-of-nasty-underground-neighbours-iot-mouse-trap",
+      "date": "2024-06-26",
+      "description": "",
+      "image": "/images/blog/2024/06/MouseTrap-disassembled-scaled.jpg"
+    }
+  ],
+  "mouse trap": [
+    {
+      "title": "Getting Rid of Nasty Underground Neighbours - IoT Mouse Trap",
+      "path": "/blog/2024/getting-rid-of-nasty-underground-neighbours-iot-mouse-trap",
+      "date": "2024-06-26",
+      "description": "",
+      "image": "/images/blog/2024/06/MouseTrap-disassembled-scaled.jpg"
+    }
+  ],
+  "mousetrap": [
+    {
+      "title": "Getting Rid of Nasty Underground Neighbours - IoT Mouse Trap",
+      "path": "/blog/2024/getting-rid-of-nasty-underground-neighbours-iot-mouse-trap",
+      "date": "2024-06-26",
+      "description": "",
+      "image": "/images/blog/2024/06/MouseTrap-disassembled-scaled.jpg"
+    }
+  ],
+  "ceph": [
+    {
+      "title": "Taming The Cephodian Octopus - Reef",
+      "path": "/blog/2023/taming-the-cephodian-octopus-or-quincy",
+      "date": "2023-02-12",
+      "description": "",
+      "image": "/images/blog/2023/02/quincy-logo.webp"
+    },
+    {
+      "title": "How to Build A Private Storage Cluster (with Ceph)",
+      "path": "/blog/2019/how-to-build-a-private-storage-cluster-with-ceph",
+      "date": "2019-01-07",
+      "description": "",
+      "image": null
+    },
+    {
+      "title": "Compile Ceph (master) on ARM (32-Bit)",
+      "path": "/blog/2019/compile-ceph-mimic-on-arm-32-bit",
+      "date": "2019-01-06",
+      "description": "",
+      "image": null
+    }
+  ],
+  "cluster": [
+    {
+      "title": "Taming The Cephodian Octopus - Reef",
+      "path": "/blog/2023/taming-the-cephodian-octopus-or-quincy",
+      "date": "2023-02-12",
+      "description": "",
+      "image": "/images/blog/2023/02/quincy-logo.webp"
+    },
+    {
+      "title": "How to Build A Private Storage Cluster (with Ceph)",
+      "path": "/blog/2019/how-to-build-a-private-storage-cluster-with-ceph",
+      "date": "2019-01-07",
+      "description": "",
+      "image": null
+    }
+  ],
+  "hc4": [
+    {
+      "title": "Taming The Cephodian Octopus - Reef",
+      "path": "/blog/2023/taming-the-cephodian-octopus-or-quincy",
+      "date": "2023-02-12",
+      "description": "",
+      "image": "/images/blog/2023/02/quincy-logo.webp"
+    }
+  ],
+  "odroid": [
+    {
+      "title": "Taming The Cephodian Octopus - Reef",
+      "path": "/blog/2023/taming-the-cephodian-octopus-or-quincy",
+      "date": "2023-02-12",
+      "description": "",
+      "image": "/images/blog/2023/02/quincy-logo.webp"
+    }
+  ],
+  "odroid-hc4": [
+    {
+      "title": "Taming The Cephodian Octopus - Reef",
+      "path": "/blog/2023/taming-the-cephodian-octopus-or-quincy",
+      "date": "2023-02-12",
+      "description": "",
+      "image": "/images/blog/2023/02/quincy-logo.webp"
+    }
+  ],
+  "quincy": [
+    {
+      "title": "Taming The Cephodian Octopus - Reef",
+      "path": "/blog/2023/taming-the-cephodian-octopus-or-quincy",
+      "date": "2023-02-12",
+      "description": "",
+      "image": "/images/blog/2023/02/quincy-logo.webp"
+    }
+  ],
+  "storage": [
+    {
+      "title": "Taming The Cephodian Octopus - Reef",
+      "path": "/blog/2023/taming-the-cephodian-octopus-or-quincy",
+      "date": "2023-02-12",
+      "description": "",
+      "image": "/images/blog/2023/02/quincy-logo.webp"
+    }
+  ],
+  "Joy-IT": [
+    {
+      "title": "Smart Home Controlled Joy-IT Lab Power Supply",
+      "path": "/blog/2023/smart-home-controlled-joy-it-lab-power-supply",
+      "date": "2023-02-01",
+      "description": "",
+      "image": "/images/blog/2023/01/PXL_20230131_225831363-scaled.jpg"
+    }
+  ],
+  "Laboratory Automation": [
+    {
+      "title": "Smart Home Controlled Joy-IT Lab Power Supply",
+      "path": "/blog/2023/smart-home-controlled-joy-it-lab-power-supply",
+      "date": "2023-02-01",
+      "description": "",
+      "image": "/images/blog/2023/01/PXL_20230131_225831363-scaled.jpg"
+    }
+  ],
+  "ModBus": [
+    {
+      "title": "Smart Home Controlled Joy-IT Lab Power Supply",
+      "path": "/blog/2023/smart-home-controlled-joy-it-lab-power-supply",
+      "date": "2023-02-01",
+      "description": "",
+      "image": "/images/blog/2023/01/PXL_20230131_225831363-scaled.jpg"
+    },
+    {
+      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters",
+      "path": "/blog/2023/modbus-rj45-breakout",
+      "date": "2023-06-01",
+      "description": "",
+      "image": "/images/blog/2023/06/MBRJ45BO2-Front.png"
+    }
+  ],
+  "Power Supply": [
+    {
+      "title": "Smart Home Controlled Joy-IT Lab Power Supply",
+      "path": "/blog/2023/smart-home-controlled-joy-it-lab-power-supply",
+      "date": "2023-02-01",
+      "description": "",
+      "image": "/images/blog/2023/01/PXL_20230131_225831363-scaled.jpg"
+    }
+  ],
+  "RD6006": [
+    {
+      "title": "Smart Home Controlled Joy-IT Lab Power Supply",
+      "path": "/blog/2023/smart-home-controlled-joy-it-lab-power-supply",
+      "date": "2023-02-01",
+      "description": "",
+      "image": "/images/blog/2023/01/PXL_20230131_225831363-scaled.jpg"
+    }
+  ],
+  "RD6012": [
+    {
+      "title": "Smart Home Controlled Joy-IT Lab Power Supply",
+      "path": "/blog/2023/smart-home-controlled-joy-it-lab-power-supply",
+      "date": "2023-02-01",
+      "description": "",
+      "image": "/images/blog/2023/01/PXL_20230131_225831363-scaled.jpg"
+    }
+  ],
+  "Isolated ModBus": [
+    {
+      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters",
+      "path": "/blog/2023/modbus-rj45-breakout",
+      "date": "2023-06-01",
+      "description": "",
+      "image": "/images/blog/2023/06/MBRJ45BO2-Front.png"
+    }
+  ],
+  "RS485": [
+    {
+      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters",
+      "path": "/blog/2023/modbus-rj45-breakout",
+      "date": "2023-06-01",
+      "description": "",
+      "image": "/images/blog/2023/06/MBRJ45BO2-Front.png"
+    }
+  ],
+  "sml": [
+    {
+      "title": "Doing the Undone - Decoding SML or Hacking the Tibber Raw Data",
+      "path": "/blog/2023/doing-the-undone-decoding-sml-or-hacking-the-tibber-raw-data",
+      "date": "2023-05-30",
+      "description": "",
+      "image": "/images/blog/2023/05/title.png"
+    }
+  ],
+  "tibber": [
+    {
+      "title": "Doing the Undone - Decoding SML or Hacking the Tibber Raw Data",
+      "path": "/blog/2023/doing-the-undone-decoding-sml-or-hacking-the-tibber-raw-data",
+      "date": "2023-05-30",
+      "description": "",
+      "image": "/images/blog/2023/05/title.png"
+    }
+  ],
+  "ahoyDTU": [
+    {
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
+      "date": "2023-09-12",
+      "description": "",
+      "image": "/images/blog/2023/09/PXL_20230805_092751600.jpg"
+    }
+  ],
+  "DTU": [
+    {
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
+      "date": "2023-09-12",
+      "description": "",
+      "image": "/images/blog/2023/09/PXL_20230805_092751600.jpg"
+    }
+  ],
+  "hoymiles": [
+    {
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
+      "date": "2023-09-12",
+      "description": "",
+      "image": "/images/blog/2023/09/PXL_20230805_092751600.jpg"
+    }
+  ],
+  "heat meter": [
+    {
+      "title": "Code Red on Fire - Or Heat-Metering with Node-Red",
+      "path": "/blog/2023/code-red-on-fire-or-heat-metering-with-node-red",
+      "date": "2023-04-19",
+      "description": "",
+      "image": "/images/blog/2023/04/M-Bus-Flow.png"
+    }
+  ],
+  "mbus": [
+    {
+      "title": "Code Red on Fire - Or Heat-Metering with Node-Red",
+      "path": "/blog/2023/code-red-on-fire-or-heat-metering-with-node-red",
+      "date": "2023-04-19",
+      "description": "",
+      "image": "/images/blog/2023/04/M-Bus-Flow.png"
+    }
+  ],
+  "nodered": [
+    {
+      "title": "Code Red on Fire - Or Heat-Metering with Node-Red",
+      "path": "/blog/2023/code-red-on-fire-or-heat-metering-with-node-red",
+      "date": "2023-04-19",
+      "description": "",
+      "image": "/images/blog/2023/04/M-Bus-Flow.png"
+    }
+  ],
+  "PiXtend": [
+    {
+      "title": "Code Red on Fire - Or Heat-Metering with Node-Red",
+      "path": "/blog/2023/code-red-on-fire-or-heat-metering-with-node-red",
+      "date": "2023-04-19",
+      "description": "",
+      "image": "/images/blog/2023/04/M-Bus-Flow.png"
+    }
+  ],
+  "PLC": [
+    {
+      "title": "Code Red on Fire - Or Heat-Metering with Node-Red",
+      "path": "/blog/2023/code-red-on-fire-or-heat-metering-with-node-red",
+      "date": "2023-04-19",
+      "description": "",
+      "image": "/images/blog/2023/04/M-Bus-Flow.png"
+    }
+  ],
+  "com2tcp": [
+    {
+      "title": "The Remote Serial Debugging Nightmare",
+      "path": "/blog/2022/the-remote-serial-debugging-nightmare",
+      "date": "2022-01-31",
+      "description": "",
+      "image": "/images/blog/2022/01/serial-device-server.jpg"
+    }
+  ],
+  "Serial2Ethernet": [
+    {
+      "title": "The Remote Serial Debugging Nightmare",
+      "path": "/blog/2022/the-remote-serial-debugging-nightmare",
+      "date": "2022-01-31",
+      "description": "",
+      "image": "/images/blog/2022/01/serial-device-server.jpg"
+    }
+  ],
+  "StreamServer": [
+    {
+      "title": "The Remote Serial Debugging Nightmare",
+      "path": "/blog/2022/the-remote-serial-debugging-nightmare",
+      "date": "2022-01-31",
+      "description": "",
+      "image": "/images/blog/2022/01/serial-device-server.jpg"
+    }
+  ],
+  "M-Bus": [
+    {
+      "title": "Some Thoughs On The M-Bus",
+      "path": "/blog/2022/some-thoughs-on-the-m-bus",
+      "date": "2022-10-04",
+      "description": "",
+      "image": "/images/blog/2021/07/HASS-MBUS-MQTT-1.png"
+    }
+  ],
+  "IoT": [
+    {
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
+      "date": "2022-01-11",
+      "description": "",
+      "image": "/images/blog/2022/01/riot-os.png"
+    }
+  ],
+  "RTOS": [
+    {
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
+      "date": "2022-01-11",
+      "description": "",
+      "image": "/images/blog/2022/01/riot-os.png"
+    }
+  ],
+  "STM32": [
+    {
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
+      "date": "2022-01-11",
+      "description": "",
+      "image": "/images/blog/2022/01/riot-os.png"
+    },
+    {
+      "title": "STM32CubeMX and SDRAM",
+      "path": "/blog/2020/stm32cubemx-and-sdram",
+      "date": "2020-05-15",
+      "description": "",
+      "image": null
+    },
+    {
+      "title": "STM32 UART Continuous Receive with Interrupt",
+      "path": "/blog/2019/stm32-uart-continuous-receive-with-interrupt",
+      "date": "2019-09-06",
+      "description": "",
+      "image": null
+    }
+  ],
+  "immersive": [
+    {
+      "title": "In The Heat Of The Night - 1-Wire Temperature Sensor Directly Immersed",
+      "path": "/blog/2022/onewire-immersed",
+      "date": "2022-10-31",
+      "description": "",
+      "image": "/images/blog/2022/10/image-13.png"
+    }
+  ],
+  "onewire": [
+    {
+      "title": "In The Heat Of The Night - 1-Wire Temperature Sensor Directly Immersed",
+      "path": "/blog/2022/onewire-immersed",
+      "date": "2022-10-31",
+      "description": "",
+      "image": "/images/blog/2022/10/image-13.png"
+    }
+  ],
+  "sleeve": [
+    {
+      "title": "In The Heat Of The Night - 1-Wire Temperature Sensor Directly Immersed",
+      "path": "/blog/2022/onewire-immersed",
+      "date": "2022-10-31",
+      "description": "",
+      "image": "/images/blog/2022/10/image-13.png"
+    }
+  ],
+  "heating system": [
+    {
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "path": "/blog/2022/moles-heating-system",
+      "date": "2022-10-29",
+      "description": "",
+      "image": "/images/blog/2022/10/image-9.png"
+    }
+  ],
+  "hybrid heating system": [
+    {
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "path": "/blog/2022/moles-heating-system",
+      "date": "2022-10-29",
+      "description": "",
+      "image": "/images/blog/2022/10/image-9.png"
+    }
+  ],
+  "multivalent heating": [
+    {
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "path": "/blog/2022/moles-heating-system",
+      "date": "2022-10-29",
+      "description": "",
+      "image": "/images/blog/2022/10/image-9.png"
+    }
+  ],
+  "piping": [
+    {
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "path": "/blog/2022/moles-heating-system",
+      "date": "2022-10-29",
+      "description": "",
+      "image": "/images/blog/2022/10/image-9.png"
+    }
+  ],
+  "ESPhome": [
+    {
+      "title": "Ultrasound Distance Module Overview",
+      "path": "/blog/2021/ultrasound-distance-module-overview",
+      "date": "2021-10-12",
+      "description": "",
+      "image": "/images/blog/2021/10/US-ranging-modules.png"
+    },
+    {
+      "title": "The Magic Of Absolute Humidity",
+      "path": "/blog/2021/the-magic-of-absolute-humidity",
+      "date": "2021-07-10",
+      "description": "",
+      "image": "/images/blog/2021/07/IMG_20210708_231201.jpg"
+    }
+  ],
+  "Ultrasonic": [
+    {
+      "title": "Ultrasound Distance Module Overview",
+      "path": "/blog/2021/ultrasound-distance-module-overview",
+      "date": "2021-10-12",
+      "description": "",
+      "image": "/images/blog/2021/10/US-ranging-modules.png"
+    }
+  ],
+  "Ultrasound": [
+    {
+      "title": "Ultrasound Distance Module Overview",
+      "path": "/blog/2021/ultrasound-distance-module-overview",
+      "date": "2021-10-12",
+      "description": "",
+      "image": "/images/blog/2021/10/US-ranging-modules.png"
+    }
+  ],
+  "EV-Battery": [
+    {
+      "title": "Think Sustainable, TH!NK City (reanimated) - Work in Progress",
+      "path": "/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress",
+      "date": "2021-05-20",
+      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked",
+      "image": "/images/blog/2021/05/Akku_Think-bg.png"
+    }
+  ],
+  "TH!NK City": [
+    {
+      "title": "Think Sustainable, TH!NK City (reanimated) - Work in Progress",
+      "path": "/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress",
+      "date": "2021-05-20",
+      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked",
+      "image": "/images/blog/2021/05/Akku_Think-bg.png"
+    }
+  ],
+  "Think City": [
+    {
+      "title": "Think Sustainable, TH!NK City (reanimated) - Work in Progress",
+      "path": "/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress",
+      "date": "2021-05-20",
+      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked",
+      "image": "/images/blog/2021/05/Akku_Think-bg.png"
+    }
+  ],
+  "Absolute Humidity": [
+    {
+      "title": "The Magic Of Absolute Humidity",
+      "path": "/blog/2021/the-magic-of-absolute-humidity",
+      "date": "2021-07-10",
+      "description": "",
+      "image": "/images/blog/2021/07/IMG_20210708_231201.jpg"
+    }
+  ],
+  "apache solr": [
+    {
+      "title": "Sorting Your Digital Mess - How to Easily Set-Up a Private Search Engine",
+      "path": "/blog/2021/sorting-your-digital-mess-how-to-easily-set-up-a-private-search-engine",
+      "date": "2021-01-08",
+      "description": "",
+      "image": "/images/blog/2021/01/search.png"
+    }
+  ],
+  "indexing": [
+    {
+      "title": "Sorting Your Digital Mess - How to Easily Set-Up a Private Search Engine",
+      "path": "/blog/2021/sorting-your-digital-mess-how-to-easily-set-up-a-private-search-engine",
+      "date": "2021-01-08",
+      "description": "",
+      "image": "/images/blog/2021/01/search.png"
+    }
+  ],
+  "Open Semantic Search": [
+    {
+      "title": "Sorting Your Digital Mess - How to Easily Set-Up a Private Search Engine",
+      "path": "/blog/2021/sorting-your-digital-mess-how-to-easily-set-up-a-private-search-engine",
+      "date": "2021-01-08",
+      "description": "",
+      "image": "/images/blog/2021/01/search.png"
+    }
+  ],
+  "opensemanticsearch": [
+    {
+      "title": "Sorting Your Digital Mess - How to Easily Set-Up a Private Search Engine",
+      "path": "/blog/2021/sorting-your-digital-mess-how-to-easily-set-up-a-private-search-engine",
+      "date": "2021-01-08",
+      "description": "",
+      "image": "/images/blog/2021/01/search.png"
+    }
+  ],
+  "OSS": [
+    {
+      "title": "Sorting Your Digital Mess - How to Easily Set-Up a Private Search Engine",
+      "path": "/blog/2021/sorting-your-digital-mess-how-to-easily-set-up-a-private-search-engine",
+      "date": "2021-01-08",
+      "description": "",
+      "image": "/images/blog/2021/01/search.png"
+    }
+  ],
+  "RabbitMQ": [
+    {
+      "title": "Sorting Your Digital Mess - How to Easily Set-Up a Private Search Engine",
+      "path": "/blog/2021/sorting-your-digital-mess-how-to-easily-set-up-a-private-search-engine",
+      "date": "2021-01-08",
+      "description": "",
+      "image": "/images/blog/2021/01/search.png"
+    }
+  ],
+  "solr": [
+    {
+      "title": "Sorting Your Digital Mess - How to Easily Set-Up a Private Search Engine",
+      "path": "/blog/2021/sorting-your-digital-mess-how-to-easily-set-up-a-private-search-engine",
+      "date": "2021-01-08",
+      "description": "",
+      "image": "/images/blog/2021/01/search.png"
+    }
+  ],
+  "Buderus KM271": [
+    {
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "path": "/blog/2021/reverse-engineering-the-buderus-km217",
+      "date": "2021-07-15",
+      "description": "",
+      "image": "/images/blog/2021/07/IMG_20210714_175311.jpg"
+    }
+  ],
+  "Buderus LM 2107": [
+    {
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "path": "/blog/2021/reverse-engineering-the-buderus-km217",
+      "date": "2021-07-15",
+      "description": "",
+      "image": "/images/blog/2021/07/IMG_20210714_175311.jpg"
+    }
+  ],
+  "KM200": [
+    {
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "path": "/blog/2021/reverse-engineering-the-buderus-km217",
+      "date": "2021-07-15",
+      "description": "",
+      "image": "/images/blog/2021/07/IMG_20210714_175311.jpg"
+    }
+  ],
+  "KM271": [
+    {
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "path": "/blog/2021/reverse-engineering-the-buderus-km217",
+      "date": "2021-07-15",
+      "description": "",
+      "image": "/images/blog/2021/07/IMG_20210714_175311.jpg"
+    }
+  ],
+  "Locamatic web": [
+    {
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "path": "/blog/2021/reverse-engineering-the-buderus-km217",
+      "date": "2021-07-15",
+      "description": "",
+      "image": "/images/blog/2021/07/IMG_20210714_175311.jpg"
+    }
+  ],
+  "Logamatic 2107": [
+    {
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "path": "/blog/2021/reverse-engineering-the-buderus-km217",
+      "date": "2021-07-15",
+      "description": "",
+      "image": "/images/blog/2021/07/IMG_20210714_175311.jpg"
+    }
+  ],
+  "EV SOC Limit": [
+    {
+      "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
+      "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
+      "date": "2021-07-14",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
+    }
+  ],
+  "Renault ZOE": [
+    {
+      "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
+      "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
+      "date": "2021-07-14",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
+    }
+  ],
+  "Renault ZOE SOC Limit Charging": [
+    {
+      "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
+      "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
+      "date": "2021-07-14",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
+    }
+  ],
+  "ZOE": [
+    {
+      "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
+      "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
+      "date": "2021-07-14",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
+    }
+  ],
+  "exip": [
+    {
+      "title": "Kathrein EXIP 418 - Getting It Back To Work on Ubiquity Networks",
+      "path": "/blog/2021/kathrein-exip-418-getting-it-back-to-work-on-ubiquity-networks",
+      "date": "2021-06-20",
+      "description": "",
+      "image": "/images/blog/2021/06/PF_SIP_EXIP418_Front_600x600-e1624186422390.jpg"
+    }
+  ],
+  "exip 418": [
+    {
+      "title": "Kathrein EXIP 418 - Getting It Back To Work on Ubiquity Networks",
+      "path": "/blog/2021/kathrein-exip-418-getting-it-back-to-work-on-ubiquity-networks",
+      "date": "2021-06-20",
+      "description": "",
+      "image": "/images/blog/2021/06/PF_SIP_EXIP418_Front_600x600-e1624186422390.jpg"
+    }
+  ],
+  "kathrein": [
+    {
+      "title": "Kathrein EXIP 418 - Getting It Back To Work on Ubiquity Networks",
+      "path": "/blog/2021/kathrein-exip-418-getting-it-back-to-work-on-ubiquity-networks",
+      "date": "2021-06-20",
+      "description": "",
+      "image": "/images/blog/2021/06/PF_SIP_EXIP418_Front_600x600-e1624186422390.jpg"
+    }
+  ],
+  "satip": [
+    {
+      "title": "Kathrein EXIP 418 - Getting It Back To Work on Ubiquity Networks",
+      "path": "/blog/2021/kathrein-exip-418-getting-it-back-to-work-on-ubiquity-networks",
+      "date": "2021-06-20",
+      "description": "",
+      "image": "/images/blog/2021/06/PF_SIP_EXIP418_Front_600x600-e1624186422390.jpg"
+    }
+  ],
+  "ubiquity": [
+    {
+      "title": "Kathrein EXIP 418 - Getting It Back To Work on Ubiquity Networks",
+      "path": "/blog/2021/kathrein-exip-418-getting-it-back-to-work-on-ubiquity-networks",
+      "date": "2021-06-20",
+      "description": "",
+      "image": "/images/blog/2021/06/PF_SIP_EXIP418_Front_600x600-e1624186422390.jpg"
+    }
+  ],
+  "unifi": [
+    {
+      "title": "Kathrein EXIP 418 - Getting It Back To Work on Ubiquity Networks",
+      "path": "/blog/2021/kathrein-exip-418-getting-it-back-to-work-on-ubiquity-networks",
+      "date": "2021-06-20",
+      "description": "",
+      "image": "/images/blog/2021/06/PF_SIP_EXIP418_Front_600x600-e1624186422390.jpg"
+    }
+  ],
+  "add-on": [
+    {
+      "title": "Just Do It - How To Create Your Own Home Assistant Add-On - Part 1",
+      "path": "/blog/2021/just-do-it-how-to-create-your-own-home-assistant-add-on-part-1",
+      "date": "2021-10-17",
+      "description": "",
+      "image": "/images/blog/2021/10/money_calc_part_1-1.png"
+    }
+  ],
+  "add-on repository": [
+    {
+      "title": "Just Do It - How To Create Your Own Home Assistant Add-On - Part 1",
+      "path": "/blog/2021/just-do-it-how-to-create-your-own-home-assistant-add-on-part-1",
+      "date": "2021-10-17",
+      "description": "",
+      "image": "/images/blog/2021/10/money_calc_part_1-1.png"
+    }
+  ],
+  "codenotary": [
+    {
+      "title": "Just Do It - How To Create Your Own Home Assistant Add-On - Part 1",
+      "path": "/blog/2021/just-do-it-how-to-create-your-own-home-assistant-add-on-part-1",
+      "date": "2021-10-17",
+      "description": "",
+      "image": "/images/blog/2021/10/money_calc_part_1-1.png"
+    }
+  ],
+  "home assistant": [
+    {
+      "title": "Just Do It - How To Create Your Own Home Assistant Add-On - Part 1",
+      "path": "/blog/2021/just-do-it-how-to-create-your-own-home-assistant-add-on-part-1",
+      "date": "2021-10-17",
+      "description": "",
+      "image": "/images/blog/2021/10/money_calc_part_1-1.png"
+    },
+    {
+      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using",
+      "path": "/blog/2021/get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red",
+      "date": "2021-10-16",
+      "description": "",
+      "image": "/images/blog/2021/10/OilFox.png"
+    }
+  ],
+  "BEV": [
+    {
+      "title": "How to Wire an EV Wall-Box (the economic perspective)",
+      "path": "/blog/2021/how-to-wire-up-an-ev-wall-box",
+      "date": "2021-05-18",
+      "description": "",
+      "image": "/images/blog/2021/05/openwb.jpg"
+    }
+  ],
+  "DoTheMath": [
+    {
+      "title": "How to Wire an EV Wall-Box (the economic perspective)",
+      "path": "/blog/2021/how-to-wire-up-an-ev-wall-box",
+      "date": "2021-05-18",
+      "description": "",
+      "image": "/images/blog/2021/05/openwb.jpg"
+    }
+  ],
+  "Electric Car": [
+    {
+      "title": "How to Wire an EV Wall-Box (the economic perspective)",
+      "path": "/blog/2021/how-to-wire-up-an-ev-wall-box",
+      "date": "2021-05-18",
+      "description": "",
+      "image": "/images/blog/2021/05/openwb.jpg"
+    }
+  ],
+  "Electric Vehicle": [
+    {
+      "title": "How to Wire an EV Wall-Box (the economic perspective)",
+      "path": "/blog/2021/how-to-wire-up-an-ev-wall-box",
+      "date": "2021-05-18",
+      "description": "",
+      "image": "/images/blog/2021/05/openwb.jpg"
+    }
+  ],
+  "Wall-Box": [
+    {
+      "title": "How to Wire an EV Wall-Box (the economic perspective)",
+      "path": "/blog/2021/how-to-wire-up-an-ev-wall-box",
+      "date": "2021-05-18",
+      "description": "",
+      "image": "/images/blog/2021/05/openwb.jpg"
+    }
+  ],
+  "7zip": [
+    {
+      "title": "How To Open Your Zipper - Use Fuse To Browse Archives",
+      "path": "/blog/2021/how-to-open-your-zipper-use-fuse-to-browse-archives",
+      "date": "2021-11-08",
+      "description": "",
+      "image": "/images/blog/2021/11/7zip-and-fuse.png"
+    }
+  ],
+  "AVFS": [
+    {
+      "title": "How To Open Your Zipper - Use Fuse To Browse Archives",
+      "path": "/blog/2021/how-to-open-your-zipper-use-fuse-to-browse-archives",
+      "date": "2021-11-08",
+      "description": "",
+      "image": "/images/blog/2021/11/7zip-and-fuse.png"
+    }
+  ],
+  "compressed archives": [
+    {
+      "title": "How To Open Your Zipper - Use Fuse To Browse Archives",
+      "path": "/blog/2021/how-to-open-your-zipper-use-fuse-to-browse-archives",
+      "date": "2021-11-08",
+      "description": "",
+      "image": "/images/blog/2021/11/7zip-and-fuse.png"
+    }
+  ],
+  "loop-mount": [
+    {
+      "title": "How To Open Your Zipper - Use Fuse To Browse Archives",
+      "path": "/blog/2021/how-to-open-your-zipper-use-fuse-to-browse-archives",
+      "date": "2021-11-08",
+      "description": "",
+      "image": "/images/blog/2021/11/7zip-and-fuse.png"
+    }
+  ],
+  "node-red": [
+    {
+      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using",
+      "path": "/blog/2021/get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red",
+      "date": "2021-10-16",
+      "description": "",
+      "image": "/images/blog/2021/10/OilFox.png"
+    },
+    {
+      "title": "EEX, EPEX SPOT And The Real Net-(In)transparency",
+      "path": "/blog/2021/eex-epex-spot-and-the-real-net-intransparency",
+      "date": "2021-10-16",
+      "description": "",
+      "image": "/images/blog/2021/10/EPEX-SPOT-Post.png"
+    }
+  ],
+  "oilfox": [
+    {
+      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using",
+      "path": "/blog/2021/get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red",
+      "date": "2021-10-16",
+      "description": "",
+      "image": "/images/blog/2021/10/OilFox.png"
+    }
+  ],
+  "IEC 62196": [
+    {
+      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables",
+      "path": "/blog/2021/get-the-hell-out-of-my-wall-box-or-how-to-make-cheap-type-2-adapter-cables-not-so-sticky",
+      "date": "2021-11-22",
+      "description": "",
+      "image": "/images/blog/2021/11/Inside-go-echarger-CM-02.jpg"
+    }
+  ],
+  "type-2": [
+    {
+      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables",
+      "path": "/blog/2021/get-the-hell-out-of-my-wall-box-or-how-to-make-cheap-type-2-adapter-cables-not-so-sticky",
+      "date": "2021-11-22",
+      "description": "",
+      "image": "/images/blog/2021/11/Inside-go-echarger-CM-02.jpg"
+    }
+  ],
+  "ESP-IDF": [
+    {
+      "title": "ESP32-EVB, PlatformIO And ESP-IDF – Yet Another ESP32 tutorial",
+      "path": "/blog/2021/esp32-evb-platformio-and-esp-idf-yet-another-esp32-tutorial",
+      "date": "2021-01-18",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    },
+    {
+      "title": "Angular Web App on ESP32",
+      "path": "/blog/2021/angular-web-app-on-esp32",
+      "date": "2021-01-22",
+      "description": "",
+      "image": "/images/blog/2021/01/esp_angular_platformio-2.png"
+    }
+  ],
+  "ESP32-EVB": [
+    {
+      "title": "ESP32-EVB, PlatformIO And ESP-IDF – Yet Another ESP32 tutorial",
+      "path": "/blog/2021/esp32-evb-platformio-and-esp-idf-yet-another-esp32-tutorial",
+      "date": "2021-01-18",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    },
+    {
+      "title": "ESP32-EVB, PlatformIO And Arduino - Yet Another ESP32 tutorial",
+      "path": "/blog/2020/esp32-evb-and-platform-io-yet-another-esp32-tutorial",
+      "date": "2020-06-02",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    }
+  ],
+  "Olimex": [
+    {
+      "title": "ESP32-EVB, PlatformIO And ESP-IDF – Yet Another ESP32 tutorial",
+      "path": "/blog/2021/esp32-evb-platformio-and-esp-idf-yet-another-esp32-tutorial",
+      "date": "2021-01-18",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    },
+    {
+      "title": "ESP32-EVB, PlatformIO And Arduino - Yet Another ESP32 tutorial",
+      "path": "/blog/2020/esp32-evb-and-platform-io-yet-another-esp32-tutorial",
+      "date": "2020-06-02",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    }
+  ],
+  "pio": [
+    {
+      "title": "ESP32-EVB, PlatformIO And ESP-IDF – Yet Another ESP32 tutorial",
+      "path": "/blog/2021/esp32-evb-platformio-and-esp-idf-yet-another-esp32-tutorial",
+      "date": "2021-01-18",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    },
+    {
+      "title": "ESP32-EVB, PlatformIO And Arduino - Yet Another ESP32 tutorial",
+      "path": "/blog/2020/esp32-evb-and-platform-io-yet-another-esp32-tutorial",
+      "date": "2020-06-02",
+      "description": "",
+      "image": "/images/blog/2020/06/ESP32-EVB.jpg"
+    }
+  ],
+  "epex": [
+    {
+      "title": "EEX, EPEX SPOT And The Real Net-(In)transparency",
+      "path": "/blog/2021/eex-epex-spot-and-the-real-net-intransparency",
+      "date": "2021-10-16",
+      "description": "",
+      "image": "/images/blog/2021/10/EPEX-SPOT-Post.png"
+    }
+  ],
+  "epex spot": [
+    {
+      "title": "EEX, EPEX SPOT And The Real Net-(In)transparency",
+      "path": "/blog/2021/eex-epex-spot-and-the-real-net-intransparency",
+      "date": "2021-10-16",
+      "description": "",
+      "image": "/images/blog/2021/10/EPEX-SPOT-Post.png"
+    }
+  ],
+  "market data": [
+    {
+      "title": "EEX, EPEX SPOT And The Real Net-(In)transparency",
+      "path": "/blog/2021/eex-epex-spot-and-the-real-net-intransparency",
+      "date": "2021-10-16",
+      "description": "",
+      "image": "/images/blog/2021/10/EPEX-SPOT-Post.png"
+    }
+  ],
+  "strombörse": [
+    {
+      "title": "EEX, EPEX SPOT And The Real Net-(In)transparency",
+      "path": "/blog/2021/eex-epex-spot-and-the-real-net-intransparency",
+      "date": "2021-10-16",
+      "description": "",
+      "image": "/images/blog/2021/10/EPEX-SPOT-Post.png"
+    }
+  ],
+  "strompreise": [
+    {
+      "title": "EEX, EPEX SPOT And The Real Net-(In)transparency",
+      "path": "/blog/2021/eex-epex-spot-and-the-real-net-intransparency",
+      "date": "2021-10-16",
+      "description": "",
+      "image": "/images/blog/2021/10/EPEX-SPOT-Post.png"
+    }
+  ],
+  "angular": [
+    {
+      "title": "Angular Web App on ESP32",
+      "path": "/blog/2021/angular-web-app-on-esp32",
+      "date": "2021-01-22",
+      "description": "",
+      "image": "/images/blog/2021/01/esp_angular_platformio-2.png"
+    }
+  ],
+  "vscode": [
+    {
+      "title": "Angular Web App on ESP32",
+      "path": "/blog/2021/angular-web-app-on-esp32",
+      "date": "2021-01-22",
+      "description": "",
+      "image": "/images/blog/2021/01/esp_angular_platformio-2.png"
+    }
+  ],
+  "Clean Code": [
+    {
+      "title": "STM32CubeMX and SDRAM",
+      "path": "/blog/2020/stm32cubemx-and-sdram",
+      "date": "2020-05-15",
+      "description": "",
+      "image": null
+    }
+  ],
+  "CubeMX": [
+    {
+      "title": "STM32CubeMX and SDRAM",
+      "path": "/blog/2020/stm32cubemx-and-sdram",
+      "date": "2020-05-15",
+      "description": "",
+      "image": null
+    }
+  ],
+  "HAL": [
+    {
+      "title": "STM32CubeMX and SDRAM",
+      "path": "/blog/2020/stm32cubemx-and-sdram",
+      "date": "2020-05-15",
+      "description": "",
+      "image": null
+    },
+    {
+      "title": "STM32 UART Continuous Receive with Interrupt",
+      "path": "/blog/2019/stm32-uart-continuous-receive-with-interrupt",
+      "date": "2019-09-06",
+      "description": "",
+      "image": null
+    }
+  ],
+  "SDRAM": [
+    {
+      "title": "STM32CubeMX and SDRAM",
+      "path": "/blog/2020/stm32cubemx-and-sdram",
+      "date": "2020-05-15",
+      "description": "",
+      "image": null
+    }
+  ],
+  "STM32CubeMX": [
+    {
+      "title": "STM32CubeMX and SDRAM",
+      "path": "/blog/2020/stm32cubemx-and-sdram",
+      "date": "2020-05-15",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Bootloader": [
+    {
+      "title": "STM32 USB-DFU",
+      "path": "/blog/2020/stm32-usb-dfu",
+      "date": "2020-06-16",
+      "description": "",
+      "image": null
+    }
+  ],
+  "DFU": [
+    {
+      "title": "STM32 USB-DFU",
+      "path": "/blog/2020/stm32-usb-dfu",
+      "date": "2020-06-16",
+      "description": "",
+      "image": null
+    }
+  ],
+  "firmware upgrade": [
+    {
+      "title": "STM32 USB-DFU",
+      "path": "/blog/2020/stm32-usb-dfu",
+      "date": "2020-06-16",
+      "description": "",
+      "image": null
+    }
+  ],
+  "USB": [
+    {
+      "title": "STM32 USB-DFU",
+      "path": "/blog/2020/stm32-usb-dfu",
+      "date": "2020-06-16",
+      "description": "",
+      "image": null
+    }
+  ],
+  "corona": [
+    {
+      "title": "School's out - How to Tame Your Children",
+      "path": "/blog/2020/schools-out-how-to-tame-your-children",
+      "date": "2020-04-03",
+      "description": "",
+      "image": null
+    }
+  ],
+  "covid-19": [
+    {
+      "title": "School's out - How to Tame Your Children",
+      "path": "/blog/2020/schools-out-how-to-tame-your-children",
+      "date": "2020-04-03",
+      "description": "",
+      "image": null
+    }
+  ],
+  "digital classroom": [
+    {
+      "title": "School's out - How to Tame Your Children",
+      "path": "/blog/2020/schools-out-how-to-tame-your-children",
+      "date": "2020-04-03",
+      "description": "",
+      "image": null
+    }
+  ],
+  "pandemic": [
+    {
+      "title": "School's out - How to Tame Your Children",
+      "path": "/blog/2020/schools-out-how-to-tame-your-children",
+      "date": "2020-04-03",
+      "description": "",
+      "image": null
+    }
+  ],
+  "pandemie": [
+    {
+      "title": "School's out - How to Tame Your Children",
+      "path": "/blog/2020/schools-out-how-to-tame-your-children",
+      "date": "2020-04-03",
+      "description": "",
+      "image": null
+    }
+  ],
+  "sars-cov-2": [
+    {
+      "title": "School's out - How to Tame Your Children",
+      "path": "/blog/2020/schools-out-how-to-tame-your-children",
+      "date": "2020-04-03",
+      "description": "",
+      "image": null
+    }
+  ],
+  "school": [
+    {
+      "title": "School's out - How to Tame Your Children",
+      "path": "/blog/2020/schools-out-how-to-tame-your-children",
+      "date": "2020-04-03",
+      "description": "",
+      "image": null
+    }
+  ],
+  "virus": [
+    {
+      "title": "School's out - How to Tame Your Children",
+      "path": "/blog/2020/schools-out-how-to-tame-your-children",
+      "date": "2020-04-03",
+      "description": "",
+      "image": null
+    }
+  ],
+  "penmount": [
+    {
+      "title": "Penmount PCI Touch Controllers And I2C - Lost In Space",
+      "path": "/blog/2020/penmount-pci-touch-controllers-and-i2c-lost-in-space",
+      "date": "2020-05-21",
+      "description": "",
+      "image": null
+    }
+  ],
+  "PM2204": [
+    {
+      "title": "Penmount PCI Touch Controllers And I2C - Lost In Space",
+      "path": "/blog/2020/penmount-pci-touch-controllers-and-i2c-lost-in-space",
+      "date": "2020-05-21",
+      "description": "",
+      "image": null
+    }
+  ],
+  "touch controller": [
+    {
+      "title": "Penmount PCI Touch Controllers And I2C - Lost In Space",
+      "path": "/blog/2020/penmount-pci-touch-controllers-and-i2c-lost-in-space",
+      "date": "2020-05-21",
+      "description": "",
+      "image": null
+    }
+  ],
+  "touch screen": [
+    {
+      "title": "Penmount PCI Touch Controllers And I2C - Lost In Space",
+      "path": "/blog/2020/penmount-pci-touch-controllers-and-i2c-lost-in-space",
+      "date": "2020-05-21",
+      "description": "",
+      "image": null
+    }
+  ],
+  "3D": [
+    {
+      "title": "Just Another Hobby - 3D Printing",
+      "path": "/blog/2020/just-another-hobby-3d-printing",
+      "date": "2020-09-10",
+      "description": "",
+      "image": null
+    }
+  ],
+  "3D-Printing": [
+    {
+      "title": "Just Another Hobby - 3D Printing",
+      "path": "/blog/2020/just-another-hobby-3d-printing",
+      "date": "2020-09-10",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Ender": [
+    {
+      "title": "Just Another Hobby - 3D Printing",
+      "path": "/blog/2020/just-another-hobby-3d-printing",
+      "date": "2020-09-10",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Ender3": [
+    {
+      "title": "Just Another Hobby - 3D Printing",
+      "path": "/blog/2020/just-another-hobby-3d-printing",
+      "date": "2020-09-10",
+      "description": "",
+      "image": null
+    }
+  ],
+  "BigBlueButton": [
+    {
+      "title": "Installing BigBlueButton on Your Dedicated Server",
+      "path": "/blog/2020/installing-bigbluebutton-on-your-dedicated-server",
+      "date": "2020-04-21",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Dedicated Server": [
+    {
+      "title": "Installing BigBlueButton on Your Dedicated Server",
+      "path": "/blog/2020/installing-bigbluebutton-on-your-dedicated-server",
+      "date": "2020-04-21",
+      "description": "",
+      "image": null
+    },
+    {
+      "title": "How To Debug Hardware-Faults on Your Dedicated Server",
+      "path": "/blog/2020/how-to-debug-hardware-faults-on-your-dedicated-server",
+      "date": "2020-04-19",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Greenlight": [
+    {
+      "title": "Installing BigBlueButton on Your Dedicated Server",
+      "path": "/blog/2020/installing-bigbluebutton-on-your-dedicated-server",
+      "date": "2020-04-21",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Hetzner": [
+    {
+      "title": "Installing BigBlueButton on Your Dedicated Server",
+      "path": "/blog/2020/installing-bigbluebutton-on-your-dedicated-server",
+      "date": "2020-04-21",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Ubuntu 16.04": [
+    {
+      "title": "Installing BigBlueButton on Your Dedicated Server",
+      "path": "/blog/2020/installing-bigbluebutton-on-your-dedicated-server",
+      "date": "2020-04-21",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Video Conference": [
+    {
+      "title": "Installing BigBlueButton on Your Dedicated Server",
+      "path": "/blog/2020/installing-bigbluebutton-on-your-dedicated-server",
+      "date": "2020-04-21",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Debugging": [
+    {
+      "title": "How To Debug Hardware-Faults on Your Dedicated Server",
+      "path": "/blog/2020/how-to-debug-hardware-faults-on-your-dedicated-server",
+      "date": "2020-04-19",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Serial Console": [
+    {
+      "title": "How To Debug Hardware-Faults on Your Dedicated Server",
+      "path": "/blog/2020/how-to-debug-hardware-faults-on-your-dedicated-server",
+      "date": "2020-04-19",
+      "description": "",
+      "image": null
+    }
+  ],
+  "freertos": [
+    {
+      "title": "FreeRTOS debugging on STM32 - CPU usage",
+      "path": "/blog/2020/freertos-debugging-on-stm32-cpu-usage",
+      "date": "2020-05-22",
+      "description": "",
+      "image": null
+    }
+  ],
+  "run-time analysis": [
+    {
+      "title": "FreeRTOS debugging on STM32 - CPU usage",
+      "path": "/blog/2020/freertos-debugging-on-stm32-cpu-usage",
+      "date": "2020-05-22",
+      "description": "",
+      "image": null
+    }
+  ],
+  "run-time statistics": [
+    {
+      "title": "FreeRTOS debugging on STM32 - CPU usage",
+      "path": "/blog/2020/freertos-debugging-on-stm32-cpu-usage",
+      "date": "2020-05-22",
+      "description": "",
+      "image": null
+    }
+  ],
+  "STM32CubeIDE": [
+    {
+      "title": "FreeRTOS debugging on STM32 - CPU usage",
+      "path": "/blog/2020/freertos-debugging-on-stm32-cpu-usage",
+      "date": "2020-05-22",
+      "description": "",
+      "image": null
+    }
+  ],
+  "doxygen": [
+    {
+      "title": "Doxygen - Tips and Tricks",
+      "path": "/blog/2020/doxygen-tips-and-tricks",
+      "date": "2020-05-28",
+      "description": "",
+      "image": null
+    }
+  ],
+  "UART": [
+    {
+      "title": "STM32 UART Continuous Receive with Interrupt",
+      "path": "/blog/2019/stm32-uart-continuous-receive-with-interrupt",
+      "date": "2019-09-06",
+      "description": "",
+      "image": null
+    }
+  ],
+  "BLDC": [
+    {
+      "title": "STM32 BLDC Motor Control",
+      "path": "/blog/2019/stm32-bldc-motor-control",
+      "date": "2019-10-09",
+      "description": "",
+      "image": "/images/blog/2019/10/STM-Motor-Control.png"
+    }
+  ],
+  "Motor Control": [
+    {
+      "title": "STM32 BLDC Motor Control",
+      "path": "/blog/2019/stm32-bldc-motor-control",
+      "date": "2019-10-09",
+      "description": "",
+      "image": "/images/blog/2019/10/STM-Motor-Control.png"
+    }
+  ],
+  "database": [
+    {
+      "title": "Merging the Contents of Two InfluxDBs",
+      "path": "/blog/2019/merging-the-contents-of-two-influxdbs",
+      "date": "2019-09-25",
+      "description": "",
+      "image": null
+    }
+  ],
+  "influxdb": [
+    {
+      "title": "Merging the Contents of Two InfluxDBs",
+      "path": "/blog/2019/merging-the-contents-of-two-influxdbs",
+      "date": "2019-09-25",
+      "description": "",
+      "image": null
+    }
+  ],
+  "iobroker": [
+    {
+      "title": "Merging the Contents of Two InfluxDBs",
+      "path": "/blog/2019/merging-the-contents-of-two-influxdbs",
+      "date": "2019-09-25",
+      "description": "",
+      "image": null
+    },
+    {
+      "title": "Integrating wmBus devices into iobroker",
+      "path": "/blog/2019/integrating-wmbus-devices-into-iobroker",
+      "date": "2019-10-13",
+      "description": "",
+      "image": "/images/blog/2021/07/MBusWirelessLogo-1.jpg"
+    }
+  ],
+  "migration": [
+    {
+      "title": "Merging the Contents of Two InfluxDBs",
+      "path": "/blog/2019/merging-the-contents-of-two-influxdbs",
+      "date": "2019-09-25",
+      "description": "",
+      "image": null
+    }
+  ],
+  "wmBus": [
+    {
+      "title": "Integrating wmBus devices into iobroker",
+      "path": "/blog/2019/integrating-wmbus-devices-into-iobroker",
+      "date": "2019-10-13",
+      "description": "",
+      "image": "/images/blog/2021/07/MBusWirelessLogo-1.jpg"
+    }
+  ],
+  "Backup": [
+    {
+      "title": "Headless Rescue System over SSH",
+      "path": "/blog/2019/headless-rescue-system-over-ssh",
+      "date": "2019-09-08",
+      "description": "",
+      "image": null
+    }
+  ],
+  "network-console": [
+    {
+      "title": "Headless Rescue System over SSH",
+      "path": "/blog/2019/headless-rescue-system-over-ssh",
+      "date": "2019-09-08",
+      "description": "",
+      "image": null
+    }
+  ],
+  "Ploplinux": [
+    {
+      "title": "Headless Rescue System over SSH",
+      "path": "/blog/2019/headless-rescue-system-over-ssh",
+      "date": "2019-09-08",
+      "description": "",
+      "image": null
+    }
+  ],
+  "squashfs": [
+    {
+      "title": "Headless Rescue System over SSH",
+      "path": "/blog/2019/headless-rescue-system-over-ssh",
+      "date": "2019-09-08",
+      "description": "",
+      "image": null
+    }
+  ],
+  "SSH": [
+    {
+      "title": "Headless Rescue System over SSH",
+      "path": "/blog/2019/headless-rescue-system-over-ssh",
+      "date": "2019-09-08",
+      "description": "",
+      "image": null
+    }
+  ],
+  "atlassian": [
+    {
+      "title": "Creating Custom Issue Types for JIRA",
+      "path": "/blog/2018/creating-custom-issue-types-in-jira",
+      "date": "2018-08-19",
+      "description": ">",
+      "image": "/images/blog/2018/08/image-4.png"
+    },
+    {
+      "title": "Atlassian And New SSL Certificates",
+      "path": "/blog/2018/atlassian-and-new-ssl-certificates",
+      "date": "2018-10-20",
+      "description": "",
+      "image": null
+    }
+  ],
+  "jira": [
+    {
+      "title": "Creating Custom Issue Types for JIRA",
+      "path": "/blog/2018/creating-custom-issue-types-in-jira",
+      "date": "2018-08-19",
+      "description": ">",
+      "image": "/images/blog/2018/08/image-4.png"
+    },
+    {
+      "title": "Atlassian And New SSL Certificates",
+      "path": "/blog/2018/atlassian-and-new-ssl-certificates",
+      "date": "2018-10-20",
+      "description": "",
+      "image": null
+    }
+  ],
+  "issue-types": [
+    {
+      "title": "Creating Custom Issue Types for JIRA",
+      "path": "/blog/2018/creating-custom-issue-types-in-jira",
+      "date": "2018-08-19",
+      "description": ">",
+      "image": "/images/blog/2018/08/image-4.png"
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Creating Custom Issue Types for JIRA",
+      "path": "/blog/2018/creating-custom-issue-types-in-jira",
+      "date": "2018-08-19",
+      "description": ">",
+      "image": "/images/blog/2018/08/image-4.png"
+    }
+  ],
+  "agile": [
+    {
+      "title": "Creating Custom Issue Types for JIRA",
+      "path": "/blog/2018/creating-custom-issue-types-in-jira",
+      "date": "2018-08-19",
+      "description": ">",
+      "image": "/images/blog/2018/08/image-4.png"
+    }
+  ],
+  "scrum": [
+    {
+      "title": "Creating Custom Issue Types for JIRA",
+      "path": "/blog/2018/creating-custom-issue-types-in-jira",
+      "date": "2018-08-19",
+      "description": ">",
+      "image": "/images/blog/2018/08/image-4.png"
+    }
+  ],
+  "requirements": [
+    {
+      "title": "Creating Custom Issue Types for JIRA",
+      "path": "/blog/2018/creating-custom-issue-types-in-jira",
+      "date": "2018-08-19",
+      "description": ">",
+      "image": "/images/blog/2018/08/image-4.png"
+    }
+  ],
+  "bash": [
+    {
+      "title": "Atlassian And New SSL Certificates",
+      "path": "/blog/2018/atlassian-and-new-ssl-certificates",
+      "date": "2018-10-20",
+      "description": "",
+      "image": null
+    }
+  ],
+  "bitbucket": [
+    {
+      "title": "Atlassian And New SSL Certificates",
+      "path": "/blog/2018/atlassian-and-new-ssl-certificates",
+      "date": "2018-10-20",
+      "description": "",
+      "image": null
+    }
+  ],
+  "CA": [
+    {
+      "title": "Atlassian And New SSL Certificates",
+      "path": "/blog/2018/atlassian-and-new-ssl-certificates",
+      "date": "2018-10-20",
+      "description": "",
+      "image": null
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Atlassian And New SSL Certificates",
+      "path": "/blog/2018/atlassian-and-new-ssl-certificates",
+      "date": "2018-10-20",
+      "description": "",
+      "image": null
+    }
+  ],
+  "confluence": [
+    {
+      "title": "Atlassian And New SSL Certificates",
+      "path": "/blog/2018/atlassian-and-new-ssl-certificates",
+      "date": "2018-10-20",
+      "description": "",
+      "image": null
+    }
+  ],
+  "linux": [
+    {
+      "title": "Atlassian And New SSL Certificates",
+      "path": "/blog/2018/atlassian-and-new-ssl-certificates",
+      "date": "2018-10-20",
+      "description": "",
+      "image": null
+    }
+  ],
+  "SSL": [
+    {
+      "title": "Atlassian And New SSL Certificates",
+      "path": "/blog/2018/atlassian-and-new-ssl-certificates",
+      "date": "2018-10-20",
+      "description": "",
+      "image": null
+    }
+  ]
+}

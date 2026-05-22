@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { data: posts } = await useAsyncData('blog-all', () =>
   queryCollection('blog')
-    .select('title', 'date', 'description', 'image', 'categories', 'path')
+    .select('title', 'date', 'description', 'image', 'categories', 'tags', 'path')
     .order('date', 'DESC')
     .all()
 )

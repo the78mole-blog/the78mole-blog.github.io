@@ -20,6 +20,8 @@ function resetConsent() {
         </NuxtLink>
         <nav class="flex gap-6 text-sm text-gray-400">
           <NuxtLink to="/" class="hover:text-white transition-colors">Blog</NuxtLink>
+          <NuxtLink to="/tags" class="hover:text-white transition-colors">Tags</NuxtLink>
+          <NuxtLink to="/categories" class="hover:text-white transition-colors">Categories</NuxtLink>
           <NuxtLink to="/pages/projects" class="hover:text-white transition-colors">Projects</NuxtLink>
           <NuxtLink to="/pages/tutorials" class="hover:text-white transition-colors">HowTos</NuxtLink>
           <NuxtLink to="/pages/links" class="hover:text-white transition-colors">Links</NuxtLink>
