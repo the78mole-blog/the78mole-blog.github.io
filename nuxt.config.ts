@@ -16,6 +16,7 @@ const giscusCategoryId = process.env.GISCUS_CATEGORY_ID || 'DIC_kwDOSNCPls4C7zVP
 export default defineNuxtConfig({
   modules: [
     './modules/generate-taxonomy',
+    './modules/generate-sitemap',
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     'nuxt-gtag',

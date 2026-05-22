@@ -10,3 +10,8 @@ temp/
 # Local Temp Files (personal notes, never committed)
 MIGRATION.md
 TODO_NOTIZEN.md
+
+# Generated at build time by Nuxt modules – do not commit
+public/sitemap.xml
+public/tags.json
+public/categories.json
