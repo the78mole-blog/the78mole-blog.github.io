@@ -4,12 +4,18 @@ date: '2021-05-18'
 description: ''
 categories:
 - Electric Car
+- DIY
+- Hardware
 tags:
 - BEV
 - DoTheMath
 - Electric Car
 - Electric Vehicle
 - Wall-Box
+- ev
+- charging
+- wallbox
+- electrical
 image: /images/blog/2021/05/openwb.jpg
 ---
 

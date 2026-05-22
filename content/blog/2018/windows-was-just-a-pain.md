@@ -6,7 +6,11 @@ categories:
 - Bashing
 - OS
 - Windows
-tags: []
+- Tools
+tags:
+- linux
+- windows
+- migration
 image: /images/blog/2018/09/Gnu-bash-logo.svg_.png
 ---
 

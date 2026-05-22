@@ -7,10 +7,14 @@ categories:
 - Bus Systems
 - ModBus
 - Smart Home
+- Hardware
+- DIY
 tags:
 - Isolated ModBus
 - ModBus
 - RS485
+- networking
+- metering
 image: /images/blog/2023/06/MBRJ45BO2-Front.png
 ---
 

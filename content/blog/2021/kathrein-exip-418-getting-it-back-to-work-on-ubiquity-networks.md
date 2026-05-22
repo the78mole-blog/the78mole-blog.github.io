@@ -4,6 +4,8 @@ date: '2021-06-20'
 description: ''
 categories:
 - Networking
+- Tools
+- DIY
 tags:
 - exip
 - exip 418
@@ -11,6 +13,7 @@ tags:
 - satip
 - ubiquity
 - unifi
+- networking
 image: /images/blog/2021/06/PF_SIP_EXIP418_Front_600x600-e1624186422390.jpg
 ---
 

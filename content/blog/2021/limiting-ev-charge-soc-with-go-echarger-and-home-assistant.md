@@ -6,11 +6,17 @@ description: How to limit charging to a predefined SOC with go-echarger and Home
 categories:
 - Electric Car
 - Home Assistant
+- Smart Home
+- DIY
 tags:
 - EV SOC Limit
 - Renault ZOE
 - Renault ZOE SOC Limit Charging
 - ZOE
+- ev
+- charging
+- automation
+- smart-home
 image: /images/blog/2021/07/ZOE-How-To-Limit-SOC.png
 ---
 

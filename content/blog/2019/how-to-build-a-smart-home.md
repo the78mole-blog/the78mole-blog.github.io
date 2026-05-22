@@ -5,7 +5,14 @@ description: ''
 categories:
 - ARM
 - Smart Home
-tags: []
+tags:
+- iobroker
+- home-assistant
+- linux
+- arm
+- odroid
+- smart-home
+- diy
 ---
 
 Since everbody complains about smart homes are vendor lock in, too expensive, giving you data for free to some suspecting cloud provider,... I need to preset my smart home solution to you, that can be completely running inside your "four walls" and does not need any third party, if you do not want it to. Additionally, there is NO vendor lock in. Everything can be open source and connect to almost any existing smart home appliance.

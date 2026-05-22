@@ -4,7 +4,12 @@ date: '2018-11-05'
 description: ''
 categories:
 - Uncategorized
-tags: []
+- DIY
+tags:
+- chromecast
+- android
+- streaming
+- diy
 ---
 
 Have you ever been upset about your chromecast heavy depency on a smarthphone. So, nor do I, but my wife complained, since she always drops her phone somewhere else around the house... What could you do about it? Chromecast hardly has other input options and writing against it's API is not an easy task.

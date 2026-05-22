@@ -4,11 +4,17 @@ date: '2020-05-21'
 description: ''
 categories:
 - STM32
+- Embedded
+- Hardware
 tags:
 - penmount
 - PM2204
 - touch controller
 - touch screen
+- i2c
+- uart
+- stm32
+- embedded
 ---
 
 ## Forword

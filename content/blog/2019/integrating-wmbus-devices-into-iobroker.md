@@ -11,6 +11,11 @@ categories:
 tags:
 - iobroker
 - wmBus
+- home-automation
+- mqtt
+- smart-home
+- energy
+- metering
 image: /images/blog/2021/07/MBusWirelessLogo-1.jpg
 ---
 

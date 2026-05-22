@@ -4,11 +4,17 @@ date: '2020-06-16'
 description: ''
 categories:
 - STM32
+- Embedded
+- DIY
 tags:
 - Bootloader
 - DFU
 - firmware upgrade
 - USB
+- stm32
+- microcontroller
+- embedded
+- firmware
 ---
 
 I'm not sure, if I'm simply a problem magnet or why some stuff does not work as described... Here is another case. The tool I tend to use can be found [here at STM's site](https://www.st.com/en/development-tools/stsw-stm32080.html).

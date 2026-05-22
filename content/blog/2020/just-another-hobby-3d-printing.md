@@ -4,11 +4,15 @@ date: '2020-09-10'
 description: ''
 categories:
 - Uncategorized
+- DIY
+- Hardware
 tags:
 - 3D
 - 3D-Printing
 - Ender
 - Ender3
+- fdm
+- maker
 ---
 
 When it comes to leasure time, there are not many activities, that are more exciting than 3D printing. After you printed diverse things from [Thingiverse](http://thingiverse.com) or any other 3D printing gallery, there is a great wish, deeply buried in your mind, to design stuff yourself to get the real excitement -- and what is more obvious than upgrading your 3D printer with parts printed by itself/ yourself :-P

@@ -6,6 +6,8 @@ categories:
 - ESP32
 - FreeRTOS
 - Uncategorized
+- Embedded
+- DIY
 tags:
 - ESP-IDF
 - ESP32
@@ -13,6 +15,9 @@ tags:
 - Olimex
 - pio
 - platform.io
+- iot
+- microcontroller
+- freertos
 image: /images/blog/2020/06/ESP32-EVB.jpg
 ---
 

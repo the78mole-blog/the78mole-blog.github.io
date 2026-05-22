@@ -6,9 +6,15 @@ categories:
 - Smart Home
 - Tibber
 - Uncategorized
+- Dev
+- Tools
 tags:
 - sml
 - tibber
+- protocol
+- smart-meter
+- energy
+- decoding
 image: /images/blog/2023/05/title.png
 ---
 

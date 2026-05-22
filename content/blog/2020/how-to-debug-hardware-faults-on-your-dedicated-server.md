@@ -5,10 +5,15 @@ description: ''
 categories:
 - Linux
 - Server
+- Tools
 tags:
 - Debugging
 - Dedicated Server
 - Serial Console
+- linux
+- hardware
+- diagnostics
+- server
 ---
 
 While installing some stuff on a dedicated server at Strato, I encountered a problem with the server two times. While having no clue what happened during the first time, I was prepared during the second. I kept a connection to the serial port proxy of my provider open, to see the most low level messages (kprints).

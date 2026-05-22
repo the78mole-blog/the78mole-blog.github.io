@@ -5,11 +5,14 @@ description: ''
 categories:
 - Linux
 - Smart Home
+- Tools
 tags:
 - database
 - influxdb
 - iobroker
 - migration
+- timeseries
+- data-migration
 ---
 
 Eveer had the problem that data runs into two different [influx databases](https://www.influxdata.com/) and you want to merge the data into a single one? You wonder, why this can happen? Then just think about migrating some data aquisition project from one server to another without a downtime by spooling the aquired data into both DBs for some time or simply setting up a fresh system after the old one is dying slowly because of low performance. This happened to me with my smart home system, running iobroker and some influxdb on it. The old one ran on a ODROID-HC1 with only 2GB RAM. The new one is a Debian 10.0 VM on my brand new HP Proliant running XCP-NG. (OK, it's not new, it's used HW, but for private use, it is a monster :-) )

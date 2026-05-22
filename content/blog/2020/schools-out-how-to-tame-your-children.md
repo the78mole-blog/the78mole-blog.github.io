@@ -5,6 +5,7 @@ description: ''
 categories:
 - Corona Virus
 - Linux
+- Tools
 tags:
 - corona
 - covid-19
@@ -14,6 +15,9 @@ tags:
 - sars-cov-2
 - school
 - virus
+- moodle
+- online-learning
+- videoconference
 ---
 
 ## Introduction - Historic Reasons for this Post

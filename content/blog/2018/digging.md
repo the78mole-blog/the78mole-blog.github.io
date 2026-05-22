@@ -4,7 +4,10 @@ date: '2018-08-15'
 description: ''
 categories:
 - General
-tags: []
+tags:
+- intro
+- mole
+- blog
 ---
 
 Welcome to MolesBlog.

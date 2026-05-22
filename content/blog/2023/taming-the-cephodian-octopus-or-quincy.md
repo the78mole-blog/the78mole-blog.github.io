@@ -16,6 +16,9 @@ tags:
 - odroid-hc4
 - quincy
 - storage
+- linux
+- arm
+- distributed-storage
 image: /images/blog/2023/02/quincy-logo.webp
 ---
 

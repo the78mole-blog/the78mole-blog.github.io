@@ -5,7 +5,14 @@ description: ''
 categories:
 - General
 - Project Management
-tags: []
+- Embedded
+- Dev
+tags:
+- embedded
+- toolchain
+- gcc
+- arm
+- microcontroller
 ---
 
 Start embedded projects in an ordered way using the right tools

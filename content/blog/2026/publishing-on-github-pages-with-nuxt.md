@@ -1,12 +1,20 @@
 ---
-title: "Publishing a Static Blog on GitHub Pages with Nuxt"
+title: Publishing a Static Blog on GitHub Pages with Nuxt
 date: '2026-05-08'
-description: 'How to turn a Nuxt content site into a fully automated, free static blog – from repository setup through custom domain to zero-click deployments.'
+description: How to turn a Nuxt content site into a fully automated, free static blog
+  – from repository setup through custom domain to zero-click deployments.
 image: /images/blog/2026/05/github-pages-cover.png
 categories:
-  - Dev
-  - Tools
-  - Web
+- Dev
+- Tools
+- Web
+tags:
+- nuxt
+- github-pages
+- ssg
+- blog
+- static-site
+- deployment
 ---
 
 Every mole eventually digs its way to the surface. You have written something worth sharing – now you need a place to put it that costs nothing, needs no server to babysit, and deploys automatically every time you push.

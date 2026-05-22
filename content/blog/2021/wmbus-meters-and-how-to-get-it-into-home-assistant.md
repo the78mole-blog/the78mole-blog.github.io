@@ -7,7 +7,13 @@ categories:
 - Home Assistant
 - Smart Home
 - wmBus
-tags: []
+tags:
+- wmbus
+- metering
+- mqtt
+- home-assistant
+- smart-home
+- iot
 image: /images/blog/2021/07/MBusWirelessLogo.jpg
 ---
 

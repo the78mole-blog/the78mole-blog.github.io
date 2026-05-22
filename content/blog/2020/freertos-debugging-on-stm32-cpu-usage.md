@@ -6,11 +6,17 @@ categories:
 - ARM
 - STM32
 - Uncategorized
+- Embedded
 tags:
 - freertos
 - run-time analysis
 - run-time statistics
 - STM32CubeIDE
+- rtos
+- debugging
+- embedded
+- stm32
+- microcontroller
 ---
 
 ## Introduction

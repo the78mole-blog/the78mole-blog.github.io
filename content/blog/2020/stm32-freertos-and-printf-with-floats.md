@@ -7,7 +7,15 @@ categories:
 - FreeRTOS
 - STM32
 - Uncategorized
-tags: []
+- Embedded
+tags:
+- freertos
+- stm32
+- printf
+- debugging
+- embedded
+- float
+- arm
 ---
 
 After some more coding, I found some more issues with FreeRTOS and printf, not being solved by my fix below. If you need to get it fixed completely, look at that forums post: [ST Community](https://community.st.com/s/question/0D50X0000BB1eL7SQJ/bug-cubemx-freertos-projects-corrupt-memory)  

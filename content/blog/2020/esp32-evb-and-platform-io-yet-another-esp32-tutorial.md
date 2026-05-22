@@ -5,6 +5,8 @@ description: ''
 categories:
 - ESP32
 - Uncategorized
+- Embedded
+- DIY
 tags:
 - arduino
 - ESP32
@@ -12,6 +14,10 @@ tags:
 - Olimex
 - pio
 - platform.io
+- esp-idf
+- platformio
+- iot
+- microcontroller
 image: /images/blog/2020/06/ESP32-EVB.jpg
 ---
 

@@ -1,11 +1,20 @@
 ---
 title: Teaching the AI Mole – GitHub Copilot Skills for Nuxt Blogs
 date: '2026-04-27'
-description: 'How I taught GitHub Copilot everything it needs to know about managing a Nuxt-based GitHub Pages blog – using Copilot Skills.'
+description: How I taught GitHub Copilot everything it needs to know about managing
+  a Nuxt-based GitHub Pages blog – using Copilot Skills.
 image: /images/blog/2026/04/mole-skill.jpeg
 categories:
-  - Dev
-  - AI
+- Dev
+- AI
+- Tools
+tags:
+- copilot
+- ai
+- github
+- skills
+- automation
+- nuxt
 ---
 
 Or: How a Mole Stopped Repeating Itself and Started Teaching Its AI Assistant Instead.

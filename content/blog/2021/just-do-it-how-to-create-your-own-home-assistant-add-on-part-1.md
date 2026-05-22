@@ -5,11 +5,16 @@ description: ''
 categories:
 - Home Assistant
 - Smart Home
+- Dev
 tags:
 - add-on
 - add-on repository
 - codenotary
 - home assistant
+- home-assistant
+- docker
+- addon
+- automation
 image: /images/blog/2021/10/money_calc_part_1-1.png
 ---
 

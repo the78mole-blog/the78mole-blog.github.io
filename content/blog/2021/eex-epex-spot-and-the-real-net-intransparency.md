@@ -13,6 +13,10 @@ tags:
 - node-red
 - strombörse
 - strompreise
+- energy
+- electricity
+- pricing
+- market-data
 image: /images/blog/2021/10/EPEX-SPOT-Post.png
 ---
 

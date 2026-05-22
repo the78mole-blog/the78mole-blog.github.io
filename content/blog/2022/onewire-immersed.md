@@ -8,10 +8,17 @@ categories:
 - Heating
 - Home Assistant
 - Smart Home
+- DIY
+- Hardware
 tags:
 - immersive
 - onewire
 - sleeve
+- sensor
+- temperature
+- esp32
+- iot
+- heating
 image: /images/blog/2022/10/image-13.png
 ---
 

@@ -4,7 +4,14 @@ date: '2025-07-06'
 description: ''
 categories:
 - Uncategorized
-tags: []
+- DIY
+- Hardware
+tags:
+- repair
+- 3d-printing
+- diy
+- hardware
+- maker
 image: /images/blog/2025/07/f89867c8-1261-465f-942d-7a8306802dff.png
 ---
 

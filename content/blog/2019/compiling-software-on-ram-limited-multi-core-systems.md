@@ -4,7 +4,15 @@ date: '2019-01-03'
 description: ''
 categories:
 - Uncategorized
-tags: []
+- Dev
+- Tools
+tags:
+- compilation
+- build
+- arm
+- embedded
+- linux
+- optimization
 ---
 
 Since I often compile stuff on embedded ARM targets that are well equipped with processing power (Exinos Octa-Core), but are neglected regarding RAM (2G), I often facing the trade-off between running multiple or only a single/few compilation jobs (make -j8 vs. make -j1). If you start too many jobs and if you have large compilation units (e.g. with the [Ceph Project](https://www.github.com/ceph/ceph) sources), the system will feel like jam, as soon as it begins swapping.

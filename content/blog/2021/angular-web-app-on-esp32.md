@@ -4,12 +4,17 @@ date: '2021-01-22'
 description: ''
 categories:
 - ESP32
+- Embedded
+- Dev
 tags:
 - angular
 - ESP-IDF
 - ESP32
 - platform.io
 - vscode
+- web
+- iot
+- microcontroller
 image: /images/blog/2021/01/esp_angular_platformio-2.png
 ---
 

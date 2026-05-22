@@ -5,7 +5,13 @@ description: ''
 categories:
 - Android
 - ARM
-tags: []
+- Hardware
+tags:
+- orangepi
+- android
+- arm
+- iot
+- hardware
 ---
 
 ## Getting the Android SDK

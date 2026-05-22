@@ -8,12 +8,19 @@ categories:
 - M-Bus
 - node-red
 - Smart Home
+- DIY
 tags:
 - heat meter
 - mbus
 - nodered
 - PiXtend
 - PLC
+- m-bus
+- node-red
+- automation
+- energy
+- metering
+- iot
 image: /images/blog/2023/04/M-Bus-Flow.png
 ---
 

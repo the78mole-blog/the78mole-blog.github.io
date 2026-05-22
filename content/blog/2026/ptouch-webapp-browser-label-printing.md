@@ -1,20 +1,25 @@
 ---
-title: "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT"
+title: Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT
 date: '2026-05-14'
-description: 'A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.'
+description: A driver-free, backend-free SPA that prints to a Brother PT-E560BT over
+  USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor
+  in the burrow is a hard no.
 image: /images/blog/2026/05/mole-with-p-touch.png
 categories:
-  - Dev
-  - Tools
-  - DIY
+- Dev
+- Tools
+- DIY
 tags:
-  - brother
-  - p-touch
-  - label printer
-  - web serial
-  - bluetooth
-  - vite
-  - javascript
+- brother
+- p-touch
+- label printer
+- web serial
+- bluetooth
+- vite
+- javascript
+- web-serial
+- label-printer
+- hardware
 ---
 
 Every mole eventually labels its tunnels. Patch panel port 14 is "the server room switch uplink", not "mystery cable, do not unplug" – I learned that distinction the hard way at 2 am. The answer is obviously a label maker. The answer to *which* label maker turned out to be the one the Molewife spotted at the hardware store: a **Brother PT-E560BTVP**, all orange and industrial-looking and promising to survive being sat on by a badger.

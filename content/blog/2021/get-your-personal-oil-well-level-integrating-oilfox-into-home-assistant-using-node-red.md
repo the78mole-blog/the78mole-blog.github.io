@@ -11,6 +11,10 @@ tags:
 - home assistant
 - node-red
 - oilfox
+- iot
+- mqtt
+- smart-home
+- energy
 image: /images/blog/2021/10/OilFox.png
 ---
 

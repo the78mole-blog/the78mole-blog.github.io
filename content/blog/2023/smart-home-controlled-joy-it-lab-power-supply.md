@@ -9,6 +9,7 @@ categories:
 - Laboratory
 - ModBus
 - Uncategorized
+- Dev
 tags:
 - Joy-IT
 - Laboratory Automation
@@ -16,6 +17,9 @@ tags:
 - Power Supply
 - RD6006
 - RD6012
+- esphome
+- laboratory
+- automation
 image: /images/blog/2023/01/PXL_20230131_225831363-scaled.jpg
 ---
 

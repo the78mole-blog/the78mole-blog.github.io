@@ -5,9 +5,17 @@ description: ''
 categories:
 - Motor Control
 - STM32
+- Embedded
+- Hardware
 tags:
 - BLDC
 - Motor Control
+- stm32
+- arm
+- embedded
+- hardware
+- pwm
+- motor
 image: /images/blog/2019/10/STM-Motor-Control.png
 ---
 

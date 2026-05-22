@@ -6,11 +6,17 @@ categories:
 - Bashing
 - Linux
 - Storage
+- Tools
 tags:
 - 7zip
 - AVFS
 - compressed archives
 - loop-mount
+- linux
+- filesystem
+- archive
+- fuse
+- compression
 image: /images/blog/2021/11/7zip-and-fuse.png
 ---
 

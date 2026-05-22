@@ -8,11 +8,17 @@ categories:
 - Renewable Energy
 - Smart Home
 - Solar Energy
+- Hardware
+- DIY
 tags:
 - ahoyDTU
 - DTU
 - ESP32
 - hoymiles
+- solar
+- inverter
+- energy
+- monitoring
 image: /images/blog/2023/09/PXL_20230805_092751600.jpg
 ---
 

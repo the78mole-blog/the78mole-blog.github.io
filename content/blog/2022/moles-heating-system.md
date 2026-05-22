@@ -5,11 +5,18 @@ date: '2022-10-29'
 description: ''
 categories:
 - Heating
+- DIY
+- Smart Home
 tags:
 - heating system
 - hybrid heating system
 - multivalent heating
 - piping
+- heating
+- heat-pump
+- solar
+- battery
+- energy
 image: /images/blog/2022/10/image-9.png
 ---
 

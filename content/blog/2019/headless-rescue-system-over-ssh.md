@@ -4,12 +4,16 @@ date: '2019-09-08'
 description: ''
 categories:
 - Linux
+- Tools
 tags:
 - Backup
 - network-console
 - Ploplinux
 - squashfs
 - SSH
+- linux
+- rescue
+- system-recovery
 ---
 
 Again, I stumbled over some problem... I need to draw some backup disk image of a headless bare metal server, to run a risky update of atlassian tools. And yes, it was one of the old servers in my network, not beeing virtualized.

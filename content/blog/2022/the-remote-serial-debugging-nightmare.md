@@ -7,11 +7,17 @@ categories:
 - ESPhome
 - Networking
 - Windows
+- Tools
+- Dev
 tags:
 - com2tcp
 - ESP32
 - Serial2Ethernet
 - StreamServer
+- debugging
+- serial
+- networking
+- terminal
 image: /images/blog/2022/01/serial-device-server.jpg
 ---
 

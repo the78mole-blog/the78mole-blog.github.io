@@ -9,6 +9,11 @@ categories:
 - Uncategorized
 tags:
 - ceph
+- arm
+- compilation
+- linux
+- build
+- cpp
 ---
 
 I gave up on getting Ceph run on ARM 32 bit. It was a huge effort to fix the types, that diverge when switching from 64 to 32 bit. The development of Ceph is simply to fast to cope with. Since the developers decided to drop all tests for 32 bit builds, the needed fixes are too many for a single person to hunt after it.

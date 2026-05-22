@@ -5,8 +5,13 @@ description: ''
 categories:
 - Tools
 - Uncategorized
+- Dev
 tags:
 - doxygen
+- documentation
+- cpp
+- c
+- code-generation
 ---
 
 ## LaTeX non-interactive

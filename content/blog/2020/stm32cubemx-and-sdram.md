@@ -6,6 +6,7 @@ categories:
 - ARM
 - SDRAM
 - STM32
+- Embedded
 tags:
 - Clean Code
 - CubeMX
@@ -13,6 +14,10 @@ tags:
 - SDRAM
 - STM32
 - STM32CubeMX
+- fmc
+- memory
+- embedded
+- microcontroller
 ---
 
 Sometimes, using CubeMX and the HAL, there is something missing. For SDRAM, it is the command sequence that need to be issued after initializing the FMC module. The SDRAM itself also needs some information on timing and refresh, so FMC and SDRAM getting friends.

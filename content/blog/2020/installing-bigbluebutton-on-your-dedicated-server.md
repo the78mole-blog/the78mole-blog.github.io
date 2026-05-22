@@ -5,6 +5,7 @@ description: ''
 categories:
 - Linux
 - Server
+- Tools
 tags:
 - BigBlueButton
 - Dedicated Server
@@ -12,6 +13,10 @@ tags:
 - Hetzner
 - Ubuntu 16.04
 - Video Conference
+- videoconferencing
+- open-source
+- ubuntu
+- server
 ---
 
 ## Introduction

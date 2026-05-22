@@ -4,11 +4,15 @@ date: '2021-10-12'
 description: ''
 categories:
 - Uncategorized
+- Hardware
+- DIY
 tags:
 - ESP32
 - ESPhome
 - Ultrasonic
 - Ultrasound
+- sensor
+- distance-measurement
 image: /images/blog/2021/10/US-ranging-modules.png
 ---
 

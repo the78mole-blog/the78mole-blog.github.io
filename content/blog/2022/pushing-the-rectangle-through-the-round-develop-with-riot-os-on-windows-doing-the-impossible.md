@@ -10,11 +10,17 @@ categories:
 - OS
 - STM32
 - Windows
+- Dev
 tags:
 - ESP32
 - IoT
 - RTOS
 - STM32
+- riot-os
+- embedded
+- windows
+- arm
+- cross-compilation
 image: /images/blog/2022/01/riot-os.png
 ---
 

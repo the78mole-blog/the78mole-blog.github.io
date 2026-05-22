@@ -1,11 +1,19 @@
 ---
-title: "devc – Open a VS Code Dev Container Directly from the Shell"
+title: devc – Open a VS Code Dev Container Directly from the Shell
 date: '2026-05-06'
-description: 'A tiny bash script that saves you from clicking through VS Code every time you want to open a project in a Dev Container – just type devc and go.'
+description: A tiny bash script that saves you from clicking through VS Code every
+  time you want to open a project in a Dev Container – just type devc and go.
 image: /images/blog/2026/05/devc-cover.jpeg
 categories:
-  - Dev
-  - Tools
+- Dev
+- Tools
+tags:
+- dev-container
+- vscode
+- docker
+- bash
+- developer-tools
+- automation
 ---
 
 Moles are creatures of habit. We navigate our tunnels by feel, taking the same shortcuts every day without thinking about them. Until one day you realise you've been clicking through the same three VS Code menus every single time you want to open a project in a Dev Container – and it starts to feel like digging through concrete instead of soft earth.

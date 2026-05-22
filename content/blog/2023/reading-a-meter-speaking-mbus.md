@@ -4,7 +4,13 @@ date: '2023-01-16'
 description: ''
 categories:
 - M-Bus
-tags: []
+tags:
+- m-bus
+- metering
+- protocol
+- iot
+- smart-meter
+- networking
 ---
 
 Good day dudes and dudettes! I'm into software system architecture at least as much as I'm into coding. Otherwise, I could go on forever and a day about myself but the gist is, I'm friends with Mole and work for a company manufacturing metering devies. As such, I'm qualified to provide some insight into the metering bus. Or measurement bus, I'm guessing here.

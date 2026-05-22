@@ -16,6 +16,9 @@ tags:
 - OSS
 - RabbitMQ
 - solr
+- search
+- server
+- open-source
 image: /images/blog/2021/01/search.png
 ---
 

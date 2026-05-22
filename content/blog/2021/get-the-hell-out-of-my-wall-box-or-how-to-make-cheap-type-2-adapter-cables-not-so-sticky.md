@@ -5,9 +5,15 @@ date: '2021-11-22'
 description: ''
 categories:
 - Electric Car
+- DIY
+- Hardware
 tags:
 - IEC 62196
 - type-2
+- ev
+- charging
+- wallbox
+- hardware
 image: /images/blog/2021/11/Inside-go-echarger-CM-02.jpg
 ---
 

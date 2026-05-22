@@ -5,6 +5,8 @@ description: ''
 categories:
 - BThome
 - ESPhome
+- Smart Home
+- DIY
 tags:
 - arduino
 - BThome
@@ -13,6 +15,10 @@ tags:
 - ESP32
 - platform.io
 - soil
+- sensor
+- iot
+- home-assistant
+- diy
 image: /images/blog/2025/07/image-2-scaled.png
 ---
 

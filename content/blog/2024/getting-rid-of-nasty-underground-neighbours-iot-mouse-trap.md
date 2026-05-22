@@ -7,11 +7,17 @@ categories:
 - ESPhome
 - Home Assistant
 - Smart Home
+- DIY
+- Hardware
 tags:
 - ESP32
 - magnetic sensor
 - mouse trap
 - mousetrap
+- iot
+- sensor
+- 3d-printing
+- home-assistant
 image: /images/blog/2024/06/MouseTrap-disassembled-scaled.jpg
 ---
 

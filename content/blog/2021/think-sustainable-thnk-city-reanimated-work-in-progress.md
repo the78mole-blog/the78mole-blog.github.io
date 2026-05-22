@@ -8,10 +8,16 @@ description: Ever heard about the TH!NK City electric car? No? Before I got aske
   these cars are mostly dead, because the battery died when not used for some time...
 categories:
 - Electric Car
+- DIY
+- Hardware
 tags:
 - EV-Battery
 - TH!NK City
 - Think City
+- ev
+- battery
+- lifepo4
+- restoration
 image: /images/blog/2021/05/Akku_Think-bg.png
 ---
 

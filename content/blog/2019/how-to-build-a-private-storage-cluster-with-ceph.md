@@ -9,6 +9,12 @@ categories:
 tags:
 - ceph
 - cluster
+- storage
+- diy
+- odroid
+- arm
+- linux
+- distributed-storage
 ---
 
 Finally, I did not succeed in getting Ceph running on a 32 bit ARM. There have been to many issues in the code (especially incompatible datatypes) and issues with GCC and the 3 GB RAM limit for 32 bit platforms. I'm now focusing on using a 64 bit ARM and developing a dedicated HW for it. So, stay tuned...

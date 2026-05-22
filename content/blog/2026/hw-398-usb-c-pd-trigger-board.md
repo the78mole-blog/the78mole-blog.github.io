@@ -1,18 +1,22 @@
 ---
-title: "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board"
+title: One USB-C Charger to Power Them All – The HW-398 PD Trigger Board
 date: '2026-05-14'
-description: 'A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.'
+description: A tiny solder-pad board that tricks any USB-C PD charger into outputting
+  9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.
 image: /images/blog/2026/05/hw-398-size.jpg
 categories:
-  - DIY
-  - Hardware
-  - Embedded
+- DIY
+- Hardware
+- Embedded
 tags:
-  - USB-C
-  - PD
-  - power
-  - trigger board
-  - HW-398
+- USB-C
+- PD
+- power
+- trigger board
+- HW-398
+- power-delivery
+- hardware
+- diy
 ---
 
 Every mole eventually gets tired of the wall behind the workbench. Mine looks like a spaghetti farm: twelve-volt router brick here, nineteen-volt laptop lump there, a nine-volt barrel jack dangling in the corner like a forgotten stalactite. I have more power adapters than sensors, and that is saying something.

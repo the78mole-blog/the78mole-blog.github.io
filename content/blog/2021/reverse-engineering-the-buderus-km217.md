@@ -9,6 +9,8 @@ categories:
 - Heating
 - Home Assistant
 - Smart Home
+- DIY
+- Hardware
 tags:
 - Buderus KM271
 - Buderus LM 2107
@@ -16,6 +18,11 @@ tags:
 - KM271
 - Locamatic web
 - Logamatic 2107
+- esp32
+- heating
+- esphome
+- reverse-engineering
+- iot
 image: /images/blog/2021/07/IMG_20210714_175311.jpg
 ---
 

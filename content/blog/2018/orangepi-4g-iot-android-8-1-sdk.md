@@ -5,7 +5,13 @@ description: ''
 categories:
 - Android
 - ARM
-tags: []
+- Hardware
+tags:
+- orangepi
+- android
+- arm
+- iot
+- hardware
 ---
 
 Same as with the 2G-IOT, OrangePi also provides a quite inconvenient way (through mega.nz) to get the Android SDKs for the 4G-IOT... Here are the torrents (tar.gz and tar.xz have the same content but xz is much smaller)

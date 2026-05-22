@@ -6,10 +6,16 @@ categories:
 - ARM
 - STM32
 - USART
+- Embedded
 tags:
 - HAL
 - STM32
 - UART
+- interrupt
+- embedded
+- microcontroller
+- arm
+- stm32cubemx
 ---
 
 My last post is quite some time ago, due to vacations and high workload. But now I encountered some problem within an embedded project, I want to share the solution with you. Continuously receive data using interrupts on UART is complicated (or even impossible) in HAL. Most approaches I found crawling the internet are using the LL library to achieve this and many discussions around HAL do not end in satisfaction. Some work around the problems with dirty approaches (e.g. changing the HAL code itself), other step back from interrupt and use a polling approach.

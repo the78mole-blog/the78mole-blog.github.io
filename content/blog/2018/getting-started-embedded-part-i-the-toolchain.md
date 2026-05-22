@@ -5,7 +5,14 @@ description: ''
 categories:
 - ARM
 - STM32
-tags: []
+- Embedded
+- Dev
+tags:
+- embedded
+- toolchain
+- gcc
+- arm
+- microcontroller
 ---
 
 ## Introduction

@@ -7,9 +7,15 @@ categories:
 - ESPhome
 - Home Assistant
 - Smart Home
+- DIY
 tags:
 - Absolute Humidity
 - ESPhome
+- esp32
+- sensor
+- humidity
+- home-assistant
+- iot
 image: /images/blog/2021/07/IMG_20210708_231201.jpg
 ---
 
