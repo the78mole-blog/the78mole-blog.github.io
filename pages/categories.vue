@@ -23,11 +23,23 @@ const allCategories = computed(() =>
 
 const selected = computed(() => route.query.category as string | undefined)
 
-/** Canonical key in the taxonomy (preserves original casing, e.g. "ESPhome") */
+/** Convert an arbitrary string to a URL slug (e.g. "Smart Home" → "smart-home") */
+function toSlug(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+/** Canonical key in the taxonomy (preserves original casing, e.g. "ESPhome").
+ *  Falls back to slug comparison so that e.g. ?category=smart-home matches "Smart Home". */
 const selectedKey = computed(() => {
   if (!selected.value || !taxonomy.value) return undefined
   const lower = selected.value.toLowerCase()
-  return Object.keys(taxonomy.value).find(k => k.toLowerCase() === lower)
+  const slug = toSlug(selected.value)
+  return Object.keys(taxonomy.value).find(
+    k => k.toLowerCase() === lower || toSlug(k) === slug,
+  )
 })
 
 const posts = computed(() =>
