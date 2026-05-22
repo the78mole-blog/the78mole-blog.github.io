@@ -248,8 +248,8 @@ export default defineNuxtConfig({
     // =========================================================================
 
     // --- Tag-Archivseiten ---
-    '/tag/thnk-city':               { redirect: '/tags?tag=thnk-city' },
-    '/tag/thnk-city/':              { redirect: '/tags?tag=thnk-city' },
+    '/tag/thnk-city':               { redirect: '/tags?tag=think-city' },  // WP-Slug für "Think City"
+    '/tag/thnk-city/':              { redirect: '/tags?tag=think-city' },  // WP-Slug für "Think City"
     '/tag/open-semantic-search':    { redirect: '/tags?tag=open-semantic-search' },
     '/tag/open-semantic-search/':   { redirect: '/tags?tag=open-semantic-search' },
     '/tag/ssl':                     { redirect: '/tags?tag=ssl' },

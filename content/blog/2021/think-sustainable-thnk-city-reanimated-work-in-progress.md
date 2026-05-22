@@ -12,7 +12,6 @@ categories:
 - Hardware
 tags:
 - EV-Battery
-- TH!NK City
 - Think City
 - ev
 - battery

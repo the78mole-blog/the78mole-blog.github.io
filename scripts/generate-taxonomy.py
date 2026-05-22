@@ -83,10 +83,10 @@ def build_taxonomy() -> None:
     categories_path = PUBLIC_DIR / "categories.json"
 
     tags_path.write_text(
-        json.dumps(tags, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(tags, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     categories_path.write_text(
-        json.dumps(categories, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(categories, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
 
     total_tag_entries = sum(len(v) for v in tags.values())

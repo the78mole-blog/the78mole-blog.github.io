@@ -134,8 +134,8 @@ export default defineNuxtModule({
       }
 
       mkdirSync(publicDir, { recursive: true })
-      writeFileSync(join(publicDir, 'tags.json'), JSON.stringify(tags, null, 2), 'utf-8')
-      writeFileSync(join(publicDir, 'categories.json'), JSON.stringify(categories, null, 2), 'utf-8')
+      writeFileSync(join(publicDir, 'tags.json'), JSON.stringify(tags, null, 2) + '\n', 'utf-8')
+      writeFileSync(join(publicDir, 'categories.json'), JSON.stringify(categories, null, 2) + '\n', 'utf-8')
 
       const tc = Object.keys(tags).length
       const cc = Object.keys(categories).length

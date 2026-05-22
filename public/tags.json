@@ -4,7 +4,7 @@
       "title": "Teaching the AI Mole – GitHub Copilot Skills for Nuxt Blogs",
       "path": "/blog/2026/teaching-the-ai-mole-github-copilot-skills",
       "date": "2026-04-27",
-      "description": "How I taught GitHub Copilot everything it needs to know about managing",
+      "description": "How I taught GitHub Copilot everything it needs to know about managing a Nuxt-based GitHub Pages blog – using Copilot Skills.",
       "image": "/images/blog/2026/04/mole-skill.jpeg"
     }
   ],
@@ -13,7 +13,7 @@
       "title": "Teaching the AI Mole – GitHub Copilot Skills for Nuxt Blogs",
       "path": "/blog/2026/teaching-the-ai-mole-github-copilot-skills",
       "date": "2026-04-27",
-      "description": "How I taught GitHub Copilot everything it needs to know about managing",
+      "description": "How I taught GitHub Copilot everything it needs to know about managing a Nuxt-based GitHub Pages blog – using Copilot Skills.",
       "image": "/images/blog/2026/04/mole-skill.jpeg"
     }
   ],
@@ -22,7 +22,7 @@
       "title": "Teaching the AI Mole – GitHub Copilot Skills for Nuxt Blogs",
       "path": "/blog/2026/teaching-the-ai-mole-github-copilot-skills",
       "date": "2026-04-27",
-      "description": "How I taught GitHub Copilot everything it needs to know about managing",
+      "description": "How I taught GitHub Copilot everything it needs to know about managing a Nuxt-based GitHub Pages blog – using Copilot Skills.",
       "image": "/images/blog/2026/04/mole-skill.jpeg"
     }
   ],
@@ -31,7 +31,7 @@
       "title": "Teaching the AI Mole – GitHub Copilot Skills for Nuxt Blogs",
       "path": "/blog/2026/teaching-the-ai-mole-github-copilot-skills",
       "date": "2026-04-27",
-      "description": "How I taught GitHub Copilot everything it needs to know about managing",
+      "description": "How I taught GitHub Copilot everything it needs to know about managing a Nuxt-based GitHub Pages blog – using Copilot Skills.",
       "image": "/images/blog/2026/04/mole-skill.jpeg"
     }
   ],
@@ -40,14 +40,14 @@
       "title": "Teaching the AI Mole – GitHub Copilot Skills for Nuxt Blogs",
       "path": "/blog/2026/teaching-the-ai-mole-github-copilot-skills",
       "date": "2026-04-27",
-      "description": "How I taught GitHub Copilot everything it needs to know about managing",
+      "description": "How I taught GitHub Copilot everything it needs to know about managing a Nuxt-based GitHub Pages blog – using Copilot Skills.",
       "image": "/images/blog/2026/04/mole-skill.jpeg"
     },
     {
       "title": "devc – Open a VS Code Dev Container Directly from the Shell",
       "path": "/blog/2026/devc-open-devcontainer-from-shell",
       "date": "2026-05-06",
-      "description": "A tiny bash script that saves you from clicking through VS Code every",
+      "description": "A tiny bash script that saves you from clicking through VS Code every time you want to open a project in a Dev Container – just type devc and go.",
       "image": "/images/blog/2026/05/devc-cover.jpeg"
     },
     {
@@ -68,7 +68,7 @@
       "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
       "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
       "date": "2021-07-14",
-      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant if your car does not support this feature.",
       "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
     },
     {
@@ -84,14 +84,14 @@
       "title": "Teaching the AI Mole – GitHub Copilot Skills for Nuxt Blogs",
       "path": "/blog/2026/teaching-the-ai-mole-github-copilot-skills",
       "date": "2026-04-27",
-      "description": "How I taught GitHub Copilot everything it needs to know about managing",
+      "description": "How I taught GitHub Copilot everything it needs to know about managing a Nuxt-based GitHub Pages blog – using Copilot Skills.",
       "image": "/images/blog/2026/04/mole-skill.jpeg"
     },
     {
       "title": "Publishing a Static Blog on GitHub Pages with Nuxt",
       "path": "/blog/2026/publishing-on-github-pages-with-nuxt",
       "date": "2026-05-08",
-      "description": "How to turn a Nuxt content site into a fully automated, free static blog",
+      "description": "How to turn a Nuxt content site into a fully automated, free static blog – from repository setup through custom domain to zero-click deployments.",
       "image": "/images/blog/2026/05/github-pages-cover.png"
     }
   ],
@@ -100,7 +100,7 @@
       "title": "Publishing a Static Blog on GitHub Pages with Nuxt",
       "path": "/blog/2026/publishing-on-github-pages-with-nuxt",
       "date": "2026-05-08",
-      "description": "How to turn a Nuxt content site into a fully automated, free static blog",
+      "description": "How to turn a Nuxt content site into a fully automated, free static blog – from repository setup through custom domain to zero-click deployments.",
       "image": "/images/blog/2026/05/github-pages-cover.png"
     }
   ],
@@ -109,7 +109,7 @@
       "title": "Publishing a Static Blog on GitHub Pages with Nuxt",
       "path": "/blog/2026/publishing-on-github-pages-with-nuxt",
       "date": "2026-05-08",
-      "description": "How to turn a Nuxt content site into a fully automated, free static blog",
+      "description": "How to turn a Nuxt content site into a fully automated, free static blog – from repository setup through custom domain to zero-click deployments.",
       "image": "/images/blog/2026/05/github-pages-cover.png"
     }
   ],
@@ -118,7 +118,7 @@
       "title": "Publishing a Static Blog on GitHub Pages with Nuxt",
       "path": "/blog/2026/publishing-on-github-pages-with-nuxt",
       "date": "2026-05-08",
-      "description": "How to turn a Nuxt content site into a fully automated, free static blog",
+      "description": "How to turn a Nuxt content site into a fully automated, free static blog – from repository setup through custom domain to zero-click deployments.",
       "image": "/images/blog/2026/05/github-pages-cover.png"
     },
     {
@@ -134,7 +134,7 @@
       "title": "Publishing a Static Blog on GitHub Pages with Nuxt",
       "path": "/blog/2026/publishing-on-github-pages-with-nuxt",
       "date": "2026-05-08",
-      "description": "How to turn a Nuxt content site into a fully automated, free static blog",
+      "description": "How to turn a Nuxt content site into a fully automated, free static blog – from repository setup through custom domain to zero-click deployments.",
       "image": "/images/blog/2026/05/github-pages-cover.png"
     }
   ],
@@ -143,7 +143,7 @@
       "title": "Publishing a Static Blog on GitHub Pages with Nuxt",
       "path": "/blog/2026/publishing-on-github-pages-with-nuxt",
       "date": "2026-05-08",
-      "description": "How to turn a Nuxt content site into a fully automated, free static blog",
+      "description": "How to turn a Nuxt content site into a fully automated, free static blog – from repository setup through custom domain to zero-click deployments.",
       "image": "/images/blog/2026/05/github-pages-cover.png"
     }
   ],
@@ -152,7 +152,7 @@
       "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
       "path": "/blog/2026/ptouch-webapp-browser-label-printing",
       "date": "2026-05-14",
-      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
       "image": "/images/blog/2026/05/mole-with-p-touch.png"
     }
   ],
@@ -161,7 +161,7 @@
       "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
       "path": "/blog/2026/ptouch-webapp-browser-label-printing",
       "date": "2026-05-14",
-      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
       "image": "/images/blog/2026/05/mole-with-p-touch.png"
     }
   ],
@@ -170,7 +170,7 @@
       "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
       "path": "/blog/2026/ptouch-webapp-browser-label-printing",
       "date": "2026-05-14",
-      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
       "image": "/images/blog/2026/05/mole-with-p-touch.png"
     }
   ],
@@ -179,7 +179,7 @@
       "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
       "path": "/blog/2026/ptouch-webapp-browser-label-printing",
       "date": "2026-05-14",
-      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
       "image": "/images/blog/2026/05/mole-with-p-touch.png"
     }
   ],
@@ -188,7 +188,7 @@
       "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
       "path": "/blog/2026/ptouch-webapp-browser-label-printing",
       "date": "2026-05-14",
-      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
       "image": "/images/blog/2026/05/mole-with-p-touch.png"
     }
   ],
@@ -197,7 +197,7 @@
       "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
       "path": "/blog/2026/ptouch-webapp-browser-label-printing",
       "date": "2026-05-14",
-      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
       "image": "/images/blog/2026/05/mole-with-p-touch.png"
     }
   ],
@@ -206,7 +206,7 @@
       "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
       "path": "/blog/2026/ptouch-webapp-browser-label-printing",
       "date": "2026-05-14",
-      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
       "image": "/images/blog/2026/05/mole-with-p-touch.png"
     }
   ],
@@ -215,7 +215,7 @@
       "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
       "path": "/blog/2026/ptouch-webapp-browser-label-printing",
       "date": "2026-05-14",
-      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
       "image": "/images/blog/2026/05/mole-with-p-touch.png"
     }
   ],
@@ -224,7 +224,7 @@
       "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
       "path": "/blog/2026/ptouch-webapp-browser-label-printing",
       "date": "2026-05-14",
-      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
       "image": "/images/blog/2026/05/mole-with-p-touch.png"
     }
   ],
@@ -233,14 +233,14 @@
       "title": "Ditch the Desktop App – Browser Label Printing for the Brother PT-E560BT",
       "path": "/blog/2026/ptouch-webapp-browser-label-printing",
       "date": "2026-05-14",
-      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over",
+      "description": "A driver-free, backend-free SPA that prints to a Brother PT-E560BT over USB or Bluetooth Classic using the Web Serial API – because installing P-touch Editor in the burrow is a hard no.",
       "image": "/images/blog/2026/05/mole-with-p-touch.png"
     },
     {
       "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
       "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
       "date": "2026-05-14",
-      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
       "image": "/images/blog/2026/05/hw-398-size.jpg"
     },
     {
@@ -251,7 +251,7 @@
       "image": "/images/blog/2025/07/f89867c8-1261-465f-942d-7a8306802dff.png"
     },
     {
-      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables",
+      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables Not So Sticky...",
       "path": "/blog/2021/get-the-hell-out-of-my-wall-box-or-how-to-make-cheap-type-2-adapter-cables-not-so-sticky",
       "date": "2021-11-22",
       "description": "",
@@ -298,7 +298,7 @@
       "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
       "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
       "date": "2026-05-14",
-      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
       "image": "/images/blog/2026/05/hw-398-size.jpg"
     }
   ],
@@ -307,7 +307,7 @@
       "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
       "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
       "date": "2026-05-14",
-      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
       "image": "/images/blog/2026/05/hw-398-size.jpg"
     }
   ],
@@ -316,7 +316,7 @@
       "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
       "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
       "date": "2026-05-14",
-      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
       "image": "/images/blog/2026/05/hw-398-size.jpg"
     }
   ],
@@ -325,7 +325,7 @@
       "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
       "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
       "date": "2026-05-14",
-      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
       "image": "/images/blog/2026/05/hw-398-size.jpg"
     }
   ],
@@ -334,7 +334,7 @@
       "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
       "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
       "date": "2026-05-14",
-      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
       "image": "/images/blog/2026/05/hw-398-size.jpg"
     }
   ],
@@ -343,7 +343,7 @@
       "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
       "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
       "date": "2026-05-14",
-      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
       "image": "/images/blog/2026/05/hw-398-size.jpg"
     }
   ],
@@ -352,7 +352,7 @@
       "title": "One USB-C Charger to Power Them All – The HW-398 PD Trigger Board",
       "path": "/blog/2026/hw-398-usb-c-pd-trigger-board",
       "date": "2026-05-14",
-      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting",
+      "description": "A tiny solder-pad board that tricks any USB-C PD charger into outputting 9 V, 12 V, 15 V or 20 V – perfect for ridding your burrow of the barrel-jack jungle.",
       "image": "/images/blog/2026/05/hw-398-size.jpg"
     },
     {
@@ -396,7 +396,7 @@
       "title": "devc – Open a VS Code Dev Container Directly from the Shell",
       "path": "/blog/2026/devc-open-devcontainer-from-shell",
       "date": "2026-05-06",
-      "description": "A tiny bash script that saves you from clicking through VS Code every",
+      "description": "A tiny bash script that saves you from clicking through VS Code every time you want to open a project in a Dev Container – just type devc and go.",
       "image": "/images/blog/2026/05/devc-cover.jpeg"
     }
   ],
@@ -405,7 +405,7 @@
       "title": "devc – Open a VS Code Dev Container Directly from the Shell",
       "path": "/blog/2026/devc-open-devcontainer-from-shell",
       "date": "2026-05-06",
-      "description": "A tiny bash script that saves you from clicking through VS Code every",
+      "description": "A tiny bash script that saves you from clicking through VS Code every time you want to open a project in a Dev Container – just type devc and go.",
       "image": "/images/blog/2026/05/devc-cover.jpeg"
     },
     {
@@ -421,7 +421,7 @@
       "title": "devc – Open a VS Code Dev Container Directly from the Shell",
       "path": "/blog/2026/devc-open-devcontainer-from-shell",
       "date": "2026-05-06",
-      "description": "A tiny bash script that saves you from clicking through VS Code every",
+      "description": "A tiny bash script that saves you from clicking through VS Code every time you want to open a project in a Dev Container – just type devc and go.",
       "image": "/images/blog/2026/05/devc-cover.jpeg"
     },
     {
@@ -437,7 +437,7 @@
       "title": "devc – Open a VS Code Dev Container Directly from the Shell",
       "path": "/blog/2026/devc-open-devcontainer-from-shell",
       "date": "2026-05-06",
-      "description": "A tiny bash script that saves you from clicking through VS Code every",
+      "description": "A tiny bash script that saves you from clicking through VS Code every time you want to open a project in a Dev Container – just type devc and go.",
       "image": "/images/blog/2026/05/devc-cover.jpeg"
     },
     {
@@ -453,7 +453,7 @@
       "title": "devc – Open a VS Code Dev Container Directly from the Shell",
       "path": "/blog/2026/devc-open-devcontainer-from-shell",
       "date": "2026-05-06",
-      "description": "A tiny bash script that saves you from clicking through VS Code every",
+      "description": "A tiny bash script that saves you from clicking through VS Code every time you want to open a project in a Dev Container – just type devc and go.",
       "image": "/images/blog/2026/05/devc-cover.jpeg"
     }
   ],
@@ -516,7 +516,7 @@
       "image": "/images/blog/2024/06/MouseTrap-disassembled-scaled.jpg"
     },
     {
-      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles Inverters",
       "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
       "date": "2023-09-12",
       "description": "",
@@ -530,7 +530,7 @@
       "image": "/images/blog/2022/01/serial-device-server.jpg"
     },
     {
-      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows - Doing The Impossible",
       "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
       "date": "2022-01-11",
       "description": "",
@@ -706,14 +706,14 @@
       "image": "/images/blog/2021/07/HASS-MBUS-MQTT-1.png"
     },
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
       "image": "/images/blog/2021/07/IMG_20210714_175311.jpg"
     },
     {
-      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using",
+      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using node-red",
       "path": "/blog/2021/get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red",
       "date": "2021-10-16",
       "description": "",
@@ -1060,7 +1060,7 @@
       "image": "/images/blog/2023/02/quincy-logo.webp"
     },
     {
-      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows - Doing The Impossible",
       "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
       "date": "2022-01-11",
       "description": "",
@@ -1194,7 +1194,7 @@
       "image": "/images/blog/2023/01/PXL_20230131_225831363-scaled.jpg"
     },
     {
-      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters",
+      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters Through Ethernet Cabling",
       "path": "/blog/2023/modbus-rj45-breakout",
       "date": "2023-06-01",
       "description": "",
@@ -1237,7 +1237,7 @@
       "image": "/images/blog/2023/01/PXL_20230131_225831363-scaled.jpg"
     },
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
@@ -1292,7 +1292,7 @@
       "image": null
     },
     {
-      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters",
+      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters Through Ethernet Cabling",
       "path": "/blog/2023/modbus-rj45-breakout",
       "date": "2023-06-01",
       "description": "",
@@ -1396,7 +1396,7 @@
       "image": null
     },
     {
-      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters",
+      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters Through Ethernet Cabling",
       "path": "/blog/2023/modbus-rj45-breakout",
       "date": "2023-06-01",
       "description": "",
@@ -1440,7 +1440,7 @@
   ],
   "Isolated ModBus": [
     {
-      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters",
+      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters Through Ethernet Cabling",
       "path": "/blog/2023/modbus-rj45-breakout",
       "date": "2023-06-01",
       "description": "",
@@ -1449,7 +1449,7 @@
   ],
   "RS485": [
     {
-      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters",
+      "title": "Intensive Underground Metering - An RJ45 Breakout for Connecting Your Meters Through Ethernet Cabling",
       "path": "/blog/2023/modbus-rj45-breakout",
       "date": "2023-06-01",
       "description": "",
@@ -1492,7 +1492,7 @@
       "image": "/images/blog/2023/05/title.png"
     },
     {
-      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles Inverters",
       "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
       "date": "2023-09-12",
       "description": "",
@@ -1506,14 +1506,14 @@
       "image": "/images/blog/2023/04/M-Bus-Flow.png"
     },
     {
-      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work in progress)",
       "path": "/blog/2022/moles-heating-system",
       "date": "2022-10-29",
       "description": "",
       "image": "/images/blog/2022/10/image-9.png"
     },
     {
-      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using",
+      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using node-red",
       "path": "/blog/2021/get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red",
       "date": "2021-10-16",
       "description": "",
@@ -1545,7 +1545,7 @@
   ],
   "ahoyDTU": [
     {
-      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles Inverters",
       "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
       "date": "2023-09-12",
       "description": "",
@@ -1554,7 +1554,7 @@
   ],
   "DTU": [
     {
-      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles Inverters",
       "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
       "date": "2023-09-12",
       "description": "",
@@ -1563,7 +1563,7 @@
   ],
   "hoymiles": [
     {
-      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles Inverters",
       "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
       "date": "2023-09-12",
       "description": "",
@@ -1572,14 +1572,14 @@
   ],
   "solar": [
     {
-      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles Inverters",
       "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
       "date": "2023-09-12",
       "description": "",
       "image": "/images/blog/2023/09/PXL_20230805_092751600.jpg"
     },
     {
-      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work in progress)",
       "path": "/blog/2022/moles-heating-system",
       "date": "2022-10-29",
       "description": "",
@@ -1588,7 +1588,7 @@
   ],
   "inverter": [
     {
-      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles Inverters",
       "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
       "date": "2023-09-12",
       "description": "",
@@ -1597,7 +1597,7 @@
   ],
   "monitoring": [
     {
-      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles",
+      "title": "Crying on Open Waters - A Piece of HW for AhoyDTU and Reading the Hoymiles Inverters",
       "path": "/blog/2023/crying-on-open-waters-a-piece-of-hw-for-ahoydtu-and-reading-the-hoymiles-inverters",
       "date": "2023-09-12",
       "description": "",
@@ -1658,7 +1658,7 @@
       "image": "/images/blog/2023/04/M-Bus-Flow.png"
     },
     {
-      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using",
+      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using node-red",
       "path": "/blog/2021/get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red",
       "date": "2021-10-16",
       "description": "",
@@ -1760,7 +1760,7 @@
   ],
   "IoT": [
     {
-      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows - Doing The Impossible",
       "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
       "date": "2022-01-11",
       "description": "",
@@ -1769,7 +1769,7 @@
   ],
   "RTOS": [
     {
-      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows - Doing The Impossible",
       "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
       "date": "2022-01-11",
       "description": "",
@@ -1778,7 +1778,7 @@
   ],
   "STM32": [
     {
-      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows - Doing The Impossible",
       "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
       "date": "2022-01-11",
       "description": "",
@@ -1801,7 +1801,7 @@
   ],
   "riot-os": [
     {
-      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows - Doing The Impossible",
       "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
       "date": "2022-01-11",
       "description": "",
@@ -1810,7 +1810,7 @@
   ],
   "embedded": [
     {
-      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows - Doing The Impossible",
       "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
       "date": "2022-01-11",
       "description": "",
@@ -1889,7 +1889,7 @@
   ],
   "windows": [
     {
-      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows - Doing The Impossible",
       "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
       "date": "2022-01-11",
       "description": "",
@@ -1905,7 +1905,7 @@
   ],
   "cross-compilation": [
     {
-      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows -",
+      "title": "Pushing the Rectangle Through the Round - Develop With RIOT OS on Windows - Doing The Impossible",
       "path": "/blog/2022/pushing-the-rectangle-through-the-round-develop-with-riot-os-on-windows-doing-the-impossible",
       "date": "2022-01-11",
       "description": "",
@@ -1964,7 +1964,7 @@
       "image": "/images/blog/2021/07/IMG_20210708_231201.jpg"
     },
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
@@ -1980,14 +1980,14 @@
       "image": "/images/blog/2022/10/image-13.png"
     },
     {
-      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work in progress)",
       "path": "/blog/2022/moles-heating-system",
       "date": "2022-10-29",
       "description": "",
       "image": "/images/blog/2022/10/image-9.png"
     },
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
@@ -1996,7 +1996,7 @@
   ],
   "heating system": [
     {
-      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work in progress)",
       "path": "/blog/2022/moles-heating-system",
       "date": "2022-10-29",
       "description": "",
@@ -2005,7 +2005,7 @@
   ],
   "hybrid heating system": [
     {
-      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work in progress)",
       "path": "/blog/2022/moles-heating-system",
       "date": "2022-10-29",
       "description": "",
@@ -2014,7 +2014,7 @@
   ],
   "multivalent heating": [
     {
-      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work in progress)",
       "path": "/blog/2022/moles-heating-system",
       "date": "2022-10-29",
       "description": "",
@@ -2023,7 +2023,7 @@
   ],
   "piping": [
     {
-      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work in progress)",
       "path": "/blog/2022/moles-heating-system",
       "date": "2022-10-29",
       "description": "",
@@ -2032,7 +2032,7 @@
   ],
   "heat-pump": [
     {
-      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work in progress)",
       "path": "/blog/2022/moles-heating-system",
       "date": "2022-10-29",
       "description": "",
@@ -2041,7 +2041,7 @@
   ],
   "battery": [
     {
-      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work",
+      "title": "Mole's Underground Heating System Can Not Be Over-Engineered &#x1f60b; (work in progress)",
       "path": "/blog/2022/moles-heating-system",
       "date": "2022-10-29",
       "description": "",
@@ -2051,7 +2051,7 @@
       "title": "Think Sustainable, TH!NK City (reanimated) - Work in Progress",
       "path": "/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress",
       "date": "2021-05-20",
-      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked",
+      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked to help bringing it to life again, I also didn't. In fact, if you do not count the first cars at all, which have been electrical, too, it was one of the first electric cars, at least in the 21st century, that entered serial production somehow. Now these cars are mostly dead, because the battery died when not used for some time...",
       "image": "/images/blog/2021/05/Akku_Think-bg.png"
     }
   ],
@@ -2080,7 +2080,7 @@
       "image": "/images/blog/2021/07/HASS-MBUS-MQTT-1.png"
     },
     {
-      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using",
+      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using node-red",
       "path": "/blog/2021/get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red",
       "date": "2021-10-16",
       "description": "",
@@ -2113,11 +2113,11 @@
       "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
       "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
       "date": "2021-07-14",
-      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant if your car does not support this feature.",
       "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
     },
     {
-      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using",
+      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using node-red",
       "path": "/blog/2021/get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red",
       "date": "2021-10-16",
       "description": "",
@@ -2186,16 +2186,7 @@
       "title": "Think Sustainable, TH!NK City (reanimated) - Work in Progress",
       "path": "/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress",
       "date": "2021-05-20",
-      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked",
-      "image": "/images/blog/2021/05/Akku_Think-bg.png"
-    }
-  ],
-  "TH!NK City": [
-    {
-      "title": "Think Sustainable, TH!NK City (reanimated) - Work in Progress",
-      "path": "/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress",
-      "date": "2021-05-20",
-      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked",
+      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked to help bringing it to life again, I also didn't. In fact, if you do not count the first cars at all, which have been electrical, too, it was one of the first electric cars, at least in the 21st century, that entered serial production somehow. Now these cars are mostly dead, because the battery died when not used for some time...",
       "image": "/images/blog/2021/05/Akku_Think-bg.png"
     }
   ],
@@ -2204,7 +2195,7 @@
       "title": "Think Sustainable, TH!NK City (reanimated) - Work in Progress",
       "path": "/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress",
       "date": "2021-05-20",
-      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked",
+      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked to help bringing it to life again, I also didn't. In fact, if you do not count the first cars at all, which have been electrical, too, it was one of the first electric cars, at least in the 21st century, that entered serial production somehow. Now these cars are mostly dead, because the battery died when not used for some time...",
       "image": "/images/blog/2021/05/Akku_Think-bg.png"
     }
   ],
@@ -2213,14 +2204,14 @@
       "title": "Think Sustainable, TH!NK City (reanimated) - Work in Progress",
       "path": "/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress",
       "date": "2021-05-20",
-      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked",
+      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked to help bringing it to life again, I also didn't. In fact, if you do not count the first cars at all, which have been electrical, too, it was one of the first electric cars, at least in the 21st century, that entered serial production somehow. Now these cars are mostly dead, because the battery died when not used for some time...",
       "image": "/images/blog/2021/05/Akku_Think-bg.png"
     },
     {
       "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
       "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
       "date": "2021-07-14",
-      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant if your car does not support this feature.",
       "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
     },
     {
@@ -2231,7 +2222,7 @@
       "image": "/images/blog/2021/05/openwb.jpg"
     },
     {
-      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables",
+      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables Not So Sticky...",
       "path": "/blog/2021/get-the-hell-out-of-my-wall-box-or-how-to-make-cheap-type-2-adapter-cables-not-so-sticky",
       "date": "2021-11-22",
       "description": "",
@@ -2243,7 +2234,7 @@
       "title": "Think Sustainable, TH!NK City (reanimated) - Work in Progress",
       "path": "/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress",
       "date": "2021-05-20",
-      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked",
+      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked to help bringing it to life again, I also didn't. In fact, if you do not count the first cars at all, which have been electrical, too, it was one of the first electric cars, at least in the 21st century, that entered serial production somehow. Now these cars are mostly dead, because the battery died when not used for some time...",
       "image": "/images/blog/2021/05/Akku_Think-bg.png"
     }
   ],
@@ -2252,7 +2243,7 @@
       "title": "Think Sustainable, TH!NK City (reanimated) - Work in Progress",
       "path": "/blog/2021/think-sustainable-thnk-city-reanimated-work-in-progress",
       "date": "2021-05-20",
-      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked",
+      "description": "Ever heard about the TH!NK City electric car? No? Before I got asked to help bringing it to life again, I also didn't. In fact, if you do not count the first cars at all, which have been electrical, too, it was one of the first electric cars, at least in the 21st century, that entered serial production somehow. Now these cars are mostly dead, because the battery died when not used for some time...",
       "image": "/images/blog/2021/05/Akku_Think-bg.png"
     }
   ],
@@ -2387,7 +2378,7 @@
   ],
   "Buderus KM271": [
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
@@ -2396,7 +2387,7 @@
   ],
   "Buderus LM 2107": [
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
@@ -2405,7 +2396,7 @@
   ],
   "KM200": [
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
@@ -2414,7 +2405,7 @@
   ],
   "KM271": [
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
@@ -2423,7 +2414,7 @@
   ],
   "Locamatic web": [
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
@@ -2432,7 +2423,7 @@
   ],
   "Logamatic 2107": [
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
@@ -2441,7 +2432,7 @@
   ],
   "reverse-engineering": [
     {
-      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome",
+      "title": "Reverse Engineering the Buderus KM271 - And Making It WiFi-Flying on ESPhome and Home Assistant",
       "path": "/blog/2021/reverse-engineering-the-buderus-km217",
       "date": "2021-07-15",
       "description": "",
@@ -2453,7 +2444,7 @@
       "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
       "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
       "date": "2021-07-14",
-      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant if your car does not support this feature.",
       "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
     }
   ],
@@ -2462,7 +2453,7 @@
       "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
       "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
       "date": "2021-07-14",
-      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant if your car does not support this feature.",
       "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
     }
   ],
@@ -2471,7 +2462,7 @@
       "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
       "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
       "date": "2021-07-14",
-      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant if your car does not support this feature.",
       "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
     }
   ],
@@ -2480,7 +2471,7 @@
       "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
       "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
       "date": "2021-07-14",
-      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant if your car does not support this feature.",
       "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
     }
   ],
@@ -2489,7 +2480,7 @@
       "title": "Limiting EV Charge SOC with go-echarger and Home Assistant - Update",
       "path": "/blog/2021/limiting-ev-charge-soc-with-go-echarger-and-home-assistant",
       "date": "2021-07-14",
-      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant",
+      "description": "How to limit charging to a predefined SOC with go-echarger and Home Assistant if your car does not support this feature.",
       "image": "/images/blog/2021/07/ZOE-How-To-Limit-SOC.png"
     },
     {
@@ -2500,7 +2491,7 @@
       "image": "/images/blog/2021/05/openwb.jpg"
     },
     {
-      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables",
+      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables Not So Sticky...",
       "path": "/blog/2021/get-the-hell-out-of-my-wall-box-or-how-to-make-cheap-type-2-adapter-cables-not-so-sticky",
       "date": "2021-11-22",
       "description": "",
@@ -2597,7 +2588,7 @@
       "image": "/images/blog/2021/10/money_calc_part_1-1.png"
     },
     {
-      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using",
+      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using node-red",
       "path": "/blog/2021/get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red",
       "date": "2021-10-16",
       "description": "",
@@ -2667,7 +2658,7 @@
       "image": "/images/blog/2021/05/openwb.jpg"
     },
     {
-      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables",
+      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables Not So Sticky...",
       "path": "/blog/2021/get-the-hell-out-of-my-wall-box-or-how-to-make-cheap-type-2-adapter-cables-not-so-sticky",
       "date": "2021-11-22",
       "description": "",
@@ -2757,7 +2748,7 @@
   ],
   "oilfox": [
     {
-      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using",
+      "title": "Get Your Personal Oil Well Level - Integrating OilFox Into Home Assistant using node-red",
       "path": "/blog/2021/get-your-personal-oil-well-level-integrating-oilfox-into-home-assistant-using-node-red",
       "date": "2021-10-16",
       "description": "",
@@ -2766,7 +2757,7 @@
   ],
   "IEC 62196": [
     {
-      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables",
+      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables Not So Sticky...",
       "path": "/blog/2021/get-the-hell-out-of-my-wall-box-or-how-to-make-cheap-type-2-adapter-cables-not-so-sticky",
       "date": "2021-11-22",
       "description": "",
@@ -2775,7 +2766,7 @@
   ],
   "type-2": [
     {
-      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables",
+      "title": "Get The Hell Out Of My Wall-Box... or How To Make Cheap Type-2 Adapter Cables Not So Sticky...",
       "path": "/blog/2021/get-the-hell-out-of-my-wall-box-or-how-to-make-cheap-type-2-adapter-cables-not-so-sticky",
       "date": "2021-11-22",
       "description": "",
@@ -3990,7 +3981,7 @@
       "title": "Creating Custom Issue Types for JIRA",
       "path": "/blog/2018/creating-custom-issue-types-in-jira",
       "date": "2018-08-19",
-      "description": ">",
+      "description": "Custom issue types are one of Jira's most powerful features. Learn how to create and configure them for requirements, impediments, and other use cases that usually require a separate tool.",
       "image": "/images/blog/2018/08/image-4.png"
     },
     {
@@ -4006,7 +3997,7 @@
       "title": "Creating Custom Issue Types for JIRA",
       "path": "/blog/2018/creating-custom-issue-types-in-jira",
       "date": "2018-08-19",
-      "description": ">",
+      "description": "Custom issue types are one of Jira's most powerful features. Learn how to create and configure them for requirements, impediments, and other use cases that usually require a separate tool.",
       "image": "/images/blog/2018/08/image-4.png"
     },
     {
@@ -4022,7 +4013,7 @@
       "title": "Creating Custom Issue Types for JIRA",
       "path": "/blog/2018/creating-custom-issue-types-in-jira",
       "date": "2018-08-19",
-      "description": ">",
+      "description": "Custom issue types are one of Jira's most powerful features. Learn how to create and configure them for requirements, impediments, and other use cases that usually require a separate tool.",
       "image": "/images/blog/2018/08/image-4.png"
     }
   ],
@@ -4031,7 +4022,7 @@
       "title": "Creating Custom Issue Types for JIRA",
       "path": "/blog/2018/creating-custom-issue-types-in-jira",
       "date": "2018-08-19",
-      "description": ">",
+      "description": "Custom issue types are one of Jira's most powerful features. Learn how to create and configure them for requirements, impediments, and other use cases that usually require a separate tool.",
       "image": "/images/blog/2018/08/image-4.png"
     }
   ],
@@ -4040,7 +4031,7 @@
       "title": "Creating Custom Issue Types for JIRA",
       "path": "/blog/2018/creating-custom-issue-types-in-jira",
       "date": "2018-08-19",
-      "description": ">",
+      "description": "Custom issue types are one of Jira's most powerful features. Learn how to create and configure them for requirements, impediments, and other use cases that usually require a separate tool.",
       "image": "/images/blog/2018/08/image-4.png"
     }
   ],
@@ -4049,7 +4040,7 @@
       "title": "Creating Custom Issue Types for JIRA",
       "path": "/blog/2018/creating-custom-issue-types-in-jira",
       "date": "2018-08-19",
-      "description": ">",
+      "description": "Custom issue types are one of Jira's most powerful features. Learn how to create and configure them for requirements, impediments, and other use cases that usually require a separate tool.",
       "image": "/images/blog/2018/08/image-4.png"
     }
   ],
@@ -4058,7 +4049,7 @@
       "title": "Creating Custom Issue Types for JIRA",
       "path": "/blog/2018/creating-custom-issue-types-in-jira",
       "date": "2018-08-19",
-      "description": ">",
+      "description": "Custom issue types are one of Jira's most powerful features. Learn how to create and configure them for requirements, impediments, and other use cases that usually require a separate tool.",
       "image": "/images/blog/2018/08/image-4.png"
     }
   ],
