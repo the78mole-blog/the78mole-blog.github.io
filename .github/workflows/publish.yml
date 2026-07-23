@@ -4,7 +4,7 @@ on:
     paths-ignore:
       # Copilot / repo-meta files – never affect the rendered site
       - '.github/copilot-instructions.md'
-      - '.github/skills/**'
+      - '.claude/skills/**'
       - '.github/ISSUE_TEMPLATE/**'
       - '.github/FUNDING.yml'
       # Giscus discussion data (imported comments, not part of the build)
@@ -20,7 +20,7 @@ on:
     branches: [main]
     paths-ignore:
       - '.github/copilot-instructions.md'
-      - '.github/skills/**'
+      - '.claude/skills/**'
       - '.github/ISSUE_TEMPLATE/**'
       - '.github/FUNDING.yml'
       - 'discussions/**'

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "thunderbird-mail": {
+      "command": "/home/daniel/.nvm/versions/node/v24.2.0/bin/node",
+      "args": ["/home/daniel/GIT/TOOLS/thunderbird-mcp/mcp-bridge.cjs"]
+    },
+    "holy-moly": {
+      "command": "uv",
+      "args": ["tool", "run", "holy-moly-mcp-remote"],
+      "env": {
+        "HOLY_MOLY_API_URL": "http://172.22.7.224:8087",
+        "HOLY_MOLY_DEFAULT_WHISPER_MODEL": "large-v3-turbo"
+      }
+    }
+  }
+}

@@ -15,7 +15,7 @@ Alle häufig genutzten Befehle sind im `Makefile` im Repo-Root zusammengefasst.
 und Shell-Skripte liegen unter `scripts/`.
 
 Referenz-Implementierungen der Skripte liegen unter
-`.github/skills/nuxt-website-automation/assets/`.
+`.claude/skills/nuxt-website-automation/assets/`.
 
 ---
 
@@ -166,7 +166,7 @@ Checkliste:
 1. Skript unter `scripts/` anlegen (Python: PEP 723 Inline-Metadata, Shell: `#!/usr/bin/env bash`)
 2. Make-Target im `Makefile` eintragen
 3. **`help`-Zeile im `help`-Target ergänzen** – sonst findet es der Maulwurf nach drei Wochen nicht mehr
-4. Referenz-Kopie in `.github/skills/nuxt-website-automation/assets/` aktualisieren
+4. Referenz-Kopie in `.claude/skills/nuxt-website-automation/assets/` aktualisieren
 
 ```makefile
 # Beispiel: neues Target
