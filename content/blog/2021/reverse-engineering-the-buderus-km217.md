@@ -46,6 +46,10 @@ If you want to read an article about preparing your data for [PCBway](https://ww
 
 ## Breaking News From "Under the Ground"
 
+##### 2026-07-19 No longer selling on Tindie
+
+Heads up: I no longer sell this module (or anything else) through Tindie. All mentions of my Tindie store below are historical. If you want to order a module or support my projects, please head over to [my Ko-fi page](https://ko-fi.com/the78mole) instead.
+
 ##### 2025-01-13 New bunch ordered and new GitHub repo
 
 I ordered a new bunch of PCBs to arrive approx mid of February. I also created a [new repo on GitHub](https://github.com/the78mole/esphome_components) to handle automated builds of the KM271-WiFi firmware using [jesserockz cool esphome project template](https://github.com/esphome/esphome-project-template).

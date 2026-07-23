@@ -38,6 +38,8 @@ Thats great, but I want to go with something that has a better handling than the
 
 I'll order this together with a new batch of my [Buderus KM271 WiFi Clone](https://the78mole.de/reverse-engineering-the-buderus-km217/). It will possibly available also on tindie, when I assembled and tested it extensively.
 
+*Update 2026-07-19: I no longer sell through Tindie. If something like this becomes available, it will be listed on [my Ko-fi page](https://ko-fi.com/the78mole) instead.*
+
 You can find the sources (KiCad) im my [moles-Integ-DTU-HW GitHub repository](https://github.com/the78mole/moles-integ-dtu-hw).
 
 If you want to integrate it into Victron VRM, you can find a solution here: <https://github.com/henne49/dbus-opendtu>

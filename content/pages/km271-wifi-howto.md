@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=h\_pQlpXaQ1I
 
 At first, do not get confused, KM217 and KM271 ist the same, I just had a number swap in and it is simply impossible to change all the historic stuff and naming :-(
 
-If you ordered the module described in [Reverse Engineering the Buderus KM271 – And Making It WiFi-Flying on ESPhome and Home Assistant](https://the78mole.de/reverse-engineering-the-buderus-km217/) from my [Tindie store](https://www.tindie.com/products/24664/) or built it on your own, this is the place to search for, when it comes to getting it up and running. You will find the Information for both versions (0.0.5 and 0.0.6 here). Version 0.0.6 is already available and can be ordered.
+If you ordered the module described in [Reverse Engineering the Buderus KM271 – And Making It WiFi-Flying on ESPhome and Home Assistant](https://the78mole.de/reverse-engineering-the-buderus-km217/) from my [Ko-fi shop](https://ko-fi.com/the78mole) or built it on your own, this is the place to search for, when it comes to getting it up and running. You will find the Information for both versions (0.0.5 and 0.0.6 here). Version 0.0.6 is already available and can be ordered.
 
 #### Known compatible Heating Control Units
 
@@ -42,11 +42,11 @@ To make your life easier for aseembly and to find the parts and signals, here is
 
 ## The Software
 
-There is a ton of software alternatives for the board, but I'll only describe three of them in more detail. You can select the firmware when you order the board.
+There is a ton of software alternatives for the board, but I'll only describe three of them in more detail. Every board I sell now ships pre-flashed with Dewenni's MQTT firmware (see below) – there is no firmware selection at order time anymore. If you want the Blinkenlights test firmware or ESPhome instead, you can easily flash it yourself over USB (RX/TX + BOOT/RESET, see the flashing instructions below).
 
-### Default, no FW selected: Blinkenlights
+### Blinkenlights (Test Firmware)
 
-At first, I'll just tell you, what is on the board, when you did not select any firmware during your order on Tindie. It is a simple test program, that ensures, that the ESP32 and the LEDs are working.
+This is a simple test program, that ensures, that the ESP32 and the LEDs are working. It is not pre-installed on the boards anymore, but you can still flash it yourself if you like.
 
 It does nothing more than rolling through the 4 LEDs on the board.
 
@@ -58,13 +58,13 @@ Flashing can be done, by connecting power, ground, RX and TX. IO0 and EN is not 
 
 I'll possibly improve the Blinkenlight to be able to update the board via WiFi or BLE. If you feel responsible to do this, I would be happy to take the pull request. If I get a working firmware, the minimal thing I would do is refunding the board you bought from me :-)
 
-### Sven's great MQTT-firmware
+### Sven's great MQTT-firmware (pre-installed by default)
 
-Sven published a firmware on [GitHub](https://github.com/dewenni/ESP_Buderus_KM271) for my module that speaks MQTT on the network. This was probably the most complete piece of code for my module before JEns accepted the challenge on the ESPhome part. The "only thing" you need to do is installing VSCode and the PlatformIO addon, set the credentials for WiFi, MQTT and OTA (in include/Credentials.h), compile and flash it to the board.
+Sven published a firmware on [GitHub](https://github.com/dewenni/ESP_Buderus_KM271) for my module that speaks MQTT on the network. This was probably the most complete piece of code for my module before JEns accepted the challenge on the ESPhome part. Every board I currently sell ships with this firmware pre-installed. The "only thing" you need to do to build it yourself is installing VSCode and the PlatformIO addon, set the credentials for WiFi, MQTT and OTA (in include/Credentials.h), compile and flash it to the board.
 
 ### ESPhome
 
-If you selected ESPhome, you will get an (older) ESPhome firmware version for this board. But as you will update the firmware after adjusting the config, you will have the latest firmware aligned with your ESPhome instance. Currently, the firmware is likely to be feature complete and runs without problems. See the section below, ho to connect to your board.
+ESPhome is no longer selectable or pre-flashed at order time, but you can easily flash it yourself over USB (see flashing instructions above). As you will update the firmware after adjusting the config anyway, you will have the latest firmware aligned with your ESPhome instance. Currently, the firmware is likely to be feature complete and runs without problems. See the section below, ho to connect to your board.
 
 ![](/images/blog/2022/12/image-1.png)
 

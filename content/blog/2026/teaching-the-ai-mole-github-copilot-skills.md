@@ -31,11 +31,13 @@ Think of it as a sticky note on the tunnel wall – but one that an AI can actua
 
 A skill lives in `.github/skills/<name>/SKILL.md` for project-scoped knowledge, or in `~/.copilot/skills/<name>/SKILL.md` for personal knowledge that travels with you across all projects.
 
+> **Update (2026-07-19):** The project skills in this repo have since moved from `.github/skills/` to `.claude/skills/`, so both GitHub Copilot and Claude Code can discover the same files without duplication. The links below are pinned to the commit where they still lived under `.github/skills/`; see the [current `repo-maintenance` skill](https://github.com/the78mole-blog/the78mole-blog.github.io/blob/main/.claude/skills/repo-maintenance/SKILL.md) for the up-to-date location.
+
 ## What I Documented
 
 ### Repo-Level: the `repo-maintenance` Skill
 
-The project-level skill [`.github/skills/repo-maintenance/SKILL.md`](https://github.com/the78mole-blog/the78mole-blog.github.io/blob/main/.github/skills/repo-maintenance/SKILL.md) captures everything a freshly-summoned AI needs to know about *this specific blog*:
+The project-level skill [`.github/skills/repo-maintenance/SKILL.md`](https://github.com/the78mole-blog/the78mole-blog.github.io/blob/3eeefcdbd3d4f15c81691f36dfe32afd8ff5acfb/.github/skills/repo-maintenance/SKILL.md) captures everything a freshly-summoned AI needs to know about *this specific blog*:
 
 - **Directory structure**: where content lives, what each `pages/` file does
 - **Environment variables**: which GitHub Vars and Secrets drive the build, and why the StaticForms key is injected by `sed` in CI rather than stored in the repo
@@ -82,6 +84,6 @@ The Mole has learned: the best tunnel system isn't the one you dig the fastest. 
 
 Links:
 
-- [Repo-Level Skill `repo-maintenance`](https://github.com/the78mole-blog/the78mole-blog.github.io/blob/main/.github/skills/repo-maintenance/SKILL.md)
+- [Repo-Level Skill `repo-maintenance`](https://github.com/the78mole-blog/the78mole-blog.github.io/blob/3eeefcdbd3d4f15c81691f36dfe32afd8ff5acfb/.github/skills/repo-maintenance/SKILL.md) ([current location](https://github.com/the78mole-blog/the78mole-blog.github.io/blob/main/.claude/skills/repo-maintenance/SKILL.md))
 - [User-Level Skill `nuxt-gh-pages`](https://github.com/the78mole/skills/tree/main/skills/nuxt-gh-pages)
 - [All my user level Skills](https://github.com/the78mole/skills)
