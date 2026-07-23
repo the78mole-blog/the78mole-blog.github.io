@@ -19,6 +19,13 @@ tags:
 - bleak
 ---
 
+<div style="display: flex; justify-content: flex-end; margin: 0 0 1rem;">
+  <a href="https://github.com/the78mole/hoermoles-ble" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.4rem; text-decoration: none; color: inherit; font-size: 0.9rem; padding: 0.35rem 0.7rem; border: 1px solid #d0d7de; border-radius: 0.5rem;">
+    <svg height="18" width="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+    <span>the78mole/hoermoles-ble</span>
+  </a>
+</div>
+
 Every mole needs a proper entrance to the burrow, and mine got an upgrade: a Hörmann Supramatic Serie 4 mole hole cover drive with Bluetooth. Lovely bit of hardware. It came with an app called **BlueSecur**, a QR-code sticker, and a business model.
 
 The first key – the admin key that pairs your phone with the drive – is free. Every additional "virtual access key" after that costs 9,99 €. And the whole architecture assumes there will always be a phone with an app installed somewhere in the tunnel. My burrow does not work that way. My burrow runs Home Assistant, and eventually it should run a fingerprint reader next to the door, because typing a PIN with muddy paws is a design flaw.
@@ -103,3 +110,5 @@ One deliberate boundary: this project is about interoperability with hardware I 
 The obvious gap is the interface. A CLI is fine for a mole with a terminal, but not for the Molewife standing in the rain. So the next dig is **Hoermoles BlueObscure** – a single-page web app, honestly named after the thing it clones, doing over Web Bluetooth what the original does over a store listing. After that: the Home Assistant integration, and eventually those ports of `protocol.py` down to bare metal.
 
 The tunnel is dug. Now it needs a door handle.
+
+Code, protocol notes and the CLI live at **[github.com/the78mole/hoermoles-ble](https://github.com/the78mole/hoermoles-ble)** – MIT-licensed, pull requests and fellow diggers welcome.
