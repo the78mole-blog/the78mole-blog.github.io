@@ -106,6 +106,8 @@ The gremlin I feared most was the timing window from part one: the drive disconn
 
 It didn't. I loaded a credential exported from the CLI, tapped impulse, and the door moved – first try, no tuning. Everyday commands work beautifully from the phone. And key-sharing works just as cleanly: show the credential as a QR code on one phone, scan it on another, and the second phone opens the door too. Everything I was nervous about simply wasn't a problem.
 
+![Hoermoles BlueObscure running on a phone in dark mode: a "Garagentor" drive card with a large Impulse button and Open, Close, Light and More actions below it](/images/blog/2026/07/BlueObscure_Screenshot.jpg)
+
 There is exactly **one** path I haven't exercised through the app itself: the very first handshake, where a fresh drive negotiates a brand-new root key – the RSA-PKCS#1-v1.5 registration from earlier. I did that step with the Python CLI and then handed the finished credential to the app by QR. So the in-app registration code exists, it's unit-tested against generated key pairs, and its bytes match the reference – but it has never actually done the pairing dance with real hardware from inside a browser.
 
 That's the one dark corner of the tunnel still unlit, and it's a nice one for a fellow mole to poke a torch into. If you've got a Hörmann BlueSecur drive, a Chrome or Edge phone, and a drive you're willing to factory-reset (menu 19/02 – see [part one](/blog/2026/hoermoles-blueobscure-reverse-engineering-hoermann-bluesecur)), I'd genuinely love to know whether in-app registration works end to end. Everything downstream of it already does.
