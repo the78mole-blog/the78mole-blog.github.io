@@ -13,7 +13,7 @@ Attention!!! 0.0.6 changed some of the pins and is not 100% compatible anymore. 
 
 If you need to assemble a few parts (ECAPs and optional stuff) or flash another firmware, watch [my video](https://www.youtube.com/watch?v=h_pQlpXaQ1I) on YouTube.
 
-https://www.youtube.com/watch?v=h\_pQlpXaQ1I
+https://www.youtube.com/watch?v=h_pQlpXaQ1I
 
 ## Introduction
 
@@ -52,7 +52,7 @@ It does nothing more than rolling through the 4 LEDs on the board.
 
 It will be possibly extended in future to catch hardware and assembly bugs, should they arise in future.
 
-You can find it on [GitLab](https://gitlab.com/the78mole/logamatic_2107_wifi_comm/-/tree/main/FW/KM271-WIFI-Test). Use VSCode with PlatformIO to open, compile and flash it. This is also a very nice foundation for developing your own firmware.
+The test project was removed from the repository in July 2025, but you can still find it in the [repository history on GitHub](https://github.com/the78mole/km271-wifi/tree/acee3dc/FW/KM271-WIFI-Test). Use VSCode with PlatformIO to open, compile and flash it. This is also a very nice foundation for developing your own firmware.
 
 Flashing can be done, by connecting power, ground, RX and TX. IO0 and EN is not needed and can be triggered with the buttons. Press BOOT and keep it pressed, shortly press RESET and start your flash tool. Then release BOOT and flashing will start.
 
