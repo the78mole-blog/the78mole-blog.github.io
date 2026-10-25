@@ -34,7 +34,7 @@ To explain it quickly:
 
 - Note down the password, printed on the socket of your tibber bridge (you can only read it, when unplugged). Plug it in again and let it connected for at least a minute.
 - Now power-off the bridge two times in a row (approx 2 seconds interval) and wait for the LED to light up green.
-- Use a browser to connect to the URL of your bridge: http://tibber\_bridge/data.json?node\_id=1 (maybe you need to use the IP, if your routers DNS resolution does not work)
+- Use a browser to connect to the URL of your bridge: `http://tibber_bridge/data.json?node_id=1` (maybe you need to use the IP, if your routers DNS resolution does not work)
 - Username is `admin` with the passwort you noted down in the beginning.
 - Chose the params-tab of the web interface
 
