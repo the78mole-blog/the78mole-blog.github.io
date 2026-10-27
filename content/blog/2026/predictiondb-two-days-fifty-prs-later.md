@@ -29,7 +29,7 @@ tags:
 
 Two days ago I wrote about [PredictionDB](/blog/2026/predictiondb-forecasting-german-power-prices-from-free-weather): a half-built stack that turns free NOAA weather runs and free German energy data into a week-ahead forecast of grid load and day-ahead prices. The short version: LightGBM in two stages, quantile bands, strict "what did we know at 08 UTC?" bookkeeping, and the honest admission that the price model didn't see any weather yet, because the weather history only went back to January 2026.
 
-Then I went back underground. Two days and 47 merged PRs later ([#59](https://github.com/the78mole/PredictionDB/pull/59) to [#111](https://github.com/the78mole/PredictionDB/pull/111) – "fifty" is a mole rounding up), the weather history problem is mostly solved, the model has been caught tripping over the clock change, and there are four new side tunnels. Here's what came out of the dirt.
+Then I went back underground. Two days, 51 PRs opened and 47 merged later ([#59](https://github.com/the78mole/PredictionDB/pull/59) to [#111](https://github.com/the78mole/PredictionDB/pull/111) – "fifty" is a mole rounding up), the weather history problem is mostly solved, the model has been caught tripping over the clock change, and there are four new side tunnels. Here's what came out of the dirt.
 
 | Area | What changed | PRs |
 |------|--------------|-----|
@@ -146,7 +146,7 @@ The same Monday had a second, unrelated problem: the price was off by up to −9
 
 ## Watching Our Own Forecast Against the TSOs'
 
-Forecasts nobody looks at don't improve, so a good part of the 47 PRs went into Grafana.
+Forecasts nobody looks at don't improve, so a good part of the merged PRs went into Grafana.
 
 **A fair comparison** ([#86](https://github.com/the78mole/PredictionDB/pull/86)). The TSOs publish their day-ahead load forecast by 10:00 local time on the day before. The new panels show, for each delivery day, only our own run issued at exactly that moment – the day before at 10:00 Europe/Berlin – next to the TSO forecast and the actual load. Same for the price against the auction result. To make that possible, `ml-predict` now wakes on the full hour instead of sleeping 3,600 s after each run (which drifted and skipped hours) and catches up on missed issue times after a restart.
 
