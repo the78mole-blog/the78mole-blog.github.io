@@ -2,7 +2,7 @@
 title: "PredictionDB – Two Days, Fifty PRs Later"
 date: '2026-10-27'
 description: 'Three years of weather history in about two hours, a model that got tripped up by the clock change, and a pile of side tunnels – the first follow-up from the PredictionDB burrow.'
-image: /images/blog/2026/10/predictiondb-grafana-map-energy.png
+image: /images/blog/2026/10/predictiondb-two-days-fifty-prs-later.jpeg
 categories:
   - Dev
   - Energy
