@@ -1,7 +1,7 @@
 ---
 title: "PredictionDB – Sixty-Seven PRs and One Very Expensive Thursday"
 date: '2026-10-29'
-description: 'The forecast met a 560 €/MWh evening and lost. Meanwhile the burrow got weather back to 2015, a 31-member ensemble, calibrated bands and a merit order built from the plant register.'
+description: 'The forecast met a 560 €/MWh evening and lost. Meanwhile the burrow learned to read a weather archive without a table of contents, got a 31-member ensemble, calibrated bands and a merit order built from the plant register.'
 image: /images/blog/2026/10/predictiondb-sixty-seven-prs-expensive-thursday.jpeg
 categories:
   - Dev
@@ -35,7 +35,7 @@ Then came Thursday, 29 October 2026, and the day-ahead auction said: 314.8 €/M
 | Tunnel | What happened | PRs |
 |---|---|---|
 | The expensive Thursday | Post-mortem, marginal-cost index, merit order from the plant register | [#130](https://github.com/the78mole/PredictionDB/pull/130), [#144](https://github.com/the78mole/PredictionDB/pull/144)–[#146](https://github.com/the78mole/PredictionDB/pull/146), [#149](https://github.com/the78mole/PredictionDB/pull/149) |
-| Weather before 2021 | GFS v15 from the NCAR archive, back to 2015 | [#116](https://github.com/the78mole/PredictionDB/pull/116)–[#138](https://github.com/the78mole/PredictionDB/pull/138), [#147](https://github.com/the78mole/PredictionDB/pull/147), [#160](https://github.com/the78mole/PredictionDB/pull/160) |
+| Weather before 2021 | GFS v15 from the NCAR archive – tooling built, backfill paused | [#116](https://github.com/the78mole/PredictionDB/pull/116)–[#138](https://github.com/the78mole/PredictionDB/pull/138), [#147](https://github.com/the78mole/PredictionDB/pull/147), [#160](https://github.com/the78mole/PredictionDB/pull/160) |
 | Weather, but 31 times | GEFS ensemble and GFS at 0.5° for the whole European grid | [#167](https://github.com/the78mole/PredictionDB/pull/167), [#168](https://github.com/the78mole/PredictionDB/pull/168), [#170](https://github.com/the78mole/PredictionDB/pull/170), [#172](https://github.com/the78mole/PredictionDB/pull/172)–[#175](https://github.com/the78mole/PredictionDB/pull/175) |
 | Honest bands | Calibration per lead day, rotating issue hours, rest-of-today D+0 | [#166](https://github.com/the78mole/PredictionDB/pull/166) |
 | The neighbours | Cross-border trade and flows, neighbours' load forecasts | [#159](https://github.com/the78mole/PredictionDB/pull/159), [#165](https://github.com/the78mole/PredictionDB/pull/165) |
@@ -121,7 +121,7 @@ What followed was a small engineering saga in nine PRs:
 - **Write the table of contents once, for everybody** ([#135](https://github.com/the78mole/PredictionDB/pull/135)): a new workflow builds complete `.idx` files in the exact format of `wgrib2 -s` – all messages, not just my 22 – and publishes them as an OCI artifact on GHCR, one layer per month and run hour. Against real NOAA files from the AWS archive, all 4,050 lines matched. Once those exist, the history build reads the `.idx` from GHCR instead of the headers ([#147](https://github.com/the78mole/PredictionDB/pull/147)).
 - **Accepting that archives rot** ([#160](https://github.com/the78mole/PredictionDB/pull/160)): in March 2021, one file has 0 bytes and two are truncated, at both the cache and the origin. The job went through three retry rounds of 30 to 40 minutes each for those three files. Now they're marked `broken` and left alone.
 
-A new feature group `nwp_version` tells the model which GFS version a run came from, because the 10 m wind has a bias jump from v15 to v16. Existing variants don't use it yet. And the regular history workflow now runs on a daily schedule to pick up new runs from the archive by itself ([#114](https://github.com/the78mole/PredictionDB/pull/114)).
+And then, honest ending: I stopped the v15 backfill. The tooling is in place and the first tables of contents are on GHCR, but for now the training data stays with GFS v16 from March 2021. I may come back to that tunnel later. Prepared for it is a feature group `nwp_version` that tells the model which GFS version a run came from, because the 10 m wind has a bias jump from v15 to v16; no variant uses it yet. Meanwhile the regular v16 history workflow now runs on a daily schedule to pick up new runs from the archive by itself ([#114](https://github.com/the78mole/PredictionDB/pull/114)).
 
 ## Weather, but 31 Times: GEFS and a Bigger Map
 
@@ -209,7 +209,7 @@ No, not usefully ([#162](https://github.com/the78mole/PredictionDB/pull/162)). T
 ## What's Next
 
 - **Ablation backtest of the marginal-cost index** (`frei_gk`, `frei_gk_skaliert`, `wetter_frei_gk_skaliert`) – and the calibrated bands per lead day.
-- **Train the weather variants on the long history**, now that GFS reaches back past 2021 and the gold tier is filling up.
+- **Train the weather variants on the v16 history** since March 2021, once the gold tier has filled up – and maybe one day resume the v15 backfill.
 - **GEFS spread as a feature**, so the model knows on which days to be less sure of itself.
 - **Neighbour features** from trade, flows and load forecasts once their history is loaded.
 
