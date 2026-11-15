@@ -2,7 +2,7 @@
 title: "EMoleCAD – Wiring Diagrams From YAML, Drawn by a Mole"
 date: '2026-11-15'
 description: 'Electrical overview diagrams for German installations without a Windows-only CAD licence: a browser tool that turns YAML or a Node-RED-style editor into single-line and all-pole schematics, ready for the grid operator.'
-image: /images/blog/2026/11/emolecad-einpolig.png
+image: /images/blog/2026/11/emolecad-title.jpeg
 categories:
   - Tools
   - Dev
