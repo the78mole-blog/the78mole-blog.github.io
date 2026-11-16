@@ -1,5 +1,14 @@
 # the78mole-blog.github.io
 
+[![Build & Deploy](https://github.com/the78mole-blog/the78mole-blog.github.io/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/the78mole-blog/the78mole-blog.github.io/actions/workflows/publish.yml)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fthe78mole.de&label=the78mole.de)](https://the78mole.de)
+[![License: MIT](https://img.shields.io/github/license/the78mole-blog/the78mole-blog.github.io)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/the78mole-blog/the78mole-blog.github.io/main)](https://github.com/the78mole-blog/the78mole-blog.github.io/commits/main)
+[![Nuxt 4](https://img.shields.io/badge/Nuxt-4-00DC82?logo=nuxt&logoColor=white)](https://nuxt.com)
+[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind%20CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Renovate](https://img.shields.io/badge/Renovate-enabled-1A1F6C?logo=renovatebot&logoColor=white)](https://docs.renovatebot.com)
+[![Giscus discussions](https://img.shields.io/github/discussions/the78mole-blog/the78mole-blog.github.io?label=comments&logo=github)](https://github.com/the78mole-blog/the78mole-blog.github.io/discussions)
+
 Personal website and blog of **the78mole** – written from the perspective of a nerdy, tech-obsessed mole.
 
 Built with [Nuxt 4](https://nuxt.com) and [@nuxt/content](https://content.nuxt.com) v3, deployed as a static site on GitHub Pages, migrated from WordPress.
