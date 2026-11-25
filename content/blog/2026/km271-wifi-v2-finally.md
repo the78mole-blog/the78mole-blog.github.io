@@ -25,7 +25,7 @@ tags:
 
 Some projects you finish. Others just stop bothering you for a while and then come back every time someone opens an issue titled *"ESP32 keeps resetting"*. The KM271-WiFi is firmly in the second group. Since I [first dug into the Buderus KM271](/blog/2021/reverse-engineering-the-buderus-km217) in 2021, the little board in the heating controller slot has gone through a long string of revisions (0.0.1 to 0.1.0), and the README carried the same two ToDo items for years: *flash over USB without an external programmer* and *replace the LDO by a step-down converter*.
 
-Both of them are now crossed out. The **KM271-WiFi v2.0** is redesigned, the schematic is clean (ERC 0, DRC 0, no unconnected items), and the zero series is about to go into production. Finally.
+Both of them are now crossed out. The **KM271-WiFi v2.0** is redesigned, the design is clean (ERC 0, DRC clean apart from cosmetic silkscreen warnings, no unconnected items), and the zero series is about to go into production. Finally.
 
 ![3D render of the KM271-WiFi v2.0 with ESP32-S3, mini USB socket and the new step-down converter](/images/blog/2026/11/km271-wifi-v2-iso.jpg)
 
@@ -43,7 +43,7 @@ For the impatient surface-dwellers, here is the short version. The 0.1.0 column 
 | USB ESD | – | SRV05-4 TVS array |
 | Bulk caps | 100 µF aluminium electrolytics | 220 µF low-ESR polymer |
 | OneWire | via DS2484 bridge (optional) | directly on the MCU, populated by default |
-| Ground return | – | simulated and reworked: one slot under the bus instead of four, about 18 % less ground resistance |
+| Ground return | – | simulated and reworked: about 18 % lower DC ground resistance, one slot under the bus instead of four |
 | Gone | I²C EEPROM, DS2484, test points, J3 | |
 
 ![The KM271-WiFi 0.1.0 with the PWRSEL jumper, the debug header and the ESP32-WROOM-32D](/images/blog/2026/11/km271-wifi-0.1.0-photo.jpg)
@@ -69,7 +69,7 @@ The old LDO footprint is still on the board, by the way. U2 is now DNP, and a 0 
 
 The new board carries an **ESP32-S3-WROOM-1-N8R2**. The S3 has native USB, which is the key to the next section, but it also transmits with up to 1 dB more power and pulls peaks of about **355 mA** while doing so (the datasheet values aren't directly comparable to the old ESP32's, which are given at 50 % duty cycle). With CPU and peripherals on top, 400 to 420 mA is realistic.
 
-With the old LDO, that would have been a step backwards: its Ri limit would shrink from 1.7 Ω to about 1.4 Ω. With the buck, I simulated the S3 worst case with a **+400 mA** step. The rail stays at 3.29 V at 1 Ω, the board draws 386 mA from the Buderus (about what the old board drew with the smaller ESP32 load), and brown-out only arrives at around 4.6 Ω. If someone's Logamatic is really weak, `output_power` in ESPHome can still trim the transmit peaks.
+With the old LDO, that would have been a step backwards. By the rule of thumb from the analysis (the LDO stays in regulation as long as the voltage at its input stays above about 4.4 V), its Ri limit would shrink from about 1.7 Ω at 360 mA to about 1.4 Ω at 420 mA. The simulated drop-out at 1.8 Ω above is the same criterion, read off the time-domain simulation instead of the formula. With the buck, I simulated the S3 worst case with a **+400 mA** step. The rail stays at 3.29 V at 1 Ω, the board draws 386 mA from the Buderus (about what the old board drew with the smaller ESP32 load), and brown-out only arrives at around 4.6 Ω. If someone's Logamatic is really weak, `output_power` in ESPHome can still trim the transmit peaks.
 
 The first buck candidate, a TPS62203, only delivered 300 mA. That was tight for an ESP32 and plainly too small for an S3, so it got swapped for the **TPS62162** (1 A, fixed 3.3 V, WSON-8, 3 to 17 V input).
 
@@ -79,9 +79,9 @@ Every board I've sold so far came with the same small ritual: grab a USB-serial 
 
 On v2.0 the mini USB socket finally carries data. The S3's native USB (GPIO19/20) sits directly behind it, so the board shows up as a serial port and can be flashed straight from the browser with the [KM271-WiFi WebTools](https://the78mole.github.io/ESPhome-KM271-WiFi/). No adapter, no jumper wires, no third hand.
 
-For recovery, there is a **CP2102N** USB-serial converter with the classic two-transistor auto-reset circuit on EN and IO0, plus TX/RX LEDs. Which path the USB data lines take is decided purely by population: R69/R70 (2.2 Ω, populated by default) route D+/D- to the S3, R87/R88 (DNP) to the CP2102N. Never both. An S3-only build can leave the CP2102N, the transistors and their resistors off the board entirely.
+For recovery, there is a **CP2102N** USB-serial converter with the classic two-transistor auto-reset circuit on EN and IO0, plus TX/RX LEDs. Which path the USB data lines take is decided by the solder jumpers JP1/JP2: bridged 1–2 (the default) they go to the S3 on GPIO19/20, in position 2–3 to the CP2102N. The signal path is socket J2, then the 2.2 Ω series resistors R69/R70 (always populated, in both paths), then the SRV05-4 (U3), then JP1/JP2, and only then the S3 or the CP2102N. An S3-only build can leave the CP2102N, the transistors and their resistors off the board entirely.
 
-The 2.2 Ω series resistors are there for EMC and to limit the current through the ESD diodes of the SRV05-4. That part, incidentally, taught me a lesson during layout: it is *not* a flow-through device. The data lines now connect to both pins of each channel directly behind the connector, instead of passing "through" the chip as I had initially routed them.
+The 2.2 Ω series resistors are there for EMC and to limit the current through the ESD diodes of the SRV05-4. That part, incidentally, taught me a lesson during layout: it is *not* a flow-through device. Each data line occupies two of its channels in parallel (pins 1 and 6 for D+, 3 and 4 for D−), and the line runs directly across both pads, instead of passing "through" the chip as I had initially routed it.
 
 And since the board now diode-ORs USB and Buderus power, the PWRSEL jumper J3 is gone. You can plug in a laptop while the board sits in the heating controller and nothing fights anybody.
 
@@ -98,6 +98,18 @@ A board that only I can afford to build isn't much of a product. So the last rou
 - The inductor **L1** went from a Würth WE-MAPI 4020 at 1.73 USD to a cjiang FTC252012S2R2MBCA at **0.035 USD**, with two second sources listed. That swap alone saves almost 17 USD per ten boards. Before swapping, I simulated both inductors in the TPS62162 circuit, first with my own switching model and then cross-checked against TI's PSpice model. In operation they're indistinguishable; the higher DCR of the cheap one costs 5.5 mW at 460 mA, about 0.3 percentage points of efficiency.
 - A script (`scripts/export-jlc-bom.sh`) now generates the JLC BOM directly from the schematic. The hand-made one before it had a nasty habit: grouping parts by value and footprint only, so a single DNP part could quietly mark a whole group as unpopulated.
 
+For the curious, here is what the inductor comparison looks like. My own cycle-by-cycle model of the TPS62162 at 460 mA continuous load (the S3 transmitting) puts both parts practically on top of each other: 118 versus 116 mA ripple current, 518 versus 516 mA peak, and an inductance that barely moves from its 2.2 µH.
+
+![Own switching model at 460 mA continuous load: inductor current, 3.3 V ripple and inductance of the old Würth and the new cjiang inductor](/images/blog/2026/11/km271-wifi-v2-l1-steady.png)
+
+The only real difference is the copper loss in the DCR, which grows with the square of the current:
+
+![Copper losses in L1 and converter efficiency over the load on the 3.3 V rail, old versus new inductor](/images/blog/2026/11/km271-wifi-v2-l1-losses.png)
+
+TI's PSpice model of the TPS62162 confirms it over start-up, a 60 → 460 mA load step and a short circuit on the 3.3 V rail. The highest inductor current of the whole sequence is about 1.9 A during start-up, when the converter charges the roughly 250 µF on its output at its current limit. That is well below the 3.8 A saturation current of the cheap part. The TI model also shows something my simple model missed: with only about 4.3 V at its input, the converter drops its switching frequency to about 1 MHz, so the real ripple current is about 300 mA instead of 120 mA. Both inductors still behave the same, so the verdict doesn't change.
+
+![TI PSpice model of the TPS62162 with both inductors: start-up, load step and short circuit](/images/blog/2026/11/km271-wifi-v2-buck-ti.png)
+
 The result: about **15 USD in parts per board** for a ten-board run, including JLC's extended-part fees. PCB, assembly and shipping are on top, but that's a lot better than where I started.
 
 The ESP32-S3 module is by far the biggest single item at around 4 USD, followed by the mini USB socket. Everything else is pocket change.
@@ -106,7 +118,7 @@ The ESP32-S3 module is by far the biggest single item at around 4 USD, followed 
 
 With the schematic settled, I spent a whole night on something no BOM will ever show: the ground return path.
 
-The KM271-WiFi has a shape dictated by its burrow. At the bottom sits the card edge J1 that plugs into the Logamatic, and next to it are two slots for the guide rail. So the left half with the power supply (buck, USB, CP2102N) and the right half with the ESP32-S3 are only joined by a bridge of roughly 25 × 25 mm above the card edge. Everything has to squeeze through there: the bus with 3.3 V, 5 V, USB, UART and reset, the lines to the Logamatic, and the entire ground return current between supply and radio.
+The KM271-WiFi has a shape dictated by its burrow. At the bottom sits the card edge J1 that plugs into the Logamatic, and on either side of it the board outline has a deep notch to make room for the plastic collar of the edge connector, so the tongue can plunge all the way in. So the left half with the power supply (buck, USB, CP2102N) and the right half with the ESP32-S3 are only joined by a bridge of roughly 25 × 25 mm above the card edge. Everything has to squeeze through there: the bus with 3.3 V, 5 V, USB, UART and reset, the lines to the Logamatic, and the entire ground return current between supply and radio.
 
 ![Board overview: supply on the left, ESP32-S3 on the right, and only a 25 × 25 mm bridge above the card edge in between](/images/blog/2026/11/km271-wifi-v2-gnd-overview.png)
 
@@ -118,13 +130,13 @@ So I computed the current itself, kept deliberately simple:
 
 - Both ground layers are rasterised from the KiCad file (filled zones, GND pads, GND traces) on a 0.1 mm grid.
 - Each cell is 35 µm copper, about 0.49 mΩ per square. The 349 GND vias connect the layers with about 1.5 mΩ each.
-- 1 A goes in at the GND pads of the ESP32-S3 and comes out at the buck converter and its input capacitors. A second load case runs from the ground on J1 to the ESP.
+- 1 A goes in at the GND pads of the ESP32-S3 and comes out at the buck converter and its input capacitors. A second load case runs from the ground on J1 to the ESP, a third from J1 (GND via R34) to the buck.
 
 That's a resistor network (a discrete Laplace equation) with about 800,000 nodes, solved in Python with `scipy` and `pyamg` in a few seconds.
 
 ![Current density of the ground return in F.Cu and B.Cu, 1 A from the ESP32-S3 to the buck converter](/images/blog/2026/11/km271-wifi-v2-gnd-current-density.png)
 
-The heatmap shows where the current crowds: in the narrow strip directly above the row of 0 Ω bridges R33 to R44 at the card edge, at the corner of the left slot and along the top edge. In the middle of the bridge, F.Cu is taken by the bus and B.Cu is chopped into pieces.
+The heatmap shows where the current crowds: in the narrow strip directly above the row of 0 Ω bridges R33 to R44 at the card edge, at the corner of the left notch and along the top edge. In the middle of the bridge, F.Cu is taken by the bus and B.Cu is chopped into pieces.
 
 ### The real culprit: four slots under the bus
 
@@ -132,7 +144,7 @@ Why is B.Cu so chopped up? The exhaust gas sensor circuitry (C11, C12, R11, R17,
 
 ![B.Cu seen from above before the rework: the four exhaust gas lines (red) cross the bus (purple, dashed) at four places](/images/blog/2026/11/km271-wifi-v2-gnd-slots-before.png)
 
-The model makes it cheap to try variants before touching the layout:
+The model makes it cheap to try variants before touching the layout. These variants were computed with idealised copper (for example B.Cu completely filled between x 91 and 101, the bundle on the left at x 88 to 91), not with a real layout, so read the table as an upper bound of what each idea can bring. In the real layout, the bundling itself only moved ESP → buck from 5.10 to 5.00 mΩ (more on that below).
 
 | Variant | ESP → buck | J1 → ESP |
 |---|---|---|
@@ -141,18 +153,18 @@ The model makes it cheap to try variants before touching the layout:
 | plus the B.Cu seam near J6 closed | 5.2 mΩ | 3.7 mΩ |
 | B.Cu in the bridge completely free (theoretical limit) | 4.6 mΩ | 3.2 mΩ |
 
-Bundling gets more than half of what is possible at all. Closing the seam near J6 and the level shifters U4/U5 adds only about 4 %, so that one stays as it is.
+On paper, bundling gets roughly half of what is possible at all: 0.6 of 1.5 mΩ (40 %) for ESP → buck, 0.8 of 1.5 mΩ (53 %) for J1 → ESP. Closing the seam near J6 and the level shifters U4/U5 adds only about 4 %, so that one stays as it is.
 
-How bad is it in absolute terms? Harmless for function: the bridge contributes about 1.7 mΩ and roughly 5 to 8 nH, so the WiFi current steps produce a ground offset of a few millivolts. For EMC, the slots matter more than the cross-section. High-frequency return current wants to flow directly underneath its trace, and every slot forces a detour that enlarges the loop which radiates and picks up noise. Since USB is only used for flashing and as a backup supply, and the other bus lines are slow, the rating went down from "medium" to "low to medium". But a mole who has the simulator running doesn't stop at "low to medium".
+How bad is it in absolute terms? Harmless for function: the bridge, including the slot corners, contributes about 2.26 mΩ and, as a rough estimate, something like 5 to 8 nH, so the WiFi current steps produce a ground offset of a few millivolts. For EMC, the slots matter more than the cross-section. High-frequency return current wants to flow directly underneath its trace, and every slot forces a detour that enlarges the loop which radiates and picks up noise. Since USB is only used for flashing and as a backup supply, and the other bus lines are slow, the rating went down from "medium" to "low to medium". But a mole who has the simulator running doesn't stop at "low to medium".
 
 ### One night at the layout
 
 With the model, every layout change can be re-checked in minutes. So I reworked the layout in several rounds and regenerated the heatmap after every save:
 
-- **All four exhaust gas lines bundled.** C12 and R32 moved next to C11 and D5. Under the bus there is now one slot instead of four.
-- **D5 out of the bottleneck.** Its line ran diagonally through the busy strip above the bridge row and cut off the GND pad of R34. Now it runs straight down next to C11.
+- **All four exhaust gas lines bundled.** No part moved, only the traces of their nets: the lines of C12 and R32 now run next to those of C11 and D5-A. Under the bus there is now one slot instead of four.
+- **D5-A out of the bottleneck.** The trace of net D5-A (the minus side of the exhaust gas sensor, ATS−; D5 itself stays unpopulated) ran diagonally through the busy strip above the bridge row and cut off the GND pad of R34. Now it runs straight down next to C11.
 - **Shorter Q1/Q2 emitter stubs.** The two auto-reset lines switch to F.Cu earlier, leaving shorter stubs on B.Cu.
-- **More vias around the ESP module.** Over 30 extra GND vias around the module brought the biggest single jump.
+- **More vias around the ESP module.** Net about two dozen extra GND vias (34 new, 11 removed), some of them under the module, brought the biggest single jump. IO21, IO41, IO42, RX and TX were rerouted there at the same time.
 - **Wider ground at the top edge.** C1 and C14 moved down by 0.8 mm to widen the GND strip along the edge.
 
 ![B.Cu after the rework: all four exhaust gas lines cross the bus as one bundle](/images/blog/2026/11/km271-wifi-v2-gnd-slots-after.png)
@@ -165,7 +177,7 @@ With the model, every layout change can be re-checked in minutes. So I reworked 
 | Final | 4.99 mΩ | 1.58 mΩ | 3.96 mΩ | 1.95 mΩ | 0.92 mΩ |
 | Change | −18 % | −10 % | −16 % | −14 % | −22 % |
 
-The funny part: bundling the exhaust lines barely moved the DC numbers, because the strip trapped between the four slots hardly carried any current anyway. For EMC it's still the most important step, since every bus line now crosses one slot instead of four and its return current can flow right underneath it everywhere else.
+The funny part: bundling the exhaust lines barely moved the DC numbers, because the strip trapped between the four slots hardly carried any current anyway. For EMC it's still the most important step, since within the bridge above J1 every bus line now crosses one slot instead of four and its return current can flow right underneath it everywhere else in the bridge. Further right, the bus still crosses the B.Cu seam at J6, R64/R65 and U4/U5.
 
 ### The second bottleneck
 
@@ -178,6 +190,10 @@ The lesson I'm taking down into the burrow: a cross-section can make a bottlenec
 ## 7. A Side Excavation: The Exhaust Gas Sensor
 
 While I had the simulator warmed up, I also checked a long-standing note in the schematic: *"Do not populate D5 to allow temperatures < 80 °C to be recognized."* D5 is a 5.1 V Zener on the exhaust gas sensor input. Using the NTC curve digitised from the Logamatic 2107 service manual, the simulation confirms it: with D5 fitted, the soft Zener knee starts pulling the voltage down below about 80 °C, and the Logamatic would show exhaust temperatures that are too high, by about 4 K at 50 °C and over 40 K at 0 °C. Above 80 °C the diode does nothing. So D5 stays DNP, now with numbers to back it up.
+
+![Voltage at the exhaust gas sensor input over the exhaust temperature, without D5 and with D5 including its Zener tolerance](/images/blog/2026/11/km271-wifi-v2-ats-voltage.png)
+
+![How much too warm the Logamatic would read with D5 populated, for minimum, typical and maximum Zener voltage](/images/blog/2026/11/km271-wifi-v2-ats-d5-error.png)
 
 ## What's Next
 
