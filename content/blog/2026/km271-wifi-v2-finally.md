@@ -200,3 +200,5 @@ While I had the simulator warmed up, I also checked a long-standing note in the 
 All the analyses, plots and scripts live in the [km271-wifi repository](https://github.com/the78mole/km271-wifi) under `DOC/` if you want to dig deeper, and the [how-to page](/pages/km271-wifi-howto) will get a v2.0 section once the first boards are in my paws.
 
 Before the zero series goes to the fab, there's one more tunnel to finish: the **extension board** still needs its assembly data and maybe a few optimisations of its own. Once that's done, both go into production together. When the first v2.0 boards come back, I'll test them in my own Logamatic 2107 M and report here, including whether the brown-outs are really gone or whether I've just moved them to a deeper level of the burrow.
+
+If you want to follow the zero series or support the digging, the announcement is also up on Ko-fi: [KM271-WiFi v2.0 – it's finally digging its way out](https://ko-fi.com/post/KM271-WiFi-v2-0-its-finally-digging-its-way-out-F1Z42B9MHN).
